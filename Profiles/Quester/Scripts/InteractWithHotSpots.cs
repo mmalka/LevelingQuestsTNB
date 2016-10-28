@@ -10,7 +10,6 @@ if (questObjective.Hotspots.Count <= 0)
 /* Move to Zone/Hotspot */
 if (!MovementManager.InMovement)
 {
-	MountTask.Mount();
   
 	if (questObjective.Hotspots[Math.NearestPointOfListPoints(questObjective.Hotspots, ObjectManager.Me.Position)].DistanceTo(ObjectManager.Me.Position) > 5)
 	{
@@ -38,7 +37,7 @@ if (node.IsValid || unit.IsValid)
 	}
 	else if (node.IsValid) 
 	{
-		baseAddress = MovementManager.FindTarget(unit); /* Move toward node */
+		baseAddress = MovementManager.FindTarget(node); /* Move toward node */
 	}
   
 	Thread.Sleep(100 + Usefuls.Latency); /* ZZZzzzZZZzz */
