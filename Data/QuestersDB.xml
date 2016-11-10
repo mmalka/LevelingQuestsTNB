@@ -20056,6 +20056,17 @@
     <ContinentId>Kalimdor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>21042</Entry>
+    <Name>Theramore Guard Badge</Name>
+    <Position>
+	  <X>-3722.142</X>
+	  <Y>-2541.163</Y>
+	  <Z>69.76115</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>21050</Entry>
     <Name>Esprit de la terre enragé</Name>
     <Position>
