@@ -38913,6 +38913,18 @@
     <ContinentId>Azeroth</ContinentId>
   </Npc>
   <Npc>
+    <Entry>44365</Entry>
+    <Name>Lady Sylvanas Windrunner</Name>
+    <Position>
+      <X>500.622</X>
+      <Y>1564.54</Y>
+      <Z>128.2623</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>44374</Entry>
     <Name>Sherm</Name>
     <Position>
