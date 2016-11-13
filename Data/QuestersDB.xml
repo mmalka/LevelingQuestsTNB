@@ -39194,6 +39194,18 @@
     <ContinentId>Azeroth</ContinentId>
   </Npc>
   <Npc>
+    <Entry>44789</Entry>
+    <Name>Deathstalker Commander Belmont</Name>
+    <Position>
+      <X>1415.23</X>
+      <Y>1010.15</Y>
+      <Z>52.72081</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>44799</Entry>
     <Name>Explorer Mowi</Name>
     <Position>
