@@ -28847,6 +28847,28 @@
     <ContinentId>Northrend</ContinentId>
   </Npc>
   <Npc>
+    <Entry>28760</Entry>
+    <Name>Hargus the Gimp</Name>
+    <Position>
+      <X>2346.35376</X>
+      <Y>-5720.404</Y>
+      <Z>153.922455</Z>
+    </Position>
+    <Type>Vendor</Type>
+    <ContinentId>DeathKnightStart</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>28760</Entry>
+    <Name>Hargus the Gimp</Name>
+    <Position>
+      <X>2346.35376</X>
+      <Y>-5720.404</Y>
+      <Z>153.922455</Z>
+    </Position>
+    <Type>Repair</Type>
+    <ContinentId>DeathKnightStart</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>28776</Entry>
     <Name>Elizabeth Ross</Name>
     <Position>
@@ -56729,6 +56751,54 @@
     <ContinentId>Troll Raid</ContinentId>
   </Npc>
   <Npc>
+    <Entry>92932</Entry>
+    <Name>Tinkmaster Overspark</Name>
+    <Position>
+      <X>4998.191</X>
+      <Y>2928.791</Y>
+      <Z>156.765961</Z>
+    </Position>
+    <Faction>Alliance</Faction>
+    <Type>Vendor</Type>
+    <ContinentId>TheMawofNashal</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>92932</Entry>
+    <Name>Tinkmaster Overspark</Name>
+    <Position>
+      <X>4998.191</X>
+      <Y>2928.791</Y>
+      <Z>156.765961</Z>
+    </Position>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <ContinentId>TheMawofNashal</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>92932</Entry>
+    <Name>Tinkmaster Overspark</Name>
+    <Position>
+      <X>5092.416</X>
+      <Y>3190.39185</Y>
+      <Z>387.030945</Z>
+    </Position>
+    <Faction>Alliance</Faction>
+    <Type>Vendor</Type>
+    <ContinentId>TheMawofNashal</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>92932</Entry>
+    <Name>Tinkmaster Overspark</Name>
+    <Position>
+      <X>5092.416</X>
+      <Y>3190.39185</Y>
+      <Z>387.030945</Z>
+    </Position>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <ContinentId>TheMawofNashal</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>92936</Entry>
     <Name>Aimee</Name>
     <Position>
@@ -57230,6 +57300,28 @@
     </Position>
     <Type>Innkeeper</Type>
     <ContinentId>Troll Raid</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>95242</Entry>
+    <Name>Falara Nightsong</Name>
+    <Position>
+      <X>1545.33167</X>
+      <Y>1410.28125</Y>
+      <Z>237.108521</Z>
+    </Position>
+    <Type>Vendor</Type>
+    <ContinentId>ArtifactsDemonHunterOrderHall</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>95242</Entry>
+    <Name>Falara Nightsong</Name>
+    <Position>
+      <X>1545.33167</X>
+      <Y>1410.28125</Y>
+      <Z>237.108521</Z>
+    </Position>
+    <Type>Repair</Type>
+    <ContinentId>ArtifactsDemonHunterOrderHall</ContinentId>
   </Npc>
   <Npc>
     <Entry>95424</Entry>
@@ -60124,6 +60216,17 @@
     <ContinentId>Azeroth</ContinentId>
   </Npc>
   <Npc>
+    <Entry>148960</Entry>
+    <Name>Forge</Name>
+    <Position>
+      <X>1811.80176</X>
+      <Y>-6001.63672</Y>
+      <Z>115.848129</Z>
+    </Position>
+    <Type>SmeltingForge</Type>
+    <ContinentId>DeathKnightStart</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>152034</Entry>
     <Name>Forge</Name>
     <Position>
@@ -62010,6 +62113,17 @@
     </Position>
     <Type>SmeltingForge</Type>
     <ContinentId>Northrend</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>190914</Entry>
+    <Name>Mailbox</Name>
+    <Position>
+      <X>2113.54</X>
+      <Y>-5796.0625</Y>
+      <Z>99.7134</Z>
+    </Position>
+    <Type>Mailbox</Type>
+    <ContinentId>DeathKnightStart</ContinentId>
   </Npc>
   <Npc>
     <Entry>191228</Entry>

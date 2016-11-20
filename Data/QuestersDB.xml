@@ -12407,6 +12407,18 @@
     <Position>
       <X>2393.547</X>
       <Y>-2525.32861</Y>
+      <Z>-249.86586</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>11720</Entry>
+    <Name>Loruk Foreststrider</Name>
+    <Position>
+      <X>2393.547</X>
+      <Y>-2525.32861</Y>
       <Z>-31.1677113</Z>
     </Position>
     <Faction>Horde</Faction>
@@ -12420,18 +12432,6 @@
       <X>2393.547</X>
       <Y>-2525.32861</Y>
       <Z>103.496796</Z>
-    </Position>
-    <Faction>Horde</Faction>
-    <Type>QuestGiver</Type>
-    <ContinentId>Kalimdor</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>11720</Entry>
-    <Name>Loruk Foreststrider</Name>
-    <Position>
-      <X>2393.547</X>
-      <Y>-2525.32861</Y>
-      <Z>-249.86586</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
@@ -20755,7 +20755,7 @@
     <Position>
       <X>-4243.21338</X>
       <Y>323.120758</Y>
-      <Z>106.571053</Z>
+      <Z>27.8561249</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
@@ -20779,7 +20779,7 @@
     <Position>
       <X>-4243.21338</X>
       <Y>323.120758</Y>
-      <Z>27.8561249</Z>
+      <Z>106.571053</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
@@ -28779,6 +28779,17 @@
     <ContinentId>Northrend</ContinentId>
   </Npc>
   <Npc>
+    <Entry>28377</Entry>
+    <Name>Prince Valanar</Name>
+    <Position>
+      <X>2371.36572</X>
+      <Y>-5701.044</Y>
+      <Z>153.922241</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>DeathKnightStart</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>28382</Entry>
     <Name>Hotawa</Name>
     <Position>
@@ -29023,6 +29034,39 @@
     <ContinentId>Northrend</ContinentId>
   </Npc>
   <Npc>
+    <Entry>28647</Entry>
+    <Name>Orithos the Sky Darkener</Name>
+    <Position>
+      <X>2308.27271</X>
+      <Y>-5727.38965</Y>
+      <Z>153.902924</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>DeathKnightStart</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>28653</Entry>
+    <Name>Salanar the Horseman</Name>
+    <Position>
+      <X>2374.70728</X>
+      <Y>-5723.174</Y>
+      <Z>153.922379</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>DeathKnightStart</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>28658</Entry>
+    <Name>Gothik the Harvester</Name>
+    <Position>
+      <X>2348.76929</X>
+      <Y>-5758.2793</Y>
+      <Z>153.921814</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>DeathKnightStart</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>28699</Entry>
     <Name>Charles Worth</Name>
     <Position>
@@ -29143,6 +29187,17 @@
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Northrend</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>29047</Entry>
+    <Name>Olrun the Battlecaller</Name>
+    <Position>
+      <X>2371.84229</X>
+      <Y>-5770.189</Y>
+      <Z>153.297256</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>DeathKnightStart</ContinentId>
   </Npc>
   <Npc>
     <Entry>29049</Entry>
@@ -49463,7 +49518,7 @@
     <Position>
       <X>2890.49658</X>
       <Y>627.434</Y>
-      <Z>706.5976</Z>
+      <Z>513.6742</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Draenor</ContinentId>
@@ -49485,7 +49540,7 @@
     <Position>
       <X>2890.49658</X>
       <Y>627.434</Y>
-      <Z>513.6742</Z>
+      <Z>706.5976</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Draenor</ContinentId>
@@ -61879,6 +61934,18 @@
     <ContinentId>Troll Raid</ContinentId>
   </Npc>
   <Npc>
+    <Entry>93496</Entry>
+    <Name>Black Rose Apothecary</Name>
+    <Position>
+      <X>4746.31445</X>
+      <Y>2943.44458</Y>
+      <Z>14.54573</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>TheMawofNashal</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>93520</Entry>
     <Name>Didi Biegezange</Name>
     <Position>
@@ -62533,6 +62600,28 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>94902</Entry>
+    <Name>Kayn Sunfury</Name>
+    <Position>
+      <X>-952.618042</X>
+      <Y>4332.883</Y>
+      <Z>740.1839</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Troll Raid</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>94902</Entry>
+    <Name>Kayn Sunfury</Name>
+    <Position>
+      <X>1300.66</X>
+      <Y>-260.674</Y>
+      <Z>44.2705154</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>AcquisitionVioletHold</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>95002</Entry>
     <Name>Yanas Cognehoule</Name>
     <Position>
@@ -62631,6 +62720,28 @@
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Troll Raid</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>95238</Entry>
+    <Name>Allari the Souleater</Name>
+    <Position>
+      <X>1522.10425</X>
+      <Y>1407.37158</Y>
+      <Z>243.755219</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>ArtifactsDemonHunterOrderHall</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>95240</Entry>
+    <Name>Kayn Sunfury</Name>
+    <Position>
+      <X>1524.67542</X>
+      <Y>1417.73608</Y>
+      <Z>243.836578</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>ArtifactsDemonHunterOrderHall</ContinentId>
   </Npc>
   <Npc>
     <Entry>95256</Entry>
@@ -63035,6 +63146,17 @@
     <ContinentId>legionnexus</ContinentId>
   </Npc>
   <Npc>
+    <Entry>96444</Entry>
+    <Name>Violet Hold Guard</Name>
+    <Position>
+      <X>-956.4393</X>
+      <Y>4335.921</Y>
+      <Z>740.1837</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Troll Raid</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>96465</Entry>
     <Name>Vethir</Name>
     <Position>
@@ -63134,6 +63256,42 @@
     <ContinentId>Troll Raid</ContinentId>
   </Npc>
   <Npc>
+    <Entry>96644</Entry>
+    <Name>Sky Admiral Rogers</Name>
+    <Position>
+      <X>-8564.77051</X>
+      <Y>1412.11511</Y>
+      <Z>193.844452</Z>
+    </Position>
+    <Faction>Alliance</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>96644</Entry>
+    <Name>Sky Admiral Rogers</Name>
+    <Position>
+      <X>-8491.159</X>
+      <Y>1394.033</Y>
+      <Z>196.376221</Z>
+    </Position>
+    <Faction>Alliance</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>96644</Entry>
+    <Name>Sky Admiral Rogers</Name>
+    <Position>
+      <X>-840.508667</X>
+      <Y>4633.81</Y>
+      <Z>749.414</Z>
+    </Position>
+    <Faction>Alliance</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Troll Raid</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>96655</Entry>
     <Name>Allari the Souleater</Name>
     <Position>
@@ -63154,6 +63312,18 @@
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>legionnexus</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>96663</Entry>
+    <Name>Genn Greymane</Name>
+    <Position>
+      <X>-8587.887</X>
+      <Y>1398.60986</Y>
+      <Z>196.576889</Z>
+    </Position>
+    <Faction>Alliance</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Azeroth</ContinentId>
   </Npc>
   <Npc>
     <Entry>96665</Entry>
@@ -64105,6 +64275,17 @@
     <ContinentId>Troll Raid</ContinentId>
   </Npc>
   <Npc>
+    <Entry>98624</Entry>
+    <Name>Lady S'theno</Name>
+    <Position>
+      <X>1561.07642</X>
+      <Y>1399.78821</Y>
+      <Z>237.1087</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>ArtifactsDemonHunterOrderHall</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>98711</Entry>
     <Name>Kor'vas Bloodthorn</Name>
     <Position>
@@ -64244,6 +64425,40 @@
       <Y>4294.18164</Y>
       <Z>703.812561</Z>
     </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Troll Raid</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>99247</Entry>
+    <Name>Kayn Sunfury</Name>
+    <Position>
+      <X>-852.2726</X>
+      <Y>4256.07373</Y>
+      <Z>746.285</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Troll Raid</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>99262</Entry>
+    <Name>Jace Darkweaver</Name>
+    <Position>
+      <X>-864.866333</X>
+      <Y>4260.52441</Y>
+      <Z>745.1186</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Troll Raid</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>99343</Entry>
+    <Name>Kor'vas Bloodthorn</Name>
+    <Position>
+      <X>-833.2653</X>
+      <Y>4295.201</Y>
+      <Z>746.2739</Z>
+    </Position>
+    <Faction>Alliance</Faction>
     <Type>QuestGiver</Type>
     <ContinentId>Troll Raid</ContinentId>
   </Npc>
@@ -65103,6 +65318,39 @@
     <ContinentId>Troll Raid</ContinentId>
   </Npc>
   <Npc>
+    <Entry>102799</Entry>
+    <Name>Kor'vas Bloodthorn</Name>
+    <Position>
+      <X>-835.9692</X>
+      <Y>4265.40039</Y>
+      <Z>746.2537</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Troll Raid</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>102824</Entry>
+    <Name>Matron Mother Malevolence</Name>
+    <Position>
+      <X>1484.94971</X>
+      <Y>1407.77429</Y>
+      <Z>243.390457</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>ArtifactsDemonHunterOrderHall</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>102824</Entry>
+    <Name>Matron Mother Malevolence</Name>
+    <Position>
+      <X>1583.73657</X>
+      <Y>1413.55334</Y>
+      <Z>237.1087</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>ArtifactsDemonHunterOrderHall</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>102845</Entry>
     <Name>Brandolf</Name>
     <Position>
@@ -65190,6 +65438,17 @@
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Troll Raid</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>103025</Entry>
+    <Name>Battlelord Gaardoun</Name>
+    <Position>
+      <X>1584.42712</X>
+      <Y>1409.26343</Y>
+      <Z>218.027023</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>ArtifactsDemonHunterOrderHall</ContinentId>
   </Npc>
   <Npc>
     <Entry>103129</Entry>
@@ -65344,6 +65603,28 @@
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Troll Raid</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>103732</Entry>
+    <Name>Tylos Darksight</Name>
+    <Position>
+      <X>1582.97571</X>
+      <Y>1434.86108</Y>
+      <Z>219.5104</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>ArtifactsDemonHunterOrderHall</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>103761</Entry>
+    <Name>Kor'vas Bloodthorn</Name>
+    <Position>
+      <X>1551.4635</X>
+      <Y>1410.89063</Y>
+      <Z>237.1087</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>ArtifactsDemonHunterOrderHall</ContinentId>
   </Npc>
   <Npc>
     <Entry>103832</Entry>
@@ -66714,12 +66995,34 @@
     <ContinentId>BattleofExodar</ContinentId>
   </Npc>
   <Npc>
+    <Entry>109196</Entry>
+    <Name>Jace Darkweaver</Name>
+    <Position>
+      <X>-945.425354</X>
+      <Y>4090.01563</Y>
+      <Z>648.2666</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Troll Raid</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>109227</Entry>
     <Name>Meliah Grayfeather</Name>
     <Position>
       <X>4866.44775</X>
       <Y>3939.90186</Y>
       <Z>833.5277</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Troll Raid</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>109295</Entry>
+    <Name>Matron Mother Malevolence</Name>
+    <Position>
+      <X>-948.3802</X>
+      <Y>4091.92358</Y>
+      <Z>650.8849</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Troll Raid</ContinentId>
@@ -67094,6 +67397,17 @@
       <X>3964.88452</X>
       <Y>7326.858</Y>
       <Z>29.2170067</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Troll Raid</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>113813</Entry>
+    <Name>Lieutenant Sinclari</Name>
+    <Position>
+      <X>-956.050354</X>
+      <Y>4327.47559</Y>
+      <Z>740.1663</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Troll Raid</ContinentId>
@@ -69201,6 +69515,17 @@
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Northrend</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>190917</Entry>
+    <Name>Abandoned Mail</Name>
+    <Position>
+      <X>2113.909</X>
+      <Y>-5795.669</Y>
+      <Z>101.399567</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>DeathKnightStart</ContinentId>
   </Npc>
   <Npc>
     <Entry>191553</Entry>
