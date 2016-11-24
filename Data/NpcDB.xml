@@ -12774,6 +12774,28 @@
   </Npc>
   <Npc>
     <Entry>6491</Entry>
+    <Name>Spirit Healer</Name>
+    <Position>
+      <X>3151.70581</X>
+      <Y>1534.70142</Y>
+      <Z>182.447708</Z>
+    </Position>
+    <Type>SpiritHealer</Type>
+    <ContinentId>Troll Raid</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>6491</Entry>
+    <Name>Spirit Healer</Name>
+    <Position>
+      <X>3151.70581</X>
+      <Y>1534.70142</Y>
+      <Z>182.447708</Z>
+    </Position>
+    <Type>SpiritGuide</Type>
+    <ContinentId>Troll Raid</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>6491</Entry>
     <Name>Gardien des âmes</Name>
     <Position>
       <X>3222.73877</X>
@@ -12834,6 +12856,28 @@
       <X>3331.06348</X>
       <Y>1718.01392</Y>
       <Z>0.4295654</Z>
+    </Position>
+    <Type>SpiritGuide</Type>
+    <ContinentId>Troll Raid</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>6491</Entry>
+    <Name>Spirit Healer</Name>
+    <Position>
+      <X>3333.15723</X>
+      <Y>2866.888</Y>
+      <Z>495.354034</Z>
+    </Position>
+    <Type>SpiritHealer</Type>
+    <ContinentId>Troll Raid</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>6491</Entry>
+    <Name>Spirit Healer</Name>
+    <Position>
+      <X>3333.15723</X>
+      <Y>2866.888</Y>
+      <Z>495.354034</Z>
     </Position>
     <Type>SpiritGuide</Type>
     <ContinentId>Troll Raid</ContinentId>
@@ -59335,25 +59379,23 @@
   </Npc>
   <Npc>
     <Entry>110521</Entry>
-    <Name>Versorger Gerstenfuß</Name>
+    <Name>Supplier Barleyfoot</Name>
     <Position>
       <X>2702.51563</X>
       <Y>2855.519</Y>
-      <Z>308.8191</Z>
+      <Z>308.8194</Z>
     </Position>
-    <Faction>Alliance</Faction>
     <Type>Vendor</Type>
     <ContinentId>Troll Raid</ContinentId>
   </Npc>
   <Npc>
     <Entry>110521</Entry>
-    <Name>Versorger Gerstenfuß</Name>
+    <Name>Supplier Barleyfoot</Name>
     <Position>
       <X>2702.51563</X>
       <Y>2855.519</Y>
-      <Z>308.8191</Z>
+      <Z>308.8194</Z>
     </Position>
-    <Faction>Alliance</Faction>
     <Type>Repair</Type>
     <ContinentId>Troll Raid</ContinentId>
   </Npc>
@@ -59864,6 +59906,17 @@
       <Z>807.488647</Z>
     </Position>
     <Type>Innkeeper</Type>
+    <ContinentId>Troll Raid</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>115264</Entry>
+    <Name>Illnea Bloodthorn</Name>
+    <Position>
+      <X>-758.3594</X>
+      <Y>4504.90869</Y>
+      <Z>731.0216</Z>
+    </Position>
+    <Type>Vendor</Type>
     <ContinentId>Troll Raid</ContinentId>
   </Npc>
   <Npc>
