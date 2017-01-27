@@ -270,19 +270,7 @@
     <Position>
       <X>-10128.7</X>
       <Y>1055.21</Y>
-      <Z>36.2503929</Z>
-    </Position>
-    <Faction>Alliance</Faction>
-    <Type>Vendor</Type>
-    <ContinentId>Azeroth</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>258</Entry>
-    <Name>Joshua Maclure</Name>
-    <Position>
-      <X>-10008.2939</X>
-      <Y>65.2117</Y>
-      <Z>34.84169</Z>
+      <Z>36.25082</Z>
     </Position>
     <Faction>Alliance</Faction>
     <Type>Vendor</Type>
@@ -354,7 +342,7 @@
     <Position>
       <X>-9455.365</X>
       <Y>-1385.32727</Y>
-      <Z>47.1273842</Z>
+      <Z>47.1262665</Z>
     </Position>
     <Faction>Alliance</Faction>
     <Type>Vendor</Type>
@@ -390,7 +378,7 @@
     <Position>
       <X>-10500.6016</X>
       <Y>1021.59137</Y>
-      <Z>60.5277061</Z>
+      <Z>60.5277519</Z>
     </Position>
     <Faction>Alliance</Faction>
     <Type>Vendor</Type>
@@ -592,21 +580,9 @@
     <Entry>844</Entry>
     <Name>Antonio Perelli</Name>
     <Position>
-      <X>-9811.736</X>
-      <Y>847.13324</Y>
-      <Z>28.36893</Z>
-    </Position>
-    <Faction>Alliance</Faction>
-    <Type>Vendor</Type>
-    <ContinentId>Azeroth</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>894</Entry>
-    <Name>Homer Stonefield</Name>
-    <Position>
-      <X>-9858.46</X>
-      <Y>365.9721</Y>
-      <Z>36.25389</Z>
+      <X>-9615.0625</X>
+      <Y>-1071.88647</Y>
+      <Z>39.513443</Z>
     </Position>
     <Faction>Alliance</Faction>
     <Type>Vendor</Type>
@@ -738,18 +714,6 @@
       <X>-9541.133</X>
       <Y>-716.4657</Y>
       <Z>99.2121048</Z>
-    </Position>
-    <Faction>Alliance</Faction>
-    <Type>Vendor</Type>
-    <ContinentId>Azeroth</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>959</Entry>
-    <Name>Morley Eberlein</Name>
-    <Position>
-      <X>-9548.453</X>
-      <Y>-709.983</Y>
-      <Z>90.42789</Z>
     </Position>
     <Faction>Alliance</Faction>
     <Type>Vendor</Type>
@@ -1013,7 +977,7 @@
     <Position>
       <X>-9469.282</X>
       <Y>-1355.24182</Y>
-      <Z>47.2048531</Z>
+      <Z>47.20493</Z>
     </Position>
     <Faction>Alliance</Faction>
     <Type>Vendor</Type>
@@ -1037,7 +1001,7 @@
     <Position>
       <X>-8898.231</X>
       <Y>-119.837891</Y>
-      <Z>81.83277</Z>
+      <Z>81.83279</Z>
     </Position>
     <Faction>Alliance</Faction>
     <Type>Vendor</Type>
@@ -1241,7 +1205,7 @@
     <Position>
       <X>-9483.098</X>
       <Y>-1356.247</Y>
-      <Z>46.95809</Z>
+      <Z>46.957695</Z>
     </Position>
     <Faction>Alliance</Faction>
     <Type>Vendor</Type>
@@ -2712,18 +2676,6 @@
     <ContinentId>Azeroth</ContinentId>
   </Npc>
   <Npc>
-    <Entry>1650</Entry>
-    <Name>Terry Palin</Name>
-    <Position>
-      <X>-9404.846</X>
-      <Y>-1343.51892</Y>
-      <Z>50.02787</Z>
-    </Position>
-    <Faction>Alliance</Faction>
-    <Type>Vendor</Type>
-    <ContinentId>Azeroth</ContinentId>
-  </Npc>
-  <Npc>
     <Entry>1651</Entry>
     <Name>Lee Brown</Name>
     <Position>
@@ -2778,18 +2730,6 @@
       <X>-10660.0107</X>
       <Y>1003.11462</Y>
       <Z>32.8710976</Z>
-    </Position>
-    <Faction>Alliance</Faction>
-    <Type>Vendor</Type>
-    <ContinentId>Azeroth</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>1670</Entry>
-    <Name>Mike Miller</Name>
-    <Position>
-      <X>-10506.8193</X>
-      <Y>1045.63367</Y>
-      <Z>60.5197067</Z>
     </Position>
     <Faction>Alliance</Faction>
     <Type>Vendor</Type>
@@ -3248,7 +3188,6 @@
       <Y>-2228.62085</Y>
       <Z>63.766758</Z>
     </Position>
-    <Faction>Alliance</Faction>
     <Type>SmeltingForge</Type>
     <ContinentId>Azeroth</ContinentId>
   </Npc>
@@ -12774,28 +12713,6 @@
   </Npc>
   <Npc>
     <Entry>6491</Entry>
-    <Name>Spirit Healer</Name>
-    <Position>
-      <X>3151.70581</X>
-      <Y>1534.70142</Y>
-      <Z>182.447708</Z>
-    </Position>
-    <Type>SpiritHealer</Type>
-    <ContinentId>Troll Raid</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>6491</Entry>
-    <Name>Spirit Healer</Name>
-    <Position>
-      <X>3151.70581</X>
-      <Y>1534.70142</Y>
-      <Z>182.447708</Z>
-    </Position>
-    <Type>SpiritGuide</Type>
-    <ContinentId>Troll Raid</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>6491</Entry>
     <Name>Gardien des âmes</Name>
     <Position>
       <X>3222.73877</X>
@@ -12856,28 +12773,6 @@
       <X>3331.06348</X>
       <Y>1718.01392</Y>
       <Z>0.4295654</Z>
-    </Position>
-    <Type>SpiritGuide</Type>
-    <ContinentId>Troll Raid</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>6491</Entry>
-    <Name>Spirit Healer</Name>
-    <Position>
-      <X>3333.15723</X>
-      <Y>2866.888</Y>
-      <Z>495.354034</Z>
-    </Position>
-    <Type>SpiritHealer</Type>
-    <ContinentId>Troll Raid</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>6491</Entry>
-    <Name>Spirit Healer</Name>
-    <Position>
-      <X>3333.15723</X>
-      <Y>2866.888</Y>
-      <Z>495.354034</Z>
     </Position>
     <Type>SpiritGuide</Type>
     <ContinentId>Troll Raid</ContinentId>
@@ -15029,18 +14924,6 @@
       <X>-10638.2949</X>
       <Y>1163.87146</Y>
       <Z>33.4744568</Z>
-    </Position>
-    <Faction>Alliance</Faction>
-    <Type>Vendor</Type>
-    <ContinentId>Azeroth</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>10045</Entry>
-    <Name>Kirk Maxwell</Name>
-    <Position>
-      <X>-10509.9639</X>
-      <Y>1040.74829</Y>
-      <Z>60.51868</Z>
     </Position>
     <Faction>Alliance</Faction>
     <Type>Vendor</Type>
@@ -35040,17 +34923,6 @@
     </Position>
     <Faction>Alliance</Faction>
     <Type>Repair</Type>
-    <ContinentId>Azeroth</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>42497</Entry>
-    <Name>Mama Celeste</Name>
-    <Position>
-      <X>-9846.435</X>
-      <Y>1282.74658</Y>
-      <Z>41.88716</Z>
-    </Position>
-    <Type>Vendor</Type>
     <ContinentId>Azeroth</ContinentId>
   </Npc>
   <Npc>
@@ -59379,23 +59251,25 @@
   </Npc>
   <Npc>
     <Entry>110521</Entry>
-    <Name>Supplier Barleyfoot</Name>
+    <Name>Versorger Gerstenfuß</Name>
     <Position>
       <X>2702.51563</X>
       <Y>2855.519</Y>
-      <Z>308.8194</Z>
+      <Z>308.8191</Z>
     </Position>
+    <Faction>Alliance</Faction>
     <Type>Vendor</Type>
     <ContinentId>Troll Raid</ContinentId>
   </Npc>
   <Npc>
     <Entry>110521</Entry>
-    <Name>Supplier Barleyfoot</Name>
+    <Name>Versorger Gerstenfuß</Name>
     <Position>
       <X>2702.51563</X>
       <Y>2855.519</Y>
-      <Z>308.8194</Z>
+      <Z>308.8191</Z>
     </Position>
+    <Faction>Alliance</Faction>
     <Type>Repair</Type>
     <ContinentId>Troll Raid</ContinentId>
   </Npc>
@@ -59407,6 +59281,7 @@
       <Y>3086.96973</Y>
       <Z>440.212219</Z>
     </Position>
+    <Faction>Alliance</Faction>
     <Type>Vendor</Type>
     <ContinentId>Troll Raid</ContinentId>
   </Npc>
@@ -59418,6 +59293,7 @@
       <Y>3086.96973</Y>
       <Z>440.212219</Z>
     </Position>
+    <Faction>Alliance</Faction>
     <Type>Repair</Type>
     <ContinentId>Troll Raid</ContinentId>
   </Npc>
@@ -59906,17 +59782,6 @@
       <Z>807.488647</Z>
     </Position>
     <Type>Innkeeper</Type>
-    <ContinentId>Troll Raid</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>115264</Entry>
-    <Name>Illnea Bloodthorn</Name>
-    <Position>
-      <X>-758.3594</X>
-      <Y>4504.90869</Y>
-      <Z>731.0216</Z>
-    </Position>
-    <Type>Vendor</Type>
     <ContinentId>Troll Raid</ContinentId>
   </Npc>
   <Npc>
