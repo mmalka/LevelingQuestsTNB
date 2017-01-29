@@ -35,10 +35,12 @@ if (node.IsValid || unit.IsValid)
 	if(unit.IsValid)
 	{
 		baseAddress = MovementManager.FindTarget(unit); /* Move toward unit */
+		pos = new Point(unit.Position);
 	}
 	else if (node.IsValid) 
 	{
 		baseAddress = MovementManager.FindTarget(node); /* Move toward node */
+		pos =new Point(node.Position);
 	}
   
 	Thread.Sleep(100 + Usefuls.Latency); /* ZZZzzzZZZzz */
@@ -57,7 +59,7 @@ if (node.IsValid || unit.IsValid)
 	{	
 		if(ObjectManager.Me.InCombat && !questObjective.IgnoreFight)
 			return false;
-		MovementManager.FindTarget(ref vNpc, questObjective.Range);
+		baseAddress = MovementManager.FindTarget(ref vNpc, questObjective.Range);
 		Thread.Sleep(500);
 	}
 	
@@ -69,7 +71,19 @@ if (node.IsValid || unit.IsValid)
 		nManager.Wow.Helpers.Quest.GetSetIgnoreFight = true;
 	
 	/* Interact With Entry */
-	Interact.InteractWith(baseAddress);
+	if (node.IsValid)
+	{
+		MovementManager.Face(node);
+		Interact.InteractWith(node.GetBaseAddress);
+		nManagerSetting.AddBlackList(node.Guid, 30*1000);
+	}
+	else if (unit.IsValid)
+	{
+		MovementManager.Face(unit);
+		Interact.InteractWith(unit.GetBaseAddress);
+		nManagerSetting.AddBlackList(unit.Guid, 30*1000);
+	}
+		
 	Thread.Sleep(Usefuls.Latency); 
 
 	/* Wait for the interact cast to be finished, if any */
