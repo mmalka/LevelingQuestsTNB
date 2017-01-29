@@ -1109,7 +1109,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>UseFlightPath</Objective>
-          <ScriptConditionIsComplete>true;</ScriptConditionIsComplete>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <WaitMs>65000</WaitMs>
           <TaxiEntry>43124</TaxiEntry>
@@ -1146,7 +1145,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>UseFlightPath</Objective>
-          <ScriptConditionIsComplete>true;</ScriptConditionIsComplete>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <WaitMs>65000</WaitMs>
           <TaxiEntry>4551</TaxiEntry>
@@ -1972,6 +1970,7 @@
         <QuestObjective>
           <Objective>MoveTo</Objective>
           <Count>1</Count>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>3072.027</X>
             <Y>-560.0798</Y>
@@ -1980,6 +1979,7 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>Wait</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <WaitMs>35000</WaitMs>
         </QuestObjective>
         <QuestObjective>
@@ -2026,20 +2026,26 @@
       <TurnIn>1515</TurnIn>
       <Objectives>
         <QuestObjective>
-          <Objective>PickUpNPC</Objective>
+          <Objective>InteractWith</Objective>
           <Count>1</Count>
           <Entry>
             <int>37915</int>
           </Entry>
-          <Hotspots>
-            <Point>
-              <X>1731.152</X>
-              <Y>-740.1718</Y>
-              <Z>60.0631</Z>
-            </Point>
-          </Hotspots>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <Position>
+            <X>1727.265</X>
+            <Y>-741.0682</Y>
+            <Z>59.96912</Z>
+          </Position>
           <WaitMs>60000</WaitMs>
           <GossipOptionsInteractWith>2</GossipOptionsInteractWith>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>TurnInQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <NpcEntry>1515</NpcEntry>
+          <QuestName>Take to the Skies</QuestName>
+          <QuestId>25012</QuestId>
         </QuestObjective>
       </Objectives>
     </Quest>
