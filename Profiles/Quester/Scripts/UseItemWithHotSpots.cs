@@ -56,7 +56,7 @@ if (unit.IsValid || node.IsValid)
 	
 	while((node.IsValid && ObjectManager.Me.Position.DistanceTo(node.Position) >= questObjective.Range) || (unit.IsValid && ObjectManager.Me.Position.DistanceTo(unit.Position) >= questObjective.Range))
 	{	
-		if(ObjectManager.Me.InCombat && !questObjective.IgnoreFight)
+		if((ObjectManager.Me.InCombat && !questObjective.IgnoreFight) || ObjectManager.Me.IsDeadMe)
 			return false;
 		MovementManager.FindTarget(ref vNpc, questObjective.Range);
 		Thread.Sleep(500);
@@ -85,7 +85,7 @@ if (unit.IsValid || node.IsValid)
 	
 	MovementManager.StopMove();
 	MountTask.DismountMount();
-	
+
 	ItemsManager.UseItem(ItemsManager.GetItemNameById(questObjective.UseItemId));
 	
 	Thread.Sleep(Usefuls.Latency +1500);
