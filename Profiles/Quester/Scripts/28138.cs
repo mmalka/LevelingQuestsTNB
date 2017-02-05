@@ -25,6 +25,8 @@ if (!MovementManager.InMovement)
 
 nManager.Wow.ObjectManager.WoWUnit unit = nManager.Wow.ObjectManager.ObjectManager.GetNearestWoWUnit(nManager.Wow.ObjectManager.ObjectManager.GetWoWUnitByEntry(entries));
 
+nManager.Wow.Helpers.Quest.GetSetIgnoreFight = true;
+
 while(ObjectManager.Me.Position.DistanceTo(unit.Position) >= 5)
 {
 	if (ObjectManager.Me.IsDeadMe || (ObjectManager.Me.InCombat && !ObjectManager.Me.IsMounted))
@@ -54,7 +56,7 @@ while (unit.HealthPercent >= 35)
 ItemsManager.UseItem(ItemsManager.GetItemNameById(questObjective.UseItemId));
 Thread.Sleep(500);
 ItemsManager.UseItem(ItemsManager.GetItemNameById(questObjective.UseItemId));
-	
+nManager.Wow.Helpers.Quest.GetSetIgnoreFight = false;
 nManager.Wow.Helpers.Fight.InFight= false;
 nManager.Wow.Helpers.Fight.StopFight();
 
