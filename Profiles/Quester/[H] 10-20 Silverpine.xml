@@ -1056,11 +1056,6 @@
       <TurnIn>45315</TurnIn>
       <Objectives>
         <QuestObjective>
-          <Objective>MessageBox</Objective>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <Message>STOP ICI!</Message>
-        </QuestObjective>
-        <QuestObjective>
           <Objective>MoveTo</Objective>
           <Position>
             <X>-1212.291</X>
@@ -1161,7 +1156,7 @@
             <Y>1709.938</Y>
             <Z>20.75014</Z>
           </Position>
-          <WaitMs>15000</WaitMs>
+          <WaitMs>20000</WaitMs>
         </QuestObjective>
         <QuestObjective>
           <Objective>MoveTo</Objective>
@@ -1367,6 +1362,7 @@
               <Z>66.02334</Z>
             </Point>
           </Hotspots>
+          <IgnoreBlackList>true</IgnoreBlackList>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
@@ -1405,6 +1401,9 @@
       <QuestLevel>18</QuestLevel>
       <MinLevel>15</MinLevel>
       <MaxLevel>25</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>27476</int>
+      </NeedQuestCompletedId>
       <PickUp>1938</PickUp>
       <TurnIn>1938</TurnIn>
       <Objectives>

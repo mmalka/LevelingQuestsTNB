@@ -968,61 +968,7 @@
       </NeedQuestCompletedId>
       <PickUp>10665</PickUp>
       <TurnIn>2211</TurnIn>
-      <Objectives>
-        <QuestObjective>
-          <Objective>MoveTo</Objective>
-          <Count>1</Count>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <Position>
-            <X>2229.024</X>
-            <Y>328.9775</Y>
-            <Z>34.49149</Z>
-          </Position>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>CSharpScript</Objective>
-          <Hotspots>
-            <Point>
-              <X>2222.095</X>
-              <Y>333.3073</Y>
-              <Z>37.29903</Z>
-            </Point>
-            <Point>
-              <X>2220.379</X>
-              <Y>334.3793</Y>
-              <Z>37.29903</Z>
-            </Point>
-            <Point>
-              <X>2217.103</X>
-              <Y>327.9922</Y>
-              <Z>41.02988</Z>
-            </Point>
-            <Point>
-              <X>2219.58</X>
-              <Y>326.5147</Y>
-              <Z>41.03001</Z>
-            </Point>
-            <Point>
-              <X>2223.059</X>
-              <Y>331.998</Y>
-              <Z>41.03829</Z>
-            </Point>
-            <Point>
-              <X>2229.524</X>
-              <Y>328.7006</Y>
-              <Z>41.06134</Z>
-            </Point>
-          </Hotspots>
-          <ScriptConditionIsComplete>=ClickToMoveHotSpots.cs</ScriptConditionIsComplete>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <Position>
-            <X>2229.524</X>
-            <Y>328.7006</Y>
-            <Z>41.06134</Z>
-          </Position>
-          <Range>0</Range>
-        </QuestObjective>
-      </Objectives>
+      <Objectives />
     </Quest>
     <Quest>
       <Name>Garren's Haunt</Name>
@@ -1037,69 +983,6 @@
       <PickUp>10665</PickUp>
       <TurnIn>10665</TurnIn>
       <Objectives>
-        <QuestObjective>
-          <Objective>MoveTo</Objective>
-          <Count>1</Count>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <Position>
-            <X>2231.337</X>
-            <Y>327.9787</Y>
-            <Z>41.06288</Z>
-          </Position>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>CSharpScript</Objective>
-          <Count>1</Count>
-          <Hotspots>
-            <Point>
-              <X>2223.64</X>
-              <Y>331.8912</Y>
-              <Z>41.04398</Z>
-            </Point>
-            <Point>
-              <X>2220.003</X>
-              <Y>326.6789</Y>
-              <Z>41.03108</Z>
-            </Point>
-            <Point>
-              <X>2217.657</X>
-              <Y>329.1603</Y>
-              <Z>40.53506</Z>
-            </Point>
-            <Point>
-              <X>2220.214</X>
-              <Y>334.1952</Y>
-              <Z>37.3001</Z>
-            </Point>
-            <Point>
-              <X>2229.139</X>
-              <Y>329.7194</Y>
-              <Z>34.61785</Z>
-            </Point>
-            <Point>
-              <X>2231.989</X>
-              <Y>327.7944</Y>
-              <Z>34.23349</Z>
-            </Point>
-            <Point>
-              <X>2240.896</X>
-              <Y>327.8724</Y>
-              <Z>34.06513</Z>
-            </Point>
-            <Point>
-              <X>2246.347</X>
-              <Y>320.6664</Y>
-              <Z>34.23209</Z>
-            </Point>
-          </Hotspots>
-          <Script>=ClickToMoveHotSpots.cs</Script>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <Position>
-            <X>2229.43</X>
-            <Y>328.4241</Y>
-            <Z>34.40269</Z>
-          </Position>
-        </QuestObjective>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
