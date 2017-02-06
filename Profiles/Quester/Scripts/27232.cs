@@ -1,5 +1,5 @@
-   nManager.Wow.ObjectManager.WoWUnit Worgen = nManager.Wow.ObjectManager.ObjectManager.GetNearestWoWUnit(nManager.Wow.ObjectManager.ObjectManager.GetWoWUnitByEntry(45270));
-		
+  // nManager.Wow.ObjectManager.WoWUnit Worgen = nManager.Wow.ObjectManager.ObjectManager.GetNearestWoWUnit(nManager.Wow.ObjectManager.ObjectManager.GetWoWUnitByEntry(45270));
+		nManager.Wow.ObjectManager.WoWUnit Worgen = nManager.Wow.ObjectManager.ObjectManager.GetWoWUnitByEntry(45270).Find(x => x.Position.Y <= 875 && x.Position.DistanceTo(ObjectManager.Me.Position) <= 150 && !x.IsDead);
         if (Worgen.IsValid && Worgen.Position.DistanceTo(ObjectManager.Me.Position) <= 150)
         {
             var listP = new System.Collections.Generic.List<Point>();

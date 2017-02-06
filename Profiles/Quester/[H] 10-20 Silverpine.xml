@@ -212,7 +212,7 @@
             <Y>1210.426</Y>
             <Z>58.50788</Z>
           </Position>
-          <WaitMs>30000</WaitMs>
+          <WaitMs>60000</WaitMs>
         </QuestObjective>
       </Objectives>
     </Quest>
@@ -1123,6 +1123,7 @@
             </Point>
           </Hotspots>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>KillMob</Objective>
