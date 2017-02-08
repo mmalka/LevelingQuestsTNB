@@ -15,6 +15,7 @@ if (!MovementManager.InMovement)
 	{
 		//Quester.Tasks.QuestingTask.TravelToQuestZone(Point destination, int continentId = -1, bool forceTravel = false) //For me :)
 		//Quester.Tasks.QuestingTask.TravelToQuestZone(questObjective.Hotspots[nManager.Helpful.Math.NearestPointOfListPoints(questObjective.Hotspots, ObjectManager.Me.Position)]);
+		Quester.Tasks.QuestingTask.TravelToQuestZone(questObjective.Hotspots[Math.NearestPointOfListPoints(questObjective.Hotspots, ObjectManager.Me.Position)], questObjective.ContinentId,questObjective.ForceTravelToQuestZone);
 		MovementManager.Go(PathFinder.FindPath(questObjective.Hotspots[nManager.Helpful.Math.NearestPointOfListPoints(questObjective.Hotspots, ObjectManager.Me.Position)]));
 	}
 	else
