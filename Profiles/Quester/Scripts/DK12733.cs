@@ -63,7 +63,7 @@ else if (!MovementManager.InMovement && questObjective.Hotspots.Count > 0)
 	// Need GoTo Zone:
 	if (questObjective.Hotspots[nManager.Helpful.Math.NearestPointOfListPoints(questObjective.Hotspots, nManager.Wow.ObjectManager.ObjectManager.Me.Position)].DistanceTo(nManager.Wow.ObjectManager.ObjectManager.Me.Position) > 5f)
 	{
-		Quester.Tasks.QuestingTask.TravelToQuestZone(questObjective.Hotspots[Math.NearestPointOfListPoints(questObjective.Hotspots, ObjectManager.Me.Position)], questObjective.ContinentId,questObjective.ForceTravelToQuestZone);
+		Quest.TravelToQuestZone(questObjective.Hotspots[Math.NearestPointOfListPoints(questObjective.Hotspots, ObjectManager.Me.Position)], ref questObjective.TravelToQuestZone, questObjective.ContinentId,questObjective.ForceTravelToQuestZone);
 		MovementManager.Go(PathFinder.FindPath(questObjective.Hotspots[nManager.Helpful.Math.NearestPointOfListPoints(questObjective.Hotspots, nManager.Wow.ObjectManager.ObjectManager.Me.Position)]));
 	}
 	else
