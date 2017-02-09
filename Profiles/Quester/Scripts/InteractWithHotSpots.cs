@@ -33,36 +33,19 @@ uint baseAddress = 0;
 if (node.IsValid || unit.IsValid)
 {
 	/* Entry found, GoTo */
-	if(unit.IsValid)
-	{
-		baseAddress = MovementManager.FindTarget(unit); /* Move toward unit */
-		pos = new Point(unit.Position);
-	}
-	else if (node.IsValid) 
-	{
-		baseAddress = MovementManager.FindTarget(node); /* Move toward node */
-		pos =new Point(node.Position);
+	while((node.IsValid && ObjectManager.Me.Position.DistanceTo(node.Position) >= questObjective.Range) || (unit.IsValid && ObjectManager.Me.Position.DistanceTo(unit.Position) >= questObjective.Range))
+	{	
+		if((ObjectManager.Me.InCombat && !questObjective.IgnoreFight) || ObjectManager.Me.IsDeadMe)
+			return false;
+		if(node.IsValid)
+			baseAddress = MovementManager.FindTarget(node, questObjective.Range);
+		if(unit.IsValid)
+			baseAddress = MovementManager.FindTarget(unit, questObjective.Range);
+		Thread.Sleep(500);
 	}
   
 	Thread.Sleep(100 + Usefuls.Latency); /* ZZZzzzZZZzz */
 
-	Npc vNpc = new Npc();
-	vNpc = new Npc
-	{
-		Entry = 1337,
-		Position = pos,
-		Name = "Target",
-		ContinentIdInt = Usefuls.ContinentId,
-		Faction = ObjectManager.Me.PlayerFaction.ToLower() == "horde" ? Npc.FactionType.Horde : Npc.FactionType.Alliance,
-	};
-	
-		while(ObjectManager.Me.Position.DistanceTo(pos) >= questObjective.Range)
-	{	
-		if((ObjectManager.Me.InCombat && !questObjective.IgnoreFight) || ObjectManager.Me.IsDeadMe)
-			return false;
-		baseAddress = MovementManager.FindTarget(ref vNpc, questObjective.Range);
-		Thread.Sleep(500);
-	}
 	
 	/* Entry reached, dismount */
 	MovementManager.StopMove();

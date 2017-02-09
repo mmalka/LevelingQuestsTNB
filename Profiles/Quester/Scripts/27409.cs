@@ -1,4 +1,4 @@
-/* Use Item With HotSpots
+/* Use Item With HotSpots on corpse after killing the mob
    Check if there is HotSpots in the objective */
 if (questObjective.Hotspots.Count <= 0)
 {
@@ -38,16 +38,23 @@ if (unit.IsValid || node.IsValid)
 	
 	while((node.IsValid && ObjectManager.Me.Position.DistanceTo(node.Position) >= questObjective.Range) || (unit.IsValid && ObjectManager.Me.Position.DistanceTo(unit.Position) >= questObjective.Range))
 	{	
-		if((ObjectManager.Me.InCombat && !questObjective.IgnoreFight) || ObjectManager.Me.IsDeadMe)
-			return false;
+		//if((ObjectManager.Me.InCombat && !questObjective.IgnoreFight) || ObjectManager.Me.IsDeadMe)
+		//	return false;
 		if(node.IsValid)
+		{
 			baseAddress = MovementManager.FindTarget(node, questObjective.Range);
+		}
 		if(unit.IsValid)
+		{
+			if(!unit.IsDead)
+				nManager.Wow.Helpers.Fight.StartFight(unit.Guid);
 			baseAddress = MovementManager.FindTarget(unit, questObjective.Range);
+		}
 		Thread.Sleep(500);
 	}
 	
 	/* Target Reached */
+	
 	MovementManager.StopMove();
 	MountTask.DismountMount();
 	
