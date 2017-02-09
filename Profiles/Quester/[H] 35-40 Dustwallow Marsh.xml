@@ -651,6 +651,9 @@
       <QuestLevel>36</QuestLevel>
       <MinLevel>33</MinLevel>
       <MaxLevel>46</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>27190</int>
+      </NeedQuestCompletedId>
       <PickUp>4792</PickUp>
       <TurnIn>4792</TurnIn>
       <Objectives>
@@ -726,6 +729,9 @@
       <QuestLevel>36</QuestLevel>
       <MinLevel>33</MinLevel>
       <MaxLevel>46</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>27191</int>
+      </NeedQuestCompletedId>
       <PickUp>20985</PickUp>
       <TurnIn>4791</TurnIn>
       <Objectives />
@@ -737,6 +743,9 @@
       <QuestLevel>39</QuestLevel>
       <MinLevel>36</MinLevel>
       <MaxLevel>49</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>27244</int>
+      </NeedQuestCompletedId>
       <PickUp>4500</PickUp>
       <TurnIn>4500</TurnIn>
       <Objectives>
@@ -1072,6 +1081,9 @@
       <QuestLevel>39</QuestLevel>
       <MinLevel>36</MinLevel>
       <MaxLevel>49</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>27424</int>
+      </NeedQuestCompletedId>
       <PickUp>4501</PickUp>
       <TurnIn>4500</TurnIn>
       <Objectives />
@@ -1083,6 +1095,9 @@
       <QuestLevel>39</QuestLevel>
       <MinLevel>36</MinLevel>
       <MaxLevel>49</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>27416</int>
+      </NeedQuestCompletedId>
       <PickUp>4500</PickUp>
       <TurnIn>4501</TurnIn>
       <Objectives />
@@ -1094,6 +1109,9 @@
       <QuestLevel>38</QuestLevel>
       <MinLevel>35</MinLevel>
       <MaxLevel>48</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>27417</int>
+      </NeedQuestCompletedId>
       <PickUp>23600</PickUp>
       <TurnIn>23797</TurnIn>
       <Objectives />
@@ -1105,6 +1123,9 @@
       <QuestLevel>38</QuestLevel>
       <MinLevel>35</MinLevel>
       <MaxLevel>48</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>27346</int>
+      </NeedQuestCompletedId>
       <PickUp>23797</PickUp>
       <TurnIn>23797</TurnIn>
       <Objectives>
@@ -1150,6 +1171,9 @@
       <QuestLevel>39</QuestLevel>
       <MinLevel>36</MinLevel>
       <MaxLevel>49</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>27348</int>
+      </NeedQuestCompletedId>
       <PickUp>23797</PickUp>
       <TurnIn>23797</TurnIn>
       <Objectives>
@@ -1182,6 +1206,9 @@
       <QuestLevel>39</QuestLevel>
       <MinLevel>36</MinLevel>
       <MaxLevel>49</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>11208</int>
+      </NeedQuestCompletedId>
       <PickUp>23570</PickUp>
       <TurnIn>23570</TurnIn>
       <Objectives>
@@ -1260,6 +1287,9 @@
       <QuestLevel>39</QuestLevel>
       <MinLevel>36</MinLevel>
       <MaxLevel>49</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>27413</int>
+      </NeedQuestCompletedId>
       <PickUp>23579</PickUp>
       <TurnIn>23579</TurnIn>
       <Objectives>
@@ -1294,6 +1324,9 @@
       <QuestLevel>39</QuestLevel>
       <MinLevel>36</MinLevel>
       <MaxLevel>49</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>27407</int>
+      </NeedQuestCompletedId>
       <PickUp>23579</PickUp>
       <TurnIn>23579</TurnIn>
       <Objectives>
@@ -1374,6 +1407,9 @@
       <QuestLevel>39</QuestLevel>
       <MinLevel>36</MinLevel>
       <MaxLevel>49</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>27409</int>
+      </NeedQuestCompletedId>
       <PickUp>23579</PickUp>
       <TurnIn>23579</TurnIn>
       <Objectives>
