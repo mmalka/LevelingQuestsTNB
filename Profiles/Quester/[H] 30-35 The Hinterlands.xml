@@ -469,6 +469,9 @@
       <QuestLevel>33</QuestLevel>
       <MinLevel>30</MinLevel>
       <MaxLevel>42</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>26432</int>
+      </NeedQuestCompletedId>
       <PickUp>42624</PickUp>
       <TurnIn>42624</TurnIn>
       <Objectives>
@@ -492,10 +495,6 @@
           <NpcEntry>42622</NpcEntry>
           <QuestName>All That Skitters</QuestName>
           <QuestId>26310</QuestId>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>MessageBox</Objective>
-          <Message>Vesper! ForceTravel Couille</Message>
         </QuestObjective>
         <QuestObjective>
           <Objective>CSharpScript</Objective>
@@ -666,6 +665,9 @@
       <QuestLevel>33</QuestLevel>
       <MinLevel>30</MinLevel>
       <MaxLevel>42</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>26357</int>
+      </NeedQuestCompletedId>
       <PickUp>42622</PickUp>
       <TurnIn>42622</TurnIn>
       <Objectives>
@@ -771,6 +773,9 @@
       <QuestLevel>33</QuestLevel>
       <MinLevel>30</MinLevel>
       <MaxLevel>42</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>26309</int>
+      </NeedQuestCompletedId>
       <PickUp>42642</PickUp>
       <TurnIn>42642</TurnIn>
       <Objectives>
@@ -938,6 +943,9 @@
       <QuestLevel>33</QuestLevel>
       <MinLevel>30</MinLevel>
       <MaxLevel>42</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>26308</int>
+      </NeedQuestCompletedId>
       <PickUp>42642</PickUp>
       <TurnIn>42642</TurnIn>
       <Objectives>
@@ -1001,6 +1009,9 @@
       <QuestLevel>33</QuestLevel>
       <MinLevel>30</MinLevel>
       <MaxLevel>42</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>26363</int>
+      </NeedQuestCompletedId>
       <PickUp>42642</PickUp>
       <TurnIn>42642</TurnIn>
       <Objectives>
@@ -1059,6 +1070,9 @@
       <QuestLevel>34</QuestLevel>
       <MinLevel>31</MinLevel>
       <MaxLevel>43</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>26369</int>
+      </NeedQuestCompletedId>
       <PickUp>42622</PickUp>
       <TurnIn>42898</TurnIn>
       <Objectives />
@@ -1070,6 +1084,9 @@
       <QuestLevel>34</QuestLevel>
       <MinLevel>31</MinLevel>
       <MaxLevel>43</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>26384</int>
+      </NeedQuestCompletedId>
       <PickUp>42898</PickUp>
       <TurnIn>42898</TurnIn>
       <Objectives>
