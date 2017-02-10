@@ -1921,6 +1921,7 @@
           <Objective>UseItem</Objective>
           <InternalQuestId>27523</InternalQuestId>
           <Count>1</Count>
+          <ScriptConditionIsComplete>if(nManager.Wow.Helpers.Quest.GetLogQuestIsComplete(27523) || nManager.Wow.Helpers.Quest.GetQuestCompleted(27523)) { return true;} else {return false;}</ScriptConditionIsComplete>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <UseItemId>61334</UseItemId>
           <Position>
@@ -1931,6 +1932,7 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>Wait</Objective>
+          <ScriptConditionIsComplete>if(nManager.Wow.Helpers.Quest.GetLogQuestIsComplete(27523) || nManager.Wow.Helpers.Quest.GetQuestCompleted(27523)) { return true;} else {return false;}</ScriptConditionIsComplete>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <WaitMs>6000</WaitMs>
         </QuestObjective>
@@ -1961,17 +1963,13 @@
           <QuestId>27523</QuestId>
         </QuestObjective>
         <QuestObjective>
-          <Objective>MoveTo</Objective>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <Position>
-            <X>3159.801</X>
-            <Y>-4323.502</Y>
-            <Z>131.7899</Z>
-          </Position>
-        </QuestObjective>
-        <QuestObjective>
           <Objective>TurnInQuest</Objective>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <Position>
+            <X>3178.135</X>
+            <Y>-4304.979</Y>
+            <Z>128.485</Z>
+          </Position>
           <NpcEntry>45826</NpcEntry>
           <QuestName>Wretched Hive of Scum and Villainy</QuestName>
           <QuestId>27521</QuestId>
@@ -2013,16 +2011,13 @@
           <QuestId>27532</QuestId>
         </QuestObjective>
         <QuestObjective>
-          <Objective>MoveTo</Objective>
-          <Position>
-            <X>3134.502</X>
-            <Y>-3402.972</Y>
-            <Z>139.4286</Z>
-          </Position>
-        </QuestObjective>
-        <QuestObjective>
           <Objective>TurnInQuest</Objective>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <Position>
+            <X>3135.903</X>
+            <Y>-3394.933</Y>
+            <Z>140.0035</Z>
+          </Position>
           <NpcEntry>45729</NpcEntry>
           <QuestName>Blind Fury</QuestName>
           <QuestId>27524</QuestId>
@@ -2048,6 +2043,82 @@
           <NpcEntry>45831</NpcEntry>
           <QuestName>Add 'em to the Pile</QuestName>
           <QuestId>27539</QuestId>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>PickUpQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <NpcEntry>45831</NpcEntry>
+          <QuestName>Scourged Mass</QuestName>
+          <QuestId>27528</QuestId>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>PickUpQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <NpcEntry>45831</NpcEntry>
+          <QuestName>Defenders of Darrowshire</QuestName>
+          <QuestId>27529</QuestId>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>CSharpScript</Objective>
+          <InternalIndex>1</InternalIndex>
+          <InternalQuestId>27529</InternalQuestId>
+          <Count>8</Count>
+          <Entry>
+            <int>8530</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>2955.758</X>
+              <Y>-3444.592</Y>
+              <Z>148.0912</Z>
+            </Point>
+            <Point>
+              <X>2971.475</X>
+              <Y>-3141.378</Y>
+              <Z>112.7545</Z>
+            </Point>
+            <Point>
+              <X>2914.053</X>
+              <Y>-3358.071</Y>
+              <Z>113.8358</Z>
+            </Point>
+            <Point>
+              <X>3105.636</X>
+              <Y>-3802.074</Y>
+              <Z>131.3995</Z>
+            </Point>
+          </Hotspots>
+          <Script>=27529.cs</Script>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>CSharpScript</Objective>
+          <InternalIndex>1</InternalIndex>
+          <InternalQuestId>27528</InternalQuestId>
+          <Count>8</Count>
+          <Entry>
+            <int>45851</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>3111.021</X>
+              <Y>-3277.241</Y>
+              <Z>142.7368</Z>
+            </Point>
+            <Point>
+              <X>3032.881</X>
+              <Y>-3136.554</Y>
+              <Z>123.3614</Z>
+            </Point>
+            <Point>
+              <X>2926.317</X>
+              <Y>-3365.66</Y>
+              <Z>112.6972</Z>
+            </Point>
+          </Hotspots>
+          <Script>=27528.cs</Script>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <UseItemId>61369</UseItemId>
         </QuestObjective>
         <QuestObjective>
           <Objective>KillMob</Objective>
