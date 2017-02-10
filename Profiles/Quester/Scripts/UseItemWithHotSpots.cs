@@ -8,7 +8,8 @@ if (questObjective.Hotspots.Count <= 0)
 	return false;
 }
 
-
+if (questObjective.IgnoreFight)
+	nManager.Wow.Helpers.Quest.GetSetIgnoreFight = true;
   
 WoWGameObject node = ObjectManager.GetNearestWoWGameObject(ObjectManager.GetWoWGameObjectById(questObjective.Entry));
 WoWUnit unit = ObjectManager.GetNearestWoWUnit(ObjectManager.GetWoWUnitByEntry(questObjective.Entry, questObjective.IsDead), questObjective.IgnoreNotSelectable, questObjective.IgnoreBlackList, questObjective.AllowPlayerControlled);
@@ -18,17 +19,17 @@ uint baseAddress=0;
 
 /* If Entry found continue, otherwise continue checking around HotSpots */
 if ((unit.IsValid && !nManagerSetting.IsBlackListedZone(unit.Position) && !nManagerSetting.IsBlackListed(unit.Guid)) || (node.IsValid && !nManagerSetting.IsBlackListedZone(unit.Position) && !nManagerSetting.IsBlackListed(unit.Guid)))
-{
+{	
+
 	/* Entry found, GoTo */
 	if(node.IsValid)
 		baseAddress = MovementManager.FindTarget(node, questObjective.Range);
 	if(unit.IsValid)
 		baseAddress = MovementManager.FindTarget(unit, questObjective.Range);
-	
 	Thread.Sleep(500);
 	
-	if (MovementManager.InMovement)
-        return false;
+	if (MovementManager.InMovement)    
+	 return false;
 	if (questObjective.IgnoreNotSelectable)
 	{
 	    if ((node.IsValid && node.GetDistance > questObjective.Range) || (unit.IsValid && unit.GetDistance > questObjective.Range))
@@ -36,10 +37,10 @@ if ((unit.IsValid && !nManagerSetting.IsBlackListedZone(unit.Position) && !nMana
 	}
 	else
 	{
-        if(baseAddress <= 0)
-	        return false;
-        if (baseAddress > 0 && ((node.IsValid && node.GetDistance > questObjective.Range) || (unit.IsValid && unit.GetDistance > questObjective.Range)))
-	    return false;
+        if(baseAddress <= 0)	
+			return false;
+		if (baseAddress > 0 && ((node.IsValid && node.GetDistance > questObjective.Range) || (unit.IsValid && unit.GetDistance > questObjective.Range)))
+			return false;
 	}
 	
 	Thread.Sleep(100 + Usefuls.Latency); /* ZZZzzzZZZzz */
@@ -47,9 +48,6 @@ if ((unit.IsValid && !nManagerSetting.IsBlackListedZone(unit.Position) && !nMana
 	/* Target Reached */
 	MovementManager.StopMove();
 	MountTask.DismountMount();
-	
-	if (questObjective.IgnoreFight)
-		nManager.Wow.Helpers.Quest.GetSetIgnoreFight = true;
 
 	if (node.IsValid)
 	{
@@ -90,7 +88,7 @@ if ((unit.IsValid && !nManagerSetting.IsBlackListedZone(unit.Position) && !nMana
 	/* Wait if necessary */
 	if(questObjective.WaitMs > 0)
 		Thread.Sleep(questObjective.WaitMs);
-	nManager.Wow.Helpers.Quest.GetSetIgnoreFight = false;
+
 	
 }
 /* Move to Zone/Hotspot */
@@ -106,3 +104,4 @@ else if (!MovementManager.InMovement)
 		MovementManager.GoLoop(questObjective.PathHotspots);
 	}
 }
+nManager.Wow.Helpers.Quest.GetSetIgnoreFight = false;

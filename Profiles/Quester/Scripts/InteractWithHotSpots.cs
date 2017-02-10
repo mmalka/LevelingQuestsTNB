@@ -7,7 +7,8 @@ if (questObjective.Hotspots.Count <= 0)
 	return false;
 }
 
-
+if (questObjective.IgnoreFight)
+		nManager.Wow.Helpers.Quest.GetSetIgnoreFight = true;
 
 /* Search for Entry */
 WoWGameObject node = ObjectManager.GetNearestWoWGameObject(ObjectManager.GetWoWGameObjectById(questObjective.Entry));
@@ -19,6 +20,7 @@ uint baseAddress = 0;
 /* If Entry found continue, otherwise continue checking around HotSpots */
 if ((unit.IsValid && !nManagerSetting.IsBlackListedZone(unit.Position) && !nManagerSetting.IsBlackListed(unit.Guid)) || (node.IsValid && !nManagerSetting.IsBlackListedZone(unit.Position) && !nManagerSetting.IsBlackListed(unit.Guid)))
 {
+
 	/* Entry found, GoTo */
 	if(node.IsValid)
 		baseAddress = MovementManager.FindTarget(node, questObjective.Range);
@@ -47,9 +49,6 @@ if ((unit.IsValid && !nManagerSetting.IsBlackListedZone(unit.Position) && !nMana
 	/* Entry reached, dismount */
 	MovementManager.StopMove();
 	MountTask.DismountMount();
-   
-	if (questObjective.IgnoreFight)
-		nManager.Wow.Helpers.Quest.GetSetIgnoreFight = true;
 	
 	/* Interact With Entry */
 	if (node.IsValid)
@@ -90,7 +89,7 @@ if ((unit.IsValid && !nManagerSetting.IsBlackListedZone(unit.Position) && !nMana
 		Thread.Sleep(questObjective.WaitMs);
 
 	/* Interact Completed - InternalIndex and count is used to determine if obj is completed - questObjective.IsObjectiveCompleted = true; */
-	nManager.Wow.Helpers.Quest.GetSetIgnoreFight = false;
+
 	
 }else if (!MovementManager.InMovement)
 {
@@ -105,3 +104,5 @@ if ((unit.IsValid && !nManagerSetting.IsBlackListedZone(unit.Position) && !nMana
 		MovementManager.GoLoop(questObjective.PathHotspots);
 	}
 }
+
+nManager.Wow.Helpers.Quest.GetSetIgnoreFight = false;
