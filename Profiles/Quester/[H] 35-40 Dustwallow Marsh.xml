@@ -602,6 +602,9 @@
       <QuestLevel>36</QuestLevel>
       <MinLevel>33</MinLevel>
       <MaxLevel>46</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>27184</int>
+      </NeedQuestCompletedId>
       <PickUp>23843</PickUp>
       <TurnIn>23843</TurnIn>
       <Objectives>
