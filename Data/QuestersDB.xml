@@ -13095,7 +13095,7 @@
     <Position>
       <X>2305.76</X>
       <Y>-5335.47</Y>
-      <Z>90.75244</Z>
+      <Z>90.75228</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Azeroth</ContinentId>
@@ -13733,31 +13733,7 @@
     <Position>
       <X>2393.547</X>
       <Y>-2525.32861</Y>
-      <Z>-31.1677113</Z>
-    </Position>
-    <Faction>Horde</Faction>
-    <Type>QuestGiver</Type>
-    <ContinentId>Kalimdor</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>11720</Entry>
-    <Name>Loruk Foreststrider</Name>
-    <Position>
-      <X>2393.547</X>
-      <Y>-2525.32861</Y>
-      <Z>-166.801468</Z>
-    </Position>
-    <Faction>Horde</Faction>
-    <Type>QuestGiver</Type>
-    <ContinentId>Kalimdor</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>11720</Entry>
-    <Name>Loruk Foreststrider</Name>
-    <Position>
-      <X>2393.547</X>
-      <Y>-2525.32861</Y>
-      <Z>103.496796</Z>
+      <Z>-417.438171</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
@@ -13781,7 +13757,7 @@
     <Position>
       <X>2393.547</X>
       <Y>-2525.32861</Y>
-      <Z>-417.438171</Z>
+      <Z>-333.8926</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
@@ -13793,7 +13769,31 @@
     <Position>
       <X>2393.547</X>
       <Y>-2525.32861</Y>
-      <Z>-333.8926</Z>
+      <Z>-31.1677113</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>11720</Entry>
+    <Name>Loruk Foreststrider</Name>
+    <Position>
+      <X>2393.547</X>
+      <Y>-2525.32861</Y>
+      <Z>103.496796</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>11720</Entry>
+    <Name>Loruk Foreststrider</Name>
+    <Position>
+      <X>2393.547</X>
+      <Y>-2525.32861</Y>
+      <Z>-166.801468</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
@@ -16504,6 +16504,17 @@
     <Entry>16112</Entry>
     <Name>Crusade Commander Korfax</Name>
     <Position>
+      <X>1656.81</X>
+      <Y>-5324.98</Y>
+      <Z>74.39886</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>16112</Entry>
+    <Name>Crusade Commander Korfax</Name>
+    <Position>
       <X>1694.35</X>
       <Y>-5211.4</Y>
       <Z>74.39518</Z>
@@ -16518,6 +16529,28 @@
       <X>1690.91</X>
       <Y>-5211.74</Y>
       <Z>74.34603</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>16115</Entry>
+    <Name>Crusade Commander Eligor Dawnbringer</Name>
+    <Position>
+      <X>1739.5</X>
+      <Y>-5379.68</Y>
+      <Z>80.9588852</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>16116</Entry>
+    <Name>Archmage Angela Dosantos</Name>
+    <Position>
+      <X>1679.16</X>
+      <Y>-5354.55</Y>
+      <Z>73.6126556</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Azeroth</ContinentId>
@@ -16550,7 +16583,29 @@
     <Position>
       <X>2309.75</X>
       <Y>-5261.74</Y>
-      <Z>82.22284</Z>
+      <Z>82.22337</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>16134</Entry>
+    <Name>Rimblat Earthshatter</Name>
+    <Position>
+      <X>2554.01</X>
+      <Y>-4766.05</Y>
+      <Z>105.928566</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>16134</Entry>
+    <Name>Rimblat Earthshatter</Name>
+    <Position>
+      <X>3165.45</X>
+      <Y>-4322.61</Y>
+      <Z>132.226028</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Azeroth</ContinentId>
@@ -22513,7 +22568,7 @@
     <Position>
       <X>-4243.21338</X>
       <Y>323.120758</Y>
-      <Z>27.8561249</Z>
+      <Z>-123.336624</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
@@ -22537,7 +22592,7 @@
     <Position>
       <X>-4243.21338</X>
       <Y>323.120758</Y>
-      <Z>-123.336624</Z>
+      <Z>27.8561249</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
@@ -42659,6 +42714,28 @@
     <Entry>45400</Entry>
     <Name>Fiona's Caravan</Name>
     <Position>
+      <X>2274.4</X>
+      <Y>-4424.76</Y>
+      <Z>111.731339</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>45400</Entry>
+    <Name>Fiona's Caravan</Name>
+    <Position>
+      <X>2559.24</X>
+      <Y>-4771.25</Y>
+      <Z>106.025307</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>45400</Entry>
+    <Name>Fiona's Caravan</Name>
+    <Position>
       <X>3164.34</X>
       <Y>-4326.89</Y>
       <Z>132.768677</Z>
@@ -42684,6 +42761,17 @@
       <X>1916.45</X>
       <Y>-2651.12</Y>
       <Z>60.6202431</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>45417</Entry>
+    <Name>Fiona</Name>
+    <Position>
+      <X>2556.82</X>
+      <Y>-4765.68</Y>
+      <Z>105.972481</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Azeroth</ContinentId>
@@ -42794,6 +42882,28 @@
       <X>1852.64</X>
       <Y>-3718.98</Y>
       <Z>195.679871</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>45451</Entry>
+    <Name>Argus Highbeacon</Name>
+    <Position>
+      <X>2262.87</X>
+      <Y>-4463.15</Y>
+      <Z>114.299568</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>45451</Entry>
+    <Name>Argus Highbeacon</Name>
+    <Position>
+      <X>2558.56</X>
+      <Y>-4796.26</Y>
+      <Z>143.914</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Azeroth</ContinentId>
@@ -42918,6 +43028,18 @@
       <Y>-4414.97</Y>
       <Z>95.85381</Z>
     </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>45574</Entry>
+    <Name>Vex'tul</Name>
+    <Position>
+      <X>2568.75513</X>
+      <Y>-4768.19043</Y>
+      <Z>108.2179</Z>
+    </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Azeroth</ContinentId>
   </Npc>
@@ -43007,9 +43129,20 @@
     <Entry>45729</Entry>
     <Name>Tarenar Sunstrike</Name>
     <Position>
-      <X>3169.657</X>
-      <Y>-4324.435</Y>
-      <Z>133.098</Z>
+      <X>2542.57</X>
+      <Y>-4769.43</Y>
+      <Z>105.241692</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>45729</Entry>
+    <Name>Tarenar Sunstrike</Name>
+    <Position>
+      <X>3162.91</X>
+      <Y>-4320.87</Y>
+      <Z>131.629547</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Azeroth</ContinentId>
@@ -43032,7 +43165,7 @@
     <Position>
       <X>2545.14</X>
       <Y>-4769.8</Y>
-      <Z>105.596878</Z>
+      <Z>105.596642</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Azeroth</ContinentId>
@@ -43041,9 +43174,9 @@
     <Entry>45736</Entry>
     <Name>Deacon Andaal</Name>
     <Position>
-      <X>2529.44531</X>
-      <Y>-4789.15674</Y>
-      <Z>105.960983</Z>
+      <X>2509.393</X>
+      <Y>-4764.04639</Y>
+      <Z>100.873932</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Azeroth</ContinentId>
@@ -52390,7 +52523,7 @@
     <Position>
       <X>2890.49658</X>
       <Y>627.434</Y>
-      <Z>593.3703</Z>
+      <Z>706.5976</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Draenor</ContinentId>
@@ -52401,7 +52534,7 @@
     <Position>
       <X>2890.49658</X>
       <Y>627.434</Y>
-      <Z>706.5976</Z>
+      <Z>593.3703</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Draenor</ContinentId>
