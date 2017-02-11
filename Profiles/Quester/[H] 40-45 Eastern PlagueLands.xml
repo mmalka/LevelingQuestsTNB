@@ -527,26 +527,27 @@
       </NeedQuestCompletedId>
       <PickUp>45417</PickUp>
       <TurnIn>45417</TurnIn>
-	  <Objectives>
-		<QuestObjective>
-		  <Objective>InteractWith</Objective>
-		  <Count>1</Count>
-		  <Entry>
-			<int>45400</int>
-		  </Entry>
-		  <ScriptConditionIsComplete>return ObjectManager.Me.InTransport || nManager.Wow.Helpers.Quest.IsQuestFlaggedCompletedLUA(27373);</ScriptConditionIsComplete>
-		  <Position>
-			<X>1839.934</X>
-			<Y>-3697.768</Y>
-			<Z>158.5803</Z>
-		  </Position>
-		  <WaitMs>10000</WaitMs>
-		  <GossipOptionsInteractWith>1</GossipOptionsInteractWith>
-		</QuestObjective>
+      <Objectives>
         <QuestObjective>
-          <Objective>Wait</Objective>
-          <ScriptConditionIsComplete>return !ObjectManager.Me.InTransport || nManager.Wow.Helpers.Quest.IsQuestFlaggedCompletedLUA(27373);</ScriptConditionIsComplete>
-          <WaitMs>5000</WaitMs>
+          <Objective>InteractWith</Objective>
+          <Entry>
+            <int>45400</int>
+          </Entry>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <Position>
+            <X>1839.934</X>
+            <Y>-3697.768</Y>
+            <Z>158.5803</Z>
+          </Position>
+          <WaitMs>130000</WaitMs>
+          <GossipOptionsInteractWith>1</GossipOptionsInteractWith>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>TurnInQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <NpcEntry>45417</NpcEntry>
+          <QuestName>The Trek Continues</QuestName>
+          <QuestId>27448</QuestId>
         </QuestObjective>
       </Objectives>
     </Quest>
@@ -698,6 +699,7 @@
           <InternalIndex>1</InternalIndex>
           <InternalQuestId>27451</InternalQuestId>
           <Count>1</Count>
+          <ScriptConditionIsComplete>if(nManager.Wow.Helpers.Quest.GetLogQuestIsComplete(27451) || nManager.Wow.Helpers.Quest.GetQuestCompleted(27451)) { return true;} else {return false;} </ScriptConditionIsComplete>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <UseItemId>15454</UseItemId>
         </QuestObjective>
