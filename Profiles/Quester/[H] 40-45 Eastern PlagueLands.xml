@@ -1742,6 +1742,11 @@
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <Position>
+            <X>2556.982</X>
+            <Y>-4765.61</Y>
+            <Z>105.973</Z>
+          </Position>
           <NpcEntry>45417</NpcEntry>
           <QuestName>Ix'lar the Underlord</QuestName>
           <QuestId>27487</QuestId>
