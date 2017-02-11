@@ -15998,6 +15998,17 @@
     <ContinentId>Kalimdor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>12384</Entry>
+    <Name>Augustus the Touched</Name>
+    <Position>
+      <X>2935.735</X>
+      <Y>-2744.6355</Y>
+      <Z>109.6079</Z>
+    </Position>
+    <Type>Vendor</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>12781</Entry>
     <Name>Master Sergeant Biggins</Name>
     <Position>
@@ -38681,9 +38692,31 @@
     <Entry>45417</Entry>
     <Name>Fiona</Name>
     <Position>
+      <X>2304.17</X>
+      <Y>-5258.89</Y>
+      <Z>82.081604</Z>
+    </Position>
+    <Type>Vendor</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>45417</Entry>
+    <Name>Fiona</Name>
+    <Position>
       <X>2556.82</X>
       <Y>-4765.68</Y>
       <Z>105.972382</Z>
+    </Position>
+    <Type>Vendor</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>45417</Entry>
+    <Name>Fiona</Name>
+    <Position>
+      <X>3008.54</X>
+      <Y>-3438.77</Y>
+      <Z>149.708542</Z>
     </Position>
     <Type>Vendor</Type>
     <ContinentId>Azeroth</ContinentId>
@@ -38747,6 +38780,28 @@
     <Entry>45451</Entry>
     <Name>Argus Highbeacon</Name>
     <Position>
+      <X>2316.1</X>
+      <Y>-5269.07</Y>
+      <Z>82.25228</Z>
+    </Position>
+    <Type>Vendor</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>45451</Entry>
+    <Name>Argus Highbeacon</Name>
+    <Position>
+      <X>2316.1</X>
+      <Y>-5269.07</Y>
+      <Z>82.25228</Z>
+    </Position>
+    <Type>Repair</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>45451</Entry>
+    <Name>Argus Highbeacon</Name>
+    <Position>
       <X>2558.56</X>
       <Y>-4796.26</Y>
       <Z>143.914</Z>
@@ -38761,6 +38816,28 @@
       <X>2558.56</X>
       <Y>-4796.26</Y>
       <Z>143.914</Z>
+    </Position>
+    <Type>Repair</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>45451</Entry>
+    <Name>Argus Highbeacon</Name>
+    <Position>
+      <X>3010.16</X>
+      <Y>-3428.6</Y>
+      <Z>149.709686</Z>
+    </Position>
+    <Type>Vendor</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>45451</Entry>
+    <Name>Argus Highbeacon</Name>
+    <Position>
+      <X>3010.16</X>
+      <Y>-3428.6</Y>
+      <Z>149.709686</Z>
     </Position>
     <Type>Repair</Type>
     <ContinentId>Azeroth</ContinentId>

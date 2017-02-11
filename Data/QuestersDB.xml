@@ -3373,6 +3373,39 @@
     <Type>QuestGiver</Type>
     <ContinentId>Azeroth</ContinentId>
   </Npc>
+      <Npc>
+      <Entry>38704</Entry>
+      <Name>Kelsey Steelspark</Name>
+      <Position>
+        <X>-7945.066</X>
+        <Y>-5270.217</Y>
+        <Z>0.7689236</Z>
+      </Position>
+      <Type>QuestGiver</Type>
+      <ContinentId>Kalimdor</ContinentId>
+    </Npc>
+    <Npc>
+      <Entry>208177</Entry>
+      <Name>Candy Bucket</Name>
+      <Position>
+        <X>-8702.172</X>
+        <Y>-4080.111</Y>
+        <Z>40.45698</Z>
+      </Position>
+      <Type>QuestGiver</Type>
+      <ContinentId>Kalimdor</ContinentId>
+    </Npc>
+    <Npc>
+      <Entry>39059</Entry>
+      <Name>Kelsey Steelspark</Name>
+      <Position>
+        <X>-9757.29</X>
+        <Y>-3669.866</Y>
+        <Z>10.86723</Z>
+      </Position>
+      <Type>QuestGiver</Type>
+      <ContinentId>Kalimdor</ContinentId>
+    </Npc>
   <Npc>
     <Entry>1627</Entry>
     <Name>Dalaran Crate</Name>
@@ -13733,18 +13766,6 @@
     <Position>
       <X>2393.547</X>
       <Y>-2525.32861</Y>
-      <Z>-417.438171</Z>
-    </Position>
-    <Faction>Horde</Faction>
-    <Type>QuestGiver</Type>
-    <ContinentId>Kalimdor</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>11720</Entry>
-    <Name>Loruk Foreststrider</Name>
-    <Position>
-      <X>2393.547</X>
-      <Y>-2525.32861</Y>
       <Z>-249.86586</Z>
     </Position>
     <Faction>Horde</Faction>
@@ -13758,6 +13779,18 @@
       <X>2393.547</X>
       <Y>-2525.32861</Y>
       <Z>-333.8926</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>11720</Entry>
+    <Name>Loruk Foreststrider</Name>
+    <Position>
+      <X>2393.547</X>
+      <Y>-2525.32861</Y>
+      <Z>-417.438171</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
@@ -16595,6 +16628,17 @@
       <X>2554.01</X>
       <Y>-4766.05</Y>
       <Z>105.928566</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>16134</Entry>
+    <Name>Rimblat Earthshatter</Name>
+    <Position>
+      <X>3003.88</X>
+      <Y>-3428.41</Y>
+      <Z>149.709061</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Azeroth</ContinentId>
@@ -22568,7 +22612,7 @@
     <Position>
       <X>-4243.21338</X>
       <Y>323.120758</Y>
-      <Z>-123.336624</Z>
+      <Z>27.8561249</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
@@ -22592,7 +22636,7 @@
     <Position>
       <X>-4243.21338</X>
       <Y>323.120758</Y>
-      <Z>27.8561249</Z>
+      <Z>-123.336624</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
@@ -42725,6 +42769,17 @@
     <Entry>45400</Entry>
     <Name>Fiona's Caravan</Name>
     <Position>
+      <X>2310.01</X>
+      <Y>-5255.36</Y>
+      <Z>81.98994</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>45400</Entry>
+    <Name>Fiona's Caravan</Name>
+    <Position>
       <X>2559.24</X>
       <Y>-4771.25</Y>
       <Z>106.025307</Z>
@@ -42761,6 +42816,17 @@
       <X>1916.45</X>
       <Y>-2651.12</Y>
       <Z>60.6202431</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>45417</Entry>
+    <Name>Fiona</Name>
+    <Position>
+      <X>2304.17</X>
+      <Y>-5258.89</Y>
+      <Z>82.081604</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Azeroth</ContinentId>
@@ -42901,9 +42967,31 @@
     <Entry>45451</Entry>
     <Name>Argus Highbeacon</Name>
     <Position>
+      <X>2316.1</X>
+      <Y>-5269.07</Y>
+      <Z>82.25228</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>45451</Entry>
+    <Name>Argus Highbeacon</Name>
+    <Position>
       <X>2558.56</X>
       <Y>-4796.26</Y>
       <Z>143.914</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>45451</Entry>
+    <Name>Argus Highbeacon</Name>
+    <Position>
+      <X>3010.16</X>
+      <Y>-3428.6</Y>
+      <Z>149.709686</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Azeroth</ContinentId>
@@ -43129,9 +43217,42 @@
     <Entry>45729</Entry>
     <Name>Tarenar Sunstrike</Name>
     <Position>
+      <X>2306.87</X>
+      <Y>-5262.5</Y>
+      <Z>82.4521561</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>45729</Entry>
+    <Name>Tarenar Sunstrike</Name>
+    <Position>
       <X>2542.57</X>
       <Y>-4769.43</Y>
       <Z>105.241692</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>45729</Entry>
+    <Name>Tarenar Sunstrike</Name>
+    <Position>
+      <X>3007.13</X>
+      <Y>-3438.02</Y>
+      <Z>149.709061</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>45729</Entry>
+    <Name>Tarenar Sunstrike</Name>
+    <Position>
+      <X>3135.556</X>
+      <Y>-3409.40942</Y>
+      <Z>139.909058</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Azeroth</ContinentId>
@@ -43151,11 +43272,21 @@
     <Entry>45730</Entry>
     <Name>Gidwin Goldbraids</Name>
     <Position>
+      <X>2301.97</X>
+      <Y>-5260.52</Y>
+      <Z>82.19601</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>45730</Entry>
+    <Name>Gidwin Goldbraids</Name>
+    <Position>
       <X>3008.11</X>
       <Y>-3434.52</Y>
-      <Z>151.1581</Z>
+      <Z>151.158066</Z>
     </Position>
-    <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
     <ContinentId>Azeroth</ContinentId>
   </Npc>
@@ -52523,7 +52654,7 @@
     <Position>
       <X>2890.49658</X>
       <Y>627.434</Y>
-      <Z>706.5976</Z>
+      <Z>513.6742</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Draenor</ContinentId>
@@ -52545,7 +52676,7 @@
     <Position>
       <X>2890.49658</X>
       <Y>627.434</Y>
-      <Z>513.6742</Z>
+      <Z>706.5976</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Draenor</ContinentId>
