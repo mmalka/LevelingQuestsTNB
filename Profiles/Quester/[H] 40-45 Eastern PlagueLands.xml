@@ -1716,6 +1716,13 @@
           </Entry>
           <CollectItemId>1</CollectItemId>
           <CollectCount>1</CollectCount>
+          <Hotspots>
+            <Point>
+              <X>3439.25</X>
+              <Y>-4980.96</Y>
+              <Z>195.728</Z>
+            </Point>
+          </Hotspots>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
