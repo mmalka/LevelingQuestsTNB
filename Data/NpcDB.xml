@@ -33767,6 +33767,17 @@
     <ContinentId>Kalimdor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>37674</Entry>
+    <Name>Lovely Merchant</Name>
+    <Position>
+      <X>-1218.882</X>
+      <Y>63.5868073</Y>
+      <Z>130.904083</Z>
+    </Position>
+    <Type>Vendor</Type>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>37761</Entry>
     <Name>Sally "Salvager" Sandscrew</Name>
     <Position>

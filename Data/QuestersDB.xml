@@ -13733,7 +13733,7 @@
     <Position>
       <X>2393.547</X>
       <Y>-2525.32861</Y>
-      <Z>-249.86586</Z>
+      <Z>-417.438171</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
@@ -13769,6 +13769,18 @@
     <Position>
       <X>2393.547</X>
       <Y>-2525.32861</Y>
+      <Z>-249.86586</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>11720</Entry>
+    <Name>Loruk Foreststrider</Name>
+    <Position>
+      <X>2393.547</X>
+      <Y>-2525.32861</Y>
       <Z>-333.8926</Z>
     </Position>
     <Faction>Horde</Faction>
@@ -13782,18 +13794,6 @@
       <X>2393.547</X>
       <Y>-2525.32861</Y>
       <Z>103.496796</Z>
-    </Position>
-    <Faction>Horde</Faction>
-    <Type>QuestGiver</Type>
-    <ContinentId>Kalimdor</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>11720</Entry>
-    <Name>Loruk Foreststrider</Name>
-    <Position>
-      <X>2393.547</X>
-      <Y>-2525.32861</Y>
-      <Z>-417.438171</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
@@ -22579,7 +22579,7 @@
     <Position>
       <X>-4243.21338</X>
       <Y>323.120758</Y>
-      <Z>27.8561249</Z>
+      <Z>-123.336624</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
@@ -22603,7 +22603,7 @@
     <Position>
       <X>-4243.21338</X>
       <Y>323.120758</Y>
-      <Z>-123.336624</Z>
+      <Z>27.8561249</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
@@ -35884,6 +35884,17 @@
     <ContinentId>Kalimdor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>37675</Entry>
+    <Name>Public Relations Agent</Name>
+    <Position>
+      <X>-1218.16663</X>
+      <Y>61.68403</Y>
+      <Z>130.866974</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>37679</Entry>
     <Name>Warlord Bloodhilt</Name>
     <Position>
@@ -36041,6 +36052,18 @@
     <ContinentId>Kalimdor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>37847</Entry>
+    <Name>Mankrik</Name>
+    <Position>
+      <X>-4148.82471</X>
+      <Y>-1942.79517</Y>
+      <Z>92.94929</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>37908</Entry>
     <Name>Calder Gray</Name>
     <Position>
@@ -36156,6 +36179,17 @@
       <Z>11.943553</Z>
     </Position>
     <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>38044</Entry>
+    <Name>Kwee Q. Peddlefeet</Name>
+    <Position>
+      <X>-1216.00171</X>
+      <Y>57.3940964</Y>
+      <Z>129.9241</Z>
+    </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Kalimdor</ContinentId>
   </Npc>
@@ -36521,6 +36555,18 @@
     <ContinentId>Kalimdor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>38703</Entry>
+    <Name>Megs Dreadshredder</Name>
+    <Position>
+      <X>-7954.868</X>
+      <Y>-5245.2207</Y>
+      <Z>1.25155461</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>38704</Entry>
     <Name>Kelsey Steelspark</Name>
     <Position>
@@ -36827,6 +36873,18 @@
     <ContinentId>Azeroth</ContinentId>
   </Npc>
   <Npc>
+    <Entry>39118</Entry>
+    <Name>General Twinbraid</Name>
+    <Position>
+      <X>-3663.67529</X>
+      <Y>-1869.64063</Y>
+      <Z>91.6688156</Z>
+    </Position>
+    <Faction>Alliance</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>39144</Entry>
     <Name>Alto Stonespire</Name>
     <Position>
@@ -36835,6 +36893,18 @@
       <Z>34.5571556</Z>
     </Position>
     <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>39154</Entry>
+    <Name>Hurlston Stonesthrow</Name>
+    <Position>
+      <X>-3661.59375</X>
+      <Y>-1865.08508</Y>
+      <Z>91.66822</Z>
+    </Position>
+    <Faction>Alliance</Faction>
     <Type>QuestGiver</Type>
     <ContinentId>Kalimdor</ContinentId>
   </Npc>
@@ -52665,7 +52735,7 @@
     <Position>
       <X>2890.49658</X>
       <Y>627.434</Y>
-      <Z>706.5976</Z>
+      <Z>513.6742</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Draenor</ContinentId>
@@ -52687,7 +52757,7 @@
     <Position>
       <X>2890.49658</X>
       <Y>627.434</Y>
-      <Z>513.6742</Z>
+      <Z>706.5976</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Draenor</ContinentId>
