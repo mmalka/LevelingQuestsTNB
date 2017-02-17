@@ -376,7 +376,6 @@
           <Entry>
             <int>203181</int>
           </Entry>
-          <ScriptConditionIsComplete>return true;</ScriptConditionIsComplete>
           <Position>
             <X>-11456.02</X>
             <Y>-2633.561</Y>
@@ -605,7 +604,6 @@
           <Entry>
             <int>203181</int>
           </Entry>
-          <ScriptConditionIsComplete>return true;</ScriptConditionIsComplete>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-11456.62</X>
@@ -913,7 +911,6 @@
           <Entry>
             <int>203181</int>
           </Entry>
-          <ScriptConditionIsComplete>return true;</ScriptConditionIsComplete>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-11456.31</X>
@@ -953,7 +950,6 @@
               <Z>-4.575041</Z>
             </Point>
           </Hotspots>
-          <ScriptConditionIsComplete>return true;</ScriptConditionIsComplete>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <ForceTravelToQuestZone>true</ForceTravelToQuestZone>
         </QuestObjective>
@@ -1092,7 +1088,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>MoveTo</Objective>
-          <ScriptConditionIsComplete>return true;</ScriptConditionIsComplete>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-12049</X>
@@ -1339,7 +1334,6 @@
           <Entry>
             <int>203181</int>
           </Entry>
-          <ScriptConditionIsComplete>return true;</ScriptConditionIsComplete>
           <Position>
             <X>-11458.48</X>
             <Y>-2634.073</Y>
