@@ -469,7 +469,7 @@
 		  <Z>11.48586</Z>
       </APoint>
       <BPoint>
-        <X>-6943.851</X>
+		  <X>-6943.851</X>
 		  <Y>-3385.882</Y>
 		  <Z>13.62539</Z>
       </BPoint>
@@ -486,5 +486,87 @@
 		</Point>
       </Points>
     </CustomPath>
+	<CustomPath Id="7" Name="Winterspring - Cave" Faction="Neutral" AContinentId="1" BContinentId="1">
+      <APoint>
+		  <X>5720.768</X>
+		  <Y>-4978.34033</Y>
+		  <Z>808.185242</Z>
+      </APoint>
+      <BPoint>
+          <X>5732.7417</X>
+		  <Y>-4984.45166</Y>
+		  <Z>810.1738</Z>
+      </BPoint>
+      <Points>
+		<Point>
+		  <X>5720.768</X>
+		  <Y>-4978.34033</Y>
+		  <Z>808.185242</Z>
+		</Point>
+		<Point>
+		  <X>5732.7417</X>
+		  <Y>-4984.45166</Y>
+		  <Z>810.1738</Z>
+		</Point>
+      </Points>
+    </CustomPath>
+	<CustomPath Id="8" Name="Blasted Lands - Portal to Hellfire" Faction="Neutral" AContinentId="0" BContinentId="530">
+      <APoint>
+		  <X>-11895.44</X>
+		  <Y>-3206.936</Y>
+		  <Z>-14.64132</Z>
+      </APoint>
+      <BPoint>
+          <X>-225.542</X>
+          <Y>934.743</Y>
+          <Z>84.3784</Z>
+      </BPoint>
+	  <Points>
+		<Point>
+		  <X>-11895.44</X>
+		  <Y>-3206.936</Y>
+		  <Z>-14.64132</Z>
+		</Point>
+		<Point>
+		  <X>-11908.09</X>
+		  <Y>-3208.854</Y>
+		  <Z>-14.83002</Z>
+		</Point>
+		<Point>
+		  <X>-225.542</X>
+		  <Y>934.743</Y>
+		  <Z>84.3784</Z>
+		</Point>
+      </Points>
+    </CustomPath>
+	<CustomPath Id="9" Name="Blasted Lands - Boat" Faction="Neutral" AContinentId="0" BContinentId="0">
+      <APoint>
+		  <X>-11454.6064</X>
+		  <Y>-3819.04565</Y>
+		  <Z>-12.1304808</Z>
+      </APoint>
+      <BPoint>
+          <X>-11450.127</X>
+		  <Y>-3793.49463</Y>
+		  <Z>-3.54359674</Z>
+      </BPoint>
+      <Points>
+         <Point>
+		  <X>-11454.6064</X>
+		  <Y>-3819.04565</Y>
+		  <Z>-12.1304808</Z>
+		</Point>
+		<Point>
+		  <X>-11448.9717</X>
+		  <Y>-3811.633</Y>
+		  <Z>-11.5535545</Z>
+		</Point>
+		<Point>
+		  <X>-11450.127</X>
+		  <Y>-3793.49463</Y>
+		  <Z>-3.54359674</Z>
+		</Point>
+      </Points>
+    </CustomPath>
   </Items>
-</CustomPaths>
+</CustomPaths>	
