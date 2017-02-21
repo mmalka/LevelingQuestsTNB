@@ -258,7 +258,7 @@
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>9298</NpcEntry>
           <QuestName>The Final Piece</QuestName>
-          <QuestId>28470</QuestId>
+          <QuestId>28471</QuestId>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
@@ -281,7 +281,7 @@
       <MinLevel>47</MinLevel>
       <MaxLevel>60</MaxLevel>
       <NeedQuestCompletedId>
-        <int>28471</int>
+        <int>28470</int>
       </NeedQuestCompletedId>
       <PickUp>9298</PickUp>
       <TurnIn>10920</TurnIn>
@@ -1282,13 +1282,14 @@
           </Entry>
           <Hotspots>
             <Point>
-              <X>7118.711</X>
-              <Y>-4620.884</Y>
-              <Z>638.1654</Z>
+              <X>7118.905</X>
+              <Y>-4644.132</Y>
+              <Z>638.964</Z>
             </Point>
           </Hotspots>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <ForceTravelToQuestZone>true</ForceTravelToQuestZone>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>

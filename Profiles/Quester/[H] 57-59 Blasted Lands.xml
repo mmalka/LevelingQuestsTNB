@@ -50,6 +50,9 @@
       <QuestLevel>55</QuestLevel>
       <MinLevel>52</MinLevel>
       <MaxLevel>65</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>25674</int>
+      </NeedQuestCompletedId>
       <PickUp>41124</PickUp>
       <TurnIn>41124</TurnIn>
       <Objectives>
@@ -129,6 +132,9 @@
       <QuestLevel>55</QuestLevel>
       <MinLevel>52</MinLevel>
       <MaxLevel>65</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>25676</int>
+      </NeedQuestCompletedId>
       <PickUp>41133</PickUp>
       <TurnIn>41133</TurnIn>
       <Objectives>
@@ -235,6 +241,9 @@
       <QuestLevel>55</QuestLevel>
       <MinLevel>52</MinLevel>
       <MaxLevel>65</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>25677</int>
+      </NeedQuestCompletedId>
       <PickUp>41133</PickUp>
       <TurnIn>41134</TurnIn>
       <Objectives />
@@ -246,6 +255,9 @@
       <QuestLevel>55</QuestLevel>
       <MinLevel>52</MinLevel>
       <MaxLevel>65</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>25679</int>
+      </NeedQuestCompletedId>
       <PickUp>41134</PickUp>
       <TurnIn>41134</TurnIn>
       <Objectives>
@@ -274,6 +286,9 @@
       <QuestLevel>55</QuestLevel>
       <MinLevel>52</MinLevel>
       <MaxLevel>65</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>25680</int>
+      </NeedQuestCompletedId>
       <PickUp>41134</PickUp>
       <TurnIn>41134</TurnIn>
       <Objectives>
@@ -302,6 +317,9 @@
       <QuestLevel>55</QuestLevel>
       <MinLevel>52</MinLevel>
       <MaxLevel>65</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>25681</int>
+      </NeedQuestCompletedId>
       <PickUp>41134</PickUp>
       <TurnIn>41124</TurnIn>
       <Objectives />
@@ -313,6 +331,9 @@
       <QuestLevel>55</QuestLevel>
       <MinLevel>52</MinLevel>
       <MaxLevel>65</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>25682</int>
+      </NeedQuestCompletedId>
       <PickUp>41124</PickUp>
       <TurnIn>7506</TurnIn>
       <Objectives />
@@ -324,6 +345,9 @@
       <QuestLevel>55</QuestLevel>
       <MinLevel>52</MinLevel>
       <MaxLevel>65</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>25683</int>
+      </NeedQuestCompletedId>
       <PickUp>7506</PickUp>
       <TurnIn>7506</TurnIn>
       <Objectives>
@@ -360,6 +384,9 @@
       <QuestLevel>55</QuestLevel>
       <MinLevel>52</MinLevel>
       <MaxLevel>65</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>25684</int>
+      </NeedQuestCompletedId>
       <PickUp>7506</PickUp>
       <TurnIn>7506</TurnIn>
       <Objectives>
@@ -496,6 +523,9 @@
       <QuestLevel>55</QuestLevel>
       <MinLevel>52</MinLevel>
       <MaxLevel>65</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>25685</int>
+      </NeedQuestCompletedId>
       <PickUp>7506</PickUp>
       <TurnIn>7506</TurnIn>
       <Objectives>
@@ -523,6 +553,9 @@
       <QuestLevel>55</QuestLevel>
       <MinLevel>52</MinLevel>
       <MaxLevel>65</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>25686</int>
+      </NeedQuestCompletedId>
       <PickUp>7506</PickUp>
       <TurnIn>7506</TurnIn>
       <Objectives>
@@ -596,6 +629,9 @@
       <QuestLevel>55</QuestLevel>
       <MinLevel>52</MinLevel>
       <MaxLevel>65</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>25687</int>
+      </NeedQuestCompletedId>
       <PickUp>7506</PickUp>
       <TurnIn>7506</TurnIn>
       <Objectives>
@@ -674,6 +710,9 @@
       <QuestLevel>56</QuestLevel>
       <MinLevel>53</MinLevel>
       <MaxLevel>66</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>25688</int>
+      </NeedQuestCompletedId>
       <PickUp>7783</PickUp>
       <TurnIn>41159</TurnIn>
       <Objectives>
@@ -706,6 +745,9 @@
       <QuestLevel>56</QuestLevel>
       <MinLevel>53</MinLevel>
       <MaxLevel>66</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>25689</int>
+      </NeedQuestCompletedId>
       <PickUp>41159</PickUp>
       <TurnIn>41159</TurnIn>
       <Objectives>
@@ -848,23 +890,15 @@
       </Objectives>
     </Quest>
     <Quest>
-      <Name>Protecting Our Rear</Name>
-      <RaceMask>18875469</RaceMask>
-      <Id>26173</Id>
-      <QuestLevel>56</QuestLevel>
-      <MinLevel>53</MinLevel>
-      <MaxLevel>66</MaxLevel>
-      <PickUp>16841</PickUp>
-      <TurnIn>16841</TurnIn>
-      <Objectives />
-    </Quest>
-    <Quest>
       <Name>Enhancing the Stone</Name>
       <RaceMask>33555378</RaceMask>
       <Id>25693</Id>
       <QuestLevel>56</QuestLevel>
       <MinLevel>53</MinLevel>
       <MaxLevel>66</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>25691</int>
+      </NeedQuestCompletedId>
       <PickUp>41159</PickUp>
       <TurnIn>7783</TurnIn>
       <Objectives>
@@ -890,6 +924,9 @@
       <QuestLevel>56</QuestLevel>
       <MinLevel>53</MinLevel>
       <MaxLevel>66</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>25693</int>
+      </NeedQuestCompletedId>
       <PickUp>7783</PickUp>
       <TurnIn>7783</TurnIn>
       <Objectives>
@@ -911,7 +948,6 @@
           <Entry>
             <int>203181</int>
           </Entry>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-11456.31</X>
             <Y>-2633.664</Y>
@@ -950,6 +986,7 @@
               <Z>-4.575041</Z>
             </Point>
           </Hotspots>
+          <ScriptConditionIsComplete>return nManager.Wow.Helpers.Quest.GetLogQuestIsComplete(25699) || nManager.Wow.Helpers.Quest.GetQuestCompleted(25699);</ScriptConditionIsComplete>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <ForceTravelToQuestZone>true</ForceTravelToQuestZone>
         </QuestObjective>
@@ -999,7 +1036,6 @@
         <QuestObjective>
           <Objective>MoveTo</Objective>
           <Count>1</Count>
-          <ScriptConditionIsComplete>return nManager.Wow.Helpers.Quest.GetLogQuestIsComplete(25702) || nManager.Wow.Helpers.Quest.GetQuestCompleted(25702);</ScriptConditionIsComplete>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-12047.59</X>
@@ -1239,7 +1275,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>MoveTo</Objective>
-          <ScriptConditionIsComplete>return nManager.Wow.Helpers.Quest.GetLogQuestIsComplete(25705) || nManager.Wow.Helpers.Quest.GetQuestCompleted(25705);</ScriptConditionIsComplete>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-12048.44</X>
@@ -1304,6 +1339,9 @@
       <QuestLevel>56</QuestLevel>
       <MinLevel>53</MinLevel>
       <MaxLevel>66</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>25697</int>
+      </NeedQuestCompletedId>
       <PickUp>7506</PickUp>
       <TurnIn>7783</TurnIn>
       <Objectives>
@@ -1325,6 +1363,9 @@
       <QuestLevel>57</QuestLevel>
       <MinLevel>54</MinLevel>
       <MaxLevel>67</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>25700</int>
+      </NeedQuestCompletedId>
       <PickUp>7783</PickUp>
       <TurnIn>41159</TurnIn>
       <Objectives>
@@ -1356,6 +1397,15 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>CSharpScript</Objective>
+          <Count>1</Count>
+          <Entry>
+            <int>41280</int>
+          </Entry>
+          <Script>=26171-2.cs</Script>
+          <Range>0</Range>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>CSharpScript</Objective>
           <InternalIndex>2</InternalIndex>
           <Count>1</Count>
           <Entry>
@@ -1367,24 +1417,23 @@
           <IgnoreFight>true</IgnoreFight>
         </QuestObjective>
         <QuestObjective>
-          <Objective>MoveTo</Objective>
+          <Objective>CSharpScript</Objective>
           <Count>1</Count>
+          <Hotspots>
+            <Point>
+              <X>-11193.6533</X>
+              <Y>-2831.50269</Y>
+              <Z>116.606346</Z>
+            </Point>
+            <Point>
+              <X>-11176.4854</X>
+              <Y>-2836.2666</Y>
+              <Z>116.472527</Z>
+            </Point>
+          </Hotspots>
+          <Script>=ClickToMoveHotSpots.cs</Script>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <Position>
-            <X>-11195.83</X>
-            <Y>-2836.543</Y>
-            <Z>117.0498</Z>
-          </Position>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>MoveTo</Objective>
-          <Count>1</Count>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <Position>
-            <X>-11177.25</X>
-            <Y>-2835.63</Y>
-            <Z>116.7001</Z>
-          </Position>
+          <Range>0</Range>
         </QuestObjective>
       </Objectives>
     </Quest>
@@ -1395,6 +1444,9 @@
       <QuestLevel>58</QuestLevel>
       <MinLevel>55</MinLevel>
       <MaxLevel>68</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>25701</int>
+      </NeedQuestCompletedId>
       <PickUp>42344</PickUp>
       <TurnIn>42344</TurnIn>
       <Objectives>
@@ -1496,10 +1548,14 @@
     </Quest>
     <Quest>
       <Name>How Best to Proceed</Name>
+      <RaceMask>33555378</RaceMask>
       <Id>25718</Id>
       <QuestLevel>58</QuestLevel>
       <MinLevel>55</MinLevel>
       <MaxLevel>68</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>25717</int>
+      </NeedQuestCompletedId>
       <PickUp>42344</PickUp>
       <TurnIn>42348</TurnIn>
       <Objectives />
@@ -1511,6 +1567,9 @@
       <QuestLevel>58</QuestLevel>
       <MinLevel>55</MinLevel>
       <MaxLevel>68</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>25718</int>
+      </NeedQuestCompletedId>
       <PickUp>42348</PickUp>
       <TurnIn>42344</TurnIn>
       <Objectives>
@@ -1644,6 +1703,9 @@
       <QuestLevel>59</QuestLevel>
       <MinLevel>56</MinLevel>
       <MaxLevel>69</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>25719</int>
+      </NeedQuestCompletedId>
       <PickUp>42344</PickUp>
       <TurnIn>42344</TurnIn>
       <Objectives>
