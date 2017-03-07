@@ -518,5 +518,37 @@
 		<Z>208.908</Z>
       </BPoint>
     </Transport>
+    <Transport Id="176310" Name="Ship (The Bravery)" Faction="Alliance" AContinentId="1" BContinentId="1">
+      <AOutsidePoint>
+        <X>8179.573</X>
+        <Y>1002.025</Y>
+        <Z>6.909408</Z>
+      </AOutsidePoint>
+      <BOutsidePoint>
+        <X>-8642.085</X>
+        <Y>1328.804</Y>
+        <Z>5.232974</Z>
+      </BOutsidePoint>
+      <AInsidePoint>
+        <X>8170.794</X>
+        <Y>1005.095</Y>
+        <Z>6.181489</Z>
+      </AInsidePoint>
+      <BInsidePoint>
+        <X>-8645.805</X>
+        <Y>1337.796</Y>
+        <Z>6.189689</Z>
+      </BInsidePoint>
+      <APoint>
+        <X>8162.587</X>
+        <Y>1005.365</Y>
+        <Z>-0.00836078</Z>
+      </APoint>
+      <BPoint>
+        <X>-8650.719</X>
+        <Y>1346.051</Y>
+        <Z>-0.02120704</Z>
+      </BPoint>
+    </Transport>
   </Items>
 </Transports>
