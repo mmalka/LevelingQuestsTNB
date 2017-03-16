@@ -9504,7 +9504,6 @@
   <Npc>
     <Entry>4773</Entry>
     <Name>Velma Warnam</Name>
-    <InternalData>762,75</InternalData>
     <Position>
       <X>2275.08</X>
       <Y>236.997</Y>
@@ -34175,7 +34174,6 @@
   <Npc>
     <Entry>35093</Entry>
     <Name>Wind Rider Jahubo</Name>
-    <InternalData>762,150</InternalData>
     <Position>
       <X>45.0989571</X>
       <Y>2741.53052</Y>
