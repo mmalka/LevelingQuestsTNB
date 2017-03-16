@@ -330,6 +330,20 @@
       </Objectives>
     </Quest>
     <Quest>
+      <Name>Heart of the Watcher</Name>
+      <RaceMask>2098253</RaceMask>
+      <Id>26252</Id>
+      <QuestLevel>10</QuestLevel>
+      <MinLevel>10</MinLevel>
+      <MaxLevel>25</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>26241</int>
+      </NeedQuestCompletedId>
+      <ItemPickUp>57935</ItemPickUp>
+      <TurnIn>233</TurnIn>
+      <Objectives />
+    </Quest>
+    <Quest>
       <Name>Westfall Stew</Name>
       <RaceMask>2098253</RaceMask>
       <Id>26241</Id>
@@ -406,20 +420,6 @@
           </Hotspots>
         </QuestObjective>
       </Objectives>
-    </Quest>
-    <Quest>
-      <Name>Heart of the Watcher</Name>
-      <RaceMask>2098253</RaceMask>
-      <Id>26252</Id>
-      <QuestLevel>10</QuestLevel>
-      <MinLevel>10</MinLevel>
-      <MaxLevel>25</MaxLevel>
-      <NeedQuestCompletedId>
-        <int>26241</int>
-      </NeedQuestCompletedId>
-      <ItemPickUp>57935</ItemPickUp>
-      <TurnIn>233</TurnIn>
-      <Objectives />
     </Quest>
     <Quest>
       <Name>You Have Our Thanks</Name>
