@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<QuesterProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<QuesterProfile Author="Neo2003" DevelopmentStatus="Outdated">
   <Questers>
     <Npc>
       <Entry>464</Entry>
@@ -936,7 +936,6 @@
             <Z>93.4773</Z>
           </Position>
         </QuestObjective>
-      
         <QuestObjective>
           <Objective>CSharpScript</Objective>
           <Entry>
@@ -950,7 +949,7 @@
           </Position>
           <Range>0</Range>
         </QuestObjective>
-		  <QuestObjective>
+        <QuestObjective>
           <Objective>CSharpScript</Objective>
           <Count>1</Count>
           <Hotspots>

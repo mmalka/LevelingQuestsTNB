@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<QuesterProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<QuesterProfile Author="Arasal" DevelopmentStatus="Untested">
   <Questers>
     <Npc>
       <Entry>38704</Entry>
@@ -59,7 +59,6 @@
         <QuestObjective>
           <Objective>PickUpObject</Objective>
           <InternalIndex>1</InternalIndex>
-          <InternalQuestId>24906</InternalQuestId>
           <Entry>
             <int>202198</int>
           </Entry>
@@ -82,6 +81,7 @@
         <QuestObjective>
           <Objective>KillMob</Objective>
           <InternalIndex>1</InternalIndex>
+          <InternalQuestId>24907</InternalQuestId>
           <Count>8</Count>
           <Entry>
             <int>39022</int>
@@ -118,43 +118,6 @@
       </Objectives>
     </Quest>
     <Quest>
-      <Name>Seaside Salvage</Name>
-      <RaceMask>33555378</RaceMask>
-      <Id>24906</Id>
-      <QuestLevel>45</QuestLevel>
-      <MinLevel>42</MinLevel>
-      <MaxLevel>55</MaxLevel>
-      <NeedQuestCompletedId>
-        <int>24907</int>
-      </NeedQuestCompletedId>
-      <PickUp>38534</PickUp>
-      <TurnIn>38534</TurnIn>
-      <Objectives>
-        <QuestObjective>
-          <Objective>PickUpObject</Objective>
-          <InternalIndex>1</InternalIndex>
-          <Entry>
-            <int>202198</int>
-          </Entry>
-          <CollectItemId>1</CollectItemId>
-          <CollectCount>7</CollectCount>
-          <Hotspots>
-            <Point>
-              <X>-7543.656</X>
-              <Y>-3873.991</Y>
-              <Z>-0.5687146</Z>
-            </Point>
-            <Point>
-              <X>-7622.592</X>
-              <Y>-3984.501</Y>
-              <Z>-1.554045</Z>
-            </Point>
-          </Hotspots>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-        </QuestObjective>
-      </Objectives>
-    </Quest>
-    <Quest>
       <Name>Rocket Rescue</Name>
       <RaceMask>33555378</RaceMask>
       <Id>24910</Id>
@@ -162,7 +125,7 @@
       <MinLevel>42</MinLevel>
       <MaxLevel>55</MaxLevel>
       <NeedQuestCompletedId>
-        <int>24906</int>
+        <int>24907</int>
       </NeedQuestCompletedId>
       <PickUp>38534</PickUp>
       <TurnIn>38534</TurnIn>
@@ -240,7 +203,7 @@
       <MinLevel>42</MinLevel>
       <MaxLevel>55</MaxLevel>
       <NeedQuestCompletedId>
-        <int>24910</int>
+        <int>25048</int>
       </NeedQuestCompletedId>
       <PickUp>39178</PickUp>
       <TurnIn>39178</TurnIn>
@@ -427,11 +390,6 @@
               <Y>-3045.188</Y>
               <Z>10.70518</Z>
             </Point>
-            <Point>
-              <X>-7218.1665</X>
-              <Y>-3281.153</Y>
-              <Z>11.4333363</Z>
-            </Point>
           </Hotspots>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
@@ -490,7 +448,7 @@
       <MinLevel>42</MinLevel>
       <MaxLevel>55</MaxLevel>
       <NeedQuestCompletedId>
-        <int>25021</int>
+        <int>25115</int>
       </NeedQuestCompletedId>
       <PickUp>38927</PickUp>
       <TurnIn>38927</TurnIn>
@@ -1707,14 +1665,6 @@
         <X>-9258.106</X>
         <Y>-2948.418</Y>
         <Z>12.11264</Z>
-      </Position>
-      <Radius>10</Radius>
-    </QuesterBlacklistRadius>
-    <QuesterBlacklistRadius>
-      <Position>
-        <X>-9751.089</X>
-        <Y>-2751.847</Y>
-        <Z>11.26937</Z>
       </Position>
       <Radius>10</Radius>
     </QuesterBlacklistRadius>

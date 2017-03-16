@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<QuesterProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<QuesterProfile Author="Arasal" DevelopmentStatus="Untested">
   <Questers />
   <Quests>
     <Quest>
@@ -28,7 +28,6 @@
           <Entry>
             <int>18931</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <Position>
             <X>-320.8519</X>
             <Y>1025.478</Y>
@@ -62,7 +61,6 @@
       <Objectives>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>16819</NpcEntry>
           <QuestName>Know your Enemy</QuestName>
@@ -70,7 +68,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>16820</NpcEntry>
           <QuestName>Know your Enemy</QuestName>
@@ -78,7 +75,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>19309</NpcEntry>
           <QuestName>The Legion Reborn</QuestName>
@@ -98,7 +94,6 @@
       <Objectives>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <NpcEntry>16820</NpcEntry>
           <QuestName>Fel Orc Scavengers</QuestName>
           <QuestId>10482</QuestId>
@@ -129,7 +124,6 @@
               <Z>42.22952</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpObject</Objective>
@@ -156,7 +150,6 @@
               <Z>42.22952</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>KillMob</Objective>
@@ -185,13 +178,11 @@
               <Z>42.22952</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>21209</NpcEntry>
           <QuestName>Waste Not, Want Not</QuestName>
@@ -199,7 +190,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>16820</NpcEntry>
           <QuestName>Fel Orc Scavengers</QuestName>
@@ -236,7 +226,6 @@
               <Z>103.3555</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
         <QuestObjective>
@@ -258,7 +247,6 @@
               <Z>103.3555</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
         <QuestObjective>
@@ -275,7 +263,6 @@
               <Z>78.78346</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
       </Objectives>
@@ -294,7 +281,6 @@
           <Objective>UseItem</Objective>
           <InternalIndex>3</InternalIndex>
           <Count>1</Count>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <UseItemId>26002</UseItemId>
           <Position>
             <X>-163.4372</X>
@@ -308,7 +294,6 @@
           <Objective>UseItem</Objective>
           <InternalIndex>4</InternalIndex>
           <Count>1</Count>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <UseItemId>26002</UseItemId>
           <Position>
             <X>-151.4724</X>
@@ -322,7 +307,6 @@
           <Objective>UseItem</Objective>
           <InternalIndex>2</InternalIndex>
           <Count>1</Count>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <UseItemId>26002</UseItemId>
           <Position>
             <X>-129.8637</X>
@@ -336,7 +320,6 @@
           <Objective>UseItem</Objective>
           <InternalIndex>1</InternalIndex>
           <Count>1</Count>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <UseItemId>26002</UseItemId>
           <Position>
             <X>-136.6177</X>
@@ -360,7 +343,6 @@
       <Objectives>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <NpcEntry>19309</NpcEntry>
           <QuestName>Expedition Point</QuestName>
           <QuestId>10143</QuestId>
@@ -382,13 +364,11 @@
               <Z>66.93985</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>19309</NpcEntry>
           <QuestName>Expedition Point</QuestName>
@@ -396,7 +376,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>21133</NpcEntry>
           <QuestName>Ill Omens</QuestName>
@@ -443,13 +422,11 @@
               <Z>68.73098</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>MoveTo</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <Position>
             <X>-535.2428</X>
             <Y>1776.984</Y>
@@ -464,7 +441,6 @@
           <Entry>
             <int>184415</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-553.2679</X>
@@ -475,7 +451,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>MoveTo</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <Position>
             <X>-537.1168</X>
             <Y>1776.665</Y>
@@ -501,13 +476,11 @@
               <Z>68.73098</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>MoveTo</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <Position>
             <X>-418.1632</X>
             <Y>1859.981</Y>
@@ -522,7 +495,6 @@
           <Entry>
             <int>184414</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-429.8798</X>
@@ -533,7 +505,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>MoveTo</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <Position>
             <X>-418.4544</X>
             <Y>1858.934</Y>
@@ -558,7 +529,6 @@
           <Entry>
             <int>19409</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <Position>
             <X>-672.3448</X>
             <Y>1854.972</Y>
@@ -575,7 +545,6 @@
             <int>19299</int>
           </Entry>
           <Script>=10146.cs</Script>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <UseItemId>28038</UseItemId>
           <Position>
             <X>-313.1548</X>
@@ -593,7 +562,6 @@
             <int>19291</int>
           </Entry>
           <Script>=10146.cs</Script>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <UseItemId>28038</UseItemId>
           <Position>
             <X>-160.8908</X>
@@ -621,7 +589,6 @@
           <Entry>
             <int>19409</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-672.9144</X>
@@ -660,7 +627,6 @@
           <Entry>
             <int>20235</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <Position>
             <X>296.1398</X>
             <Y>1497.245</Y>
@@ -677,7 +643,6 @@
             <int>19399</int>
           </Entry>
           <Script>=10163.cs</Script>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <UseItemId>28132</UseItemId>
           <WaitMs>500</WaitMs>
           <Range>73</Range>
@@ -690,7 +655,6 @@
             <int>19398</int>
           </Entry>
           <Script>=10163.cs</Script>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <UseItemId>28132</UseItemId>
           <WaitMs>500</WaitMs>
           <Range>73</Range>
@@ -703,7 +667,6 @@
             <int>19397</int>
           </Entry>
           <Script>=10163.cs</Script>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <UseItemId>28132</UseItemId>
           <WaitMs>500</WaitMs>
           <Range>73</Range>
@@ -726,7 +689,6 @@
           <Entry>
             <int>20235</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>297.6044</X>
@@ -767,7 +729,6 @@
               <Z>118.4337</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
         <QuestObjective>
@@ -789,7 +750,6 @@
               <Z>117.9377</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
       </Objectives>
@@ -823,7 +783,6 @@
               <Z>119.032</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
       </Objectives>
@@ -852,7 +811,6 @@
               <Z>217.5553</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
         <QuestObjective>
@@ -870,7 +828,6 @@
               <Z>217.2246</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
         <QuestObjective>
@@ -880,7 +837,6 @@
           <Entry>
             <int>182935</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <Position>
             <X>534.8137</X>
             <Y>2799.438</Y>
@@ -902,21 +858,18 @@
       <Objectives>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <NpcEntry>16839</NpcEntry>
           <QuestName>The Path of Glory</QuestName>
           <QuestId>10047</QuestId>
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <NpcEntry>16827</NpcEntry>
           <QuestName>Unyielding Souls</QuestName>
           <QuestId>10050</QuestId>
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <NpcEntry>16837</NpcEntry>
           <QuestName>When This Mine's a-Rockin'</QuestName>
           <QuestId>10079</QuestId>
@@ -941,13 +894,11 @@
               <Z>-3.254154</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>16837</NpcEntry>
           <QuestName>When This Mine's a-Rockin'</QuestName>
@@ -955,7 +906,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>16837</NpcEntry>
           <QuestName>The Mastermind</QuestName>
@@ -976,13 +926,11 @@
               <Z>-3.185816</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>16837</NpcEntry>
           <QuestName>The Mastermind</QuestName>
@@ -1004,7 +952,6 @@
               <Z>-34.80945</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
@@ -1032,7 +979,6 @@
               <Z>-29.39524</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
@@ -1066,7 +1012,6 @@
               <Z>-29.39524</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
@@ -1095,7 +1040,6 @@
               <Z>-61.1961</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
@@ -1114,12 +1058,10 @@
               <Z>-61.96692</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>16827</NpcEntry>
           <QuestName>Unyielding Souls</QuestName>
@@ -1127,7 +1069,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>16839</NpcEntry>
           <QuestName>The Path of Glory</QuestName>
@@ -1135,7 +1076,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>16825</NpcEntry>
           <QuestName>An Old Gift</QuestName>
@@ -1167,7 +1107,6 @@
               <Z>-27.35508</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
         <QuestObjective>
@@ -1184,7 +1123,6 @@
               <Z>-27.10737</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
       </Objectives>
@@ -1201,7 +1139,6 @@
       <Objectives>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <NpcEntry>21133</NpcEntry>
           <QuestName>Cursed Talismans</QuestName>
           <QuestId>10484</QuestId>
@@ -1210,7 +1147,6 @@
           <Objective>UseItem</Objective>
           <InternalIndex>1</InternalIndex>
           <Count>1</Count>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <UseItemId>31739</UseItemId>
           <Position>
             <X>-817.2266</X>
@@ -1224,7 +1160,6 @@
           <Objective>UseItem</Objective>
           <InternalIndex>3</InternalIndex>
           <Count>1</Count>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <UseItemId>31739</UseItemId>
           <Position>
             <X>-898.5159</X>
@@ -1238,7 +1173,6 @@
           <Objective>UseItem</Objective>
           <InternalIndex>4</InternalIndex>
           <Count>1</Count>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <UseItemId>31739</UseItemId>
           <Position>
             <X>-972.5254</X>
@@ -1252,7 +1186,6 @@
           <Objective>UseItem</Objective>
           <InternalIndex>2</InternalIndex>
           <Count>1</Count>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <UseItemId>31739</UseItemId>
           <Position>
             <X>-1152.65</X>
@@ -1291,13 +1224,11 @@
               <Z>67.46974</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>21133</NpcEntry>
           <QuestName>Cursed Talismans</QuestName>
@@ -1305,7 +1236,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>19409</NpcEntry>
           <QuestName>Zeth'Gor Must Burn!</QuestName>
@@ -1338,7 +1268,6 @@
               <Z>81.54845</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
       </Objectives>
@@ -1366,7 +1295,6 @@
       <Objectives>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <NpcEntry>19344</NpcEntry>
           <QuestName>Ravager Egg Roundup</QuestName>
           <QuestId>9349</QuestId>
@@ -1397,12 +1325,10 @@
               <Z>32.84726</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>19344</NpcEntry>
           <QuestName>Ravager Egg Roundup</QuestName>
@@ -1410,7 +1336,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>19344</NpcEntry>
           <QuestName>Helboar, the Other White Meat</QuestName>
@@ -1449,7 +1374,6 @@
               <Z>18.07109</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>KillMob</Objective>
@@ -1481,7 +1405,6 @@
               <Z>25.84659</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
@@ -1490,7 +1413,6 @@
           <InternalIndex>1</InternalIndex>
           <InternalQuestId>9361</InternalQuestId>
           <Count>8</Count>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <UseItemId>23268</UseItemId>
           <Position>
@@ -1503,7 +1425,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>19344</NpcEntry>
           <QuestName>Helboar, the Other White Meat</QuestName>
@@ -1511,7 +1432,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>19367</NpcEntry>
           <QuestName>In Case of Emergency...</QuestName>
@@ -1531,7 +1451,6 @@
       <Objectives>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <NpcEntry>19367</NpcEntry>
           <QuestName>Voidwalkers Gone Wild</QuestName>
           <QuestId>9351</QuestId>
@@ -1557,7 +1476,6 @@
               <Z>25.9017</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
@@ -1586,12 +1504,10 @@
               <Z>13.19233</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>19367</NpcEntry>
           <QuestName>Voidwalkers Gone Wild</QuestName>
@@ -1599,7 +1515,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>19344</NpcEntry>
           <QuestName>Smooth as Butter</QuestName>
@@ -1652,28 +1567,24 @@
       <Objectives>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <NpcEntry>16799</NpcEntry>
           <QuestName>The Rock Flayer Matriarch</QuestName>
           <QuestId>9490</QuestId>
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <NpcEntry>16797</NpcEntry>
           <QuestName>Deadly Predators</QuestName>
           <QuestId>9398</QuestId>
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <NpcEntry>16796</NpcEntry>
           <QuestName>The Pools of Aggonar</QuestName>
           <QuestId>9426</QuestId>
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <NpcEntry>16833</NpcEntry>
           <QuestName>Makuru's Vengeance</QuestName>
           <QuestId>9424</QuestId>
@@ -1698,7 +1609,6 @@
               <Z>63.33433</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
@@ -1722,7 +1632,6 @@
               <Z>62.15964</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
@@ -1753,13 +1662,11 @@
               <Z>193.4395</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>16833</NpcEntry>
           <QuestName>Makuru's Vengeance</QuestName>
@@ -1790,7 +1697,6 @@
               <Z>29.04974</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
@@ -1819,7 +1725,6 @@
               <Z>29.04974</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
@@ -1838,7 +1743,6 @@
               <Z>23.89867</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
@@ -1866,13 +1770,11 @@
               <Z>30.94957</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>16797</NpcEntry>
           <QuestName>Deadly Predators</QuestName>
@@ -1880,7 +1782,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>16796</NpcEntry>
           <QuestName>The Pools of Aggonar</QuestName>
@@ -1888,7 +1789,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>16799</NpcEntry>
           <QuestName>The Rock Flayer Matriarch</QuestName>
@@ -1896,7 +1796,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>16799</NpcEntry>
           <QuestName>Cruel Taskmasters</QuestName>
@@ -1927,7 +1826,6 @@
       <Objectives>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <NpcEntry>17006</NpcEntry>
           <QuestName>An Ambitious Plan</QuestName>
           <QuestId>9383</QuestId>
@@ -1935,7 +1833,6 @@
         <QuestObjective>
           <Objective>UseItem</Objective>
           <Count>1</Count>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <UseItemId>23361</UseItemId>
           <Position>
             <X>428.8881</X>
@@ -1959,7 +1856,6 @@
               <Z>63.39475</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
       </Objectives>
@@ -1976,14 +1872,12 @@
       <Objectives>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <NpcEntry>16796</NpcEntry>
           <QuestName>Helping the Cenarion Post</QuestName>
           <QuestId>10443</QuestId>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <NpcEntry>16991</NpcEntry>
           <QuestName>Helping the Cenarion Post</QuestName>
           <QuestId>10443</QuestId>
@@ -2013,11 +1907,9 @@
               <Z>48.95475</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>20678</NpcEntry>
           <QuestName>Naladu</QuestName>
@@ -2025,7 +1917,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>19361</NpcEntry>
           <QuestName>Naladu</QuestName>
@@ -2033,7 +1924,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>19361</NpcEntry>
           <QuestName>A Traitor Among Us</QuestName>
@@ -2055,12 +1945,10 @@
               <Z>49.33189</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>19361</NpcEntry>
           <QuestName>A Traitor Among Us</QuestName>
@@ -2068,7 +1956,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>19361</NpcEntry>
           <QuestName>The Dreghood Elders</QuestName>
@@ -2089,7 +1976,6 @@
               <Z>41.41781</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <WaitMs>1000</WaitMs>
           <GossipOptionsInteractWith>1</GossipOptionsInteractWith>
@@ -2109,7 +1995,6 @@
               <Z>34.43916</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <WaitMs>1000</WaitMs>
           <GossipOptionsInteractWith>1</GossipOptionsInteractWith>
@@ -2129,14 +2014,12 @@
               <Z>38.368</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <WaitMs>1000</WaitMs>
           <GossipOptionsInteractWith>1</GossipOptionsInteractWith>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>19361</NpcEntry>
           <QuestName>The Dreghood Elders</QuestName>
@@ -2144,7 +2027,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>19361</NpcEntry>
           <QuestName>Arzeth's Demise</QuestName>
@@ -2164,7 +2046,6 @@
             </Point>
           </Hotspots>
           <Script>=10369.cs</Script>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <UseItemId>29513</UseItemId>
         </QuestObjective>
@@ -2183,13 +2064,11 @@
               <Z>49.17185</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>19361</NpcEntry>
           <QuestName>Arzeth's Demise</QuestName>
@@ -2197,7 +2076,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>16796</NpcEntry>
           <QuestName>Sha'naar Relics</QuestName>
@@ -2222,7 +2100,6 @@
           <Entry>
             <int>16852</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <UseItemId>23645</UseItemId>
           <Position>
             <X>187.8116</X>
@@ -2247,7 +2124,6 @@
       <Objectives>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>16991</NpcEntry>
           <QuestName>Demonic Contamination</QuestName>
@@ -2255,7 +2131,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>19293</NpcEntry>
           <QuestName>Colossal Menace</QuestName>
@@ -2290,7 +2165,6 @@
               <Z>51.32121</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
@@ -2323,7 +2197,6 @@
               <Z>51.32121</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
@@ -2352,7 +2225,6 @@
               <Z>60.95595</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
@@ -2382,13 +2254,11 @@
               <Z>76.95442</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>16991</NpcEntry>
           <QuestName>Demonic Contamination</QuestName>
@@ -2396,7 +2266,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>19293</NpcEntry>
           <QuestName>Colossal Menace</QuestName>
@@ -2404,7 +2273,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>16888</NpcEntry>
           <QuestName>Keep Thornfang Hill Clear!</QuestName>
@@ -2429,7 +2297,6 @@
           <Entry>
             <int>16880</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <UseItemId>23337</UseItemId>
           <Position>
             <X>-460.6292</X>
@@ -2464,7 +2331,6 @@
       <Objectives>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <NpcEntry>16850</NpcEntry>
           <QuestName>Rampaging Ravagers</QuestName>
           <QuestId>9385</QuestId>
@@ -2493,7 +2359,6 @@
               <Z>82.79101</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
         <QuestObjective>
@@ -2515,7 +2380,6 @@
               <Z>82.79101</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
         <QuestObjective>
@@ -2539,13 +2403,11 @@
               <Z>77.9621</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>16850</NpcEntry>
           <QuestName>Rampaging Ravagers</QuestName>
@@ -2553,7 +2415,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>16850</NpcEntry>
           <QuestName>The Arakkoa Threat</QuestName>
@@ -2573,7 +2434,6 @@
       <Objectives>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <NpcEntry>22430</NpcEntry>
           <QuestName>Digging for Prayer Beads</QuestName>
           <QuestId>10916</QuestId>
@@ -2594,7 +2454,6 @@
               <Z>94.06149</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
@@ -2602,7 +2461,6 @@
           <InternalIndex>1</InternalIndex>
           <Count>10</Count>
           <Script>=10909.cs</Script>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <UseItemId>31772</UseItemId>
           <Position>
             <X>-1099.973</X>
@@ -2612,7 +2470,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>22430</NpcEntry>
           <QuestName>Digging for Prayer Beads</QuestName>
@@ -2620,7 +2477,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>22430</NpcEntry>
           <QuestName>Fel Spirits</QuestName>
@@ -2658,7 +2514,6 @@
               <Z>-1.222687</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
         </QuestObjective>
       </Objectives>
     </Quest>
@@ -2687,7 +2542,6 @@
               <Z>32.11222</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpObject</Objective>
@@ -2704,7 +2558,6 @@
               <Z>-4.26917</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpObject</Objective>
@@ -2721,7 +2574,6 @@
               <Z>3.297917</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
         </QuestObjective>
       </Objectives>
     </Quest>
@@ -2738,7 +2590,6 @@
         <QuestObjective>
           <Objective>UseItem</Objective>
           <Count>1</Count>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <UseItemId>30803</UseItemId>
           <Position>
             <X>421.4287</X>
@@ -2769,7 +2620,6 @@
               <Z>24.01931</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
       </Objectives>

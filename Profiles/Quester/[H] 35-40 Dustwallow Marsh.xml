@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<QuesterProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<QuesterProfile Author="Arasal" DevelopmentStatus="ReleaseCandidate">
   <Questers />
   <Quests>
     <Quest>
@@ -479,13 +479,6 @@
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
-		 <QuestObjective>
-          <Objective>TurnInQuest</Objective>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <NpcEntry>23843</NpcEntry>
-          <QuestName>What's Haunting Witch Hill?</QuestName>
-          <QuestId>27188</QuestId>
-        </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
@@ -493,7 +486,13 @@
           <QuestName>Marsh Frog Legs</QuestName>
           <QuestId>27183</QuestId>
         </QuestObjective>
-       
+        <QuestObjective>
+          <Objective>TurnInQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <NpcEntry>23843</NpcEntry>
+          <QuestName>What's Haunting Witch Hill?</QuestName>
+          <QuestId>27188</QuestId>
+        </QuestObjective>
       </Objectives>
     </Quest>
     <Quest>
@@ -1385,7 +1384,7 @@
           <QuestId>27408</QuestId>
         </QuestObjective>
         <QuestObjective>
-          <Objective>KillMobUseItem</Objective>
+          <Objective>CSharpScript</Objective>
           <InternalIndex>1</InternalIndex>
           <Count>10</Count>
           <Entry>
@@ -1411,6 +1410,7 @@
             <Y>-3031.237</Y>
             <Z>28.5221</Z>
           </Position>
+          <IsDead>true</IsDead>
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpObject</Objective>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<QuesterProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<QuesterProfile Author="Arasal" DevelopmentStatus="Untested">
   <Questers>
     <Npc>
       <Entry>7783</Entry>
@@ -27,7 +27,6 @@
       <Objectives>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <NpcEntry>5393</NpcEntry>
           <QuestName>Minor Distractions</QuestName>
           <QuestId>25710</QuestId>
@@ -47,13 +46,11 @@
               <Z>63.90926</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>5393</NpcEntry>
           <QuestName>Minor Distractions</QuestName>
@@ -61,7 +58,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>5393</NpcEntry>
           <QuestName>Eliminate the Okril'lon</QuestName>
@@ -69,7 +65,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>42262</NpcEntry>
           <QuestName>Nethergarde Reigns</QuestName>
@@ -77,7 +72,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>42264</NpcEntry>
           <QuestName>Remove Their Arms</QuestName>
@@ -103,7 +97,6 @@
               <Z>42.43353</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
@@ -122,13 +115,11 @@
               <Z>42.43589</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>MoveTo</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-10933.86</X>
@@ -143,7 +134,6 @@
           <Entry>
             <int>203707</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <UseItemId>57117</UseItemId>
           <Position>
@@ -156,7 +146,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>MoveTo</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-10993.95</X>
@@ -171,7 +160,6 @@
           <Entry>
             <int>203707</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <UseItemId>57117</UseItemId>
           <Position>
@@ -184,7 +172,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>MoveTo</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-10931.5</X>
@@ -199,7 +186,6 @@
           <Entry>
             <int>203707</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <UseItemId>57117</UseItemId>
           <Position>
@@ -212,7 +198,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>MoveTo</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <Position>
             <X>-10912.21</X>
             <Y>-3172.447</Y>
@@ -226,7 +211,6 @@
           <Entry>
             <int>203707</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <UseItemId>57117</UseItemId>
           <Position>
@@ -239,7 +223,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>42264</NpcEntry>
           <QuestName>Remove Their Arms</QuestName>
@@ -247,7 +230,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>42262</NpcEntry>
           <QuestName>Nethergarde Reigns</QuestName>
@@ -255,7 +237,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>5393</NpcEntry>
           <QuestName>Eliminate the Okril'lon</QuestName>
@@ -263,7 +244,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>MoveTo</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-11353.83</X>
@@ -273,7 +253,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>9540</NpcEntry>
           <QuestName>A Closer Look</QuestName>
@@ -293,7 +272,6 @@
       <Objectives>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>9540</NpcEntry>
           <QuestName>Curtail the Darktail</QuestName>
@@ -319,7 +297,6 @@
               <Z>7.121335</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
         <QuestObjective>
@@ -330,7 +307,6 @@
           <Entry>
             <int>42235</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <UseItemId>57119</UseItemId>
           <Position>
@@ -343,7 +319,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>9540</NpcEntry>
           <QuestName>Our Fallen Friends</QuestName>
@@ -351,7 +326,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>9540</NpcEntry>
           <QuestName>Curtail the Darktail</QuestName>
@@ -401,7 +375,6 @@
               <Z>8.007901</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
       </Objectives>
@@ -432,7 +405,6 @@
           <Entry>
             <int>203753</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <Position>
             <X>-11217.43</X>
             <Y>-3508.455</Y>
@@ -445,7 +417,6 @@
           <Entry>
             <int>203752</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <Position>
             <X>-11314.99</X>
             <Y>-3440.762</Y>
@@ -467,7 +438,6 @@
       <Objectives>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <NpcEntry>42298</NpcEntry>
           <QuestName>A Bloodmage's Gotta Eat Too</QuestName>
           <QuestId>26172</QuestId>
@@ -477,7 +447,6 @@
           <Entry>
             <int>203753</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-11217.96</X>
@@ -516,7 +485,6 @@
               <Z>16.21578</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
@@ -546,7 +514,6 @@
               <Z>0.6516277</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
@@ -570,7 +537,6 @@
               <Z>-0.01925597</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
         <QuestObjective>
@@ -578,7 +544,6 @@
           <Entry>
             <int>203752</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-11316.21</X>
@@ -589,7 +554,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>42298</NpcEntry>
           <QuestName>The First Step</QuestName>
@@ -597,7 +561,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>42298</NpcEntry>
           <QuestName>A Bloodmage's Gotta Eat Too</QuestName>
@@ -620,7 +583,6 @@
           <Entry>
             <int>42298</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <Position>
             <X>-11220.94</X>
             <Y>-3487.955</Y>
@@ -643,14 +605,12 @@
       <Objectives>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <NpcEntry>42298</NpcEntry>
           <QuestName>The Amulet of Grol</QuestName>
           <QuestId>26169</QuestId>
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <NpcEntry>42298</NpcEntry>
           <QuestName>The Amulet of Sevine</QuestName>
           <QuestId>26168</QuestId>
@@ -670,7 +630,6 @@
               <Z>7.632987</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
@@ -688,7 +647,6 @@
               <Z>-4.575041</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
@@ -707,7 +665,6 @@
               <Z>-4.314019</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
@@ -717,7 +674,6 @@
           <Entry>
             <int>41265</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-11744.61</X>
@@ -729,7 +685,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>41265</NpcEntry>
           <QuestName>Home... Gone... Naga...</QuestName>
@@ -737,7 +692,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>41354</NpcEntry>
           <QuestName>Home... Gone... Naga...</QuestName>
@@ -745,7 +699,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>41354</NpcEntry>
           <QuestName>Atrocities</QuestName>
@@ -771,7 +724,6 @@
               <Z>1.885591</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
@@ -795,13 +747,11 @@
               <Z>1.885591</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>MoveTo</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-12049</X>
@@ -811,7 +761,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>41354</NpcEntry>
           <QuestName>Atrocities</QuestName>
@@ -819,7 +768,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>41354</NpcEntry>
           <QuestName>False Idols</QuestName>
@@ -827,7 +775,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>41354</NpcEntry>
           <QuestName>Neptool's Revenge</QuestName>
@@ -848,7 +795,6 @@
               <Z>18.95942</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
@@ -867,7 +813,6 @@
               <Z>27.37501</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
@@ -885,7 +830,6 @@
               <Z>16.35807</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
@@ -909,7 +853,6 @@
               <Z>-8.405523</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
@@ -933,7 +876,6 @@
               <Z>-8.405523</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
@@ -945,7 +887,6 @@
           <Entry>
             <int>203289</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-12458.62</X>
@@ -956,7 +897,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>MoveTo</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-12048.44</X>
@@ -966,7 +906,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>41354</NpcEntry>
           <QuestName>Neptool's Revenge</QuestName>
@@ -974,7 +913,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>41354</NpcEntry>
           <QuestName>False Idols</QuestName>
@@ -982,7 +920,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>42298</NpcEntry>
           <QuestName>The Amulet of Allistarj</QuestName>
@@ -990,7 +927,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>42298</NpcEntry>
           <QuestName>The Amulet of Grol</QuestName>
@@ -998,7 +934,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>42298</NpcEntry>
           <QuestName>The Amulet of Sevine</QuestName>
@@ -1029,7 +964,6 @@
       <Objectives>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <NpcEntry>42299</NpcEntry>
           <QuestName>The Vile Blood of Demons</QuestName>
           <QuestId>26165</QuestId>
@@ -1058,7 +992,6 @@
               <Z>22.32648</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
@@ -1081,11 +1014,9 @@
               <Z>22.32648</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>42299</NpcEntry>
           <QuestName>The Charred Granite of the Dark Portal</QuestName>
@@ -1093,7 +1024,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>42299</NpcEntry>
           <QuestName>The Vile Blood of Demons</QuestName>
@@ -1125,7 +1055,6 @@
               <Z>8.521416</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
         <QuestObjective>
@@ -1142,7 +1071,6 @@
               <Z>7.469471</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
         <QuestObjective>
@@ -1159,7 +1087,6 @@
               <Z>8.308743</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
       </Objectives>
@@ -1181,7 +1108,6 @@
           <Entry>
             <int>203225</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <Position>
             <X>-11808.68</X>
             <Y>-3167.051</Y>
@@ -1206,7 +1132,6 @@
           <Entry>
             <int>203752</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-11313.3</X>
@@ -1232,7 +1157,6 @@
           <Entry>
             <int>203753</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <Position>
             <X>-11216.89</X>
             <Y>-3507.017</Y>
@@ -1255,7 +1179,6 @@
               <Z>-5.257277</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpObject</Objective>
@@ -1272,7 +1195,6 @@
               <Z>10.68346</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpObject</Objective>
@@ -1289,14 +1211,12 @@
               <Z>11.72525</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>InteractWith</Objective>
           <Entry>
             <int>203752</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-11315.25</X>
@@ -1322,7 +1242,6 @@
           <Entry>
             <int>203196</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <Position>
             <X>-11279.67</X>
             <Y>-2548.228</Y>
@@ -1349,7 +1268,6 @@
               <Z>97.09299</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
         <QuestObjective>
@@ -1357,7 +1275,6 @@
           <Entry>
             <int>203752</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <Position>
             <X>-11314.92</X>
             <Y>-3441.754</Y>
@@ -1382,7 +1299,6 @@
           <Entry>
             <int>42298</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <Position>
             <X>-11223.28</X>
             <Y>-3484.467</Y>
@@ -1408,7 +1324,6 @@
           <Entry>
             <int>42349</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-12757.29</X>
@@ -1453,7 +1368,6 @@
               <Z>35.46271</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
         <QuestObjective>
@@ -1480,7 +1394,6 @@
               <Z>35.46271</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
         <QuestObjective>
@@ -1507,7 +1420,6 @@
               <Z>35.46271</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
         <QuestObjective>
@@ -1524,7 +1436,6 @@
               <Z>3.451125</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
       </Objectives>
@@ -1574,7 +1485,6 @@
               <Z>-13.38031</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
         <QuestObjective>
@@ -1601,7 +1511,6 @@
               <Z>-13.38031</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
         <QuestObjective>
@@ -1628,13 +1537,11 @@
               <Z>-13.38031</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
         <QuestObjective>
           <Objective>UseItem</Objective>
           <Count>20</Count>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <UseItemId>57178</UseItemId>
           <Position>
             <X>-12715.81</X>
@@ -1647,7 +1554,6 @@
         <QuestObjective>
           <Objective>UseItem</Objective>
           <Count>2</Count>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <UseItemId>57179</UseItemId>
           <Position>
             <X>-12715.72</X>
@@ -1660,7 +1566,6 @@
         <QuestObjective>
           <Objective>UseItem</Objective>
           <Count>1</Count>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <UseItemId>57177</UseItemId>
           <Position>
             <X>-12715.72</X>
@@ -1673,7 +1578,6 @@
         <QuestObjective>
           <Objective>UseItem</Objective>
           <Count>1</Count>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <UseItemId>57181</UseItemId>
           <Position>
             <X>-12715.72</X>
@@ -1687,7 +1591,6 @@
           <Objective>UseItem</Objective>
           <InternalIndex>1</InternalIndex>
           <Count>1</Count>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <UseItemId>57183</UseItemId>
           <Position>
             <X>-12715.72</X>
@@ -1715,7 +1618,6 @@
           <Entry>
             <int>42334</int>
           </Entry>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <UseItemId>57185</UseItemId>
           <Position>
             <X>-12243.76</X>
@@ -1738,7 +1640,6 @@
               <Z>37.94533</Z>
             </Point>
           </Hotspots>
-          <IsObjectiveCompleted>false</IsObjectiveCompleted>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
       </Objectives>

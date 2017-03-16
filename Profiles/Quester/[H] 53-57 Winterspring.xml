@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<QuesterProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<QuesterProfile Author="Arasal" DevelopmentStatus="Untested">
   <Questers>
     <Npc>
       <Entry>48659</Entry>
@@ -1436,59 +1436,62 @@
       <TurnIn>50263</TurnIn>
       <Objectives>
         <QuestObjective>
-          <Objective>InteractWith</Objective>
+          <Objective>PickUpObject</Objective>
           <InternalIndex>2</InternalIndex>
           <InternalQuestId>28839</InternalQuestId>
-          <Count>1</Count>
           <Entry>
             <int>207423</int>
           </Entry>
           <CollectItemId>1</CollectItemId>
           <CollectCount>1</CollectCount>
+          <Hotspots>
+            <Point>
+              <X>5612.375</X>
+              <Y>-5027.177</Y>
+              <Z>808.2142</Z>
+            </Point>
+          </Hotspots>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <IgnoreBlackList>true</IgnoreBlackList>
-          <Position>
-            <X>5612.375</X>
-            <Y>-5027.177</Y>
-            <Z>808.2142</Z>
-          </Position>
         </QuestObjective>
         <QuestObjective>
-          <Objective>InteractWith</Objective>
+          <Objective>PickUpObject</Objective>
           <InternalIndex>3</InternalIndex>
           <InternalQuestId>28839</InternalQuestId>
-          <Count>1</Count>
           <Entry>
             <int>207422</int>
           </Entry>
           <CollectItemId>1</CollectItemId>
           <CollectCount>1</CollectCount>
+          <Hotspots>
+            <Point>
+              <X>5470.808</X>
+              <Y>-4976.972</Y>
+              <Z>850.514</Z>
+            </Point>
+          </Hotspots>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <IgnoreBlackList>true</IgnoreBlackList>
-          <Position>
-            <X>5470.808</X>
-            <Y>-4976.972</Y>
-            <Z>850.514</Z>
-          </Position>
         </QuestObjective>
         <QuestObjective>
-          <Objective>InteractWith</Objective>
+          <Objective>PickUpObject</Objective>
           <InternalIndex>1</InternalIndex>
           <InternalQuestId>28839</InternalQuestId>
-          <Count>1</Count>
           <Entry>
             <int>207421</int>
           </Entry>
           <CollectItemId>1</CollectItemId>
           <CollectCount>1</CollectCount>
+          <Hotspots>
+            <Point>
+              <X>5752.42725</X>
+              <Y>-4989.627</Y>
+              <Z>809.639648</Z>
+            </Point>
+          </Hotspots>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <IgnoreBlackList>true</IgnoreBlackList>
           <ForceTravelToQuestZone>true</ForceTravelToQuestZone>
-          <Position>
-            <X>5752.427</X>
-            <Y>-4989.627</Y>
-            <Z>809.6396</Z>
-          </Position>
         </QuestObjective>
         <QuestObjective>
           <Objective>KillMob</Objective>
