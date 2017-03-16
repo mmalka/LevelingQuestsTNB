@@ -1,43 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <QuesterProfile Author="Arasal" DevelopmentStatus="Untested">
-  <Questers>
-    <Npc>
-      <Entry>48659</Entry>
-      <Name>Quel'dorei Spirit</Name>
-      <Position>
-        <X>6538.568</X>
-        <Y>-4115.861</Y>
-        <Z>664.5759</Z>
-      </Position>
-      <Faction>Alliance</Faction>
-      <Type>QuestGiver</Type>
-      <ContinentId>Kalimdor</ContinentId>
-    </Npc>
-    <Npc>
-      <Entry>48660</Entry>
-      <Name>Sin'dorei Spirit</Name>
-      <Position>
-        <X>6535.741</X>
-        <Y>-4109.193</Y>
-        <Z>662.8598</Z>
-      </Position>
-      <Faction>Alliance</Faction>
-      <Type>QuestGiver</Type>
-      <ContinentId>Kalimdor</ContinentId>
-    </Npc>
-    <Npc>
-      <Entry>10929</Entry>
-      <Name>Haleh</Name>
-      <Position>
-        <X>6178.788</X>
-        <Y>-4559.205</Y>
-        <Z>713.3444</Z>
-      </Position>
-      <Faction>Alliance</Faction>
-      <Type>QuestGiver</Type>
-      <ContinentId>Kalimdor</ContinentId>
-    </Npc>
-  </Questers>
   <Quests>
     <Quest>
       <Name>Threat of the Winterfall</Name>

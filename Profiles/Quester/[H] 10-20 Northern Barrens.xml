@@ -9,7 +9,7 @@
         <Y>-3685.806</Y>
         <Z>27.10942</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>34284</Entry>
@@ -19,7 +19,7 @@
         <Y>-3653.195</Y>
         <Z>27.26624</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>34258</Entry>
@@ -29,7 +29,7 @@
         <Y>-3672.627</Y>
         <Z>27.18758</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>3432</Entry>
@@ -39,7 +39,7 @@
         <Y>-2967.853</Y>
         <Z>93.98262</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>34513</Entry>
@@ -49,7 +49,7 @@
         <Y>-3049.134</Y>
         <Z>96.80967</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>34560</Entry>
@@ -59,7 +59,7 @@
         <Y>-2896.512</Y>
         <Z>97.84854</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>3338</Entry>
@@ -69,7 +69,7 @@
         <Y>-2670.188</Y>
         <Z>97.34918</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>3448</Entry>
@@ -79,7 +79,7 @@
         <Y>-2641.363</Y>
         <Z>96.56621</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>34841</Entry>
@@ -89,7 +89,7 @@
         <Y>-1983.455</Y>
         <Z>109.8</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>34613</Entry>
@@ -99,7 +99,7 @@
         <Y>-1954.46</Y>
         <Z>92.49255</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>3390</Entry>
@@ -109,7 +109,7 @@
         <Y>-2589.884</Y>
         <Z>95.81654</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>3464</Entry>
@@ -119,7 +119,7 @@
         <Y>-3639.556</Y>
         <Z>19.0604</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>34651</Entry>
@@ -129,7 +129,7 @@
         <Y>-3648.793</Y>
         <Z>23.87765</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>34626</Entry>
@@ -139,7 +139,7 @@
         <Y>-3282.684</Y>
         <Z>209.4108</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>34638</Entry>
@@ -149,7 +149,7 @@
         <Y>-2969.705</Y>
         <Z>89.73508</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>3339</Entry>
@@ -159,7 +159,7 @@
         <Y>-3688.908</Y>
         <Z>23.11326</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>3446</Entry>
@@ -169,7 +169,7 @@
         <Y>-3697.232</Y>
         <Z>7.988126</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>3972</Entry>
@@ -179,7 +179,7 @@
         <Y>-3721.489</Y>
         <Z>9.191623</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>3391</Entry>
@@ -189,7 +189,7 @@
         <Y>-3728.661</Y>
         <Z>26.29166</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>3453</Entry>
@@ -199,7 +199,7 @@
         <Y>-3796.71</Y>
         <Z>5.126055</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>34749</Entry>
@@ -209,7 +209,7 @@
         <Y>-4236.253</Y>
         <Z>6.003658</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>3467</Entry>
@@ -219,7 +219,7 @@
         <Y>-3814.908</Y>
         <Z>21.69748</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>34698</Entry>
@@ -229,7 +229,7 @@
         <Y>-3389.087</Y>
         <Z>91.66666</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>3442</Entry>
@@ -239,7 +239,7 @@
         <Y>-3376.762</Y>
         <Z>92.47377</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>4141</Entry>
@@ -249,7 +249,7 @@
         <Y>-2686.726</Y>
         <Z>91.61111</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>34674</Entry>
@@ -259,7 +259,7 @@
         <Y>-3398.648</Y>
         <Z>91.66698</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>9316</Entry>
@@ -269,7 +269,7 @@
         <Y>-2347.641</Y>
         <Z>91.8338</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>52192</Entry>
@@ -279,7 +279,7 @@
         <Y>-2345.844</Y>
         <Z>92.00394</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>3449</Entry>
@@ -289,7 +289,7 @@
         <Y>-1554.769</Y>
         <Z>91.73231</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>3429</Entry>
@@ -299,7 +299,7 @@
         <Y>-2595.7</Y>
         <Z>103.7226</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>5907</Entry>
@@ -309,7 +309,7 @@
         <Y>-3037.086</Y>
         <Z>96.94961</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>34634</Entry>
@@ -319,7 +319,7 @@
         <Y>-2964.489</Y>
         <Z>87.97255</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>3439</Entry>
@@ -329,7 +329,7 @@
         <Y>-3104.109</Y>
         <Z>82.32794</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
     <Npc>
       <Entry>52192</Entry>
@@ -339,7 +339,7 @@
         <Y>-2345.844</Y>
         <Z>92.00407</Z>
       </Position>
-      <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Kalimdor</ContinentId>
     </Npc>
   </Questers>
   <Quests>
