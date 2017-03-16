@@ -32,12 +32,10 @@ try
 		/* Entry found, GoTo */
 		if (node.IsValid)
 		{
-			unit = new WoWUnit(0);
 			baseAddress = MovementManager.FindTarget(node, questObjective.Range);
 		}
 		if (unit.IsValid)
 		{
-			node = new WoWGameObject(0);
 			baseAddress = MovementManager.FindTarget(unit, questObjective.Range);
 		}
 		Thread.Sleep(500);
@@ -102,7 +100,7 @@ try
 			return false;
 		
 		
-		ItemsManager.UseItem(ItemsManager.GetItemNameById(questObjective.UseItemId));
+		ItemsManager.UseItem(ItemsManager.GetItemNameById(questObjective.UseItemId),node.IsValid ? node.Position : unit.Position);
 
 		Thread.Sleep(Usefuls.Latency + 250);
 

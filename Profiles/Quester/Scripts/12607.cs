@@ -15,34 +15,36 @@ try
 	WoWUnit unit = ObjectManager.GetNearestWoWUnit(ObjectManager.GetWoWUnitByEntry(questObjective.Entry, questObjective.IsDead), questObjective.IgnoreNotSelectable, questObjective.IgnoreBlackList,
 		questObjective.AllowPlayerControlled);
 	Point pos = ObjectManager.Me.Position; /* Initialize or getting an error */
-	//int q = QuestID; /* not used but otherwise getting warning QuestID not used */
+	int q = QuestID; /* not used but otherwise getting warning QuestID not used */
 	uint baseAddress = 0;
 
 	/* If Entry found continue, otherwise continue checking around HotSpots */
 	if ((unit.IsValid && (!nManagerSetting.IsBlackListedZone(unit.Position) && !nManagerSetting.IsBlackListed(unit.Guid) || questObjective.IgnoreBlackList )) ||
 		(node.IsValid && (!nManagerSetting.IsBlackListedZone(node.Position) && !nManagerSetting.IsBlackListed(node.Guid) || questObjective.IgnoreBlackList)))
 	{
-		if(nManager.Wow.Helpers.PathFinder.FindPath(node.IsValid ? node.Position : unit.Position).Count <= 0)
-		{
-			nManagerSetting.AddBlackList(node.IsValid ? node.Guid : unit.Guid, 30*1000);
-			return false;
-		}
 		if (questObjective.IgnoreFight)
 			nManager.Wow.Helpers.Quest.GetSetIgnoreFight = true;
 		/* Entry found, GoTo */
 		if (node.IsValid)
 		{
-			unit = new WoWUnit(0);
 			baseAddress = MovementManager.FindTarget(node, questObjective.Range);
 		}
 		if (unit.IsValid)
 		{
-			node = new WoWGameObject(0);
 			baseAddress = MovementManager.FindTarget(unit, questObjective.Range);
 		}
 		Thread.Sleep(500);
 		
-	
+		//Pre Select Target
+		if (node.IsValid && node.Position.DistanceTo(ObjectManager.Me.Position) <= 60 && ObjectManager.Target.Guid != node.Guid)
+		{
+			Interact.InteractWith(node.GetBaseAddress);
+		}
+		else if (unit.IsValid && unit.Position.DistanceTo(ObjectManager.Me.Position) <= 60 && ObjectManager.Target.Guid != unit.Guid)
+		{
+			ObjectManager.Me.Target = unit.Guid;
+			//Interact.InteractWith(unit.GetBaseAddress);
+		}
 			
 		if (MovementManager.InMovement)
 			return false;
@@ -58,29 +60,6 @@ try
 			if (baseAddress > 0 && ((node.IsValid && node.GetDistance > questObjective.Range) || (unit.IsValid && unit.GetDistance > questObjective.Range)))
 				return false;
 			
-		}
-
-		/* Target Reached */
-		MovementManager.StopMove();
-		MountTask.DismountMount();
-		
-		//Pre Select Target
-		if (node.IsValid && node.Position.DistanceTo(ObjectManager.Me.Position) <= 60 && ObjectManager.Target.Guid != node.Guid)
-		{
-			Interact.InteractWith(node.GetBaseAddress);
-		}
-		else if (unit.IsValid && unit.Position.DistanceTo(ObjectManager.Me.Position) <= 60 && ObjectManager.Target.Guid != unit.Guid)
-		{	
-			Lua.LuaDoString("ClearTarget()");
-			
-			if(questObjective.ExtraString == "InteractWith")
-			{
-				Interact.InteractWith(unit.GetBaseAddress);
-			}
-			else
-			{
-				ObjectManager.Me.Target = unit.Guid;
-			}
 		}
 		
 		if (node.IsValid)
@@ -100,35 +79,41 @@ try
 
 		if (ItemsManager.GetItemCount(questObjective.UseItemId) <= 0 || ItemsManager.IsItemOnCooldown(questObjective.UseItemId) || !ItemsManager.IsItemUsable(questObjective.UseItemId))
 			return false;
-		
-		
+
 		ItemsManager.UseItem(ItemsManager.GetItemNameById(questObjective.UseItemId));
 
 		Thread.Sleep(Usefuls.Latency + 250);
+	
+		//Fake NPC for Position
+        Npc RescuePoint = new Npc();
+        RescuePoint = new Npc
+        {
+            Entry = 0,
+            Position = questObjective.Position,
+            Name = "Delivery Point",
+            ContinentIdInt = Usefuls.ContinentId,
+            Faction = nManager.Wow.ObjectManager.ObjectManager.Me.PlayerFaction.ToLower() == "horde" ? Npc.FactionType.Horde : Npc.FactionType.Alliance,
+        };
 
-		/* Wait for the Use Item cast to be finished, if any */
-		while (ObjectManager.Me.IsCast)
-		{
-			Thread.Sleep(Usefuls.Latency);
-		}
 
-		if (node.IsValid)
-		{
-			nManagerSetting.AddBlackList(node.Guid, 30*1000);
-		}
-		else if (unit.IsValid)
-		{
+        while (nManager.Wow.ObjectManager.ObjectManager.Me.Position.DistanceTo(questObjective.Position) >= 5)
+        {
+
+           MovementManager.FindTarget(ref RescuePoint, 5);
+            Thread.Sleep(500);
+        }
+		
+        MovementManager.StopMove();
 			
-			Interact.InteractWith(unit.GetBaseAddress); //Interact With Unit to Attack it
-			nManagerSetting.AddBlackList(unit.Guid, 30*1000);
-		}
+		Thread.Sleep(Usefuls.Latency);
+		
+		Lua.RunMacroText("/click OverrideActionBarButton1");
 
 		/* Wait if necessary */
 		if (questObjective.WaitMs > 0)
 			Thread.Sleep(questObjective.WaitMs);
 
 		nManager.Wow.Helpers.Quest.GetSetIgnoreFight = false;
-		return true;
 	}
 		/* Move to Zone/Hotspot */
 	else if (!MovementManager.InMovement)

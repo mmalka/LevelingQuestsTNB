@@ -32,12 +32,10 @@ try
 		/* Entry found, GoTo */
 		if (node.IsValid)
 		{
-			unit = new WoWUnit(0);
 			baseAddress = MovementManager.FindTarget(node, questObjective.Range);
 		}
 		if (unit.IsValid)
 		{
-			node = new WoWGameObject(0);
 			baseAddress = MovementManager.FindTarget(unit, questObjective.Range);
 		}
 		Thread.Sleep(500);
@@ -104,7 +102,7 @@ try
 		
 		ItemsManager.UseItem(ItemsManager.GetItemNameById(questObjective.UseItemId));
 
-		Thread.Sleep(Usefuls.Latency + 250);
+		Thread.Sleep(Usefuls.Latency + 3000);
 
 		/* Wait for the Use Item cast to be finished, if any */
 		while (ObjectManager.Me.IsCast)
@@ -118,11 +116,13 @@ try
 		}
 		else if (unit.IsValid)
 		{
-			
 			Interact.InteractWith(unit.GetBaseAddress); //Interact With Unit to Attack it
+			Fight.StartFight(unit.Guid);
 			nManagerSetting.AddBlackList(unit.Guid, 30*1000);
 		}
 
+		
+		
 		/* Wait if necessary */
 		if (questObjective.WaitMs > 0)
 			Thread.Sleep(questObjective.WaitMs);

@@ -1,6 +1,7 @@
 /*
 This script is using a thread to make the method StartFight Async since we want to be
 able to check the health of the mob being attacked (to do an action)
+TODO ADD EXTRA HEALTHPERCENT
 */
 
 System.Threading.Thread _worker2;
@@ -27,22 +28,23 @@ if(unit.IsValid)
 
 	while(ObjectManager.Me.Position.DistanceTo(unit.Position) >= 5)
 	{
-		if (ObjectManager.Me.IsDeadMe || (ObjectManager.Me.InCombat && !ObjectManager.Me.IsMounted))
+		if (ObjectManager.Me.IsDeadMe || (ObjectManager.Me.InCombat && !ObjectManager.Me.IsMounted) || ObjectManager.Me.InInevitableCombat)
 		{
 			return false;
 		}
 		MovementManager.FindTarget(unit, 5);
 		Thread.Sleep(500);
 	}
-
-	_worker2 = new System.Threading.Thread(() => nManager.Wow.Helpers.Fight.StartFight(unit.Guid));
+	
+	MountTask.DismountMount();
+	//_worker2 = new System.Threading.Thread(() => nManager.Wow.Helpers.Fight.StartFight(unit.Guid));
 	Thread.Sleep(500);
 
-	_worker2.Start();
-
+	//_worker2.Start();
+	Interact.InteractWith(unit.GetBaseAddress);
 	Thread.Sleep(500);
 
-	while (unit.HealthPercent >= 35)
+	while (unit.HealthPercent >= 45)
 	{
 		if(!ObjectManager.Me.InCombat)
 		{
@@ -50,16 +52,16 @@ if(unit.IsValid)
 		}
 		Thread.Sleep(50);
 	}
-	Lua.LuaDoString("ClearTarget()");
-	ObjectManager.Me.Target = unit.Guid;
+	//Lua.LuaDoString("ClearTarget()");
+	//ObjectManager.Me.Target = unit.Guid;
 	Fight.StopFight();
 	ItemsManager.UseItem(ItemsManager.GetItemNameById(questObjective.UseItemId));
 	Thread.Sleep(500);
 	ItemsManager.UseItem(ItemsManager.GetItemNameById(questObjective.UseItemId));
 	nManager.Wow.Helpers.Quest.GetSetIgnoreFight = false;
-	nManager.Wow.Helpers.Fight.InFight= false;
+	nManager.Wow.Helpers.Fight.InFight = false;
 	nManager.Wow.Helpers.Fight.StopFight();
 
-	_worker2 = null;
+	//_worker2 = null;
 	Thread.Sleep(200);
 }

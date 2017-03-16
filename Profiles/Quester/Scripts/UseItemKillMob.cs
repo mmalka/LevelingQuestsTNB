@@ -1,4 +1,4 @@
-/* Use Item With HotSpots
+/* Use Item With HotSpots KillMob
 Check if there is HotSpots in the objective */
 
 try
@@ -11,86 +11,52 @@ try
 		return false;
 	}
 
-	WoWGameObject node = ObjectManager.GetNearestWoWGameObject(ObjectManager.GetWoWGameObjectById(questObjective.Entry));
 	WoWUnit unit = ObjectManager.GetNearestWoWUnit(ObjectManager.GetWoWUnitByEntry(questObjective.Entry, questObjective.IsDead), questObjective.IgnoreNotSelectable, questObjective.IgnoreBlackList,
 		questObjective.AllowPlayerControlled);
 	Point pos = ObjectManager.Me.Position; /* Initialize or getting an error */
-	//int q = QuestID; /* not used but otherwise getting warning QuestID not used */
 	uint baseAddress = 0;
 
 	/* If Entry found continue, otherwise continue checking around HotSpots */
-	if ((unit.IsValid && (!nManagerSetting.IsBlackListedZone(unit.Position) && !nManagerSetting.IsBlackListed(unit.Guid) || questObjective.IgnoreBlackList )) ||
-		(node.IsValid && (!nManagerSetting.IsBlackListedZone(node.Position) && !nManagerSetting.IsBlackListed(node.Guid) || questObjective.IgnoreBlackList)))
+	if (unit.IsValid && (!nManagerSetting.IsBlackListedZone(unit.Position) && !nManagerSetting.IsBlackListed(unit.Guid) || questObjective.IgnoreBlackList ))
 	{
-		if(nManager.Wow.Helpers.PathFinder.FindPath(node.IsValid ? node.Position : unit.Position).Count <= 0)
+		if(nManager.Wow.Helpers.PathFinder.FindPath(unit.Position).Count <= 0)
 		{
-			nManagerSetting.AddBlackList(node.IsValid ? node.Guid : unit.Guid, 30*1000);
+			nManagerSetting.AddBlackList(unit.Guid, 30*1000);
 			return false;
 		}
+		
 		if (questObjective.IgnoreFight)
 			nManager.Wow.Helpers.Quest.GetSetIgnoreFight = true;
 		/* Entry found, GoTo */
-		if (node.IsValid)
-		{
-			unit = new WoWUnit(0);
-			baseAddress = MovementManager.FindTarget(node, questObjective.Range);
-		}
-		if (unit.IsValid)
-		{
-			node = new WoWGameObject(0);
-			baseAddress = MovementManager.FindTarget(unit, questObjective.Range);
-		}
+		
+		baseAddress = MovementManager.FindTarget(unit, questObjective.Range);
+		
 		Thread.Sleep(500);
 		
-	
+		//Pre Select Target
+		if (unit.IsValid && unit.Position.DistanceTo(ObjectManager.Me.Position) <= 60 && ObjectManager.Target.Guid != unit.Guid)
+		{
+			ObjectManager.Me.Target = unit.Guid;
+			//Interact.InteractWith(unit.GetBaseAddress);
+		}
 			
-		if (MovementManager.InMovement)
-			return false;
+		/*if (MovementManager.InMovement)
+			return false;*/
 		if (questObjective.IgnoreNotSelectable)
 		{
-			if ((node.IsValid && node.GetDistance > questObjective.Range) || (unit.IsValid && unit.GetDistance > questObjective.Range))
+			if (unit.IsValid && unit.GetDistance > questObjective.Range)
 				return false;
 		}
 		else
 		{
 			if (baseAddress <= 0)
 				return false;
-			if (baseAddress > 0 && ((node.IsValid && node.GetDistance > questObjective.Range) || (unit.IsValid && unit.GetDistance > questObjective.Range)))
+			if (baseAddress > 0 && (unit.IsValid && unit.GetDistance > questObjective.Range))
 				return false;
 			
 		}
 
-		/* Target Reached */
-		MovementManager.StopMove();
-		MountTask.DismountMount();
-		
-		//Pre Select Target
-		if (node.IsValid && node.Position.DistanceTo(ObjectManager.Me.Position) <= 60 && ObjectManager.Target.Guid != node.Guid)
-		{
-			Interact.InteractWith(node.GetBaseAddress);
-		}
-		else if (unit.IsValid && unit.Position.DistanceTo(ObjectManager.Me.Position) <= 60 && ObjectManager.Target.Guid != unit.Guid)
-		{	
-			Lua.LuaDoString("ClearTarget()");
-			
-			if(questObjective.ExtraString == "InteractWith")
-			{
-				Interact.InteractWith(unit.GetBaseAddress);
-			}
-			else
-			{
-				ObjectManager.Me.Target = unit.Guid;
-			}
-		}
-		
-		if (node.IsValid)
-		{
-			MovementManager.Face(node);
-		}
-		else if (unit.IsValid)
-		{
-			MovementManager.Face(unit);
-		}
+		MovementManager.Face(unit);
 		
 		Thread.Sleep(100 + Usefuls.Latency); /* ZZZzzzZZZzz */
 
@@ -100,8 +66,7 @@ try
 
 		if (ItemsManager.GetItemCount(questObjective.UseItemId) <= 0 || ItemsManager.IsItemOnCooldown(questObjective.UseItemId) || !ItemsManager.IsItemUsable(questObjective.UseItemId))
 			return false;
-		
-		
+
 		ItemsManager.UseItem(ItemsManager.GetItemNameById(questObjective.UseItemId));
 
 		Thread.Sleep(Usefuls.Latency + 250);
@@ -112,16 +77,12 @@ try
 			Thread.Sleep(Usefuls.Latency);
 		}
 
-		if (node.IsValid)
-		{
-			nManagerSetting.AddBlackList(node.Guid, 30*1000);
-		}
-		else if (unit.IsValid)
-		{
+		Interact.InteractWith(unit.GetBaseAddress); //Interact With Unit to Attack it
+		
+		Fight.StartFight(unit.Guid);
 			
-			Interact.InteractWith(unit.GetBaseAddress); //Interact With Unit to Attack it
-			nManagerSetting.AddBlackList(unit.Guid, 30*1000);
-		}
+		nManagerSetting.AddBlackList(unit.Guid, 30*1000);
+
 
 		/* Wait if necessary */
 		if (questObjective.WaitMs > 0)
