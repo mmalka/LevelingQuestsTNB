@@ -633,7 +633,7 @@
         <int>25687</int>
       </NeedQuestCompletedId>
       <PickUp>7506</PickUp>
-      <TurnIn>7506</TurnIn>
+      <TurnIn>7783</TurnIn>
       <Objectives>
         <QuestObjective>
           <Objective>InteractWith</Objective>
@@ -641,11 +641,11 @@
             <int>203181</int>
           </Entry>
           <Position>
-            <X>-11456.62</X>
-            <Y>-2633.077</Y>
-            <Z>3.871852</Z>
+            <X>-11454.42</X>
+            <Y>-2634.742</Y>
+            <Z>4.303937</Z>
           </Position>
-          <WaitMs>500</WaitMs>
+          <WaitMs>5000</WaitMs>
         </QuestObjective>
         <QuestObjective>
           <Objective>InteractWith</Objective>
@@ -657,7 +657,7 @@
             <Y>-2548.228</Y>
             <Z>99.46088</Z>
           </Position>
-          <WaitMs>500</WaitMs>
+          <WaitMs>5000</WaitMs>
         </QuestObjective>
         <QuestObjective>
           <Objective>KillMob</Objective>
@@ -685,20 +685,12 @@
           <Entry>
             <int>203180</int>
           </Entry>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-11361.5</X>
             <Y>-2717</Y>
             <Z>13.23</Z>
           </Position>
-          <WaitMs>500</WaitMs>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>TurnInQuest</Objective>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <NpcEntry>7783</NpcEntry>
-          <QuestName>The Altar of Storms</QuestName>
-          <QuestId>25688</QuestId>
+          <WaitMs>5000</WaitMs>
         </QuestObjective>
       </Objectives>
     </Quest>
