@@ -467,13 +467,14 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>TravelTo</Objective>
+          <ScriptConditionIsComplete>return nManager.Wow.Helpers.Quest.GetLogQuestIsComplete(25522) || nManager.Wow.Helpers.Quest.IsQuestFlaggedCompletedLUA(25522);</ScriptConditionIsComplete>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-6944.405</X>
             <Y>-3386.126</Y>
             <Z>13.62207</Z>
           </Position>
-          <ContinentId>1</ContinentId>
+          <ContinentId>0</ContinentId>
         </QuestObjective>
         <QuestObjective>
           <Objective>KillMob</Objective>
