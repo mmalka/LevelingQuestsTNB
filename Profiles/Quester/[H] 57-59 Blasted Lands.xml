@@ -362,6 +362,7 @@
             <Y>-2633.443</Y>
             <Z>3.905512</Z>
           </Position>
+          <WaitMs>2000</WaitMs>
         </QuestObjective>
         <QuestObjective>
           <Objective>InteractWith</Objective>
@@ -374,6 +375,7 @@
             <Y>-2717</Y>
             <Z>13.23</Z>
           </Position>
+          <WaitMs>2000</WaitMs>
         </QuestObjective>
       </Objectives>
     </Quest>
@@ -408,6 +410,7 @@
             <Y>-2633.561</Y>
             <Z>3.985438</Z>
           </Position>
+          <WaitMs>2000</WaitMs>
         </QuestObjective>
         <QuestObjective>
           <Objective>KillMob</Objective>
@@ -506,6 +509,7 @@
             <Y>-2717.699</Y>
             <Z>13.59753</Z>
           </Position>
+          <WaitMs>2000</WaitMs>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
@@ -618,7 +622,7 @@
             <Y>-2718.135</Y>
             <Z>13.56009</Z>
           </Position>
-          <WaitMs>500</WaitMs>
+          <WaitMs>2000</WaitMs>
         </QuestObjective>
       </Objectives>
     </Quest>
@@ -645,7 +649,7 @@
             <Y>-2634.742</Y>
             <Z>4.303937</Z>
           </Position>
-          <WaitMs>5000</WaitMs>
+          <WaitMs>2000</WaitMs>
         </QuestObjective>
         <QuestObjective>
           <Objective>InteractWith</Objective>
@@ -690,7 +694,7 @@
             <Y>-2717</Y>
             <Z>13.23</Z>
           </Position>
-          <WaitMs>5000</WaitMs>
+          <WaitMs>2000</WaitMs>
         </QuestObjective>
       </Objectives>
     </Quest>
@@ -719,6 +723,7 @@
             <Y>-2633.238</Y>
             <Z>3.72225</Z>
           </Position>
+          <WaitMs>2000</WaitMs>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
@@ -905,6 +910,7 @@
             <Y>-2717</Y>
             <Z>13.23</Z>
           </Position>
+          <WaitMs>2000</WaitMs>
         </QuestObjective>
       </Objectives>
     </Quest>
@@ -944,6 +950,7 @@
             <Y>-2633.664</Y>
             <Z>3.945443</Z>
           </Position>
+          <WaitMs>2000</WaitMs>
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpObject</Objective>
@@ -1298,7 +1305,7 @@
             <Y>-2717</Y>
             <Z>13.23</Z>
           </Position>
-          <WaitMs>500</WaitMs>
+          <WaitMs>2000</WaitMs>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
