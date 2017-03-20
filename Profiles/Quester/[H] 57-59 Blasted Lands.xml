@@ -684,7 +684,7 @@
               <Z>97.09299</Z>
             </Point>
           </Hotspots>
-          <ScriptConditionIsComplete>return nManager.Wow.Helpers.Quest.GetLogQuestIsComplete(25688) || nManager.Wow.Helpers.Quest.IsQuestFlaggedCompletedLUA(25688);</ScriptConditionIsComplete>
+          <ScriptConditionIsComplete>return nManager.Wow.Helpers.Quest.GetLogQuestIsComplete(25688);</ScriptConditionIsComplete>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
         <QuestObjective>
@@ -700,6 +700,13 @@
             <Z>13.23</Z>
           </Position>
           <WaitMs>2000</WaitMs>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>TurnInQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <NpcEntry>7783</NpcEntry>
+          <QuestName>The Altar of Storms</QuestName>
+          <QuestId>25688</QuestId>
         </QuestObjective>
       </Objectives>
     </Quest>
