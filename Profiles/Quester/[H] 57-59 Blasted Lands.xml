@@ -641,6 +641,7 @@
       <Objectives>
         <QuestObjective>
           <Objective>InteractWith</Objective>
+          <Count>1</Count>
           <Entry>
             <int>203181</int>
           </Entry>
@@ -653,6 +654,7 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>InteractWith</Objective>
+          <Count>1</Count>
           <Entry>
             <int>203196</int>
           </Entry>
@@ -682,13 +684,16 @@
               <Z>97.09299</Z>
             </Point>
           </Hotspots>
+          <ScriptConditionIsComplete>return nManager.Wow.Helpers.Quest.GetLogQuestIsComplete(25688) || nManager.Wow.Helpers.Quest.IsQuestFlaggedCompletedLUA(25688);</ScriptConditionIsComplete>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
         <QuestObjective>
           <Objective>InteractWith</Objective>
+          <Count>1</Count>
           <Entry>
             <int>203180</int>
           </Entry>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-11361.5</X>
             <Y>-2717</Y>
