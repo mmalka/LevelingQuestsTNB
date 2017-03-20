@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <QuesterProfile Author="Neo2003" DevelopmentStatus="Outdated">
+  <Questers />
   <Quests>
     <Quest>
       <Name>Wanted: Redridge Gnolls</Name>
@@ -8,9 +9,6 @@
       <QuestLevel>10</QuestLevel>
       <MinLevel>10</MinLevel>
       <MaxLevel>25</MaxLevel>
-      <NeedQuestCompletedId>
-        <int>26365</int>
-      </NeedQuestCompletedId>
       <PickUp>204344</PickUp>
       <TurnIn>464</TurnIn>
       <Objectives>

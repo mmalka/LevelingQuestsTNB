@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <QuesterProfile Author="Neo2003" DevelopmentStatus="Outdated">
+  <Questers />
   <Quests>
     <Quest>
       <Name>Wolves at Our Heels</Name>
@@ -8,9 +9,6 @@
       <QuestLevel>20</QuestLevel>
       <MinLevel>20</MinLevel>
       <MaxLevel>30</MaxLevel>
-      <NeedQuestCompletedId>
-        <int>26728</int>
-      </NeedQuestCompletedId>
       <PickUp>264</PickUp>
       <TurnIn>264</TurnIn>
       <Objectives>
