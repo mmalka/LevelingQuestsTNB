@@ -1206,6 +1206,56 @@
       </Objectives>
     </Quest>
     <Quest>
+      <Name>Kyle's Gone Missing!</Name>
+      <RaceMask>33555378</RaceMask>
+      <Id>11129</Id>
+      <QuestLevel>7</QuestLevel>
+      <MinLevel>4</MinLevel>
+      <MaxLevel>12</MaxLevel>
+      <PickUp>23618</PickUp>
+      <TurnIn>23618</TurnIn>
+      <Objectives>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <Entry>
+            <int>2956</int>
+            <int>2957</int>
+            <int>3068</int>
+          </Entry>
+          <CollectItemId>33009</CollectItemId>
+          <CollectCount>1</CollectCount>
+          <Hotspots>
+            <Point>
+              <X>-2517.28662</X>
+              <Y>-554.5382</Y>
+              <Z>-7.284932</Z>
+            </Point>
+            <Point>
+              <X>-2477.08325</X>
+              <Y>-683.2904</Y>
+              <Z>-5.21790648</Z>
+            </Point>
+            <Point>
+              <X>-2384.982</X>
+              <Y>-653.5381</Y>
+              <Z>-7.34201336</Z>
+            </Point>
+          </Hotspots>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>UseItem</Objective>
+          <Count>1</Count>
+          <UseItemId>33009</UseItemId>
+          <Position>
+            <X>-2441.32</X>
+            <Y>-465.3448</Y>
+            <Z>-8.74904</Z>
+          </Position>
+          <Range>1</Range>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
+    <Quest>
       <Name>Warchief's Command: Northern Barrens!</Name>
       <RaceMask>32</RaceMask>
       <Id>28494</Id>
