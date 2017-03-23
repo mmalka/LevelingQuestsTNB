@@ -80,8 +80,15 @@
       <TurnIn>2980</TurnIn>
       <Objectives>
         <QuestObjective>
+          <Objective>MoveTo</Objective>
+          <Position>
+            <X>-3007.911</X>
+            <Y>-773.8585</Y>
+            <Z>52.97372</Z>
+          </Position>
+        </QuestObjective>
+        <QuestObjective>
           <Objective>InteractWith</Objective>
-		  <Count>1</Count>
           <Entry>
             <int>202112</int>
           </Entry>
@@ -93,7 +100,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>InteractWith</Objective>
-		  <Count>1</Count>
           <Entry>
             <int>202112</int>
           </Entry>
@@ -105,7 +111,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>InteractWith</Objective>
-		  <Count>1</Count>
           <Entry>
             <int>202112</int>
           </Entry>
@@ -117,7 +122,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>InteractWith</Objective>
-		  <Count>1</Count>
           <Entry>
             <int>202112</int>
           </Entry>
@@ -126,6 +130,22 @@
             <Y>-638.8087</Y>
             <Z>41.88382</Z>
           </Position>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>MoveTo</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <Position>
+            <X>-2987.135</X>
+            <Y>-405.5314</Y>
+            <Z>48.47846</Z>
+          </Position>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>TurnInQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <NpcEntry>2980</NpcEntry>
+          <QuestName>Our Tribe, Imprisoned</QuestName>
+          <QuestId>24852</QuestId>
         </QuestObjective>
       </Objectives>
     </Quest>
