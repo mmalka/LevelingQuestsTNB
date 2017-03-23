@@ -758,16 +758,6 @@
             </Point>
           </Hotspots>
         </QuestObjective>
-        <QuestObjective>
-          <Objective>MoveTo</Objective>
-          <InternalIndex>2</InternalIndex>
-          <Count>1</Count>
-          <Position>
-            <X>2252.652</X>
-            <Y>315.1122</Y>
-            <Z>34.24509</Z>
-          </Position>
-        </QuestObjective>
       </Objectives>
     </Quest>
     <Quest>
@@ -993,15 +983,6 @@
       <PickUp>10665</PickUp>
       <TurnIn>10665</TurnIn>
       <Objectives>
-	   <QuestObjective>
-	    <Objective>MoveTo</Objective>
-          <Count>1</Count>
-          <Position>
-			 <X>2215.829</X>
-			 <Y>341.6838</Y>
-			 <Z>33.58292</Z>
-          </Position>
-        </QuestObjective>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
