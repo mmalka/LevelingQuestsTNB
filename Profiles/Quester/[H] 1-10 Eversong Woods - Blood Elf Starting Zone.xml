@@ -428,7 +428,7 @@
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <NpcEntry>180918</NpcEntry>
+          <NpcEntry>15403</NpcEntry>
           <QuestName>Wanted: Thaelis the Hungerer</QuestName>
           <QuestId>8468</QuestId>
         </QuestObjective>
@@ -493,7 +493,7 @@
       <MinLevel>4</MinLevel>
       <MaxLevel>11</MaxLevel>
       <NeedQuestCompletedId>
-        <int>8463</int>
+        <int>8472</int>
       </NeedQuestCompletedId>
       <PickUp>15403</PickUp>
       <TurnIn>15401</TurnIn>
@@ -731,9 +731,9 @@
             <int>15420</int>
           </Entry>
           <Position>
-			  <X>9291.544</X>
-			  <Y>-6682.769</Y>
-			  <Z>22.41875</Z>
+            <X>9294.297</X>
+            <Y>-6686.105</Y>
+            <Z>22.45436</Z>
           </Position>
           <WaitMs>1000</WaitMs>
           <GossipOptionsInteractWith>1</GossipOptionsInteractWith>
@@ -744,9 +744,9 @@
             <int>15420</int>
           </Entry>
           <Position>
-			  <X>9291.544</X>
-			  <Y>-6682.769</Y>
-			  <Z>22.41875</Z>
+            <X>9294.297</X>
+            <Y>-6686.105</Y>
+            <Z>22.45436</Z>
           </Position>
           <WaitMs>8000</WaitMs>
           <GossipOptionsInteractWith>1</GossipOptionsInteractWith>
@@ -759,9 +759,9 @@
           </Entry>
           <Hotspots>
             <Point>
-			  <X>9290.866</X>
-			  <Y>-6658.016</Y>
-			  <Z>31.82587</Z>
+              <X>9298.899</X>
+              <Y>-6663.289</Y>
+              <Z>22.42825</Z>
             </Point>
           </Hotspots>
         </QuestObjective>
