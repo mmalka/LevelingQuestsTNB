@@ -1820,7 +1820,7 @@
           </Entry>
           <CollectItemId>1</CollectItemId>
           <CollectCount>1</CollectCount>
-		    <Hotspots>
+          <Hotspots>
             <Point>
               <X>3036.462</X>
               <Y>-4941.774</Y>
@@ -2414,7 +2414,7 @@
       <Id>27527</Id>
       <QuestLevel>44</QuestLevel>
       <MinLevel>41</MinLevel>
-      <MaxLevel>54</MaxLevel>
+      <MaxLevel>50</MaxLevel>
       <NeedQuestCompletedId>
         <int>27531</int>
       </NeedQuestCompletedId>
