@@ -413,7 +413,7 @@
           <Entry>
             <int>42684</int>
           </Entry>
-          <Script>=TESTFLY.cs</Script>
+          <Script>=GoToFlagShip.cs</Script>
           <ScriptConditionIsComplete>return ObjectManager.Me.InTransport;</ScriptConditionIsComplete>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Range>4</Range>
@@ -744,7 +744,7 @@
           </Entry>
           <CollectItemId>60739</CollectItemId>
           <CollectCount>1</CollectCount>
-          <ScriptConditionIsComplete>return (nManager.Wow.Helpers.ItemsManager.GetItemCount(60739) &gt;= 1);</ScriptConditionIsComplete>
+          <ScriptConditionIsComplete>return (nManager.Wow.Helpers.ItemsManager.GetItemCount(60739) &gt;= 1) || nManager.Wow.Helpers.Quest.GetLogQuestIsComplete(26261) || nManager.Wow.Helpers.Quest.IsQuestFlaggedCompletedLUA(26261);</ScriptConditionIsComplete>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
@@ -801,14 +801,231 @@
           <QuestName>The Forgemaster's Log</QuestName>
           <QuestId>26260</QuestId>
         </QuestObjective>
+        <QuestObjective>
+          <Objective>TurnInQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <NpcEntry>205134</NpcEntry>
+          <QuestName>The Forgemaster's Log</QuestName>
+          <QuestId>26260</QuestId>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>PickUpQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <NpcEntry>205134</NpcEntry>
+          <QuestName>Silvermarsh Rendezvous</QuestName>
+          <QuestId>27007</QuestId>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>MoveTo</Objective>
+          <Count>1</Count>
+          <ScriptConditionIsComplete>return nManager.Wow.Helpers.Quest.GetLogQuestIsComplete(27007) || nManager.Wow.Helpers.Quest.IsQuestFlaggedCompletedLUA(27007);</ScriptConditionIsComplete>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <Position>
+            <X>725.4518</X>
+            <Y>-529.3147</Y>
+            <Z>150.2665</Z>
+          </Position>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>PickUpObject</Objective>
+          <InternalQuestId>27010</InternalQuestId>
+          <Entry>
+            <int>205197</int>
+          </Entry>
+          <CollectItemId>1</CollectItemId>
+          <CollectCount>1</CollectCount>
+          <ScriptConditionIsComplete>return (nManager.Wow.Helpers.ItemsManager.GetItemCount(60809) &gt;= 1) || nManager.Wow.Helpers.Quest.GetLogQuestIsComplete(27010) || nManager.Wow.Helpers.Quest.GetQuestCompleted(27010);</ScriptConditionIsComplete>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <Count>-1</Count>
+          <Entry>
+            <int>44936</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>607.83844</X>
+              <Y>-611.0764</Y>
+              <Z>148.414612</Z>
+            </Point>
+          </Hotspots>
+          <ScriptConditionIsComplete>return nManager.Wow.Helpers.Quest.GetLogQuestId().Contains(27100) || nManager.Wow.Helpers.Quest.GetLogQuestIsComplete(27100) || nManager.Wow.Helpers.Quest.GetQuestCompleted(27100);</ScriptConditionIsComplete>
+          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>UseItem</Objective>
+          <Count>1</Count>
+          <ScriptConditionIsComplete>return ObjectManager.Me.HaveBuff(83699) || nManager.Wow.Helpers.Quest.GetLogQuestIsComplete(27010) || nManager.Wow.Helpers.Quest.IsQuestFlaggedCompletedLUA(27010);</ScriptConditionIsComplete>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <UseItemId>60809</UseItemId>
+          <Position>
+            <X>612.2504</X>
+            <Y>-757.1858</Y>
+            <Z>144.7031</Z>
+          </Position>
+          <WaitMs>500</WaitMs>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>MoveTo</Objective>
+          <Count>1</Count>
+          <ScriptConditionIsComplete>return nManager.Wow.Helpers.Quest.GetLogQuestIsComplete(27010) || nManager.Wow.Helpers.Quest.IsQuestFlaggedCompletedLUA(27010);</ScriptConditionIsComplete>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <Position>
+            <X>580.7928</X>
+            <Y>-768.6207</Y>
+            <Z>145.0839</Z>
+          </Position>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>1</InternalIndex>
+          <InternalQuestId>27100</InternalQuestId>
+          <Entry>
+            <int>43158</int>
+          </Entry>
+          <CollectItemId>1</CollectItemId>
+          <CollectCount>4</CollectCount>
+          <Hotspots>
+            <Point>
+              <X>631.252441</X>
+              <Y>-699.7631</Y>
+              <Z>149.072235</Z>
+            </Point>
+            <Point>
+              <X>771.3076</X>
+              <Y>-551.9249</Y>
+              <Z>148.199692</Z>
+            </Point>
+          </Hotspots>
+          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>TurnInQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <NpcEntry>205207</NpcEntry>
+          <QuestName>Maziel's Revelation</QuestName>
+          <QuestId>27101</QuestId>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>PickUpQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <NpcEntry>205207</NpcEntry>
+          <QuestName>Maziel's Ascendancy</QuestName>
+          <QuestId>27102</QuestId>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>1</InternalIndex>
+          <InternalQuestId>27102</InternalQuestId>
+          <Count>1</Count>
+          <Entry>
+            <int>44967</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>690.528</X>
+              <Y>-664.16</Y>
+              <Z>9.540981</Z>
+            </Point>
+          </Hotspots>
+          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <ForceTravelToQuestZone>true</ForceTravelToQuestZone>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>TurnInQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <NpcEntry>44010</NpcEntry>
+          <QuestName>The Twilight Overlook</QuestName>
+          <QuestId>27061</QuestId>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>PickUpQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <NpcEntry>44010</NpcEntry>
+          <QuestName>Big Game, Big Bait</QuestName>
+          <QuestId>26766</QuestId>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>PickUpQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <NpcEntry>44010</NpcEntry>
+          <QuestName>To Catch a Dragon</QuestName>
+          <QuestId>26768</QuestId>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <InternalIndex>1</InternalIndex>
+          <InternalQuestId>26768</InternalQuestId>
+          <Entry>
+            <int>44221</int>
+          </Entry>
+          <CollectItemId>1</CollectItemId>
+          <CollectCount>1</CollectCount>
+          <Hotspots>
+            <Point>
+              <X>143.727</X>
+              <Y>-411.918</Y>
+              <Z>173.49382</Z>
+            </Point>
+          </Hotspots>
+          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>TurnInQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <NpcEntry>44010</NpcEntry>
+          <QuestName>To Catch a Dragon</QuestName>
+          <QuestId>26768</QuestId>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMobUseItem</Objective>
+          <InternalIndex>1</InternalIndex>
+          <InternalQuestId>26766</InternalQuestId>
+          <Count>5</Count>
+          <Entry>
+            <int>43981</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>21.4160213</X>
+              <Y>20.2493668</Y>
+              <Z>184.011169</Z>
+            </Point>
+            <Point>
+              <X>-224.745544</X>
+              <Y>140.240234</Y>
+              <Z>151.590225</Z>
+            </Point>
+            <Point>
+              <X>9.271484</X>
+              <Y>305.232422</Y>
+              <Z>168.527191</Z>
+            </Point>
+          </Hotspots>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <IgnoreBlackList>true</IgnoreBlackList>
+          <UseItemId>60382</UseItemId>
+          <WaitMs>1500</WaitMs>
+        </QuestObjective>
       </Objectives>
       <AutoComplete>
         <int>26258</int>
         <int>26256</int>
+        <int>27007</int>
+        <int>27010</int>
+        <int>27100</int>
+        <int>27102</int>
       </AutoComplete>
       <AutoAccept>
         <int>26256</int>
         <int>26261</int>
+        <int>27010</int>
+        <int>27101</int>
       </AutoAccept>
     </Quest>
   </Quests>
