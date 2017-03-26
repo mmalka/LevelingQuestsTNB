@@ -517,7 +517,7 @@
 		<Z>94.14468</Z>
       </BPoint>
     </Portal>
-	<Portal Id="207688" Name="Portal Orgrimmar to Hyjal" Faction="Horde" AContinentId="1" BContinentId="1">
+	<Portal RequireQuestId="25317" Id="207688" Name="Portal Orgrimmar to Hyjal" Faction="Horde" AContinentId="1" BContinentId="1">
       <APoint><!-- Orgrimmar -->
 		<X>2045.317</X>
 		<Y>-4389.562</Y>
@@ -529,7 +529,7 @@
 		<Z>1566.695</Z>
       </BPoint>
 	  </Portal>
-	<Portal Id="209081" Name="Portal Hyjal to Orgrimmar" Faction="Horde" AContinentId="1" BContinentId="1">
+	<Portal RequireQuestId="25317" Id="209081" Name="Portal Hyjal to Orgrimmar" Faction="Horde" AContinentId="1" BContinentId="1">
 	  <APoint><!-- Hyjal -->
 		<X>5507.359</X>
 		<Y>-3628.723</Y>
