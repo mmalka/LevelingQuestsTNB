@@ -1268,7 +1268,7 @@
             <Y>-3427.072</Y>
             <Z>16.35807</Z>
           </Position>
-          <WaitMs>111</WaitMs>
+          <WaitMs>500</WaitMs>
         </QuestObjective>
         <QuestObjective>
           <Objective>MoveTo</Objective>
