@@ -1077,6 +1077,9 @@
           <Count>1</Count>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
+            <X>-2931.217</X>
+            <Y>-999.4379</Y>
+            <Z>-1.717</Z>
             <Type>Swimming</Type>
           </Position>
         </QuestObjective>
