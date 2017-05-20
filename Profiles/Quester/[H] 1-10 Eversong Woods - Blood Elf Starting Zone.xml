@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <QuesterProfile Author="Vesper" ExtraCredits="Arasal" DevelopmentStatus="Outdated">
+  <Questers />
   <Quests>
     <Quest>
       <Name>Reclaiming Sunstrider Isle</Name>
@@ -428,7 +429,7 @@
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <NpcEntry>15403</NpcEntry>
+          <NpcEntry>180918</NpcEntry>
           <QuestName>Wanted: Thaelis the Hungerer</QuestName>
           <QuestId>8468</QuestId>
         </QuestObjective>
@@ -483,6 +484,27 @@
           </Hotspots>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
+        <QuestObjective>
+          <Objective>TurnInQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <NpcEntry>16924</NpcEntry>
+          <QuestName>Wanted: Thaelis the Hungerer</QuestName>
+          <QuestId>8468</QuestId>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>TurnInQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <NpcEntry>15403</NpcEntry>
+          <QuestName>Unstable Mana Crystals</QuestName>
+          <QuestId>8463</QuestId>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>TurnInQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <NpcEntry>15418</NpcEntry>
+          <QuestName>Major Malfunction</QuestName>
+          <QuestId>8472</QuestId>
+        </QuestObjective>
       </Objectives>
     </Quest>
     <Quest>
@@ -494,6 +516,8 @@
       <MaxLevel>11</MaxLevel>
       <NeedQuestCompletedId>
         <int>8472</int>
+        <int>8468</int>
+        <int>8463</int>
       </NeedQuestCompletedId>
       <PickUp>15403</PickUp>
       <TurnIn>15401</TurnIn>
