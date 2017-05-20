@@ -8,7 +8,7 @@
       <Id>8325</Id>
       <QuestLevel>1</QuestLevel>
       <MinLevel>1</MinLevel>
-      <MaxLevel>4</MaxLevel>
+      <MaxLevel>5</MaxLevel>
       <PickUp>15278</PickUp>
       <TurnIn>15278</TurnIn>
       <Objectives>
@@ -39,7 +39,7 @@
       <Id>8326</Id>
       <QuestLevel>3</QuestLevel>
       <MinLevel>1</MinLevel>
-      <MaxLevel>6</MaxLevel>
+      <MaxLevel>7</MaxLevel>
       <NeedQuestCompletedId>
         <int>8325</int>
       </NeedQuestCompletedId>
@@ -70,7 +70,7 @@
       <Id>37443</Id>
       <QuestLevel>4</QuestLevel>
       <MinLevel>2</MinLevel>
-      <MaxLevel>7</MaxLevel>
+      <MaxLevel>8</MaxLevel>
       <NeedQuestCompletedId>
         <int>8326</int>
       </NeedQuestCompletedId>
@@ -131,9 +131,9 @@
       <Name>The Shrine of Dath'Remar</Name>
       <RaceMask>512</RaceMask>
       <Id>37442</Id>
-      <QuestLevel>1</QuestLevel>
+      <QuestLevel>2</QuestLevel>
       <MinLevel>2</MinLevel>
-      <MaxLevel>7</MaxLevel>
+      <MaxLevel>8</MaxLevel>
       <NeedQuestCompletedId>
         <int>8326</int>
       </NeedQuestCompletedId>
@@ -159,7 +159,7 @@
       <Id>37440</Id>
       <QuestLevel>4</QuestLevel>
       <MinLevel>2</MinLevel>
-      <MaxLevel>7</MaxLevel>
+      <MaxLevel>8</MaxLevel>
       <NeedQuestCompletedId>
         <int>8325</int>
       </NeedQuestCompletedId>
@@ -190,7 +190,7 @@
       <Id>37439</Id>
       <QuestLevel>3</QuestLevel>
       <MinLevel>2</MinLevel>
-      <MaxLevel>6</MaxLevel>
+      <MaxLevel>7</MaxLevel>
       <NeedQuestCompletedId>
         <int>8325</int>
       </NeedQuestCompletedId>
@@ -213,7 +213,7 @@
       <Id>8327</Id>
       <QuestLevel>3</QuestLevel>
       <MinLevel>1</MinLevel>
-      <MaxLevel>6</MaxLevel>
+      <MaxLevel>7</MaxLevel>
       <NeedQuestCompletedId>
         <int>8326</int>
       </NeedQuestCompletedId>
@@ -227,7 +227,7 @@
       <Id>8334</Id>
       <QuestLevel>4</QuestLevel>
       <MinLevel>1</MinLevel>
-      <MaxLevel>7</MaxLevel>
+      <MaxLevel>8</MaxLevel>
       <NeedQuestCompletedId>
         <int>8327</int>
       </NeedQuestCompletedId>
@@ -272,7 +272,7 @@
       <Id>8335</Id>
       <QuestLevel>5</QuestLevel>
       <MinLevel>1</MinLevel>
-      <MaxLevel>8</MaxLevel>
+      <MaxLevel>10</MaxLevel>
       <NeedQuestCompletedId>
         <int>8334</int>
       </NeedQuestCompletedId>
@@ -348,7 +348,7 @@
       <Id>8338</Id>
       <QuestLevel>4</QuestLevel>
       <MinLevel>1</MinLevel>
-      <MaxLevel>9</MaxLevel>
+      <MaxLevel>8</MaxLevel>
       <ItemPickUp>20483</ItemPickUp>
       <TurnIn>15297</TurnIn>
       <Objectives />
@@ -359,7 +359,7 @@
       <Id>8347</Id>
       <QuestLevel>5</QuestLevel>
       <MinLevel>4</MinLevel>
-      <MaxLevel>8</MaxLevel>
+      <MaxLevel>10</MaxLevel>
       <NeedQuestCompletedId>
         <int>8335</int>
       </NeedQuestCompletedId>
@@ -686,7 +686,7 @@
       <Id>9066</Id>
       <QuestLevel>6</QuestLevel>
       <MinLevel>4</MinLevel>
-      <MaxLevel>11</MaxLevel>
+      <MaxLevel>12</MaxLevel>
       <NeedQuestCompletedId>
         <int>9064</int>
       </NeedQuestCompletedId>
@@ -813,7 +813,7 @@
       <Id>8884</Id>
       <QuestLevel>7</QuestLevel>
       <MinLevel>5</MinLevel>
-      <MaxLevel>12</MaxLevel>
+      <MaxLevel>13</MaxLevel>
       <PickUp>15920</PickUp>
       <TurnIn>15920</TurnIn>
       <Objectives>
@@ -831,6 +831,16 @@
               <Y>-5900.252</Y>
               <Z>0.6823175</Z>
             </Point>
+            <Point>
+              <X>9045.6</X>
+              <Y>-5791.51563</Y>
+              <Z>0.8808077</Z>
+            </Point>
+            <Point>
+              <X>9013.369</X>
+              <Y>-5756.13965</Y>
+              <Z>0.475515366</Z>
+            </Point>
           </Hotspots>
         </QuestObjective>
       </Objectives>
@@ -841,7 +851,7 @@
       <Id>8885</Id>
       <QuestLevel>9</QuestLevel>
       <MinLevel>5</MinLevel>
-      <MaxLevel>14</MaxLevel>
+      <MaxLevel>15</MaxLevel>
       <NeedQuestCompletedId>
         <int>8884</int>
       </NeedQuestCompletedId>
@@ -938,7 +948,7 @@
       <Id>8475</Id>
       <QuestLevel>6</QuestLevel>
       <MinLevel>4</MinLevel>
-      <MaxLevel>11</MaxLevel>
+      <MaxLevel>12</MaxLevel>
       <PickUp>15416</PickUp>
       <TurnIn>15416</TurnIn>
       <Objectives>
@@ -997,7 +1007,7 @@
       <Id>9395</Id>
       <QuestLevel>9</QuestLevel>
       <MinLevel>8</MinLevel>
-      <MaxLevel>12</MaxLevel>
+      <MaxLevel>15</MaxLevel>
       <PickUp>16210</PickUp>
       <TurnIn>16144</TurnIn>
       <Objectives />
@@ -1008,7 +1018,7 @@
       <Id>9067</Id>
       <QuestLevel>9</QuestLevel>
       <MinLevel>7</MinLevel>
-      <MaxLevel>14</MaxLevel>
+      <MaxLevel>15</MaxLevel>
       <NeedQuestCompletedId>
         <int>9395</int>
       </NeedQuestCompletedId>
@@ -1017,6 +1027,7 @@
       <Objectives>
         <QuestObjective>
           <Objective>BuyItem</Objective>
+          <InternalIndex>1</InternalIndex>
           <Entry>
             <int>16442</int>
           </Entry>
@@ -1031,6 +1042,7 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>BuyItem</Objective>
+          <InternalIndex>2</InternalIndex>
           <Entry>
             <int>16443</int>
           </Entry>
@@ -1045,6 +1057,7 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>BuyItem</Objective>
+          <InternalIndex>3</InternalIndex>
           <Entry>
             <int>16444</int>
           </Entry>
