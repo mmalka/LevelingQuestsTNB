@@ -1398,5 +1398,101 @@
         </Point>
       </Points>
     </CustomPath> 
+	<CustomPath Id="32" Name="Dragonblight, getting around alliance camp" Faction="Horde" AContinentId="571" BContinentId="571">
+      <APoint>
+		<X>3571.68848</X>
+		<Y>2143.72314</Y>
+		<Z>74.68302</Z>
+      </APoint>
+      <BPoint>
+		<X>3431.45874</X>
+		<Y>2262.92017</Y>
+		<Z>32.01876</Z>
+      </BPoint>
+      <Points>
+       <Point>
+		  <X>3571.68848</X>
+		  <Y>2143.72314</Y>
+		  <Z>74.68302</Z>
+		</Point>
+		<Point>
+		  <X>3514.8186</X>
+		  <Y>2177.43628</Y>
+		  <Z>56.43517</Z>
+		</Point>
+		<Point>
+		  <X>3478.36035</X>
+		  <Y>2199.49023</Y>
+		  <Z>51.1487846</Z>
+		</Point>
+		<Point>
+		  <X>3466.779</X>
+		  <Y>2208.255</Y>
+		  <Z>52.27791</Z>
+		</Point>
+		<Point>
+		  <X>3431.45874</X>
+		  <Y>2262.92017</Y>
+		  <Z>32.01876</Z>
+		</Point>
+      </Points>
+    </CustomPath> 	
+	<CustomPath Id="34" Name="Storm Peaks, flying Sifredlar Village" Faction="Horde" AContinentId="571" BContinentId="571">
+     <ForceFlying>true</ForceFlying>
+	 <APoint>
+		  <X>6436.60938</X>
+		  <Y>-1014.849</Y>
+		  <Z>430.493622</Z>
+      </APoint>
+      <BPoint>
+		  <X>6648.686</X>
+		  <Y>-1034.05847</Y>
+		  <Z>764.0025</Z>
+      </BPoint>
+      <Points>
+		 <Point>
+		  <X>6436.60938</X>
+		  <Y>-1014.849</Y>
+		  <Z>430.493622</Z>
+		</Point>
+		<Point>
+		  <X>6436.60938</X>
+		  <Y>-1014.849</Y>
+		  <Z>475.416077</Z>
+		  <Type>Flying</Type>
+		</Point>
+		<Point>
+		  <X>6436.60938</X>
+		  <Y>-1014.849</Y>
+		  <Z>675.214</Z>
+		  <Type>Flying</Type>
+		</Point>
+		<Point>
+		  <X>6485.719</X>
+		  <Y>-1020.47473</Y>
+		  <Z>718.678</Z>
+		  <Type>Flying</Type>
+		</Point>
+		<Point>
+		  <X>6538.294</X>
+		  <Y>-1024.90308</Y>
+		  <Z>745.802</Z>
+		  <Type>Flying</Type>
+		</Point>
+		<Point>
+		  <X>6574.12354</X>
+		  <Y>-1027.92078</Y>
+		  <Z>764.286865</Z>
+		  <Type>Flying</Type>
+		</Point>
+		<Point>
+		  <X>6648.686</X>
+		  <Y>-1034.05847</Y>
+		  <Z>764.0025</Z>
+		</Point>
+      </Points>
+    </CustomPath> 
   </Items>
 </CustomPaths>
+
+ 
