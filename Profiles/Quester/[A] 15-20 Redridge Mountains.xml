@@ -6,8 +6,8 @@
       <Name>Wanted: Redridge Gnolls</Name>
       <RaceMask>2098253</RaceMask>
       <Id>26504</Id>
-      <QuestLevel>10</QuestLevel>
-      <MinLevel>10</MinLevel>
+      <QuestLevel>15</QuestLevel>
+      <MinLevel>14</MinLevel>
       <MaxLevel>25</MaxLevel>
       <PickUp>204344</PickUp>
       <TurnIn>464</TurnIn>

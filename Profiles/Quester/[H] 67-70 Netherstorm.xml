@@ -8,7 +8,7 @@
       <Id>10183</Id>
       <QuestLevel>68</QuestLevel>
       <MinLevel>65</MinLevel>
-      <MaxLevel>78</MaxLevel>
+      <MaxLevel>68</MaxLevel>
       <PickUp>19569</PickUp>
       <TurnIn>19570</TurnIn>
       <Objectives />
@@ -19,7 +19,7 @@
       <Id>10190</Id>
       <QuestLevel>68</QuestLevel>
       <MinLevel>65</MinLevel>
-      <MaxLevel>78</MaxLevel>
+      <MaxLevel>68</MaxLevel>
       <NeedQuestCompletedId>
         <int>10183</int>
       </NeedQuestCompletedId>
@@ -58,7 +58,7 @@
       <Id>10210</Id>
       <QuestLevel>65</QuestLevel>
       <MinLevel>62</MinLevel>
-      <MaxLevel>75</MaxLevel>
+      <MaxLevel>68</MaxLevel>
       <NeedQuestCompletedId>
         <int>10190</int>
       </NeedQuestCompletedId>
@@ -72,7 +72,7 @@
       <Id>10211</Id>
       <QuestLevel>65</QuestLevel>
       <MinLevel>62</MinLevel>
-      <MaxLevel>75</MaxLevel>
+      <MaxLevel>68</MaxLevel>
       <NeedQuestCompletedId>
         <int>10210</int>
       </NeedQuestCompletedId>
@@ -104,7 +104,7 @@
       <Id>10552</Id>
       <QuestLevel>1</QuestLevel>
       <MinLevel>1</MinLevel>
-      <MaxLevel>110</MaxLevel>
+      <MaxLevel>68</MaxLevel>
       <NeedQuestCompletedId>
         <int>10211</int>
       </NeedQuestCompletedId>
@@ -118,7 +118,7 @@
       <Id>10265</Id>
       <QuestLevel>69</QuestLevel>
       <MinLevel>66</MinLevel>
-      <MaxLevel>79</MaxLevel>
+      <MaxLevel>68</MaxLevel>
       <NeedQuestCompletedId>
         <int>10552</int>
       </NeedQuestCompletedId>
@@ -564,7 +564,7 @@
       <Id>10262</Id>
       <QuestLevel>68</QuestLevel>
       <MinLevel>65</MinLevel>
-      <MaxLevel>78</MaxLevel>
+      <MaxLevel>68</MaxLevel>
       <NeedQuestCompletedId>
         <int>10265</int>
       </NeedQuestCompletedId>
@@ -851,7 +851,7 @@
       <Id>10205</Id>
       <QuestLevel>69</QuestLevel>
       <MinLevel>66</MinLevel>
-      <MaxLevel>79</MaxLevel>
+      <MaxLevel>68</MaxLevel>
       <NeedQuestCompletedId>
         <int>10262</int>
       </NeedQuestCompletedId>
@@ -957,7 +957,7 @@
       <Id>10266</Id>
       <QuestLevel>69</QuestLevel>
       <MinLevel>66</MinLevel>
-      <MaxLevel>79</MaxLevel>
+      <MaxLevel>68</MaxLevel>
       <NeedQuestCompletedId>
         <int>10205</int>
       </NeedQuestCompletedId>

@@ -849,28 +849,15 @@
           <QuestId>27195</QuestId>
         </QuestObjective>
         <QuestObjective>
-          <Objective>MoveTo</Objective>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <Position>
-            <X>408.2197</X>
-            <Y>1005.873</Y>
-            <Z>107.4196</Z>
-          </Position>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>Wait</Objective>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <WaitMs>40000</WaitMs>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>MoveTo</Objective>
+          <Objective>CSharpScript</Objective>
           <Count>1</Count>
+          <Entry>
+            <int>45228</int>
+          </Entry>
+          <Script>=Escort.cs</Script>
+          <ScriptConditionIsComplete>return nManager.Wow.Helpers.Quest.GetLogQuestIsComplete(27195) || nManager.Wow.Helpers.Quest.IsQuestFlaggedCompletedLUA(27195);</ScriptConditionIsComplete>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <Position>
-            <X>491.4073</X>
-            <Y>1551.139</Y>
-            <Z>128.8711</Z>
-          </Position>
+          <Range>0</Range>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
@@ -1244,6 +1231,11 @@
               <X>-1327.336</X>
               <Y>1119.126</Y>
               <Z>35.75272</Z>
+            </Point>
+			 <Point>
+              <X>-1499.33008</X>
+              <Y>1030.33948</Y>
+              <Z>18.2224159</Z>
             </Point>
           </Hotspots>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>

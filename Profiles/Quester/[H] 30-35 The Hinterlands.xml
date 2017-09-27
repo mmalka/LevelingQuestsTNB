@@ -1171,5 +1171,12 @@
         <Z>139.7303</Z>
       </Position>
     </QuesterBlacklistRadius>
+    <QuesterBlacklistRadius>
+      <Position>
+        <X>355.1318</X>
+        <Y>-3764.748</Y>
+        <Z>107.196</Z>
+      </Position>
+    </QuesterBlacklistRadius>
   </Blackspots>
 </QuesterProfile>
