@@ -46,8 +46,8 @@ if (unit.IsValid && !nManagerSetting.IsBlackListedZone(unit.Position) && !nManag
 	WoWUnit totem = ObjectManager.GetNearestWoWUnit(ObjectManager.GetWoWUnitByEntry(questObjective.ExtraInt, questObjective.IsDead),questObjective.IgnoreNotSelectable, questObjective.IgnoreBlackList,
 	questObjective.AllowPlayerControlled);
 	
-	//Place totem if its not there
-	if(!totem.IsValid)
+	//Place totem if its not there OR replace it if the cooldown is up instead or running back to it
+	if(!totem.IsValid || !ItemsManager.IsItemOnCooldown(questObjective.UseItemId) && ItemsManager.IsItemUsable(questObjective.UseItemId))
 	{
 		if ((ObjectManager.Me.Position.DistanceTo(unit.Position) >= 20) || ItemsManager.GetItemCount(questObjective.UseItemId) <= 0 || ItemsManager.IsItemOnCooldown(questObjective.UseItemId) || !ItemsManager.IsItemUsable(questObjective.UseItemId))
 		return false;
