@@ -27,54 +27,11 @@ try
 			nManagerSetting.AddBlackList(node.IsValid ? node.Guid : unit.Guid, 30*1000);
 			return false;
 		}
-		if (questObjective.IgnoreFight)
+		
+		if (questObjective.IgnoreFight && unit.GetDistance <= 20) //Dont ignore fight if we are too far from the mob... 
 			nManager.Wow.Helpers.Quest.GetSetIgnoreFight = true;
 		/* Entry found, GoTo */
-		if (node.IsValid)
-		{
-			unit = new WoWUnit(0);
-			baseAddress = MovementManager.FindTarget(node, questObjective.Range);
-		}
-		if (unit.IsValid)
-		{
-			node = new WoWGameObject(0);
-			baseAddress = MovementManager.FindTarget(unit, questObjective.Range);
-		}
-		Thread.Sleep(500);
-		
-		if(unit.HaveBuff(Others.ToUInt32(questObjective.ExtraInt.ToString())))
-		{
-			MovementManager.Go(PathFinder.FindPath(ObjectManager.Me.Position, questObjective.ExtraPoint));
-			//Logging.Write("BUFF");
-			while(unit.HaveBuff(Others.ToUInt32(questObjective.ExtraInt.ToString())))
-			{
-				if(ObjectManager.Me.IsDeadMe)
-					return false;
-				Thread.Sleep(500);
-			}
-			return false;
-		}
-			
-		if (MovementManager.InMovement)
-			return false;
-		if (questObjective.IgnoreNotSelectable)
-		{
-			if ((node.IsValid && node.GetDistance > questObjective.Range) || (unit.IsValid && unit.GetDistance > questObjective.Range))
-				return false;
-		}
-		else
-		{
-			if (baseAddress <= 0)
-				return false;
-			if (baseAddress > 0 && ((node.IsValid && node.GetDistance > questObjective.Range) || (unit.IsValid && unit.GetDistance > questObjective.Range)))
-				return false;
-			
-		}
-
-		/* Target Reached */
-		MovementManager.StopMove();
-		MountTask.DismountMount();
-		
+	
 		//Pre Select Target
 		if (node.IsValid && node.Position.DistanceTo(ObjectManager.Me.Position) <= 60 && ObjectManager.Target.Guid != node.Guid)
 		{
@@ -96,6 +53,47 @@ try
 		
 		if (node.IsValid)
 		{
+			unit = new WoWUnit(0);
+			baseAddress = MovementManager.FindTarget(node, questObjective.Range);
+		}
+		if (unit.IsValid)
+		{
+			node = new WoWGameObject(0);
+			baseAddress = MovementManager.FindTarget(unit, questObjective.Range);
+		}	
+	
+		if((node.IsValid && node.GetDistance < questObjective.Range) || (unit.IsValid && unit.GetDistance <= questObjective.Range))
+		{
+			//Logging.Write("TARGET REACHED" + unit.GetDistance);
+			/* Target Reached */
+			MovementManager.StopMove();
+			MountTask.DismountMount();
+		}
+		else
+		{
+			if (MovementManager.InMovement)
+				return false;
+			if (questObjective.IgnoreNotSelectable)
+			{
+				if ((node.IsValid && node.GetDistance > questObjective.Range) || (unit.IsValid && unit.GetDistance > questObjective.Range))
+					return false;
+			}
+			else
+			{
+				if (baseAddress <= 0)
+					return false;
+				if (baseAddress > 0 && ((node.IsValid && node.GetDistance > questObjective.Range) || (unit.IsValid && unit.GetDistance > questObjective.Range)))
+					return false;
+				
+			}
+		}
+		
+		/* Target Reached */
+		MovementManager.StopMove();
+		MountTask.DismountMount();
+				
+		if (node.IsValid)
+		{
 			MovementManager.Face(node);
 		}
 		else if (unit.IsValid)
@@ -105,57 +103,39 @@ try
 		
 		Thread.Sleep(100 + Usefuls.Latency); /* ZZZzzzZZZzz */
 
-		/* Target Reached */
-		MovementManager.StopMove();
-		MountTask.DismountMount();
+		
 
-		
-		
-		
 		if (ItemsManager.GetItemCount(questObjective.UseItemId) <= 0 || ItemsManager.IsItemOnCooldown(questObjective.UseItemId) || !ItemsManager.IsItemUsable(questObjective.UseItemId))
 			return false;
 		
 		
 		ItemsManager.UseItem(ItemsManager.GetItemNameById(questObjective.UseItemId));
-
+		Thread.Sleep(2300);
+		ItemsManager.UseItem(ItemsManager.GetItemNameById(questObjective.UseItemId));
+		Thread.Sleep(2300);
+		ItemsManager.UseItem(ItemsManager.GetItemNameById(questObjective.UseItemId));
+		
+		Fight.StartFight(unit.GetBaseAddress);
+		
 		Thread.Sleep(Usefuls.Latency + 250);
 
 		/* Wait for the Use Item cast to be finished, if any */
 		while (ObjectManager.Me.IsCast)
 		{
-			//Logging.Write("CAST");
-			if(unit.HaveBuff(Others.ToUInt32(questObjective.ExtraInt.ToString())))
-			{
-				break;
-				
-			}
 			Thread.Sleep(Usefuls.Latency);
 		}
 
-		if(unit.HaveBuff(Others.ToUInt32(questObjective.ExtraInt.ToString())))
+		if (node.IsValid)
+		{
+			nManagerSetting.AddBlackList(node.Guid, 60*1000);
+		}
+		else if (unit.IsValid)
 		{
 			
-			//Logging.Write("BUFF");
-			
-			Lua.LuaDoString("SpellStopCasting();");
-			Thread.Sleep(500);
-			
-			MovementManager.Go(PathFinder.FindPath(ObjectManager.Me.Position, questObjective.ExtraPoint));
-			while(ObjectManager.Me.Position.DistanceTo(questObjective.ExtraPoint) >=5)
-			{
-				if(ObjectManager.Me.IsDeadMe)
-					return false;
-			}
-			
-			while(unit.HaveBuff(Others.ToUInt32(questObjective.ExtraInt.ToString())))
-			{
-				if(ObjectManager.Me.IsDeadMe)
-					return false;
-				Thread.Sleep(500);
-			}
-			
+			Interact.InteractWith(unit.GetBaseAddress); //Interact With Unit to Attack it
+			nManagerSetting.AddBlackList(unit.Guid, 60*1000);
 		}
-		
+
 		/* Wait if necessary */
 		if (questObjective.WaitMs > 0)
 			Thread.Sleep(questObjective.WaitMs);
@@ -170,7 +150,7 @@ try
 		if (questObjective.PathHotspots[nManager.Helpful.Math.NearestPointOfListPoints(questObjective.PathHotspots, ObjectManager.Me.Position)].DistanceTo(ObjectManager.Me.Position) > 5)
 		{
 			if(nManager.Wow.Helpers.Quest.TravelToQuestZone(questObjective.PathHotspots[nManager.Helpful.Math.NearestPointOfListPoints(questObjective.PathHotspots, ObjectManager.Me.Position)],
-			ref questObjective.TravelToQuestZone, questObjective.ContinentId, questObjective.ForceTravelToQuestZone))
+				ref questObjective.TravelToQuestZone, questObjective.ContinentId, questObjective.ForceTravelToQuestZone))
 				return false;
 			MovementManager.Go(PathFinder.FindPath(questObjective.PathHotspots[nManager.Helpful.Math.NearestPointOfListPoints(questObjective.PathHotspots, ObjectManager.Me.Position)]));
 		}

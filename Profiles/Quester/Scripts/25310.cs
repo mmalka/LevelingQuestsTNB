@@ -1,5 +1,6 @@
-/* Use Item With HotSpots
-Check if there is HotSpots in the objective */
+/* Use item to kill Garnoth
+   Ignore Fight otherwise the CC will make the script bug
+*/
 
 try
 {
@@ -14,7 +15,6 @@ try
 	if(questObjective.Range == 0)
 		questObjective.Range = 5;
 	
-	WoWGameObject node = ObjectManager.GetNearestWoWGameObject(ObjectManager.GetWoWGameObjectById(questObjective.Entry));
 	WoWUnit unit = ObjectManager.GetNearestWoWUnit(ObjectManager.GetWoWUnitByEntry(questObjective.Entry, questObjective.IsDead), questObjective.IgnoreNotSelectable, questObjective.IgnoreBlackList,
 		questObjective.AllowPlayerControlled);
 	Point pos = ObjectManager.Me.Position; /* Initialize or getting an error */
@@ -22,25 +22,20 @@ try
 	uint baseAddress = 0;
 
 	/* If Entry found continue, otherwise continue checking around HotSpots */
-	if ((unit.IsValid && (!nManagerSetting.IsBlackListedZone(unit.Position) && !nManagerSetting.IsBlackListed(unit.Guid) || questObjective.IgnoreBlackList )) ||
-		(node.IsValid && (!nManagerSetting.IsBlackListedZone(node.Position) && !nManagerSetting.IsBlackListed(node.Guid) || questObjective.IgnoreBlackList)))
+	if (unit.IsValid && (!nManagerSetting.IsBlackListedZone(unit.Position) && !nManagerSetting.IsBlackListed(unit.Guid) || questObjective.IgnoreBlackList ))
 	{
-		if(nManager.Wow.Helpers.PathFinder.FindPath(node.IsValid ? node.Position : unit.Position).Count <= 0)
+		if(nManager.Wow.Helpers.PathFinder.FindPath(unit.Position).Count <= 0)
 		{
-			nManagerSetting.AddBlackList(node.IsValid ? node.Guid : unit.Guid, 30*1000);
+			nManagerSetting.AddBlackList(unit.Guid, 30*1000);
 			return false;
 		}
 		
-		if (questObjective.IgnoreFight && unit.GetDistance <= 20) //Dont ignore fight if we are too far from the mob... 
+		if (questObjective.IgnoreFight && unit.GetDistance <= 35) //Dont ignore fight if we are too far from the mob... 
 			nManager.Wow.Helpers.Quest.GetSetIgnoreFight = true;
 		/* Entry found, GoTo */
 	
 		//Pre Select Target
-		if (node.IsValid && node.Position.DistanceTo(ObjectManager.Me.Position) <= 60 && ObjectManager.Target.Guid != node.Guid)
-		{
-			Interact.InteractWith(node.GetBaseAddress);
-		}
-		else if (unit.IsValid && unit.Position.DistanceTo(ObjectManager.Me.Position) <= 60 && ObjectManager.Target.Guid != unit.Guid)
+		if (unit.Position.DistanceTo(ObjectManager.Me.Position) <= 60 && ObjectManager.Target.Guid != unit.Guid)
 		{	
 			Lua.LuaDoString("ClearTarget()");
 			
@@ -54,18 +49,9 @@ try
 			}
 		}
 		
-		if (node.IsValid)
-		{
-			unit = new WoWUnit(0);
-			baseAddress = MovementManager.FindTarget(node, questObjective.Range);
-		}
-		if (unit.IsValid)
-		{
-			node = new WoWGameObject(0);
-			baseAddress = MovementManager.FindTarget(unit, questObjective.Range);
-		}	
+		baseAddress = MovementManager.FindTarget(unit, questObjective.Range);
 	
-		if((node.IsValid && node.GetDistance < questObjective.Range) || (unit.IsValid && unit.GetDistance <= questObjective.Range))
+		if(unit.IsValid && unit.GetDistance <= questObjective.Range)
 		{
 			//Logging.Write("TARGET REACHED" + unit.GetDistance);
 			/* Target Reached */
@@ -78,14 +64,14 @@ try
 				return false;
 			if (questObjective.IgnoreNotSelectable)
 			{
-				if ((node.IsValid && node.GetDistance > questObjective.Range) || (unit.IsValid && unit.GetDistance > questObjective.Range))
+				if (unit.IsValid && unit.GetDistance > questObjective.Range)
 					return false;
 			}
 			else
 			{
 				if (baseAddress <= 0)
 					return false;
-				if (baseAddress > 0 && ((node.IsValid && node.GetDistance > questObjective.Range) || (unit.IsValid && unit.GetDistance > questObjective.Range)))
+				if (baseAddress > 0 && (unit.IsValid && unit.GetDistance > questObjective.Range))
 					return false;
 				
 			}
@@ -95,15 +81,8 @@ try
 		MovementManager.StopMove();
 		MountTask.DismountMount();
 				
-		if (node.IsValid)
-		{
-			MovementManager.Face(node);
-		}
-		else if (unit.IsValid)
-		{
-			MovementManager.Face(unit);
-		}
-		
+		MovementManager.Face(unit);
+	
 		Thread.Sleep(100 + Usefuls.Latency); /* ZZZzzzZZZzz */
 
 		
@@ -115,23 +94,28 @@ try
 		ItemsManager.UseItem(ItemsManager.GetItemNameById(questObjective.UseItemId));
 
 		Thread.Sleep(Usefuls.Latency + 250);
-
-		/* Wait for the Use Item cast to be finished, if any */
-		while (ObjectManager.Me.IsCast)
+		
+		Interact.InteractWith(unit.GetBaseAddress); //Interact With Unit to Attack it
+		
+		int i = 4;
+		
+		while(!unit.IsDead && !ObjectManager.Me.IsDeadMe)
 		{
-			Thread.Sleep(Usefuls.Latency);
-		}
-
-		if (node.IsValid)
-		{
-			nManagerSetting.AddBlackList(node.Guid, 60*1000);
-		}
-		else if (unit.IsValid)
-		{
+			Lua.RunMacroText("/click OverrideActionBarButton1");
+			Thread.Sleep(1500);
 			
-			Interact.InteractWith(unit.GetBaseAddress); //Interact With Unit to Attack it
-			nManagerSetting.AddBlackList(unit.Guid, 60*1000);
+			
+			if(i >= 4) //Face the mob, in case we are back to it
+			{
+				Lua.RunMacroText("/click OverrideActionBarButton2"); //Cast shield from time to time
+				MovementManager.Face(unit);
+				i = 0;
+			}
+			i = i + 1;
 		}
+
+		
+		nManagerSetting.AddBlackList(unit.Guid, 60*1000);
 
 		/* Wait if necessary */
 		if (questObjective.WaitMs > 0)

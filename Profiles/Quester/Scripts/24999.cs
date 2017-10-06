@@ -1,11 +1,7 @@
-/* Use Item With HotSpots
-Check if there is HotSpots in the objective */
-
 try
 {
 	if (questObjective.Hotspots.Count <= 0)
 	{
-		/* Objective CSharpScript with script UseItemWithHotSpots requires valid "Hotspots" */
 		Logging.Write("UseItemWithHotSpots requires valid 'HotSpots'.");
 		questObjective.IsObjectiveCompleted = true;
 		return false;
@@ -53,18 +49,9 @@ try
 				ObjectManager.Me.Target = unit.Guid;
 			}
 		}
+
+		baseAddress = MovementManager.FindTarget(unit, questObjective.Range);
 		
-		if (node.IsValid)
-		{
-			unit = new WoWUnit(0);
-			baseAddress = MovementManager.FindTarget(node, questObjective.Range);
-		}
-		if (unit.IsValid)
-		{
-			node = new WoWGameObject(0);
-			baseAddress = MovementManager.FindTarget(unit, questObjective.Range);
-		}	
-	
 		if((node.IsValid && node.GetDistance < questObjective.Range) || (unit.IsValid && unit.GetDistance <= questObjective.Range))
 		{
 			//Logging.Write("TARGET REACHED" + unit.GetDistance);
@@ -74,7 +61,10 @@ try
 		}
 		else
 		{
+			
 			if (MovementManager.InMovement)
+				return false;
+			if(ObjectManager.Target.BuffStack(73133) < 3)
 				return false;
 			if (questObjective.IgnoreNotSelectable)
 			{
@@ -93,53 +83,59 @@ try
 		
 		/* Target Reached */
 		MovementManager.StopMove();
-		MountTask.DismountMount();
-				
-		if (node.IsValid)
-		{
-			MovementManager.Face(node);
-		}
-		else if (unit.IsValid)
-		{
-			MovementManager.Face(unit);
-		}
 		
-		Thread.Sleep(100 + Usefuls.Latency); /* ZZZzzzZZZzz */
-
+		bool stunned = false;
+		int currentCountStack = 0;
+		bool loop = true;
 		
-
-		if (ItemsManager.GetItemCount(questObjective.UseItemId) <= 0 || ItemsManager.IsItemOnCooldown(questObjective.UseItemId) || !ItemsManager.IsItemUsable(questObjective.UseItemId))
-			return false;
-		
-		
-		ItemsManager.UseItem(ItemsManager.GetItemNameById(questObjective.UseItemId));
-
-		Thread.Sleep(Usefuls.Latency + 250);
-
-		/* Wait for the Use Item cast to be finished, if any */
-		while (ObjectManager.Me.IsCast)
+		while(loop)
 		{
-			Thread.Sleep(Usefuls.Latency);
-		}
-
-		if (node.IsValid)
-		{
-			nManagerSetting.AddBlackList(node.Guid, 60*1000);
-		}
-		else if (unit.IsValid)
-		{
+			stunned = unit.GetDescriptor<UnitFlags>(nManager.Wow.Patchables.Descriptors.UnitFields.Flags).HasFlag(UnitFlags.Stunned);
 			
-			Interact.InteractWith(unit.GetBaseAddress); //Interact With Unit to Attack it
-			nManagerSetting.AddBlackList(unit.Guid, 60*1000);
-		}
+			if(unit.BuffStack(73133) == 2)
+			{
+				currentCountStack = 2;
+			}
+			
+			if(currentCountStack == 2 && unit.BuffStack(73133) == 1) //Unit feared successfully
+			{
+				loop = false;
+				break;
+			}
+			
+			if(ObjectManager.Me.IsDeadMe || ObjectManager.Me.InCombat ) //In combat or dead, return
+			{
+				return false;
+			}
+			
+			if(stunned) //murloc stunned, break
+			{
+				nManagerSetting.AddBlackList(unit.Guid, 60*1000);
+				stunned = true;
+				break;
+			}
+			
+			ClickToMove.CGPlayer_C__ClickToMove(unit.Position.X, unit.Position.Y, unit.Position.Z, 0,
+									(int) ClickToMoveType.Move, 0.5f);
 
-		/* Wait if necessary */
-		if (questObjective.WaitMs > 0)
-			Thread.Sleep(questObjective.WaitMs);
+			while(MovementManager.InMovement)
+			{
+				Thread.Sleep(50);
+			}
+		
+			Thread.Sleep(50);
+		}	
 
-		nManager.Wow.Helpers.Quest.GetSetIgnoreFight = false;
-		return true;
+		nManagerSetting.AddBlackList(unit.Guid, 60*1000);
 	}
+
+	/* Wait if necessary */
+	if (questObjective.WaitMs > 0)
+		Thread.Sleep(questObjective.WaitMs);
+
+	nManager.Wow.Helpers.Quest.GetSetIgnoreFight = false;
+	return true;
+}
 		/* Move to Zone/Hotspot */
 	else if (!MovementManager.InMovement)
 	{

@@ -51,10 +51,26 @@ if (unit.IsValid)
 	//questObjective.AllowPlayerControlled);
 	}
 	
+	WoWUnit hostile = new WoWUnit(0);
+	
 	if(unit.InCombat)
 	{
 		Logging.Write("Defend Unit");
-		nManager.Wow.Helpers.Fight.StartFight(unit.Target);
+		if(unit.Target > 0) //Vivian or Lilian ...sometimes pulls aggro without fighting back, so her Target is null. 
+		{
+			nManager.Wow.Helpers.Fight.StartFight(unit.Target);
+		}
+		else //Check for hostiles attacking her
+		{	
+			hostile = nManager.Wow.ObjectManager.ObjectManager.GetHostileUnitNearPlayer()
+			.FindAll(x => x.GetDistance <= 20 && x.IsHostile)
+			.Find(x => x.Target == ObjectManager.Me.Guid || x.Target == unit.Guid);
+			
+			if(hostile != null && hostile.IsValid)
+			{				
+				nManager.Wow.Helpers.Fight.StartFight(hostile.Guid);
+			}
+		}
 	}
 
 	Thread.Sleep(100 + Usefuls.Latency); /* ZZZzzzZZZzz */

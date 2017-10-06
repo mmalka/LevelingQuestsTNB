@@ -70,6 +70,8 @@ if (unit.IsValid && !nManagerSetting.IsBlackListedZone(unit.Position) && !nManag
 		nManager.Wow.Helpers.Quest.GetSetIgnoreFight = false;
 	}
 	
+	Fight.StartFight(unit.GetBaseAddress);
+	
 	return false; //Let the bot kill the mob(s)
 	
 }
