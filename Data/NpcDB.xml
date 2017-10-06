@@ -3717,17 +3717,6 @@
     <ContinentId>Azeroth</ContinentId>
   </Npc>
   <Npc>
-    <Entry>2687</Entry>
-    <Name>Gnaz Blunderflame</Name>
-    <Position>
-      <X>-12696.4854</X>
-      <Y>-1022.108</Y>
-      <Z>94.8524</Z>
-    </Position>
-    <Type>Vendor</Type>
-    <ContinentId>Azeroth</ContinentId>
-  </Npc>
-  <Npc>
     <Entry>2697</Entry>
     <Name>Clyde Ranthal</Name>
     <Position>
@@ -13639,6 +13628,30 @@
     <Entry>6491</Entry>
     <Name>Spirit Healer</Name>
     <Position>
+      <X>7465.144</X>
+      <Y>-3334.309</Y>
+      <Z>900.5494</Z>
+      <Type>Flying</Type>
+    </Position>
+    <Type>SpiritHealer</Type>
+    <ContinentId>Northrend</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>6491</Entry>
+    <Name>Spirit Healer</Name>
+    <Position>
+      <X>7465.144</X>
+      <Y>-3334.309</Y>
+      <Z>900.5494</Z>
+      <Type>Flying</Type>
+    </Position>
+    <Type>SpiritGuide</Type>
+    <ContinentId>Northrend</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>6491</Entry>
+    <Name>Spirit Healer</Name>
+    <Position>
       <X>9683.938</X>
       <Y>953.230042</Y>
       <Z>1291.717</Z>
@@ -14868,17 +14881,6 @@
     <Faction>Horde</Faction>
     <Type>Auctioneer</Type>
     <ContinentId>Kalimdor</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>8679</Entry>
-    <Name>Knaz Blunderflame</Name>
-    <Position>
-      <X>-12687.6</X>
-      <Y>-1034.15</Y>
-      <Z>94.9028244</Z>
-    </Position>
-    <Type>Vendor</Type>
-    <ContinentId>Azeroth</ContinentId>
   </Npc>
   <Npc>
     <Entry>8681</Entry>
@@ -25283,6 +25285,17 @@
     <Entry>24934</Entry>
     <Name>Snack-O-Matic IV</Name>
     <Position>
+      <X>1744.09753</X>
+      <Y>-4439.15137</Y>
+      <Z>128.330429</Z>
+    </Position>
+    <Type>Vendor</Type>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>24934</Entry>
+    <Name>Snack-O-Matic IV</Name>
+    <Position>
       <X>1766.56909</X>
       <Y>-4724.92627</Y>
       <Z>215.673141</Z>
@@ -25415,105 +25428,6 @@
     <Entry>24935</Entry>
     <Name>Vend-O-Tron D-Luxe</Name>
     <Position>
-      <X>-12517.9424</X>
-      <Y>152.377609</Y>
-      <Z>31.566246</Z>
-    </Position>
-    <Type>Repair</Type>
-    <ContinentId>Azeroth</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>24935</Entry>
-    <Name>Vend-O-Tron D-Luxe</Name>
-    <Position>
-      <X>-12424.9609</X>
-      <Y>288.0864</Y>
-      <Z>26.4462528</Z>
-    </Position>
-    <Type>Vendor</Type>
-    <ContinentId>Azeroth</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>24935</Entry>
-    <Name>Vend-O-Tron D-Luxe</Name>
-    <Position>
-      <X>-12424.9609</X>
-      <Y>288.0864</Y>
-      <Z>26.4462528</Z>
-    </Position>
-    <Type>Repair</Type>
-    <ContinentId>Azeroth</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>24935</Entry>
-    <Name>Vend-O-Tron D-Luxe</Name>
-    <Position>
-      <X>-12415.7285</X>
-      <Y>548.3919</Y>
-      <Z>33.1365738</Z>
-    </Position>
-    <Type>Vendor</Type>
-    <ContinentId>Azeroth</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>24935</Entry>
-    <Name>Vend-O-Tron D-Luxe</Name>
-    <Position>
-      <X>-12415.7285</X>
-      <Y>548.3919</Y>
-      <Z>33.1365738</Z>
-    </Position>
-    <Type>Repair</Type>
-    <ContinentId>Azeroth</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>24935</Entry>
-    <Name>Vend-O-Tron D-Luxe</Name>
-    <Position>
-      <X>-12406.6426</X>
-      <Y>366.837769</Y>
-      <Z>29.1389751</Z>
-    </Position>
-    <Type>Vendor</Type>
-    <ContinentId>Azeroth</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>24935</Entry>
-    <Name>Vend-O-Tron D-Luxe</Name>
-    <Position>
-      <X>-12406.6426</X>
-      <Y>366.837769</Y>
-      <Z>29.1389751</Z>
-    </Position>
-    <Type>Repair</Type>
-    <ContinentId>Azeroth</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>24935</Entry>
-    <Name>Vend-O-Tron D-Luxe</Name>
-    <Position>
-      <X>-12404.91</X>
-      <Y>448.555054</Y>
-      <Z>31.0771847</Z>
-    </Position>
-    <Type>Vendor</Type>
-    <ContinentId>Azeroth</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>24935</Entry>
-    <Name>Vend-O-Tron D-Luxe</Name>
-    <Position>
-      <X>-12404.91</X>
-      <Y>448.555054</Y>
-      <Z>31.0771847</Z>
-    </Position>
-    <Type>Repair</Type>
-    <ContinentId>Azeroth</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>24935</Entry>
-    <Name>Vend-O-Tron D-Luxe</Name>
-    <Position>
       <X>-1054.959</X>
       <Y>359.0904</Y>
       <Z>125.696976</Z>
@@ -25594,6 +25508,17 @@
       <X>-6.37827</X>
       <Y>-13.1837587</Y>
       <Z>-22.5939064</Z>
+    </Position>
+    <Type>Repair</Type>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>24935</Entry>
+    <Name>Vend-O-Tron D-Luxe</Name>
+    <Position>
+      <X>1745.6</X>
+      <Y>-4438.05</Y>
+      <Z>128.331238</Z>
     </Position>
     <Type>Repair</Type>
     <ContinentId>Kalimdor</ContinentId>
@@ -31123,7 +31048,7 @@
     <Position>
       <X>6889.54639</X>
       <Y>-1717.55835</Y>
-      <Z>822.8067</Z>
+      <Z>822.807739</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>Vendor</Type>
@@ -31583,6 +31508,18 @@
       <Y>7.556152</Y>
       <Z>410.163239</Z>
     </Position>
+    <Type>Vendor</Type>
+    <ContinentId>Northrend</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>30472</Entry>
+    <Name>Olut Alegut</Name>
+    <Position>
+      <X>7850.463</X>
+      <Y>-787.9669</Y>
+      <Z>1183.417</Z>
+    </Position>
+    <Faction>Horde</Faction>
     <Type>Vendor</Type>
     <ContinentId>Northrend</ContinentId>
   </Npc>
@@ -36307,40 +36244,6 @@
     <ContinentId>Kalimdor</ContinentId>
   </Npc>
   <Npc>
-    <Entry>43547</Entry>
-    <Name>Mirala Fawnsinger</Name>
-    <Position>
-      <X>5302.53</X>
-      <Y>-2215.02</Y>
-      <Z>1263.59338</Z>
-    </Position>
-    <Faction>Horde</Faction>
-    <Type>Vendor</Type>
-    <ContinentId>Kalimdor</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>43547</Entry>
-    <Name>Mirala Fawnsinger</Name>
-    <Position>
-      <X>5351.92</X>
-      <Y>-2108.88</Y>
-      <Z>1280.5199</Z>
-    </Position>
-    <Type>Vendor</Type>
-    <ContinentId>Kalimdor</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>43548</Entry>
-    <Name>Berin Connad</Name>
-    <Position>
-      <X>5355.78</X>
-      <Y>-2133.64</Y>
-      <Z>1280.5199</Z>
-    </Position>
-    <Type>Vendor</Type>
-    <ContinentId>Kalimdor</ContinentId>
-  </Npc>
-  <Npc>
     <Entry>43548</Entry>
     <Name>Berin Connad</Name>
     <Position>
@@ -36413,6 +36316,50 @@
       <X>4084.59</X>
       <Y>-3996.44</Y>
       <Z>971.3419</Z>
+    </Position>
+    <Type>Vendor</Type>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>43563</Entry>
+    <Name>Grunka</Name>
+    <Position>
+      <X>4556.41</X>
+      <Y>-4730.42</Y>
+      <Z>883.434448</Z>
+    </Position>
+    <Type>Vendor</Type>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>43564</Entry>
+    <Name>Mahaega Grimforge</Name>
+    <Position>
+      <X>4610.84</X>
+      <Y>-4729.36</Y>
+      <Z>883.6989</Z>
+    </Position>
+    <Type>Vendor</Type>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>43564</Entry>
+    <Name>Mahaega Grimforge</Name>
+    <Position>
+      <X>4610.84</X>
+      <Y>-4729.36</Y>
+      <Z>883.6989</Z>
+    </Position>
+    <Type>Repair</Type>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>43565</Entry>
+    <Name>Edric Downing</Name>
+    <Position>
+      <X>4617.89</X>
+      <Y>-4706.24</Y>
+      <Z>883.429932</Z>
     </Position>
     <Type>Vendor</Type>
     <ContinentId>Kalimdor</ContinentId>
@@ -39315,17 +39262,6 @@
     <ContinentId>Maelstrom</ContinentId>
   </Npc>
   <Npc>
-    <Entry>45363</Entry>
-    <Name>Earthmender Doros</Name>
-    <Position>
-      <X>52.8316</X>
-      <Y>-265.873</Y>
-      <Z>203.27652</Z>
-    </Position>
-    <Type>Repair</Type>
-    <ContinentId>Maelstrom</ContinentId>
-  </Npc>
-  <Npc>
     <Entry>45407</Entry>
     <Name>Ibdil the Mender</Name>
     <Position>
@@ -39488,7 +39424,7 @@
     <Position>
       <X>3160.69</X>
       <Y>-4322.88</Y>
-      <Z>131.821381</Z>
+      <Z>131.82196</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>Vendor</Type>
@@ -39583,7 +39519,7 @@
     <Position>
       <X>1872.73</X>
       <Y>-3699.23</Y>
-      <Z>158.965652</Z>
+      <Z>158.965851</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>Vendor</Type>
@@ -40345,7 +40281,7 @@
     <Position>
       <X>1845.11</X>
       <Y>-3723.73</Y>
-      <Z>160.591965</Z>
+      <Z>160.591141</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>Vendor</Type>
@@ -40518,9 +40454,9 @@
     <Entry>47286</Entry>
     <Name>Vincent Randolph</Name>
     <Position>
-      <X>2265.35278</X>
-      <Y>-5289.856</Y>
-      <Z>82.2184143</Z>
+      <X>2256.98</X>
+      <Y>-5292.6</Y>
+      <Z>82.1392059</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>Vendor</Type>
@@ -40532,7 +40468,7 @@
     <Position>
       <X>2266.66</X>
       <Y>-5285.23</Y>
-      <Z>83.05599</Z>
+      <Z>83.0558</Z>
     </Position>
     <Type>Repair</Type>
     <ContinentId>Azeroth</ContinentId>
@@ -41365,18 +41301,6 @@
       <Y>-898.319</Y>
       <Z>412.4054</Z>
     </Position>
-    <Type>Vendor</Type>
-    <ContinentId>Kalimdor</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>48228</Entry>
-    <Name>Kester Killbomb</Name>
-    <Position>
-      <X>6855.7</X>
-      <Y>-1571.05</Y>
-      <Z>496.99588</Z>
-    </Position>
-    <Faction>Horde</Faction>
     <Type>Vendor</Type>
     <ContinentId>Kalimdor</ContinentId>
   </Npc>
@@ -44726,17 +44650,6 @@
       <Z>1336.01831</Z>
     </Position>
     <Type>Innkeeper</Type>
-    <ContinentId>Kalimdor</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>53780</Entry>
-    <Name>Limiah Whitebranch</Name>
-    <Position>
-      <X>5170.25</X>
-      <Y>-1752.89063</Y>
-      <Z>1338.57788</Z>
-    </Position>
-    <Type>Vendor</Type>
     <ContinentId>Kalimdor</ContinentId>
   </Npc>
   <Npc>
