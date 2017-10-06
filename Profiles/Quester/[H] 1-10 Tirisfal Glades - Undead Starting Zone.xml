@@ -1214,6 +1214,7 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>38978</NpcEntry>
           <QuestName>Planting the Seed of Fear</QuestName>
           <QuestId>24999</QuestId>
@@ -1261,7 +1262,7 @@
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
         <QuestObjective>
-          <Objective>PickUpNPC</Objective>
+          <Objective>CSharpScript</Objective>
           <InternalIndex>1</InternalIndex>
           <InternalQuestId>24999</InternalQuestId>
           <Count>12</Count>
@@ -1270,23 +1271,13 @@
           </Entry>
           <Hotspots>
             <Point>
-              <X>2997.677</X>
-              <Y>334.1804</Y>
-              <Z>4.976674</Z>
-            </Point>
-            <Point>
-              <X>2971.425</X>
-              <Y>227.8825</Y>
-              <Z>3.193089</Z>
-            </Point>
-            <Point>
-              <X>2967.628</X>
-              <Y>67.90855</Y>
-              <Z>2.926328</Z>
+              <X>3003.25928</X>
+              <Y>329.9358</Y>
+              <Z>3.6630497</Z>
             </Point>
           </Hotspots>
+          <Script>=24999.cs</Script>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <WaitMs>2000</WaitMs>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>

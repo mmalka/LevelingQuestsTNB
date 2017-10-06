@@ -3001,6 +3001,7 @@
         <Z>26.39458</Z>
       </Position>
       <Radius>50</Radius>
+	  <ContinentId>Outland</ContinentId>
     </QuesterBlacklistRadius>
   </Blackspots>
 </QuesterProfile>

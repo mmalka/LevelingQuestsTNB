@@ -3236,6 +3236,7 @@
         <Z>306.5743</Z>
       </Position>
       <Radius>15</Radius>
+	  <ContinentId>Northrend</ContinentId>
     </QuesterBlacklistRadius>
     <QuesterBlacklistRadius>
       <Position>
@@ -3244,6 +3245,7 @@
         <Z>316.175</Z>
       </Position>
       <Radius>15</Radius>
+	  <ContinentId>Northrend</ContinentId>
     </QuesterBlacklistRadius>
     <QuesterBlacklistRadius>
       <Position>
@@ -3251,6 +3253,8 @@
         <Y>-6297.487</Y>
         <Z>6.526761</Z>
       </Position>
+	  <ContinentId>Northrend</ContinentId>
+	  <Radius>10</Radius>
     </QuesterBlacklistRadius>
     <QuesterBlacklistRadius>
       <Position>
@@ -3258,6 +3262,8 @@
         <Y>-6286.377</Y>
         <Z>-8.153186</Z>
       </Position>
+	  <Radius>10</Radius>
+	  <ContinentId>Northrend</ContinentId>
     </QuesterBlacklistRadius>
   </Blackspots>
 </QuesterProfile>

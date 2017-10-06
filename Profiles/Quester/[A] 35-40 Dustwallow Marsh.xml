@@ -616,6 +616,7 @@
               <Z>64.94824</Z>
             </Point>
           </Hotspots>
+          <ScriptConditionIsComplete>return !ObjectManager.GetNearestWoWUnit(ObjectManager.GetWoWUnitByEntry(4968, false), false,true,false).IsValid|| nManager.Wow.Helpers.Quest.GetLogQuestIsComplete(27240) || nManager.Wow.Helpers.Quest.GetQuestCompleted(27240);</ScriptConditionIsComplete>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <WaitMs>1000</WaitMs>
           <GossipOptionsInteractWith>1</GossipOptionsInteractWith>
@@ -636,7 +637,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpNPC</Objective>
-          <InternalQuestId>27241</InternalQuestId>
           <Count>1</Count>
           <Entry>
             <int>2708</int>

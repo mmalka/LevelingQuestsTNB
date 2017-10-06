@@ -1363,6 +1363,7 @@
         <Z>23.784</Z>
       </Position>
       <Radius>30</Radius>
+	  <ContinentId>Kalimdor</ContinentId>
     </QuesterBlacklistRadius>
     <QuesterBlacklistRadius>
       <Position>
@@ -1371,6 +1372,7 @@
         <Z>25.24392</Z>
       </Position>
       <Radius>30</Radius>
+	  <ContinentId>Kalimdor</ContinentId>
     </QuesterBlacklistRadius>
     <QuesterBlacklistRadius>
       <Position>
@@ -1379,6 +1381,7 @@
         <Z>24.57718</Z>
       </Position>
       <Radius>30</Radius>
+	  <ContinentId>Kalimdor</ContinentId>
     </QuesterBlacklistRadius>
     <QuesterBlacklistRadius>
       <Position>
@@ -1387,6 +1390,7 @@
         <Z>25.24374</Z>
       </Position>
       <Radius>30</Radius>
+	  <ContinentId>Kalimdor</ContinentId>
     </QuesterBlacklistRadius>
     <QuesterBlacklistRadius>
       <Position>
@@ -1395,6 +1399,7 @@
         <Z>29.17251</Z>
       </Position>
       <Radius>30</Radius>
+	  <ContinentId>Kalimdor</ContinentId>
     </QuesterBlacklistRadius>
     <QuesterBlacklistRadius>
       <Position>
@@ -1403,6 +1408,7 @@
         <Z>34.06556</Z>
       </Position>
       <Radius>30</Radius>
+	  <ContinentId>Kalimdor</ContinentId>
     </QuesterBlacklistRadius>
     <QuesterBlacklistRadius>
       <Position>
@@ -1411,6 +1417,7 @@
         <Z>49.32411</Z>
       </Position>
       <Radius>30</Radius>
+	  <ContinentId>Kalimdor</ContinentId>
     </QuesterBlacklistRadius>
     <QuesterBlacklistRadius>
       <Position>
@@ -1419,6 +1426,7 @@
         <Z>51.3526</Z>
       </Position>
       <Radius>10</Radius>
+	  <ContinentId>Kalimdor</ContinentId>
     </QuesterBlacklistRadius>
     <QuesterBlacklistRadius>
       <Position>
@@ -1427,6 +1435,7 @@
         <Z>53.69083</Z>
       </Position>
       <Radius>20</Radius>
+	  <ContinentId>Kalimdor</ContinentId>
     </QuesterBlacklistRadius>
   </Blackspots>
 </QuesterProfile>

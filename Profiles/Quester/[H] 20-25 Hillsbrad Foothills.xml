@@ -1288,6 +1288,7 @@
               <Z>93.22417</Z>
             </Point>
           </Hotspots>
+          <ScriptConditionIsComplete>return !ObjectManager.GetNearestWoWUnit(ObjectManager.GetWoWUnitByEntry(48503, false), false, false,true).GetDescriptor&lt;nManager.Wow.Enums.UnitNPCFlags&gt;(nManager.Wow.Patchables.Descriptors.UnitFields.NpcFlags).HasFlag(nManager.Wow.Enums.UnitNPCFlags.Gossip);</ScriptConditionIsComplete>
           <AllowPlayerControlled>true</AllowPlayerControlled>
           <GossipOptionsInteractWith>1</GossipOptionsInteractWith>
         </QuestObjective>
