@@ -64,7 +64,6 @@ if(unit.IsValid)
 	ObjectManager.Me.StopCast();
 	_worker2 = null;
 	Fight.StopFight();
-	Fight.InFight= false;
 	Thread.Sleep(500);
 	ObjectManager.Me.StopCast();
 	

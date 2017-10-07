@@ -45,7 +45,6 @@ if(unit.IsValid)
 
 	}
 	
-	nManager.Wow.Helpers.Fight.InFight= false;
 	nManager.Wow.Helpers.Fight.StopFight();
 	
 	Logging.Write("Dragon Form - Using Item");
