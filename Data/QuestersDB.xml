@@ -15762,6 +15762,18 @@
     <Entry>14375</Entry>
     <Name>Scout Stronghand</Name>
     <Position>
+      <X>1587.30054</X>
+      <Y>-4406.99463</Y>
+      <Z>15.4032307</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>14375</Entry>
+    <Name>Scout Stronghand</Name>
+    <Position>
       <X>1592.521</X>
       <Y>-4319.152</Y>
       <Z>21.02661</Z>
@@ -23699,7 +23711,7 @@
     <Position>
       <X>-4243.21338</X>
       <Y>323.120758</Y>
-      <Z>-123.336624</Z>
+      <Z>106.571053</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
@@ -23711,7 +23723,7 @@
     <Position>
       <X>-4243.21338</X>
       <Y>323.120758</Y>
-      <Z>106.571053</Z>
+      <Z>-123.336624</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
@@ -40164,6 +40176,18 @@
     <ContinentId>Kalimdor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>39605</Entry>
+    <Name>Garrosh Hellscream</Name>
+    <Position>
+      <X>1665.99658</X>
+      <Y>-4354.53</Y>
+      <Z>26.35052</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>39609</Entry>
     <Name>Kor'kron Loyalist</Name>
     <Position>
@@ -43230,6 +43254,18 @@
     <ContinentId>Azeroth</ContinentId>
   </Npc>
   <Npc>
+    <Entry>42637</Entry>
+    <Name>Sauranok the Mystic</Name>
+    <Position>
+      <X>1663.12158</X>
+      <Y>-4340.153</Y>
+      <Z>26.357687</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>42638</Entry>
     <Name>Herezegor Flametusk</Name>
     <Position>
@@ -43783,7 +43819,7 @@
     <Type>QuestGiver</Type>
     <ContinentId>Azeroth</ContinentId>
   </Npc>
-    <Npc>
+  <Npc>
     <Entry>43116</Entry>
     <Name>Pebble</Name>
     <Position>
@@ -43792,7 +43828,6 @@
       <Z>28.36695</Z>
       <Type>Flying</Type>
     </Position>
-    <Faction>Neutral</Faction>
     <Type>QuestGiver</Type>
     <ContinentId>Maelstrom</ContinentId>
   </Npc>
@@ -49994,6 +50029,19 @@
     <ContinentId>Azeroth</ContinentId>
   </Npc>
   <Npc>
+    <Entry>52382</Entry>
+    <Name>Ziradormi</Name>
+    <Position>
+      <X>1673.2135</X>
+      <Y>-4354.39746</Y>
+      <Z>27.09088</Z>
+      <Type>Flying</Type>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>52408</Entry>
     <Name>Coridormi</Name>
     <Position>
@@ -50444,6 +50492,18 @@
     <ContinentId>Pandaria</ContinentId>
   </Npc>
   <Npc>
+    <Entry>54870</Entry>
+    <Name>General Nazgrim</Name>
+    <Position>
+      <X>1668.31946</X>
+      <Y>-4351.42041</Y>
+      <Z>26.346489</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>54913</Entry>
     <Name>Lin Tenderpaw</Name>
     <Position>
@@ -50575,6 +50635,18 @@
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>55054</Entry>
+    <Name>General Nazgrim</Name>
+    <Position>
+      <X>1862.28125</X>
+      <Y>-5461.901</Y>
+      <Z>443.730133</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Kalimdor</ContinentId>
   </Npc>
   <Npc>
     <Entry>55094</Entry>
