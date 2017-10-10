@@ -14,7 +14,9 @@ if(!MovementManager.InMovement)
 		var listP = new List<Point>();
 		listP.Add(ObjectManager.Me.Position);
 		listP.AddRange(questObjective.Hotspots);
+		
 		MovementManager.Go(listP);
+		
 		while(MovementManager.InMovement && questObjective.Hotspots[questObjective.Hotspots.Count-1].DistanceTo(ObjectManager.Me.Position) > 5f)
 		{
 		    System.Threading.Thread.Sleep(100);

@@ -1,5 +1,7 @@
 /* Use Item With HotSpots
-Check if there is HotSpots in the objective */
+ Options for ExtraString : 
+   - NoDismount : The bot will stay on the mount to Use the item 
+   - InteractWith : The bot will Target the mob IG (In game target visible)(Usefull in cases where Wow says "Target Invalid") */
 
 try
 {
@@ -18,7 +20,6 @@ try
 	WoWUnit unit = ObjectManager.GetNearestWoWUnit(ObjectManager.GetWoWUnitByEntry(questObjective.Entry, questObjective.IsDead), questObjective.IgnoreNotSelectable, questObjective.IgnoreBlackList,
 		questObjective.AllowPlayerControlled);
 	Point pos = ObjectManager.Me.Position; /* Initialize or getting an error */
-	//int q = QuestID; /* not used but otherwise getting warning QuestID not used */
 	uint baseAddress = 0;
 
 	/* If Entry found continue, otherwise continue checking around HotSpots */
@@ -67,10 +68,12 @@ try
 	
 		if((node.IsValid && node.GetDistance < questObjective.Range) || (unit.IsValid && unit.GetDistance <= questObjective.Range))
 		{
-			//Logging.Write("TARGET REACHED" + unit.GetDistance);
 			/* Target Reached */
 			MovementManager.StopMove();
-			MountTask.DismountMount();
+			if(questObjective.ExtraString != "NoDismount")
+			{
+				MountTask.DismountMount();
+			}	
 		}
 		else
 		{
@@ -93,8 +96,12 @@ try
 		
 		/* Target Reached */
 		MovementManager.StopMove();
-		MountTask.DismountMount();
-				
+		
+		if(questObjective.ExtraString != "NoDismount")
+		{
+			MountTask.DismountMount();
+		}	
+		
 		if (node.IsValid)
 		{
 			MovementManager.Face(node);
@@ -128,7 +135,6 @@ try
 		}
 		else if (unit.IsValid)
 		{
-			
 			Interact.InteractWith(unit.GetBaseAddress); //Interact With Unit to Attack it
 			nManagerSetting.AddBlackList(unit.Guid, 60*1000);
 		}

@@ -19,7 +19,7 @@ try
 	
 	if (ItemsManager.GetItemCount(questObjective.UseItemId) <= 0 && !node.IsValid)
 	{
-		Logging.Write("PAS ITEM");
+		//Logging.Write("PAS ITEM");
 		
 		WoWGameObject dispenser = ObjectManager.GetNearestWoWGameObject(ObjectManager.GetWoWGameObjectById(questObjective.ExtraInt));
 		

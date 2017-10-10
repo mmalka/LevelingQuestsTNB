@@ -6,7 +6,7 @@ try //Strange problem here, the bot is causing an Error : System.NullReferenceEx
 					 
 	Worgen = nManager.Wow.ObjectManager.ObjectManager.GetWoWUnitByEntry(45270).Find(x => x.Position.Y <= 875 && x.Position.DistanceTo(ObjectManager.Me.Position) <= 150 && !x.IsDead);
 
-	if (Worgen.IsValid && Worgen.DistanceTo <= 150)
+	if (Worden != null && Worgen.IsValid && Worgen.GetDistance <= 150)
 	{
 			
 		MovementManager.FaceCTM(Worgen);
