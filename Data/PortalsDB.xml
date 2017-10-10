@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Portals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Items>
-    <Portal Id="215126" Name="Silvermoon" Faction="Horde" AContinentId="870" BContinentId="0">
+    <Portal Id="215126" Name="Silvermoon" Faction="Horde" AContinentId="870" BContinentId="530">
       <APoint> <!-- Shrine of Two Moons -->
         <X>1717.823</X>
         <Y>867.4124</Y>
@@ -541,5 +541,30 @@
 		<Z>98.85981</Z>
       </BPoint>
     </Portal>
+	<Portal Id="205273" Name="Portal Deepholm to Orgrimmar" Faction="Horde" AContinentId="646" BContinentId="1">
+	  <APoint><!-- Deepholm to Orgrimmar -->
+		<X>990.495</X>
+		<Y>454.457</Y>
+		<Z>-44.2477</Z>
+      </APoint>
+      <BPoint> <!-- Orgrimmar -->
+		 <X>2057.498</X>
+		 <Y>-4383.668</Y>
+		 <Z>99.04827</Z>
+      </BPoint>
+    </Portal>
+	<Portal Id="207689" Name="Portal Orgrimmar to Deepholm" Faction="Horde" AContinentId="1" BContinentId="646">
+	  <APoint><!-- Orgrimmar to Deepholm -->
+		<X>2065.653</X>
+		<Y>-4390.647</Y>
+		<Z>98.04689</Z>
+      </APoint>
+      <BPoint> <!-- Deepholm -->
+		<X>991.6558</X>
+		<Y>458.2298</Y>
+		<Z>-44.26658</Z>
+      </BPoint>
+    </Portal>
   </Items>
 </Portals>
+

@@ -3991,99 +3991,461 @@
       </Points>
       <ForceFlying>true</ForceFlying>
     </CustomPath>
-    <CustomPath Id="53" Name="Deepholm - Silvermarsh to Crimson Expanse" Faction="Neutral" AContinentId="646" BContinentId="646">
+    <CustomPath Id="53" Name="Deepholm - Crimson Expanse to Verlok Stand" Faction="Neutral" AContinentId="646" BContinentId="646">
       <APoint>
-        <X>964.981</X>
-        <Y>-603.5797</Y>
-        <Z>278.8473</Z>
+        <X>1895.75391</X>
+        <Y>-448.77887</Y>
+        <Z>174.768845</Z>
       </APoint>
       <BPoint>
-        <X>964.981</X>
-        <Y>-603.5797</Y>
-        <Z>278.8473</Z>
+        <X>1895.75391</X>
+        <Y>-448.77887</Y>
+        <Z>174.768845</Z>
       </BPoint>
       <Points>
         <Point>
-          <X>816.655945</X>
-          <Y>-476.2603</Y>
-          <Z>150.410645</Z>
+          <X>1766.45044</X>
+          <Y>-517.033936</Y>
+          <Z>274.6687</Z>
         </Point>
         <Point>
-          <X>816.655945</X>
-          <Y>-476.2603</Y>
-          <Z>165.565643</Z>
+          <X>1767.85022</X>
+          <Y>-516.664</Y>
+          <Z>289.819031</Z>
           <Type>Flying</Type>
         </Point>
         <Point>
-          <X>816.655945</X>
-          <Y>-476.2603</Y>
-          <Z>181.315643</Z>
+          <X>1785.8866</X>
+          <Y>-511.548218</Y>
+          <Z>282.8424</Z>
           <Type>Flying</Type>
         </Point>
         <Point>
-          <X>816.655945</X>
-          <Y>-476.2603</Y>
-          <Z>197.065643</Z>
+          <X>1800.73169</X>
+          <Y>-504.338226</Y>
+          <Z>271.335449</Z>
           <Type>Flying</Type>
         </Point>
         <Point>
-          <X>821.1343</X>
-          <Y>-480.218475</Y>
-          <Z>212.08989</Z>
+          <X>1815.13708</X>
+          <Y>-496.69693</Y>
+          <Z>259.54187</Z>
           <Type>Flying</Type>
         </Point>
         <Point>
-          <X>832.8784</X>
-          <Y>-491.685547</Y>
-          <Z>224.807739</Z>
+          <X>1833.87451</X>
+          <Y>-486.701172</Y>
+          <Z>244.112839</Z>
           <Type>Flying</Type>
         </Point>
         <Point>
-          <X>853.1793</X>
-          <Y>-511.8508</Y>
-          <Z>239.952881</Z>
+          <X>1852.612</X>
+          <Y>-476.705444</Y>
+          <Z>228.683792</Z>
           <Type>Flying</Type>
         </Point>
         <Point>
-          <X>873.4803</X>
-          <Y>-532.016052</Y>
-          <Z>255.098</Z>
+          <X>1866.26</X>
+          <Y>-469.302246</Y>
+          <Z>215.952026</Z>
           <Type>Flying</Type>
         </Point>
         <Point>
-          <X>892.166</X>
-          <Y>-550.512756</Y>
-          <Z>269.015167</Z>
+          <X>1878.22864</X>
+          <Y>-462.367462</Y>
+          <Z>200.996719</Z>
           <Type>Flying</Type>
         </Point>
         <Point>
-          <X>907.337952</X>
-          <Y>-559.7936</Y>
-          <Z>278.429718</Z>
+          <X>1887.10229</X>
+          <Y>-455.58783</Y>
+          <Z>185.320816</Z>
           <Type>Flying</Type>
         </Point>
         <Point>
-          <X>932.010132</X>
-          <Y>-574.7991</Y>
-          <Z>293.71402</Z>
+          <X>1895.75391</X>
+          <Y>-448.77887</Y>
+          <Z>174.768845</Z>
+        </Point>
+      </Points>
+      <ForceFlying>true</ForceFlying>
+    </CustomPath>
+    <CustomPath Id="54" Name="Deepholm - Goto Crimson Expanse" Faction="Neutral" AContinentId="646" BContinentId="646">
+      <APoint>
+        <X>964.762451</X>
+        <Y>-605.3953</Y>
+        <Z>278.856964</Z>
+      </APoint>
+      <BPoint>
+        <X>964.762451</X>
+        <Y>-605.3953</Y>
+        <Z>278.856964</Z>
+      </BPoint>
+      <Points>
+        <Point>
+          <X>990.3763</X>
+          <Y>28.8610954</Y>
+          <Z>-47.5233269</Z>
+        </Point>
+        <Point>
+          <X>986.150452</X>
+          <Y>12.8594465</Y>
+          <Z>-35.7113075</Z>
           <Type>Flying</Type>
         </Point>
         <Point>
-          <X>948.5299</X>
-          <Y>-587.260864</Y>
-          <Z>293.8199</Z>
+          <X>980.4306</X>
+          <Y>-4.386963</Y>
+          <Z>-27.2296753</Z>
           <Type>Flying</Type>
         </Point>
         <Point>
-          <X>960.765869</X>
-          <Y>-598.976</Y>
-          <Z>281.971619</Z>
+          <X>973.0263</X>
+          <Y>-26.89812</Y>
+          <Z>-16.020462</Z>
           <Type>Flying</Type>
         </Point>
         <Point>
-          <X>964.981</X>
-          <Y>-603.5797</Y>
-          <Z>278.8473</Z>
+          <X>964.5676</X>
+          <Y>-55.1190071</Y>
+          <Z>-0.675565958</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>957.3455</X>
+          <Y>-78.96091</Y>
+          <Z>14.47102</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>950.1884</X>
+          <Y>-102.58815</Y>
+          <Z>29.48123</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>942.8233</X>
+          <Y>-126.9023</Y>
+          <Z>44.9278374</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>935.5968</X>
+          <Y>-150.758514</Y>
+          <Z>60.08351</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>928.4441</X>
+          <Y>-174.371445</Y>
+          <Z>75.08463</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>921.2913</X>
+          <Y>-197.984375</Y>
+          <Z>90.08575</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>916.3061</X>
+          <Y>-214.441879</Y>
+          <Z>100.541077</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>909.1534</X>
+          <Y>-238.0548</Y>
+          <Z>115.542191</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>902.0006</X>
+          <Y>-261.667725</Y>
+          <Z>130.54332</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>894.847839</X>
+          <Y>-285.28064</Y>
+          <Z>145.544434</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>890.5942</X>
+          <Y>-313.5783</Y>
+          <Z>160.601379</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>891.6876</X>
+          <Y>-343.226929</Y>
+          <Z>175.611526</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>896.1277</X>
+          <Y>-372.228027</Y>
+          <Z>190.979034</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>903.0296</X>
+          <Y>-399.967682</Y>
+          <Z>206.178192</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>909.9316</X>
+          <Y>-427.707367</Y>
+          <Z>221.377335</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>916.89325</X>
+          <Y>-455.686951</Y>
+          <Z>236.707932</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>923.7728</X>
+          <Y>-483.33667</Y>
+          <Z>251.857788</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>930.7382</X>
+          <Y>-511.331238</Y>
+          <Z>267.1966</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>937.6402</X>
+          <Y>-539.0709</Y>
+          <Z>282.395752</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>951.2222</X>
+          <Y>-576.9569</Y>
+          <Z>286.862427</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>964.762451</X>
+          <Y>-605.3953</Y>
+          <Z>278.856964</Z>
+        </Point>
+      </Points>
+      <ForceFlying>true</ForceFlying>
+    </CustomPath>
+    <CustomPath Id="55" Name="Orgrimmar - To Ship" Faction="Neutral" AContinentId="1" BContinentId="1">
+      <APoint>
+        <X>1851.95483</X>
+        <Y>-5457.283</Y>
+        <Z>443.299225</Z>
+      </APoint>
+      <BPoint>
+        <X>1851.95483</X>
+        <Y>-5457.283</Y>
+        <Z>443.299225</Z>
+      </BPoint>
+      <Points>
+        <Point>
+          <X>1598.23584</X>
+          <Y>-4384.544</Y>
+          <Z>19.8971615</Z>
+        </Point>
+        <Point>
+          <X>1598.23584</X>
+          <Y>-4384.544</Y>
+          <Z>35.29856</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1598.23584</X>
+          <Y>-4384.544</Y>
+          <Z>51.3117676</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1598.23584</X>
+          <Y>-4384.544</Y>
+          <Z>67.51117</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1598.23584</X>
+          <Y>-4384.544</Y>
+          <Z>83.3381653</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1598.23584</X>
+          <Y>-4384.544</Y>
+          <Z>99.16517</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1598.23584</X>
+          <Y>-4384.544</Y>
+          <Z>115.391167</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1598.23584</X>
+          <Y>-4384.544</Y>
+          <Z>131.164978</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1598.23584</X>
+          <Y>-4384.544</Y>
+          <Z>147.390961</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1598.23584</X>
+          <Y>-4384.544</Y>
+          <Z>163.19136</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1598.23584</X>
+          <Y>-4384.544</Y>
+          <Z>179.231171</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1606.8374</X>
+          <Y>-4421.14551</Y>
+          <Z>194.327484</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1617.90247</X>
+          <Y>-4468.23047</Y>
+          <Z>209.438583</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1628.97913</X>
+          <Y>-4515.36426</Y>
+          <Z>224.565536</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1640.04419</X>
+          <Y>-4562.449</Y>
+          <Z>239.676636</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1651.10925</X>
+          <Y>-4609.534</Y>
+          <Z>254.78772</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1662.15112</X>
+          <Y>-4656.52</Y>
+          <Z>269.8671</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1673.18713</X>
+          <Y>-4703.481</Y>
+          <Z>284.938538</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1684.22314</X>
+          <Y>-4750.44238</Y>
+          <Z>300.009949</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1695.28235</X>
+          <Y>-4797.502</Y>
+          <Z>315.1131</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1706.33008</X>
+          <Y>-4844.5127</Y>
+          <Z>330.200439</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1717.38928</X>
+          <Y>-4891.57275</Y>
+          <Z>345.3036</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1728.524</X>
+          <Y>-4938.954</Y>
+          <Z>360.509857</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1739.56592</X>
+          <Y>-4985.94</Y>
+          <Z>375.589233</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1750.59607</X>
+          <Y>-5032.87646</Y>
+          <Z>390.65274</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1767.41821</X>
+          <Y>-5104.15137</Y>
+          <Z>405.896759</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1788.51672</X>
+          <Y>-5189.416</Y>
+          <Z>420.910858</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1809.617</X>
+          <Y>-5274.67969</Y>
+          <Z>435.924957</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1830.91882</X>
+          <Y>-5360.7583</Y>
+          <Z>451.082458</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1843.538</X>
+          <Y>-5411.96338</Y>
+          <Z>459.704437</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1847.03687</X>
+          <Y>-5431.21436</Y>
+          <Z>453.84198</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1850.52185</X>
+          <Y>-5449.735</Y>
+          <Z>443.996735</Z>
+          <Type>Flying</Type>
+        </Point>
+        <Point>
+          <X>1851.95483</X>
+          <Y>-5457.283</Y>
+          <Z>443.299225</Z>
         </Point>
       </Points>
       <ForceFlying>true</ForceFlying>

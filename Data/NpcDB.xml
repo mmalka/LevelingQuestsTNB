@@ -12133,6 +12133,30 @@
     <Entry>6491</Entry>
     <Name>Spirit Healer</Name>
     <Position>
+      <X>-87.09028</X>
+      <Y>581.5226</Y>
+      <Z>164.076965</Z>
+      <Type>Flying</Type>
+    </Position>
+    <Type>SpiritHealer</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>6491</Entry>
+    <Name>Spirit Healer</Name>
+    <Position>
+      <X>-87.09028</X>
+      <Y>581.5226</Y>
+      <Z>164.076965</Z>
+      <Type>Flying</Type>
+    </Position>
+    <Type>SpiritGuide</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>6491</Entry>
+    <Name>Spirit Healer</Name>
+    <Position>
       <X>71.4396744</X>
       <Y>-4649.07031</Y>
       <Z>283.327759</Z>
@@ -12172,6 +12196,30 @@
     </Position>
     <Type>SpiritGuide</Type>
     <ContinentId>Outland</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>6491</Entry>
+    <Name>Spirit Healer</Name>
+    <Position>
+      <X>203.28299</X>
+      <Y>-329.12326</Y>
+      <Z>253.677338</Z>
+      <Type>Flying</Type>
+    </Position>
+    <Type>SpiritHealer</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>6491</Entry>
+    <Name>Spirit Healer</Name>
+    <Position>
+      <X>203.28299</X>
+      <Y>-329.12326</Y>
+      <Z>253.677338</Z>
+      <Type>Flying</Type>
+    </Position>
+    <Type>SpiritGuide</Type>
+    <ContinentId>Pandaria</ContinentId>
   </Npc>
   <Npc>
     <Entry>6491</Entry>
@@ -12770,6 +12818,30 @@
     </Position>
     <Type>SpiritGuide</Type>
     <ContinentId>Troll Raid</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>6491</Entry>
+    <Name>Spirit Healer</Name>
+    <Position>
+      <X>2641.27</X>
+      <Y>-507.49826</Y>
+      <Z>322.564423</Z>
+      <Type>Flying</Type>
+    </Position>
+    <Type>SpiritHealer</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>6491</Entry>
+    <Name>Spirit Healer</Name>
+    <Position>
+      <X>2641.27</X>
+      <Y>-507.49826</Y>
+      <Z>322.564423</Z>
+      <Type>Flying</Type>
+    </Position>
+    <Type>SpiritGuide</Type>
+    <ContinentId>Pandaria</ContinentId>
   </Npc>
   <Npc>
     <Entry>6491</Entry>
@@ -44809,6 +44881,18 @@
     <ContinentId>Pandaria</ContinentId>
   </Npc>
   <Npc>
+    <Entry>55180</Entry>
+    <Name>Shademaster Kiryn</Name>
+    <Position>
+      <X>2626.26172</X>
+      <Y>-778.875</Y>
+      <Z>316.326355</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>Innkeeper</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>55233</Entry>
     <Name>Lin Windfur</Name>
     <Position>
@@ -44896,6 +44980,30 @@
       <X>1219.48438</X>
       <Y>-698.0799</Y>
       <Z>325.0175</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>56406</Entry>
+    <Name>Rivett Clutchpop</Name>
+    <Position>
+      <X>1427.70667</X>
+      <Y>-524.223938</Y>
+      <Z>353.802582</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>Vendor</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>56406</Entry>
+    <Name>Rivett Clutchpop</Name>
+    <Position>
+      <X>1427.70667</X>
+      <Y>-524.223938</Y>
+      <Z>353.802582</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>Repair</Type>
@@ -47490,6 +47598,39 @@
       <X>-266.321442</X>
       <Y>431.414246</Y>
       <Z>168.299576</Z>
+    </Position>
+    <Type>Vendor</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>64449</Entry>
+    <Name>Kim Won Gi</Name>
+    <Position>
+      <X>-242.297867</X>
+      <Y>631.7849</Y>
+      <Z>166.420349</Z>
+    </Position>
+    <Type>Vendor</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>64449</Entry>
+    <Name>Kim Won Gi</Name>
+    <Position>
+      <X>-210.161957</X>
+      <Y>485.482971</Y>
+      <Z>186.976074</Z>
+    </Position>
+    <Type>Vendor</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>64449</Entry>
+    <Name>Kim Won Gi</Name>
+    <Position>
+      <X>-207.658</X>
+      <Y>561.24</Y>
+      <Z>183.602463</Z>
     </Position>
     <Type>Vendor</Type>
     <ContinentId>Pandaria</ContinentId>

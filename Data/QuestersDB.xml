@@ -14511,6 +14511,42 @@
     <Position>
       <X>2393.547</X>
       <Y>-2525.32861</Y>
+      <Z>-417.438171</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>11720</Entry>
+    <Name>Loruk Foreststrider</Name>
+    <Position>
+      <X>2393.547</X>
+      <Y>-2525.32861</Y>
+      <Z>-166.801468</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>11720</Entry>
+    <Name>Loruk Foreststrider</Name>
+    <Position>
+      <X>2393.547</X>
+      <Y>-2525.32861</Y>
+      <Z>-333.8926</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>11720</Entry>
+    <Name>Loruk Foreststrider</Name>
+    <Position>
+      <X>2393.547</X>
+      <Y>-2525.32861</Y>
       <Z>-249.86586</Z>
     </Position>
     <Faction>Horde</Faction>
@@ -14536,42 +14572,6 @@
       <X>2393.547</X>
       <Y>-2525.32861</Y>
       <Z>-31.1677113</Z>
-    </Position>
-    <Faction>Horde</Faction>
-    <Type>QuestGiver</Type>
-    <ContinentId>Kalimdor</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>11720</Entry>
-    <Name>Loruk Foreststrider</Name>
-    <Position>
-      <X>2393.547</X>
-      <Y>-2525.32861</Y>
-      <Z>-333.8926</Z>
-    </Position>
-    <Faction>Horde</Faction>
-    <Type>QuestGiver</Type>
-    <ContinentId>Kalimdor</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>11720</Entry>
-    <Name>Loruk Foreststrider</Name>
-    <Position>
-      <X>2393.547</X>
-      <Y>-2525.32861</Y>
-      <Z>-166.801468</Z>
-    </Position>
-    <Faction>Horde</Faction>
-    <Type>QuestGiver</Type>
-    <ContinentId>Kalimdor</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>11720</Entry>
-    <Name>Loruk Foreststrider</Name>
-    <Position>
-      <X>2393.547</X>
-      <Y>-2525.32861</Y>
-      <Z>-417.438171</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
@@ -23699,6 +23699,18 @@
     <Position>
       <X>-4243.21338</X>
       <Y>323.120758</Y>
+      <Z>-123.336624</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Outland</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>21060</Entry>
+    <Name>Esprit de l'air enragé</Name>
+    <Position>
+      <X>-4243.21338</X>
+      <Y>323.120758</Y>
       <Z>27.8561249</Z>
     </Position>
     <Faction>Horde</Faction>
@@ -23712,18 +23724,6 @@
       <X>-4243.21338</X>
       <Y>323.120758</Y>
       <Z>106.571053</Z>
-    </Position>
-    <Faction>Horde</Faction>
-    <Type>QuestGiver</Type>
-    <ContinentId>Outland</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>21060</Entry>
-    <Name>Esprit de l'air enragé</Name>
-    <Position>
-      <X>-4243.21338</X>
-      <Y>323.120758</Y>
-      <Z>-123.336624</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
@@ -50660,6 +50660,30 @@
     <ContinentId>Pandaria</ContinentId>
   </Npc>
   <Npc>
+    <Entry>55135</Entry>
+    <Name>General Nazgrim</Name>
+    <Position>
+      <X>3178.83862</X>
+      <Y>-696.881958</Y>
+      <Z>321.027039</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>55172</Entry>
+    <Name>General Nazgrim</Name>
+    <Position>
+      <X>2491.17358</X>
+      <Y>-532.7205</Y>
+      <Z>344.042267</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>55180</Entry>
     <Name>Shademaster Kiryn</Name>
     <Position>
@@ -50849,6 +50873,18 @@
     <ContinentId>Outland</ContinentId>
   </Npc>
   <Npc>
+    <Entry>55403</Entry>
+    <Name>Zin'Jun</Name>
+    <Position>
+      <X>2835.941</X>
+      <Y>-722.5833</Y>
+      <Z>259.8944</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>55413</Entry>
     <Name>An Windfur</Name>
     <Position>
@@ -50926,12 +50962,59 @@
     <ContinentId>Azeroth</ContinentId>
   </Npc>
   <Npc>
+    <Entry>55497</Entry>
+    <Name>Zin'Jun</Name>
+    <Position>
+      <X>2835.185</X>
+      <Y>-686.5793</Y>
+      <Z>259.5141</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>55521</Entry>
+    <Name>Rivett Clutchpop</Name>
+    <Position>
+      <X>2502.54346</X>
+      <Y>-510.621521</Y>
+      <Z>341.129944</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>55521</Entry>
+    <Name>Rivett Clutchpop</Name>
+    <Position>
+      <X>2647.683</X>
+      <Y>-722.5052</Y>
+      <Z>309.3373</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>55523</Entry>
     <Name>Shokia</Name>
     <Position>
       <X>2495.85083</X>
       <Y>-531.1893</Y>
       <Z>343.924866</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>55523</Entry>
+    <Name>Shokia</Name>
+    <Position>
+      <X>2615.71533</X>
+      <Y>-775.598938</Y>
+      <Z>316.478271</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
@@ -50992,6 +51075,17 @@
       <Z>353.1352</Z>
     </Position>
     <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>55768</Entry>
+    <Name>Lorewalker Cho</Name>
+    <Position>
+      <X>2130.74316</X>
+      <Y>-474.678833</Y>
+      <Z>392.928864</Z>
+    </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Pandaria</ContinentId>
   </Npc>
@@ -51120,9 +51214,86 @@
     <Entry>56133</Entry>
     <Name>Chen Stormstout</Name>
     <Position>
+      <X>-197.796875</X>
+      <Y>485.354156</Y>
+      <Z>187.188919</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>56133</Entry>
+    <Name>Chen Stormstout</Name>
+    <Position>
+      <X>-33.1276054</X>
+      <Y>-24.2655888</Y>
+      <Z>154.618271</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>56133</Entry>
+    <Name>Chen Stormstout</Name>
+    <Position>
       <X>166.9427</X>
       <Y>-275.458344</Y>
       <Z>236.261322</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>56133</Entry>
+    <Name>Chen Stormstout</Name>
+    <Position>
+      <X>459.2396</X>
+      <Y>-287.954865</Y>
+      <Z>204.762466</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>56133</Entry>
+    <Name>Chen Stormstout</Name>
+    <Position>
+      <X>517.3177</X>
+      <Y>-693.7483</Y>
+      <Z>247.253128</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>56133</Entry>
+    <Name>Chen Stormstout</Name>
+    <Position>
+      <X>534.4983</X>
+      <Y>-603.684</Y>
+      <Z>258.393066</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>56138</Entry>
+    <Name>Li Li</Name>
+    <Position>
+      <X>-200.93924</X>
+      <Y>484.819458</Y>
+      <Z>187.188965</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>56138</Entry>
+    <Name>Li Li</Name>
+    <Position>
+      <X>-37.484375</X>
+      <Y>-24.458334</Y>
+      <Z>154.53804</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Pandaria</ContinentId>
@@ -51134,6 +51305,39 @@
       <X>159.826385</X>
       <Y>-276.229156</Y>
       <Z>235.097931</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>56138</Entry>
+    <Name>Li Li</Name>
+    <Position>
+      <X>454.9181</X>
+      <Y>-286.133118</Y>
+      <Z>204.762009</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>56138</Entry>
+    <Name>Li Li</Name>
+    <Position>
+      <X>520.916565</X>
+      <Y>-697.9662</Y>
+      <Z>247.2772</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>56138</Entry>
+    <Name>Li Li</Name>
+    <Position>
+      <X>529.021545</X>
+      <Y>-608.4239</Y>
+      <Z>258.674377</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Pandaria</ContinentId>
@@ -51218,12 +51422,35 @@
     <ContinentId>Pandaria</ContinentId>
   </Npc>
   <Npc>
+    <Entry>56312</Entry>
+    <Name>Shang Thunderfoot</Name>
+    <Position>
+      <X>236.9618</X>
+      <Y>-389.3212</Y>
+      <Z>247.932266</Z>
+      <Type>Flying</Type>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>56313</Entry>
     <Name>Tooki Tooki</Name>
     <Position>
       <X>1914.52087</X>
       <Y>-383.618073</Y>
       <Z>394.344635</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>56327</Entry>
+    <Name />
+    <Position>
+      <X>1849.148</X>
+      <Y>-360.8403</Y>
+      <Z>398.5404</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Pandaria</ContinentId>
@@ -51246,6 +51473,18 @@
       <X>1439.757</X>
       <Y>-549.967041</Y>
       <Z>352.185059</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>56340</Entry>
+    <Name>Shokia</Name>
+    <Position>
+      <X>1465.967</X>
+      <Y>-527.5833</Y>
+      <Z>344.843018</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
@@ -51285,6 +51524,18 @@
     <ContinentId>Pandaria</ContinentId>
   </Npc>
   <Npc>
+    <Entry>56351</Entry>
+    <Name>Bo Bo</Name>
+    <Position>
+      <X>1884.01038</X>
+      <Y>-355.0712</Y>
+      <Z>388.662354</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>56358</Entry>
     <Name>Eekle Eekle</Name>
     <Position>
@@ -51292,6 +51543,18 @@
       <Y>-435.555573</Y>
       <Z>345.1791</Z>
     </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>56406</Entry>
+    <Name>Rivett Clutchpop</Name>
+    <Position>
+      <X>1427.70667</X>
+      <Y>-524.223938</Y>
+      <Z>353.802582</Z>
+    </Position>
+    <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
     <ContinentId>Pandaria</ContinentId>
   </Npc>
@@ -51313,6 +51576,28 @@
       <X>404.305328</X>
       <Y>-556.279358</Y>
       <Z>237.724182</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>56474</Entry>
+    <Name>Mudmug</Name>
+    <Position>
+      <X>-32.41915</X>
+      <Y>-17.8105259</Y>
+      <Z>154.814911</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>56474</Entry>
+    <Name>Mudmug</Name>
+    <Position>
+      <X>82.19444</X>
+      <Y>548.673645</Y>
+      <Z>153.387878</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Pandaria</ContinentId>
@@ -51467,6 +51752,17 @@
       <X>-256.7396</X>
       <Y>602.8403</Y>
       <Z>167.547852</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>57298</Entry>
+    <Name>Farmer Fung</Name>
+    <Position>
+      <X>210.135422</X>
+      <Y>783.9705</Y>
+      <Z>164.036133</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Pandaria</ContinentId>
@@ -51769,6 +52065,17 @@
     <ContinentId>Pandaria</ContinentId>
   </Npc>
   <Npc>
+    <Entry>58646</Entry>
+    <Name>Farmer Yoon</Name>
+    <Position>
+      <X>-158.578125</X>
+      <Y>608.821167</Y>
+      <Z>175.559814</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>58647</Entry>
     <Name>Ella</Name>
     <Position>
@@ -51797,6 +52104,17 @@
       <X>310.283</X>
       <Y>1041.27954</Y>
       <Z>145.654739</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>58706</Entry>
+    <Name>Gina Mudclaw</Name>
+    <Position>
+      <X>-259.539948</X>
+      <Y>592.5469</Y>
+      <Z>167.547821</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Pandaria</ContinentId>
@@ -51934,6 +52252,17 @@
     <ContinentId>Pandaria</ContinentId>
   </Npc>
   <Npc>
+    <Entry>58721</Entry>
+    <Name>Farmer Yoon</Name>
+    <Position>
+      <X>-160.421875</X>
+      <Y>637.5347</Y>
+      <Z>165.40947</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>58735</Entry>
     <Name>Lyalia</Name>
     <Position>
@@ -51986,6 +52315,17 @@
       <X>-259.3837</X>
       <Y>600.0903</Y>
       <Z>167.547821</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>58785</Entry>
+    <Name>Mudmug</Name>
+    <Position>
+      <X>205.2621</X>
+      <Y>490.9142</Y>
+      <Z>144.8959</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Pandaria</ContinentId>
@@ -53552,6 +53892,17 @@
     <ContinentId>Pandaria</ContinentId>
   </Npc>
   <Npc>
+    <Entry>62923</Entry>
+    <Name>Empty Package</Name>
+    <Position>
+      <X>2228.028</X>
+      <Y>-145.125</Y>
+      <Z>304.3303</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>62996</Entry>
     <Name>Madam Vee Luo</Name>
     <Position>
@@ -53740,6 +54091,17 @@
     <ContinentId>Azeroth</ContinentId>
   </Npc>
   <Npc>
+    <Entry>63217</Entry>
+    <Name>Lorewalker Cho</Name>
+    <Position>
+      <X>2066.981</X>
+      <Y>-701.838562</Y>
+      <Z>354.5648</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>63218</Entry>
     <Name>Defender Azzo</Name>
     <Position>
@@ -53838,6 +54200,17 @@
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
     <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>63307</Entry>
+    <Name>Lorewalker Cho</Name>
+    <Position>
+      <X>2134.05566</X>
+      <Y>-560.923645</Y>
+      <Z>391.5106</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
   </Npc>
   <Npc>
     <Entry>63310</Entry>
@@ -54141,6 +54514,17 @@
       <X>-383.786255</X>
       <Y>1953.02319</Y>
       <Z>128.565384</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>63778</Entry>
+    <Name>Messenger Grummle</Name>
+    <Position>
+      <X>-216.479172</X>
+      <Y>507.75174</Y>
+      <Z>190.761917</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Pandaria</ContinentId>
@@ -54961,6 +55345,30 @@
     <ContinentId>Pandaria</ContinentId>
   </Npc>
   <Npc>
+    <Entry>65998</Entry>
+    <Name>Merchant Zin</Name>
+    <Position>
+      <X>2639.06519</X>
+      <Y>-741.8889</Y>
+      <Z>313.2816</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>65999</Entry>
+    <Name>General Nazgrim</Name>
+    <Position>
+      <X>2632.526</X>
+      <Y>-758.7482</Y>
+      <Z>316.3288</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>66126</Entry>
     <Name>Zunta</Name>
     <Position>
@@ -54992,6 +55400,18 @@
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>66190</Entry>
+    <Name>General Nazgrim</Name>
+    <Position>
+      <X>3123.95459</X>
+      <Y>-758.4566</Y>
+      <Z>227.984161</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
   </Npc>
   <Npc>
     <Entry>66199</Entry>
@@ -55306,6 +55726,19 @@
     <ContinentId>Northrend</ContinentId>
   </Npc>
   <Npc>
+    <Entry>66646</Entry>
+    <Name>General Nazgrim</Name>
+    <Position>
+      <X>3157.23169</X>
+      <Y>-976.7518</Y>
+      <Z>281.044922</Z>
+      <Type>Flying</Type>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>66656</Entry>
     <Name>General Nazgrim</Name>
     <Position>
@@ -55314,6 +55747,41 @@
       <Z>324.695953</Z>
     </Position>
     <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>66657</Entry>
+    <Name>Taran Zhu</Name>
+    <Position>
+      <X>3158.26</X>
+      <Y>-902.118</Y>
+      <Z>324.6955</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>66659</Entry>
+    <Name>Sue-Ji the Tender</Name>
+    <Position>
+      <X>3303.33252</X>
+      <Y>-680.008667</Y>
+      <Z>221.572723</Z>
+      <Type>Flying</Type>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>66660</Entry>
+    <Name>Ellie Honeypaw</Name>
+    <Position>
+      <X>3319.57739</X>
+      <Y>-681.4583</Y>
+      <Z>225.118774</Z>
+      <Type>Flying</Type>
+    </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Pandaria</ContinentId>
   </Npc>
@@ -55336,6 +55804,18 @@
       <Y>-582.401062</Y>
       <Z>242.9423</Z>
     </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>66667</Entry>
+    <Name>Rivett Clutchpop</Name>
+    <Position>
+      <X>3139.37842</X>
+      <Y>-713.7153</Y>
+      <Z>296.777527</Z>
+    </Position>
+    <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
     <ContinentId>Pandaria</ContinentId>
   </Npc>
@@ -55439,6 +55919,29 @@
     <ContinentId>Kalimdor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>66825</Entry>
+    <Name>Ellie Honeypaw</Name>
+    <Position>
+      <X>3319.57739</X>
+      <Y>-681.4583</Y>
+      <Z>225.118774</Z>
+      <Type>Flying</Type>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>66838</Entry>
+    <Name>Kai-Lin Honeydew</Name>
+    <Position>
+      <X>3029.37939</X>
+      <Y>-786.8594</Y>
+      <Z>227.603348</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>66841</Entry>
     <Name>Kai-Lin Honeydew</Name>
     <Position>
@@ -55446,6 +55949,18 @@
       <Y>-786.842041</Y>
       <Z>227.604126</Z>
     </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>66845</Entry>
+    <Name>Sergeant Gorrok</Name>
+    <Position>
+      <X>3013.35254</X>
+      <Y>-582.2691</Y>
+      <Z>242.942184</Z>
+    </Position>
+    <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
     <ContinentId>Pandaria</ContinentId>
   </Npc>
@@ -55467,6 +55982,19 @@
       <X>1670.253</X>
       <Y>942.13855</Y>
       <Z>471.1779</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>67250</Entry>
+    <Name>Rivett Clutchpop</Name>
+    <Position>
+      <X>3022.1355</X>
+      <Y>-538.762146</Y>
+      <Z>249.831436</Z>
+      <Type>Flying</Type>
     </Position>
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
@@ -56411,7 +56939,7 @@
     <Position>
       <X>2890.49658</X>
       <Y>627.434</Y>
-      <Z>706.5976</Z>
+      <Z>593.3703</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Draenor</ContinentId>
@@ -56422,7 +56950,7 @@
     <Position>
       <X>2890.49658</X>
       <Y>627.434</Y>
-      <Z>593.3703</Z>
+      <Z>706.5976</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Draenor</ContinentId>
