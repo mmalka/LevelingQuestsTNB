@@ -415,11 +415,13 @@
               <Z>125.7999</Z>
             </Point>
           </Hotspots>
+          <ScriptConditionIsComplete>return true;</ScriptConditionIsComplete>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
+          <ScriptConditionIsComplete>return true;</ScriptConditionIsComplete>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>42612</NpcEntry>
           <QuestName>Prime Slime</QuestName>
@@ -800,6 +802,7 @@
           <Entry>
             <int>42624</int>
           </Entry>
+          <ScriptConditionIsComplete>return !ObjectManager.GetNearestWoWUnit(ObjectManager.GetWoWUnitByEntry(42622, false), false,true,false).IsValid || nManager.Wow.Helpers.Quest.GetLogQuestIsComplete(26368) || nManager.Wow.Helpers.Quest.GetQuestCompleted(26368);</ScriptConditionIsComplete>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-233.8118</X>
@@ -910,6 +913,7 @@
           <Entry>
             <int>204002</int>
           </Entry>
+          <ScriptConditionIsComplete>return ObjectManager.GetNearestWoWUnit(ObjectManager.GetWoWUnitByEntry(42622, false), false,true,false).IsValid ;</ScriptConditionIsComplete>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-259.3266</X>
@@ -961,6 +965,7 @@
           <Entry>
             <int>42624</int>
           </Entry>
+          <ScriptConditionIsComplete>return !ObjectManager.GetNearestWoWUnit(ObjectManager.GetWoWUnitByEntry(42622, false), false,true,false).IsValid || nManager.Wow.Helpers.Quest.GetLogQuestIsComplete(26363) || nManager.Wow.Helpers.Quest.GetQuestCompleted(26363);</ScriptConditionIsComplete>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-233.2735</X>
@@ -992,6 +997,7 @@
           <Entry>
             <int>204002</int>
           </Entry>
+          <ScriptConditionIsComplete>return ObjectManager.GetNearestWoWUnit(ObjectManager.GetWoWUnitByEntry(42622, false), false,true,false).IsValid ;</ScriptConditionIsComplete>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-259.049</X>
@@ -1029,6 +1035,7 @@
           <Entry>
             <int>42624</int>
           </Entry>
+          <ScriptConditionIsComplete>return !ObjectManager.GetNearestWoWUnit(ObjectManager.GetWoWUnitByEntry(42622, false), false,true,false).IsValid || nManager.Wow.Helpers.Quest.GetLogQuestIsComplete(26369) || nManager.Wow.Helpers.Quest.GetQuestCompleted(26369);</ScriptConditionIsComplete>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-236.5722</X>
@@ -1062,6 +1069,7 @@
           <Entry>
             <int>204002</int>
           </Entry>
+          <ScriptConditionIsComplete>return ObjectManager.GetNearestWoWUnit(ObjectManager.GetWoWUnitByEntry(42622, false), false,true,false).IsValid ;</ScriptConditionIsComplete>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-259.049</X>
@@ -1170,8 +1178,7 @@
         <Y>-4175.535</Y>
         <Z>139.7303</Z>
       </Position>
-	  <Radius>5</Radius>
-	  <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Azeroth</ContinentId>
     </QuesterBlacklistRadius>
     <QuesterBlacklistRadius>
       <Position>
@@ -1179,8 +1186,7 @@
         <Y>-3764.748</Y>
         <Z>107.196</Z>
       </Position>
-	  <Radius>5</Radius>
-	  <ContinentId>Azeroth</ContinentId>
+      <ContinentId>Azeroth</ContinentId>
     </QuesterBlacklistRadius>
   </Blackspots>
 </QuesterProfile>

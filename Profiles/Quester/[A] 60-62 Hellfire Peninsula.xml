@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <QuesterProfile Author="Arasal" DevelopmentStatus="Untested">
+  <Questers />
   <Quests>
     <Quest>
       <Name>Arrival in Outland</Name>
       <RaceMask>18875469</RaceMask>
       <Id>10288</Id>
       <QuestLevel>61</QuestLevel>
-      <MinLevel>58</MinLevel>
+      <MinLevel>59</MinLevel>
       <MaxLevel>71</MaxLevel>
       <PickUp>19229</PickUp>
       <TurnIn>18931</TurnIn>

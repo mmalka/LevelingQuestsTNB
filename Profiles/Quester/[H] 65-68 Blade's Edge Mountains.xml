@@ -2613,7 +2613,7 @@
         <Z>40.20636</Z>
       </Position>
       <Radius>15</Radius>
-	  <ContinentId>Outland</ContinentId>
+      <ContinentId>Outland</ContinentId>
     </QuesterBlacklistRadius>
     <QuesterBlacklistRadius>
       <Position>
@@ -2622,7 +2622,7 @@
         <Z>26.75933</Z>
       </Position>
       <Radius>20</Radius>
-	  <ContinentId>Outland</ContinentId>
+      <ContinentId>Outland</ContinentId>
     </QuesterBlacklistRadius>
     <QuesterBlacklistRadius>
       <Position>
@@ -2631,7 +2631,7 @@
         <Z>284.3353</Z>
       </Position>
       <Radius>20</Radius>
-	  <ContinentId>Outland</ContinentId>
+      <ContinentId>Outland</ContinentId>
     </QuesterBlacklistRadius>
     <QuesterBlacklistRadius>
       <Position>
@@ -2640,7 +2640,7 @@
         <Z>293.6422</Z>
       </Position>
       <Radius>20</Radius>
-	  <ContinentId>Outland</ContinentId>
+      <ContinentId>Outland</ContinentId>
     </QuesterBlacklistRadius>
   </Blackspots>
 </QuesterProfile>

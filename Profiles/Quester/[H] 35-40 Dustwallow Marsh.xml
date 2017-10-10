@@ -653,12 +653,14 @@
         <QuestObjective>
           <Objective>UseItem</Objective>
           <Count>1</Count>
+          <ScriptConditionIsComplete>return ObjectManager.GetNearestWoWUnit(ObjectManager.GetWoWUnitByEntry(23864, false), false,true,false).IsValid;</ScriptConditionIsComplete>
           <UseItemId>33113</UseItemId>
           <Position>
             <X>-2965.253</X>
             <Y>-3874.816</Y>
             <Z>31.43411</Z>
           </Position>
+          <WaitMs>500</WaitMs>
         </QuestObjective>
         <QuestObjective>
           <Objective>Wait</Objective>
@@ -678,7 +680,6 @@
             </Point>
           </Hotspots>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <IgnoreBlackList>true</IgnoreBlackList>
         </QuestObjective>
         <QuestObjective>

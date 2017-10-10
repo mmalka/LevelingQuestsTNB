@@ -3258,6 +3258,35 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Corruption Destruction</Name>
+      <RaceMask>33555378</RaceMask>
+      <Id>26585</Id>
+      <QuestLevel>83</QuestLevel>
+      <MinLevel>80</MinLevel>
+      <MaxLevel>93</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>26578</int>
+      </NeedQuestCompletedId>
+      <PickUp>42472</PickUp>
+      <TurnIn>42472</TurnIn>
+      <Objectives>
+        <QuestObjective>
+          <Objective>PickUpQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <NpcEntry>42472</NpcEntry>
+          <QuestName>Shaken and Stirred</QuestName>
+          <QuestId>26584</QuestId>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>PickUpQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <NpcEntry>43442</NpcEntry>
+          <QuestName>Wrath of the Fungalmancer</QuestName>
+          <QuestId>26583</QuestId>
+        </QuestObjective>
+      </Objectives>
+    </Quest>
   </Quests>
   <Blackspots>
     <QuesterBlacklistRadius>
