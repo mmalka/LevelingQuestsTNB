@@ -1,8 +1,15 @@
+/*
+Check code at the end to set where to get the NPC if you die
+
+*/
+
 WoWUnit unit = ObjectManager.GetNearestWoWUnit(ObjectManager.GetWoWUnitByEntry(questObjective.Entry, questObjective.IsDead), questObjective.IgnoreNotSelectable, questObjective.IgnoreBlackList,
 	questObjective.AllowPlayerControlled);
 Point pos = ObjectManager.Me.Position; /* Initialize or getting an error */
 int q = QuestID; /* not used but otherwise getting warning QuestID not used */
 uint baseAddress = 0;
+
+questObjective.Range = questObjective.Range == 0 ? 5 : questObjective.Range;
 
 /* If Entry found continue*/
 if (unit.IsValid)
@@ -68,5 +75,35 @@ if (unit.IsValid)
 		Thread.Sleep(questObjective.WaitMs);
 	
 	return true;
+}
+else //Npc Dead probably get him back, use ExtraPoint for the position of the NPC and Extra ID to get it back. Gossip too if necessary
+{
+	if(questObjective.ExtraInt == 0)
+		return false;
+	
+	WoWUnit npc = ObjectManager.GetNearestWoWUnit(ObjectManager.GetWoWUnitByEntry(questObjective.ExtraInt, questObjective.IsDead), questObjective.IgnoreNotSelectable, questObjective.IgnoreBlackList,
+		questObjective.AllowPlayerControlled);
+	
+	MovementManager.GoToLocationFindTarget(questObjective.ExtraPoint);
+	
+	if(npc.IsValid && npc.GetDistance <= questObjective.Range)
+	{
+		/* Target Reached */
+		MovementManager.StopMove();	
+	}
+	else
+	{
+		if (MovementManager.InMovement)
+			return false;
+		if (baseAddress <= 0)
+			return false;
+		if (baseAddress > 0 && (npc.IsValid && npc.GetDistance > questObjective.Range))
+			return false;	
+	}
+	Interact.InteractWith(npc.GetBaseAddress);
+	
+	Thread.Sleep(500);
+	
+	nManager.Wow.Helpers.Quest.SelectGossipOption(questObjective.GossipOptionsInteractWith);
 }
 return true;
