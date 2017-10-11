@@ -14289,6 +14289,18 @@
     <Type>RidingTrainer</Type>
     <ContinentId>Kalimdor</ContinentId>
   </Npc>
+    <Npc>
+    <Entry>35100</Entry>
+    <Name>Hargen Bronzewing</Name>
+    <Position>
+      <X>-677.5347</X>
+      <Y>2736.305</Y>
+      <Z>93.90856</Z>
+    </Position>
+    <Faction>Alliance</Faction>
+    <Type>RidingTrainer</Type>
+    <ContinentId>Outland</ContinentId>
+  </Npc>
   <Npc>
     <Entry>7954</Entry>
     <Name>Binjy Featherwhistle</Name>
