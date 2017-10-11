@@ -1,5 +1,6 @@
-/* Defend a fix npc
+/* Defend a stationary npc
 check the flags of the mob that are attacking, you might need IgnoreBlackList */
+
 if(!questObjective.Position.IsValid)
 	questObjective.Position = ObjectManager.Me.Position;
 

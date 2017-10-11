@@ -29,7 +29,7 @@
 
                     if (GetDragon.IsValid && nManager.Wow.Helpers.CombatClass.InRange(GetDragon))
                     {
-                        Logging.Write("DPS Mob");
+                        Logging.Write("DPS Dragon");
                         _worker2 = new System.Threading.Thread(() => nManager.Wow.Helpers.Fight.StartFight(GetDragon.Guid));
                         _worker2.Start();
 
@@ -43,12 +43,12 @@
                         Fight.StopFight();
                      
 
-                        Logging.Write("We have breath, goto changing rock");
+                        Logging.Write("We have breath, changing rock");
 
                         return false;
                     }
 					else{
-						Logging.Write("TROP LOIN");
+						//
 					}
                 }
             } //Close the try here
@@ -97,8 +97,8 @@
         void ChangeRock()
         {
 			Logging.Write("Getting Next Rock");
-            WoWUnit nextRock = _CurrentRock;
-            Interact.InteractWith(GetNextRock().GetBaseAddress);
+            WoWUnit nextRock = GetNextRock();
+            Interact.InteractWith(nextRock.GetBaseAddress);
             _LastRock = _CurrentRock;
             _CurrentRock = nextRock;
             Thread.Sleep(1500);
@@ -110,36 +110,37 @@
 			try{
           
 
-            _rockList =
-                nManager.Wow.ObjectManager.ObjectManager.GetWoWUnitByEntry(45191).FindAll(x => x.IsValid && x.GetDistance <= 24 && x.GetDistance >= 5  && x != _CurrentRock && x != _LastRock).OrderBy(x => x.Position.DistanceTo(GetDragon.Position)).ToList();
-			Logging.Write("Distance Char : " + _rockList[0].GetDistance + " Distance Dragon :" + GetDragon.Position.DistanceTo(_rockList[0].Position));
-			
-			
-            return _rockList[0];
+				_rockList =
+					nManager.Wow.ObjectManager.ObjectManager.GetWoWUnitByEntry(45191).FindAll(x => x.IsValid && x.GetDistance <= 24 && x.GetDistance >= 5  && x != _CurrentRock && x != _LastRock).OrderBy(x => x.Position.DistanceTo(GetDragon.Position)).ToList();
+				//Logging.Write("Distance Char : " + _rockList[0].GetDistance + " Distance Dragon :" + GetDragon.Position.DistanceTo(_rockList[0].Position));
+				
+				
+				return _rockList[0];
 			}
 			catch(Exception e)
-				{
-					Logging.Write("ERREUR" + e.Message);
-				}
-				return _rockList[0];
+			{
+				Logging.Write("ERREUR" + e.Message);
+			}
+			
+			return _rockList[0];
         }
 
         private WoWUnit GetNextRockToGetUp()
         {
 			List<WoWUnit> _rockList = new List<WoWUnit>();
-			try{
-            
+			try
+			{
+           
+				_rockList = nManager.Wow.ObjectManager.ObjectManager.GetWoWUnitByEntry(45191).FindAll(x => x.Position.Z > ObjectManager.Me.Position.Z && x.Position.Z < 254.8 && x.GetDistance <= 24).OrderByDescending(x => x.GetDistance).ToList();
 
-            _rockList = nManager.Wow.ObjectManager.ObjectManager.GetWoWUnitByEntry(45191).FindAll(x => x.Position.Z > ObjectManager.Me.Position.Z && x.Position.Z < 254.8 && x.GetDistance <= 24).OrderByDescending(x => x.GetDistance).ToList();
-			
-
-            return _rockList[0];
+				return _rockList[0];
 			}
 			catch(Exception e )
-				{
-					Logging.Write("ERREUR" + e.Message);
-				}
-				return _rockList[0];
+			{
+				Logging.Write("ERREUR" + e.Message);
+			}
+			
+			return _rockList[0];
         }
     
 

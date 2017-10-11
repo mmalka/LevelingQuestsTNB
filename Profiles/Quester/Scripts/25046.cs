@@ -1,4 +1,4 @@
-/*Custom script escort script to check if Lilian is still with us
+/*Custom escort script to check if Lilian is still with us
  If she is not (dead or disapeared), remove quest and start again*/
 
 WoWUnit unit = ObjectManager.GetNearestWoWUnit(ObjectManager.GetWoWUnitByEntry(questObjective.Entry, questObjective.IsDead), questObjective.IgnoreNotSelectable, questObjective.IgnoreBlackList,
