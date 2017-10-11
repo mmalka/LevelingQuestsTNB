@@ -1,12 +1,15 @@
-    try //Strange problem here, the bot is causing an Error : System.NullReferenceException: Object reference not set to an instance of an object. at Main.Script(QuestObjective& questObjective)
+/*
+	Cannon script :
+	Calculate the angle and adjust AIM to shoot a unit.
+
+*/
+    try
             {
 
                 nManager.Wow.ObjectManager.WoWUnit unit = new WoWUnit(0);
                 unit = nManager.Wow.ObjectManager.ObjectManager.GetWoWUnitByEntry(questObjective.Entry).Find(x => x.Position.Y <= -748 && !nManagerSetting.IsBlackListed(x.Guid) && x.Position.DistanceTo(ObjectManager.Me.Position) <= 180 && !x.IsDead);	
-               
-                // unit = nManager.Wow.ObjectManager.ObjectManager.GetWoWUnitByEntry(66200).Find(x => x.Position.DistanceTo(p) <= 2 && x.Position.DistanceTo(ObjectManager.Me.Position) <= 150 && !x.IsDead);
-
-                if (unit.IsValid)
+				
+                if (unit != null && unit.IsValid)
                 {
 
 

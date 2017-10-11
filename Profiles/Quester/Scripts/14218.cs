@@ -7,11 +7,9 @@ while(!nManager.Wow.Helpers.Quest.IsObjectiveCompleted(14218, 1, 80))
 
 	WoWUnit Worgen = ObjectManager.GetNearestWoWUnit(ObjectManager.GetWoWUnitByEntry(35229, false).FindAll( x => x.Position.Y <= 1670 && x.Position.X >= -1520 && x.Position.X <= -1440 && x.Position.DistanceTo(ObjectManager.Me.Position) <= 150 && !x.IsDead), false,false,false);
 
-	if (Worgen.IsValid)
+	if (Worgen != null && Worgen.IsValid)
 	{
-		
-//		Logging.Write("Found valid Worgen");
-		
+				
 		MovementManager.FaceCTM(Worgen);
 		Interact.InteractWith(Worgen.GetBaseAddress);
 
@@ -31,8 +29,6 @@ while(!nManager.Wow.Helpers.Quest.IsObjectiveCompleted(14218, 1, 80))
 		}
 
 		Lua.RunMacroText("/click OverrideActionBarButton1");
-		
-//		Logging.Write("fired cannon!");
 		
 		Thread.Sleep(1200);
 
