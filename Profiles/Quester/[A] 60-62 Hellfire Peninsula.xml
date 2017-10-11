@@ -196,16 +196,16 @@
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <NpcEntry>21209</NpcEntry>
-          <QuestName>Waste Not, Want Not</QuestName>
-          <QuestId>10055</QuestId>
+          <NpcEntry>16820</NpcEntry>
+          <QuestName>Fel Orc Scavengers</QuestName>
+          <QuestId>10482</QuestId>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <NpcEntry>16820</NpcEntry>
-          <QuestName>Fel Orc Scavengers</QuestName>
-          <QuestId>10482</QuestId>
+          <NpcEntry>21209</NpcEntry>
+          <QuestName>Waste Not, Want Not</QuestName>
+          <QuestId>10055</QuestId>
         </QuestObjective>
       </Objectives>
     </Quest>
