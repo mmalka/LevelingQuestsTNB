@@ -364,6 +364,7 @@
       <Objectives>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>19309</NpcEntry>
           <QuestName>Expedition Point</QuestName>
           <QuestId>10143</QuestId>
@@ -391,7 +392,7 @@
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <NpcEntry>19309</NpcEntry>
+          <NpcEntry>19310</NpcEntry>
           <QuestName>Expedition Point</QuestName>
           <QuestId>10143</QuestId>
         </QuestObjective>
@@ -449,11 +450,14 @@
               <Z>68.73098</Z>
             </Point>
           </Hotspots>
+          <ScriptConditionIsComplete>return nManager.Wow.Helpers.ItemsManager.GetItemCount(28513) &gt;= 4 || nManager.Wow.Helpers.Quest.IsObjectiveCompleted(10144, 2, 1) || nManager.Wow.Helpers.Quest.GetLogQuestIsComplete(10144) || nManager.Wow.Helpers.Quest.GetQuestCompleted(10144);</ScriptConditionIsComplete>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>MoveTo</Objective>
+          <Count>1</Count>
+          <ScriptConditionIsComplete>return questObjective.Position.DistanceTo(ObjectManager.Me.Position) &lt;= 5 || nManager.Wow.Helpers.Quest.IsObjectiveCompleted(10144, 2, 1) || nManager.Wow.Helpers.Quest.GetLogQuestIsComplete(10144) || nManager.Wow.Helpers.Quest.GetQuestCompleted(10144);</ScriptConditionIsComplete>
           <Position>
             <X>-535.2428</X>
             <Y>1776.984</Y>
@@ -477,16 +481,7 @@
           <WaitMs>500</WaitMs>
         </QuestObjective>
         <QuestObjective>
-          <Objective>MoveTo</Objective>
-          <Position>
-            <X>-537.1168</X>
-            <Y>1776.665</Y>
-            <Z>54.38342</Z>
-          </Position>
-        </QuestObjective>
-        <QuestObjective>
           <Objective>KillMob</Objective>
-          <InternalIndex>1</InternalIndex>
           <InternalQuestId>10144</InternalQuestId>
           <Entry>
             <int>19190</int>
@@ -503,11 +498,13 @@
               <Z>68.73098</Z>
             </Point>
           </Hotspots>
+          <ScriptConditionIsComplete>return nManager.Wow.Helpers.ItemsManager.GetItemCount(28513) &gt;= 4 || nManager.Wow.Helpers.Quest.IsObjectiveCompleted(10144, 1, 1) || nManager.Wow.Helpers.Quest.GetLogQuestIsComplete(10144) || nManager.Wow.Helpers.Quest.GetQuestCompleted(10144);</ScriptConditionIsComplete>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>MoveTo</Objective>
+          <ScriptConditionIsComplete>return questObjective.Position.DistanceTo(ObjectManager.Me.Position) &lt;= 5 || nManager.Wow.Helpers.Quest.IsObjectiveCompleted(10144, 1, 1) || nManager.Wow.Helpers.Quest.GetLogQuestIsComplete(10144) || nManager.Wow.Helpers.Quest.GetQuestCompleted(10144);</ScriptConditionIsComplete>
           <Position>
             <X>-418.1632</X>
             <Y>1859.981</Y>
@@ -530,14 +527,6 @@
           </Position>
           <WaitMs>700</WaitMs>
         </QuestObjective>
-        <QuestObjective>
-          <Objective>MoveTo</Objective>
-          <Position>
-            <X>-418.4544</X>
-            <Y>1858.934</Y>
-            <Z>84.27824</Z>
-          </Position>
-        </QuestObjective>
       </Objectives>
     </Quest>
     <Quest>
@@ -559,6 +548,7 @@
           <Entry>
             <int>19409</int>
           </Entry>
+          <ScriptConditionIsComplete>return ObjectManager.Me.MountDisplayId == 76348;</ScriptConditionIsComplete>
           <Position>
             <X>-672.3448</X>
             <Y>1854.972</Y>
@@ -572,16 +562,12 @@
           <InternalIndex>2</InternalIndex>
           <Count>1</Count>
           <Entry>
-            <int>19299</int>
+            <int>19292</int>
           </Entry>
           <Script>=10146.cs</Script>
+          <IgnoreNotSelectable>true</IgnoreNotSelectable>
           <UseItemId>28038</UseItemId>
-          <Position>
-            <X>-313.1548</X>
-            <Y>1509.347</Y>
-            <Z>33.9622</Z>
-          </Position>
-          <WaitMs>10000</WaitMs>
+          <WaitMs>2000</WaitMs>
           <Range>50</Range>
         </QuestObjective>
         <QuestObjective>
@@ -592,12 +578,8 @@
             <int>19291</int>
           </Entry>
           <Script>=10146.cs</Script>
+          <IgnoreNotSelectable>true</IgnoreNotSelectable>
           <UseItemId>28038</UseItemId>
-          <Position>
-            <X>-160.8908</X>
-            <Y>1513.632</Y>
-            <Z>28.79595</Z>
-          </Position>
           <WaitMs>500</WaitMs>
           <Range>50</Range>
         </QuestObjective>
@@ -622,14 +604,22 @@
           <Entry>
             <int>19409</int>
           </Entry>
+          <ScriptConditionIsComplete>return ObjectManager.Me.MountDisplayId == 76348 || ObjectManager.GetNearestWoWUnit(ObjectManager.GetWoWUnitByEntry(20234, false), false,true,false).IsValid;</ScriptConditionIsComplete>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>-672.9144</X>
             <Y>1854.59</Y>
             <Z>66.90943</Z>
           </Position>
-          <WaitMs>45000</WaitMs>
+          <WaitMs>55000</WaitMs>
           <GossipOptionsInteractWith>1</GossipOptionsInteractWith>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>TurnInQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <NpcEntry>20234</NpcEntry>
+          <QuestName>Shatter Point</QuestName>
+          <QuestId>10340</QuestId>
         </QuestObjective>
       </Objectives>
     </Quest>
@@ -666,6 +656,7 @@
           <Entry>
             <int>20235</int>
           </Entry>
+          <ScriptConditionIsComplete>return ObjectManager.Me.MountDisplayId == 76348;</ScriptConditionIsComplete>
           <Position>
             <X>296.1398</X>
             <Y>1497.245</Y>
@@ -731,6 +722,7 @@
           <Entry>
             <int>20235</int>
           </Entry>
+          <ScriptConditionIsComplete>return ObjectManager.Me.MountDisplayId == 76348 || ObjectManager.GetNearestWoWUnit(ObjectManager.GetWoWUnitByEntry(20793, false), false,true,false).IsValid;</ScriptConditionIsComplete>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>297.6044</X>
@@ -739,6 +731,13 @@
           </Position>
           <WaitMs>40000</WaitMs>
           <GossipOptionsInteractWith>1</GossipOptionsInteractWith>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>TurnInQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <NpcEntry>20793</NpcEntry>
+          <QuestName>Go to the Front</QuestName>
+          <QuestId>10382</QuestId>
         </QuestObjective>
       </Objectives>
     </Quest>
@@ -910,6 +909,14 @@
       <PickUp>16825</PickUp>
       <TurnIn>16825</TurnIn>
       <Objectives>
+        <QuestObjective>
+          <Objective>TurnInQuest</Objective>
+          <ScriptConditionIsComplete>return !nManager.Wow.Helpers.Quest.GetLogQuestId().Contains(10395);</ScriptConditionIsComplete>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <NpcEntry>16839</NpcEntry>
+          <QuestName>The Dark Missive</QuestName>
+          <QuestId>10395</QuestId>
+        </QuestObjective>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
           <NpcEntry>16839</NpcEntry>
@@ -1445,13 +1452,13 @@
           </Hotspots>
         </QuestObjective>
         <QuestObjective>
-          <Objective>KillMob</Objective>
+          <Objective>KillMobUseItem</Objective>
+          <InternalIndex>1</InternalIndex>
           <InternalQuestId>9361</InternalQuestId>
+          <Count>8</Count>
           <Entry>
             <int>16863</int>
           </Entry>
-          <CollectItemId>23270</CollectItemId>
-          <CollectCount>8</CollectCount>
           <Hotspots>
             <Point>
               <X>-1006.468</X>
@@ -1476,21 +1483,8 @@
           </Hotspots>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>UseItem</Objective>
-          <InternalIndex>1</InternalIndex>
-          <InternalQuestId>9361</InternalQuestId>
-          <Count>8</Count>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <UseItemId>23268</UseItemId>
-          <Position>
-            <X>-1056.361</X>
-            <Y>2963.577</Y>
-            <Z>4.857296</Z>
-          </Position>
-          <WaitMs>2300</WaitMs>
-          <Range>3</Range>
+          <WaitMs>500</WaitMs>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
@@ -2056,7 +2050,7 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpNPC</Objective>
-          <InternalIndex>4</InternalIndex>
+          <InternalIndex>1</InternalIndex>
           <InternalQuestId>10368</InternalQuestId>
           <Count>1</Count>
           <Entry>
@@ -2127,6 +2121,8 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>CSharpScript</Objective>
+          <InternalIndex>1</InternalIndex>
+          <InternalQuestId>10369</InternalQuestId>
           <Count>1</Count>
           <Entry>
             <int>19354</int>
@@ -2141,24 +2137,6 @@
           <Script>=10369.cs</Script>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <UseItemId>29513</UseItemId>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>KillMob</Objective>
-          <InternalIndex>1</InternalIndex>
-          <InternalQuestId>10369</InternalQuestId>
-          <Count>1</Count>
-          <Entry>
-            <int>20680</int>
-          </Entry>
-          <Hotspots>
-            <Point>
-              <X>-665.7562</X>
-              <Y>4814.312</Y>
-              <Z>49.17185</Z>
-            </Point>
-          </Hotspots>
-          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
@@ -2227,6 +2205,14 @@
           <NpcEntry>16991</NpcEntry>
           <QuestName>Demonic Contamination</QuestName>
           <QuestId>9372</QuestId>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>TurnInQuest</Objective>
+          <ScriptConditionIsComplete>return !nManager.Wow.Helpers.Quest.GetLogQuestId().Contains(10134) ;</ScriptConditionIsComplete>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <NpcEntry>19293</NpcEntry>
+          <QuestName>Crimson Crystal Clue</QuestName>
+          <QuestId>10134</QuestId>
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>

@@ -38,11 +38,12 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>MoveTo</Objective>
+          <ScriptConditionIsComplete>=9817-CompScript.cs</ScriptConditionIsComplete>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
-            <X>-238.9722</X>
-            <Y>5498.345</Y>
-            <Z>25.8108</Z>
+            <X>-239.0305</X>
+            <Y>5498.347</Y>
+            <Z>25.8146</Z>
           </Position>
         </QuestObjective>
         <QuestObjective>
@@ -50,6 +51,15 @@
           <NpcEntry>182115</NpcEntry>
           <QuestName>Leader of the Bloodscale</QuestName>
           <QuestId>9817</QuestId>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>MoveTo</Objective>
+          <ScriptConditionIsComplete>=9730-CompScript.cs</ScriptConditionIsComplete>
+          <Position>
+            <X>-238.9722</X>
+            <Y>5498.345</Y>
+            <Z>25.8108</Z>
+          </Position>
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpQuest</Objective>

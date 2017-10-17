@@ -878,7 +878,7 @@
           <Entry>
             <int>41354</int>
           </Entry>
-          <Script>Interact.InteractWith(ObjectManager.GetNearestWoWUnit(ObjectManager.GetWoWUnitByEntry(41354,false), false,false,false).GetBaseAddress);</Script>
+          <Script>Interact.InteractWith(ObjectManager.GetNearestWoWUnit(ObjectManager.GetWoWUnitByEntry(questObjective.Entry,false), false,false,false).GetBaseAddress);</Script>
           <ScriptConditionIsComplete>return nManager.Helpful.Others.IsFrameVisible("GossipFrameGreetingPanel") ;</ScriptConditionIsComplete>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Range>0</Range>
