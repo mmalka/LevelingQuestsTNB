@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <QuesterProfile Author="Vesper" DevelopmentStatus="Outdated">
+  <Questers />
   <Quests>
     <Quest>
       <Name>The Home of the Frostwolves</Name>
       <RaceMask>33555378</RaceMask>
-      <Id>35884</Id>
+      <Id>33868</Id>
       <QuestLevel>90</QuestLevel>
       <MinLevel>90</MinLevel>
       <MaxLevel>100</MaxLevel>
@@ -12,7 +13,7 @@
         <int>34446</int>
       </NeedQuestCompletedId>
       <AutoAccepted>true</AutoAccepted>
-      <TurnIn>78563</TurnIn>
+      <TurnIn>76411</TurnIn>
       <Objectives />
     </Quest>
     <Quest>
@@ -233,7 +234,7 @@
           <InternalIndex>1</InternalIndex>
           <Count>1</Count>
           <Entry>
-            <int>79757</int>
+            <int>233664</int>
           </Entry>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
@@ -332,6 +333,13 @@
           <Entry>
             <int>80167</int>
           </Entry>
+          <Hotspots>
+            <Point>
+              <X>5862.09131</X>
+              <Y>4942.913</Y>
+              <Z>26.9733849</Z>
+            </Point>
+          </Hotspots>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>5870.058</X>
@@ -342,7 +350,6 @@
         <QuestObjective>
           <Objective>PickUpObject</Objective>
           <InternalIndex>1</InternalIndex>
-          <InternalQuestId>34822</InternalQuestId>
           <Entry>
             <int>230879</int>
             <int>230880</int>
@@ -367,6 +374,7 @@
               <Z>33.19677</Z>
             </Point>
           </Hotspots>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
@@ -397,6 +405,66 @@
       <PickUp>78466</PickUp>
       <TurnIn>78466</TurnIn>
       <Objectives>
+        <QuestObjective>
+          <Objective>InteractWith</Objective>
+          <Count>1</Count>
+          <Entry>
+            <int>231012</int>
+          </Entry>
+          <ScriptConditionIsComplete>=Garrison-34461-Obj1.cs</ScriptConditionIsComplete>
+          <Position>
+            <X>5579.987</X>
+            <Y>4466.733</Y>
+            <Z>130.8457</Z>
+          </Position>
+          <WaitMs>1500</WaitMs>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>UseItem</Objective>
+          <Count>1</Count>
+          <ScriptConditionIsComplete>=Garrison-34461-Obj2.cs</ScriptConditionIsComplete>
+          <UseItemId>111956</UseItemId>
+          <WaitMs>10000</WaitMs>
+          <Range>0</Range>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>InteractWith</Objective>
+          <Count>1</Count>
+          <Entry>
+            <int>80600</int>
+          </Entry>
+          <Position>
+            <X>5564.033</X>
+            <Y>4518.376</Y>
+            <Z>131.9785</Z>
+          </Position>
+          <WaitMs>1000</WaitMs>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>CSharpScript</Objective>
+          <ScriptConditionIsComplete>Lua.LuaDoString("C_Garrison.PlaceBuilding(23, 26);");</ScriptConditionIsComplete>
+          <Range>0</Range>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>InteractWith</Objective>
+          <Count>1</Count>
+          <Entry>
+            <int>231217</int>
+          </Entry>
+          <Position>
+            <X>5586.703</X>
+            <Y>4479.65</Y>
+            <Z>130.2436</Z>
+          </Position>
+          <WaitMs>45000</WaitMs>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>TurnInQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <NpcEntry>78466</NpcEntry>
+          <QuestName>Build Your Barracks</QuestName>
+          <QuestId>34461</QuestId>
+        </QuestObjective>
         <QuestObjective>
           <Objective>MessageBox</Objective>
           <Message>You must do this quest manually, don't worry, it's fast, just loot the blueprint, learn it, place your barrack, then activate it, then the bot can finish the quest for you.</Message>
@@ -447,7 +515,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>MoveTo</Objective>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>5530.802</X>
             <Y>4175.847</Y>
@@ -487,6 +554,14 @@
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
+          <Objective>UseItem</Objective>
+          <Count>1</Count>
+          <ScriptConditionIsComplete>return nManager.Wow.Helpers.Usefuls.SubAreaId == 7096;</ScriptConditionIsComplete>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <UseItemId>110560</UseItemId>
+          <Range>0</Range>
+        </QuestObjective>
+        <QuestObjective>
           <Objective>TurnInQuest</Objective>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>78466</NpcEntry>
@@ -517,6 +592,7 @@
       <Objectives>
         <QuestObjective>
           <Objective>InteractWith</Objective>
+          <Count>1</Count>
           <Entry>
             <int>80432</int>
           </Entry>
@@ -525,6 +601,12 @@
             <Y>4508.535</Y>
             <Z>132.6968</Z>
           </Position>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>CSharpScript</Objective>
+          <Count>1</Count>
+          <Script>=34775.cs</Script>
+          <Range>0</Range>
         </QuestObjective>
         <QuestObjective>
           <Objective>MessageBox</Objective>
@@ -736,98 +818,11 @@
       <NeedQuestCompletedId>
         <int>33784</int>
       </NeedQuestCompletedId>
-      <PickUp>76240</PickUp>
+      <PickUp>70860</PickUp>
       <TurnIn>74273</TurnIn>
       <Objectives>
         <QuestObjective>
-          <Objective>KillMob</Objective>
-          <Count>3</Count>
-          <Entry>
-            <int>75240</int>
-            <int>73373</int>
-            <int>73371</int>
-          </Entry>
-          <Hotspots>
-            <Point>
-              <X>6472.198</X>
-              <Y>6207.476</Y>
-              <Z>220.7517</Z>
-            </Point>
-          </Hotspots>
-          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>UseItem</Objective>
-          <InternalIndex>1</InternalIndex>
-          <Count>3</Count>
-          <Entry>
-            <int>75240</int>
-            <int>73373</int>
-            <int>73371</int>
-          </Entry>
-          <IgnoreBlackList>true</IgnoreBlackList>
-          <UseItemId>107279</UseItemId>
-          <Position>
-            <X>6472.198</X>
-            <Y>6207.476</Y>
-            <Z>220.7517</Z>
-          </Position>
-          <IsDead>true</IsDead>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>KillMob</Objective>
-          <Count>3</Count>
-          <Entry>
-            <int>75240</int>
-            <int>73373</int>
-            <int>73371</int>
-          </Entry>
-          <Hotspots>
-            <Point>
-              <X>6472.198</X>
-              <Y>6207.476</Y>
-              <Z>220.7517</Z>
-            </Point>
-          </Hotspots>
-          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>UseItem</Objective>
-          <InternalIndex>1</InternalIndex>
-          <Count>6</Count>
-          <Entry>
-            <int>75240</int>
-            <int>73373</int>
-            <int>73371</int>
-          </Entry>
-          <IgnoreBlackList>true</IgnoreBlackList>
-          <UseItemId>107279</UseItemId>
-          <Position>
-            <X>6472.198</X>
-            <Y>6207.476</Y>
-            <Z>220.7517</Z>
-          </Position>
-          <IsDead>true</IsDead>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>KillMob</Objective>
-          <Count>3</Count>
-          <Entry>
-            <int>75240</int>
-            <int>73373</int>
-            <int>73371</int>
-          </Entry>
-          <Hotspots>
-            <Point>
-              <X>6472.198</X>
-              <Y>6207.476</Y>
-              <Z>220.7517</Z>
-            </Point>
-          </Hotspots>
-          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>UseItem</Objective>
+          <Objective>KillMobUseItem</Objective>
           <InternalIndex>1</InternalIndex>
           <Count>8</Count>
           <Entry>
@@ -835,32 +830,20 @@
             <int>73373</int>
             <int>73371</int>
           </Entry>
+          <Hotspots>
+            <Point>
+              <X>6568.535</X>
+              <Y>6197.254</Y>
+              <Z>230.374359</Z>
+            </Point>
+            <Point>
+              <X>6671.384</X>
+              <Y>6155.4165</Y>
+              <Z>238.992813</Z>
+            </Point>
+          </Hotspots>
+          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <UseItemId>107279</UseItemId>
-          <Position>
-            <X>6472.198</X>
-            <Y>6207.476</Y>
-            <Z>220.7517</Z>
-          </Position>
-          <IsDead>true</IsDead>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>MoveTo</Objective>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <Position>
-            <X>6694.534</X>
-            <Y>6136.355</Y>
-            <Z>241.5987</Z>
-          </Position>
-          <WaitMs>10000</WaitMs>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>MoveTo</Objective>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <Position>
-            <X>6886.922</X>
-            <Y>5852.325</Y>
-            <Z>258.6885</Z>
-          </Position>
         </QuestObjective>
       </Objectives>
     </Quest>
@@ -905,6 +888,8 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>InteractWith</Objective>
+          <InternalIndex>1</InternalIndex>
+          <Count>1</Count>
           <Entry>
             <int>75167</int>
           </Entry>
@@ -1333,7 +1318,7 @@
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <NpcEntry>72890</NpcEntry>
+          <NpcEntry>79047</NpcEntry>
           <QuestName>Mulverick's Plight</QuestName>
           <QuestId>33483</QuestId>
         </QuestObjective>
@@ -1859,8 +1844,20 @@
           <GossipOptionsInteractWith>1</GossipOptionsInteractWith>
         </QuestObjective>
         <QuestObjective>
+          <Objective>MoveTo</Objective>
+          <InternalIndex>4</InternalIndex>
+          <InternalQuestId>32791</InternalQuestId>
+          <Count>1</Count>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <Position>
+            <X>7190.839</X>
+            <Y>5405.96</Y>
+            <Z>66.92393</Z>
+          </Position>
+        </QuestObjective>
+        <QuestObjective>
           <Objective>KillMob</Objective>
-          <InternalIndex>3</InternalIndex>
+          <InternalIndex>1</InternalIndex>
           <InternalQuestId>32791</InternalQuestId>
           <Count>1</Count>
           <Entry>
@@ -1878,7 +1875,7 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>KillMob</Objective>
-          <InternalIndex>4</InternalIndex>
+          <InternalIndex>2</InternalIndex>
           <InternalQuestId>32791</InternalQuestId>
           <Count>1</Count>
           <Entry>
@@ -2149,30 +2146,21 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>InteractWith</Objective>
+          <InternalIndex>3</InternalIndex>
           <InternalQuestId>32795</InternalQuestId>
           <Count>1</Count>
           <Entry>
             <int>70941</int>
           </Entry>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <IgnoreBlackList>true</IgnoreBlackList>
+          <AllowPlayerControlled>true</AllowPlayerControlled>
           <Position>
             <X>6901.172</X>
             <Y>4554.826</Y>
             <Z>68.05287</Z>
           </Position>
-          <GossipOptionsInteractWith>1</GossipOptionsInteractWith>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>InteractWith</Objective>
-          <InternalQuestId>32795</InternalQuestId>
-          <Count>1</Count>
-          <Entry>
-            <int>70941</int>
-          </Entry>
-          <Position>
-            <X>6901.172</X>
-            <Y>4554.826</Y>
-            <Z>68.05287</Z>
-          </Position>
+          <WaitMs>2500</WaitMs>
           <GossipOptionsInteractWith>1</GossipOptionsInteractWith>
         </QuestObjective>
         <QuestObjective>
@@ -2192,6 +2180,8 @@
           </Hotspots>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <IgnoreBlackList>true</IgnoreBlackList>
+          <AllowPlayerControlled>true</AllowPlayerControlled>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
@@ -2648,11 +2638,23 @@
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
-          <Objective>MessageBox</Objective>
+          <Objective>CSharpScript</Objective>
           <InternalIndex>1</InternalIndex>
           <InternalQuestId>32994</InternalQuestId>
-          <Count>6</Count>
-          <Message>You need to go in the loading area (jump) of 5 Iron Horde Cannons (tanks) and destroy them. Then close this pop-up when it's done.</Message>
+          <Count>5</Count>
+          <Entry>
+            <int>222870</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>5238.40137</X>
+              <Y>3687.44</Y>
+              <Z>128.229156</Z>
+            </Point>
+          </Hotspots>
+          <Script>=32994.cs</Script>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <Range>0</Range>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
@@ -2717,8 +2719,22 @@
       <TurnIn>78466</TurnIn>
       <Objectives>
         <QuestObjective>
-          <Objective>MessageBox</Objective>
-          <Message>Please upgrade your garrison to level 2.</Message>
+          <Objective>InteractWith</Objective>
+          <Count>1</Count>
+          <Entry>
+            <int>80600</int>
+          </Entry>
+          <Position>
+            <X>5566.023</X>
+            <Y>4517.403</Y>
+            <Z>131.8907</Z>
+          </Position>
+          <WaitMs>500</WaitMs>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>CSharpScript</Objective>
+          <ScriptConditionIsComplete>Lua.LuaDoString("C_Garrison.UpgradeGarrison(LE_FOLLOWER_TYPE_GARRISON_6_0)");</ScriptConditionIsComplete>
+          <Range>0</Range>
         </QuestObjective>
       </Objectives>
     </Quest>
@@ -2738,13 +2754,11 @@
         <QuestObjective>
           <Objective>InteractWith</Objective>
           <InternalIndex>1</InternalIndex>
-          <InternalQuestId>37291</InternalQuestId>
           <Count>1</Count>
           <Entry>
             <int>88228</int>
           </Entry>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>5590.561</X>
             <Y>4579.132</Y>
@@ -2754,10 +2768,9 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>MoveTo</Objective>
-          <InternalQuestId>37291</InternalQuestId>
           <Count>1</Count>
+          <ScriptConditionIsComplete>string randomString = Others.GetRandomString(Others.Random(4, 10)); int stageCheck = 1; int currentStage = Others.ToInt32( Lua.LuaDoString(" _," + randomString + ",_ = C_Scenario.GetInfo();", randomString)); return currentStage &gt; stageCheck;</ScriptConditionIsComplete>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <Position>
             <X>5634.304</X>
             <Y>4528.564</Y>
@@ -2767,8 +2780,6 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>KillMob</Objective>
-          <InternalIndex>2</InternalIndex>
-          <InternalQuestId>37291</InternalQuestId>
           <Count>1</Count>
           <Entry>
             <int>72934</int>
@@ -2779,6 +2790,9 @@
             <int>89202</int>
             <int>79609</int>
             <int>79654</int>
+            <int>87040</int>
+            <int>89241</int>
+            <int>89219</int>
           </Entry>
           <Hotspots>
             <Point>
@@ -2797,8 +2811,33 @@
               <Z>136.5896</Z>
             </Point>
           </Hotspots>
+          <ScriptConditionIsComplete>string randomString = Others.GetRandomString(Others.Random(4, 10)); int stageCheck = 5; int currentStage = Others.ToInt32( Lua.LuaDoString(" _," + randomString + ",_ = C_Scenario.GetInfo();", randomString)); return currentStage &gt; stageCheck;</ScriptConditionIsComplete>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>MoveTo</Objective>
+          <Count>1</Count>
+          <ScriptConditionIsComplete>string randomString = Others.GetRandomString(Others.Random(4, 10)); int stageCheck = 5; int currentStage = Others.ToInt32( Lua.LuaDoString(" _," + randomString + ",_ = C_Scenario.GetInfo();", randomString)); return currentStage &gt; stageCheck;</ScriptConditionIsComplete>
+          <Position>
+            <X>5646.783</X>
+            <Y>4530.856</Y>
+            <Z>118.8979</Z>
+          </Position>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>KillMob</Objective>
+          <Count>1</Count>
+          <Entry>
+            <int>79609</int>
+          </Entry>
+          <Hotspots>
+            <Point>
+              <X>5655.50439</X>
+              <Y>4523.56348</Y>
+              <Z>119.398972</Z>
+            </Point>
+          </Hotspots>
+          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
         </QuestObjective>
       </Objectives>
     </Quest>
@@ -2854,7 +2893,7 @@
       <RaceMask>33555378</RaceMask>
       <Id>34124</Id>
       <QuestLevel>92</QuestLevel>
-      <MinLevel>90</MinLevel>
+      <MinLevel>200</MinLevel>
       <MaxLevel>100</MaxLevel>
       <NeedQuestCompletedId>
         <int>34123</int>
@@ -3303,4 +3342,44 @@
       </Objectives>
     </Quest>
   </Quests>
+  <Blackspots>
+    <QuesterBlacklistRadius>
+      <Position>
+        <X>5652.152</X>
+        <Y>4500.235</Y>
+        <Z>119.8398</Z>
+      </Position>
+      <Radius>3</Radius>
+    </QuesterBlacklistRadius>
+    <QuesterBlacklistRadius>
+      <Position>
+        <X>5623.515</X>
+        <Y>4500.628</Y>
+        <Z>119.2701</Z>
+      </Position>
+      <Radius>2</Radius>
+    </QuesterBlacklistRadius>
+    <QuesterBlacklistRadius>
+      <Position>
+        <X>5568.784</X>
+        <Y>4507.821</Y>
+        <Z>132.0673</Z>
+      </Position>
+    </QuesterBlacklistRadius>
+    <QuesterBlacklistRadius>
+      <Position>
+        <X>5669.202</X>
+        <Y>4549.398</Y>
+        <Z>120.2</Z>
+      </Position>
+    </QuesterBlacklistRadius>
+    <QuesterBlacklistRadius>
+      <Position>
+        <X>5587.913</X>
+        <Y>4584.05</Y>
+        <Z>136.5883</Z>
+      </Position>
+      <Radius>2</Radius>
+    </QuesterBlacklistRadius>
+  </Blackspots>
 </QuesterProfile>

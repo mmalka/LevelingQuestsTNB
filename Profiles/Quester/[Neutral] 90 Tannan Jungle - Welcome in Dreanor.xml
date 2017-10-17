@@ -4,7 +4,7 @@
   <Quests>
     <Quest>
       <Name>The Dark Portal</Name>
-      <Id>34398</Id>
+      <Id>36881</Id>
       <QuestLevel>90</QuestLevel>
       <MinLevel>90</MinLevel>
       <MaxLevel>100</MaxLevel>
@@ -45,7 +45,7 @@
       <MinLevel>90</MinLevel>
       <MaxLevel>100</MaxLevel>
       <NeedQuestCompletedId>
-        <int>34398</int>
+        <int>36881</int>
       </NeedQuestCompletedId>
       <PickUp>78558</PickUp>
       <TurnIn>78558</TurnIn>
@@ -99,6 +99,16 @@
             <X>4167.166</X>
             <Y>-2287.997</Y>
             <Z>59.66972</Z>
+          </Position>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>MoveTo</Objective>
+          <Count>1</Count>
+          <ForceTravelToQuestZone>true</ForceTravelToQuestZone>
+          <Position>
+            <X>4069.711</X>
+            <Y>-2380.185</Y>
+            <Z>94.84753</Z>
           </Position>
         </QuestObjective>
         <QuestObjective>
@@ -796,6 +806,9 @@
       <QuestLevel>90</QuestLevel>
       <MinLevel>90</MinLevel>
       <MaxLevel>100</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>34427</int>
+      </NeedQuestCompletedId>
       <PickUp>78560</PickUp>
       <TurnIn>78561</TurnIn>
       <Objectives>
@@ -1598,7 +1611,7 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>KillMob</Objective>
-          <InternalIndex>2</InternalIndex>
+          <InternalIndex>3</InternalIndex>
           <Count>1</Count>
           <Entry>
             <int>86039</int>
@@ -1611,7 +1624,7 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>MoveTo</Objective>
-          <InternalIndex>3</InternalIndex>
+          <InternalIndex>2</InternalIndex>
           <Count>1</Count>
           <Position>
             <X>4065.688</X>
@@ -1645,70 +1658,19 @@
             <Y>-2021.76</Y>
             <Z>73.3409</Z>
           </Position>
+          <WaitMs>7500</WaitMs>
         </QuestObjective>
         <QuestObjective>
-          <Objective>PressKey</Objective>
-          <WaitMs>300</WaitMs>
-          <OnlyInVehicule>true</OnlyInVehicule>
-          <Keys>ACTIONBUTTON1</Keys>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>ClickOnTerrain</Objective>
-          <Position>
-            <X>3932.87</X>
-            <Y>-2086.128</Y>
-            <Z>22.80819</Z>
-          </Position>
-          <WaitMs>300</WaitMs>
-          <OnlyInVehicule>true</OnlyInVehicule>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>PressKey</Objective>
-          <WaitMs>300</WaitMs>
-          <OnlyInVehicule>true</OnlyInVehicule>
-          <Keys>ACTIONBUTTON1</Keys>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>ClickOnTerrain</Objective>
+          <Objective>CSharpScript</Objective>
+          <InternalIndex>1</InternalIndex>
+          <Count>200</Count>
+          <Script>=34445.cs</Script>
           <Position>
             <X>3954.438</X>
             <Y>-2011.887</Y>
             <Z>24.22714</Z>
           </Position>
-          <WaitMs>300</WaitMs>
-          <OnlyInVehicule>true</OnlyInVehicule>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>PressKey</Objective>
-          <WaitMs>300</WaitMs>
-          <OnlyInVehicule>true</OnlyInVehicule>
-          <Keys>ACTIONBUTTON1</Keys>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>ClickOnTerrain</Objective>
-          <Position>
-            <X>3870.256</X>
-            <Y>-2022.324</Y>
-            <Z>17.02078</Z>
-          </Position>
-          <WaitMs>300</WaitMs>
-          <OnlyInVehicule>true</OnlyInVehicule>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>PressKey</Objective>
-          <WaitMs>300</WaitMs>
-          <OnlyInVehicule>true</OnlyInVehicule>
-          <Keys>ACTIONBUTTON1</Keys>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>ClickOnTerrain</Objective>
-          <Position>
-            <X>3918.365</X>
-            <Y>-2037.007</Y>
-            <Z>18.57463</Z>
-          </Position>
-          <WaitMs>300</WaitMs>
-          <OnlyInVehicule>true</OnlyInVehicule>
+          <Range>0</Range>
         </QuestObjective>
         <QuestObjective>
           <Objective>InteractWith</Objective>
@@ -1722,6 +1684,7 @@
             <Y>-2024.719</Y>
             <Z>75.53648</Z>
           </Position>
+          <WaitMs>45000</WaitMs>
           <OnlyOutVehicule>true</OnlyOutVehicule>
         </QuestObjective>
       </Objectives>
@@ -1785,7 +1748,7 @@
     <Quest>
       <Name>The Home of the Frostwolves</Name>
       <RaceMask>33555378</RaceMask>
-      <Id>35884</Id>
+      <Id>33868</Id>
       <QuestLevel>90</QuestLevel>
       <MinLevel>90</MinLevel>
       <MaxLevel>100</MaxLevel>
@@ -1793,7 +1756,7 @@
         <int>34446</int>
       </NeedQuestCompletedId>
       <AutoAccepted>true</AutoAccepted>
-      <TurnIn>78563</TurnIn>
+      <TurnIn>76411</TurnIn>
       <Objectives />
     </Quest>
   </Quests>
@@ -1805,7 +1768,6 @@
         <Z>-0.2059663</Z>
       </Position>
       <Radius>10</Radius>
-	  <ContinentId>Draenor</ContinentId>
     </QuesterBlacklistRadius>
   </Blackspots>
 </QuesterProfile>

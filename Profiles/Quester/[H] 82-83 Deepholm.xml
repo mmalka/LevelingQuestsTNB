@@ -3264,7 +3264,7 @@
       <Id>26585</Id>
       <QuestLevel>83</QuestLevel>
       <MinLevel>80</MinLevel>
-      <MaxLevel>93</MaxLevel>
+      <MaxLevel>83</MaxLevel>
       <NeedQuestCompletedId>
         <int>26578</int>
       </NeedQuestCompletedId>
