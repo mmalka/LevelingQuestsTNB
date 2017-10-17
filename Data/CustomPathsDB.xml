@@ -1258,30 +1258,6 @@
         </Point>
       </Points>
     </CustomPath>
-    <CustomPath Id="27" Name="Tannan Jungle Intro - Temple Right" Faction="Neutral" AContinentId="1265" BContinentId="1265">
-      <APoint>
-        <X>4167.261</X>
-        <Y>-2314.05</Y>
-        <Z>64.786</Z>
-      </APoint>
-      <BPoint>
-        <X>4167.261</X>
-        <Y>-2314.05</Y>
-        <Z>64.786</Z>
-      </BPoint>
-      <Points>
-        <Point>
-          <X>3964.041</X>
-          <Y>-2315.94</Y>
-          <Z>64.78178</Z>
-        </Point>
-        <Point>
-          <X>4167.254</X>
-          <Y>-2295.707</Y>
-          <Z>59.95999</Z>
-        </Point>
-      </Points>
-    </CustomPath>
     <CustomPath Id="28" Name="Tannan Jungle Intro - Temple Left to Guldan" Faction="Neutral" AContinentId="1265" BContinentId="1265">
       <APoint>
         <X>4017.118</X>
@@ -4449,6 +4425,145 @@
         </Point>
       </Points>
       <ForceFlying>true</ForceFlying>
+    </CustomPath>
+    <CustomPath Id="56" Name="[H] Avoid Darkshire to go to Blasted Lands " Faction="Horde" AContinentId="0" BContinentId="0">
+      <APoint>
+        <X>-10718.2</X>
+        <Y>-1271.51563</Y>
+        <Z>31.6054115</Z>
+      </APoint>
+      <BPoint>
+        <X>-10496.8389</X>
+        <Y>-1413.78967</Y>
+        <Z>64.244606</Z>
+      </BPoint>
+      <Points>
+        <Point>
+          <X>-10718.2</X>
+          <Y>-1271.51563</Y>
+          <Z>31.6054115</Z>
+        </Point>
+        <Point>
+          <X>-10709.123</X>
+          <Y>-1289.26709</Y>
+          <Z>35.2623062</Z>
+        </Point>
+        <Point>
+          <X>-10686.8525</X>
+          <Y>-1319.74524</Y>
+          <Z>43.32525</Z>
+        </Point>
+        <Point>
+          <X>-10673.1475</X>
+          <Y>-1334.35388</Y>
+          <Z>47.2233124</Z>
+        </Point>
+        <Point>
+          <X>-10642.1475</X>
+          <Y>-1340.32654</Y>
+          <Z>49.13157</Z>
+        </Point>
+        <Point>
+          <X>-10631.5771</X>
+          <Y>-1356.54919</Y>
+          <Z>54.4082375</Z>
+        </Point>
+        <Point>
+          <X>-10615.28</X>
+          <Y>-1383.59607</Y>
+          <Z>57.3807373</Z>
+        </Point>
+        <Point>
+          <X>-10595.3408</X>
+          <Y>-1382.85547</Y>
+          <Z>59.5873337</Z>
+        </Point>
+        <Point>
+          <X>-10577.2432</X>
+          <Y>-1378.08643</Y>
+          <Z>68.27291</Z>
+        </Point>
+        <Point>
+          <X>-10557.3838</X>
+          <Y>-1381.14075</Y>
+          <Z>67.64237</Z>
+        </Point>
+        <Point>
+          <X>-10539.918</X>
+          <Y>-1382.25793</Y>
+          <Z>56.4477272</Z>
+        </Point>
+        <Point>
+          <X>-10523.1074</X>
+          <Y>-1393.23242</Y>
+          <Z>61.2748</Z>
+        </Point>
+        <Point>
+          <X>-10503.0547</X>
+          <Y>-1409.66089</Y>
+          <Z>63.7718544</Z>
+        </Point>
+      </Points>
+      <RoundTrip>false</RoundTrip>
+    </CustomPath>
+    <CustomPath Id="57" Name="Tannan Jungle Intro - Temple Right" Faction="Neutral" AContinentId="1265" BContinentId="1265">
+      <APoint>
+       <X>4068.09424</X>
+          <Y>-2375.52954</Y>
+          <Z>94.60262</Z>
+      </APoint>
+      <BPoint>
+        <X>4167.38672</X>
+        <Y>-2282.47363</Y>
+        <Z>59.8727</Z>
+      </BPoint>
+      <Points>
+        <Point>
+          <X>4068.09424</X>
+          <Y>-2375.52954</Y>
+          <Z>94.60262</Z>
+        </Point>
+        <Point>
+          <X>4066.96948</X>
+          <Y>-2357.126</Y>
+          <Z>85.04175</Z>
+        </Point>
+        <Point>
+          <X>4065.58862</X>
+          <Y>-2334.53</Y>
+          <Z>69.93887</Z>
+        </Point>
+        <Point>
+          <X>4073.54932</X>
+          <Y>-2316.874</Y>
+          <Z>64.72559</Z>
+        </Point>
+        <Point>
+          <X>4093.79028</X>
+          <Y>-2317.13281</Y>
+          <Z>64.71053</Z>
+        </Point>
+        <Point>
+          <X>4167.808</X>
+          <Y>-2318.71948</Y>
+          <Z>64.65127</Z>
+        </Point>
+        <Point>
+          <X>4168.325</X>
+          <Y>-2317.445</Y>
+          <Z>64.67185</Z>
+        </Point>
+        <Point>
+          <X>4167.537</X>
+          <Y>-2297.56445</Y>
+          <Z>60.29634</Z>
+        </Point>
+        <Point>
+          <X>4167.38672</X>
+          <Y>-2282.47363</Y>
+          <Z>59.8727</Z>
+        </Point>
+      </Points>
     </CustomPath>
   </Items>
 </CustomPaths>

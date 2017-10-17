@@ -9452,7 +9452,7 @@
     <Position>
       <X>2275.08</X>
       <Y>236.997</Y>
-      <Z>33.69077</Z>
+      <Z>33.69067</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>RidingTrainer</Type>
@@ -12111,6 +12111,30 @@
     <Entry>6491</Entry>
     <Name>Spirit Healer</Name>
     <Position>
+      <X>-188.4566</X>
+      <Y>1917.66846</Y>
+      <Z>153.118439</Z>
+      <Type>Flying</Type>
+    </Position>
+    <Type>SpiritHealer</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>6491</Entry>
+    <Name>Spirit Healer</Name>
+    <Position>
+      <X>-188.4566</X>
+      <Y>1917.66846</Y>
+      <Z>153.118439</Z>
+      <Type>Flying</Type>
+    </Position>
+    <Type>SpiritGuide</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>6491</Entry>
+    <Name>Spirit Healer</Name>
+    <Position>
       <X>-188.332</X>
       <Y>-4344.28</Y>
       <Z>113.268333</Z>
@@ -13498,6 +13522,30 @@
   </Npc>
   <Npc>
     <Entry>6491</Entry>
+    <Name>Spirit Healer</Name>
+    <Position>
+      <X>5718.382</X>
+      <Y>4221.04541</Y>
+      <Z>66.00761</Z>
+      <Type>Flying</Type>
+    </Position>
+    <Type>SpiritHealer</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>6491</Entry>
+    <Name>Spirit Healer</Name>
+    <Position>
+      <X>5718.382</X>
+      <Y>4221.04541</Y>
+      <Z>66.00761</Z>
+      <Type>Flying</Type>
+    </Position>
+    <Type>SpiritGuide</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>6491</Entry>
     <Name>Gardien des âmes</Name>
     <Position>
       <X>5864.25342</X>
@@ -13590,6 +13638,30 @@
     <Entry>6491</Entry>
     <Name>Spirit Healer</Name>
     <Position>
+      <X>6338.529</X>
+      <Y>6571.95166</Y>
+      <Z>157.285858</Z>
+      <Type>Flying</Type>
+    </Position>
+    <Type>SpiritHealer</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>6491</Entry>
+    <Name>Spirit Healer</Name>
+    <Position>
+      <X>6338.529</X>
+      <Y>6571.95166</Y>
+      <Z>157.285858</Z>
+      <Type>Flying</Type>
+    </Position>
+    <Type>SpiritGuide</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>6491</Entry>
+    <Name>Spirit Healer</Name>
+    <Position>
       <X>6365.107</X>
       <Y>4835.40967</Y>
       <Z>1.33311534</Z>
@@ -13610,6 +13682,30 @@
   </Npc>
   <Npc>
     <Entry>6491</Entry>
+    <Name>Spirit Healer</Name>
+    <Position>
+      <X>6443.798</X>
+      <Y>6339.64258</Y>
+      <Z>228.108292</Z>
+      <Type>Flying</Type>
+    </Position>
+    <Type>SpiritHealer</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>6491</Entry>
+    <Name>Spirit Healer</Name>
+    <Position>
+      <X>6443.798</X>
+      <Y>6339.64258</Y>
+      <Z>228.108292</Z>
+      <Type>Flying</Type>
+    </Position>
+    <Type>SpiritGuide</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>6491</Entry>
     <Name>Gardien des âmes</Name>
     <Position>
       <X>6490.07666</X>
@@ -13632,6 +13728,30 @@
   </Npc>
   <Npc>
     <Entry>6491</Entry>
+    <Name>Spirit Healer</Name>
+    <Position>
+      <X>6549.8125</X>
+      <Y>4392.41162</Y>
+      <Z>92.83353</Z>
+      <Type>Flying</Type>
+    </Position>
+    <Type>SpiritHealer</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>6491</Entry>
+    <Name>Spirit Healer</Name>
+    <Position>
+      <X>6549.8125</X>
+      <Y>4392.41162</Y>
+      <Z>92.83353</Z>
+      <Type>Flying</Type>
+    </Position>
+    <Type>SpiritGuide</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>6491</Entry>
     <Name>Gardien des âmes</Name>
     <Position>
       <X>6599.348</X>
@@ -13648,6 +13768,30 @@
       <X>6599.348</X>
       <Y>5689.89746</Y>
       <Z>318.852966</Z>
+    </Position>
+    <Type>SpiritGuide</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>6491</Entry>
+    <Name>Spirit Healer</Name>
+    <Position>
+      <X>7276.70752</X>
+      <Y>5206.32031</Y>
+      <Z>129.599548</Z>
+      <Type>Flying</Type>
+    </Position>
+    <Type>SpiritHealer</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>6491</Entry>
+    <Name>Spirit Healer</Name>
+    <Position>
+      <X>7276.70752</X>
+      <Y>5206.32031</Y>
+      <Z>129.599548</Z>
+      <Type>Flying</Type>
     </Position>
     <Type>SpiritGuide</Type>
     <ContinentId>Draenor</ContinentId>
@@ -14288,18 +14432,6 @@
     <Faction>Horde</Faction>
     <Type>RidingTrainer</Type>
     <ContinentId>Kalimdor</ContinentId>
-  </Npc>
-    <Npc>
-    <Entry>35100</Entry>
-    <Name>Hargen Bronzewing</Name>
-    <Position>
-      <X>-677.5347</X>
-      <Y>2736.305</Y>
-      <Z>93.90856</Z>
-    </Position>
-    <Faction>Alliance</Faction>
-    <Type>RidingTrainer</Type>
-    <ContinentId>Outland</ContinentId>
   </Npc>
   <Npc>
     <Entry>7954</Entry>
@@ -21170,7 +21302,7 @@
     <Position>
       <X>-2641.01074</X>
       <Y>4374.93652</Y>
-      <Z>35.6472054</Z>
+      <Z>35.6482048</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>Vendor</Type>
@@ -22075,7 +22207,7 @@
     <Position>
       <X>-18.83496</X>
       <Y>2140.57935</Y>
-      <Z>114.069763</Z>
+      <Z>114.069832</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>Vendor</Type>
@@ -22952,7 +23084,7 @@
     <Position>
       <X>-1319.30176</X>
       <Y>2351.02466</Y>
-      <Z>88.95548</Z>
+      <Z>88.95512</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>Vendor</Type>
@@ -22965,18 +23097,6 @@
       <X>-1341.68127</X>
       <Y>2367.63452</Y>
       <Z>88.95049</Z>
-    </Position>
-    <Faction>Horde</Faction>
-    <Type>Vendor</Type>
-    <ContinentId>Outland</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>19561</Entry>
-    <Name>Hagash the Blind</Name>
-    <Position>
-      <X>-1329.01392</X>
-      <Y>2397.58447</Y>
-      <Z>89.07509</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>Vendor</Type>
@@ -23263,18 +23383,6 @@
     </Position>
     <Faction>Alliance</Faction>
     <Type>JewelcraftingTrainer</Type>
-    <ContinentId>Outland</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>19836</Entry>
-    <Name>Mixie Farshot</Name>
-    <Position>
-      <X>-1321.99548</X>
-      <Y>2382.815</Y>
-      <Z>88.50293</Z>
-    </Position>
-    <Faction>Horde</Faction>
-    <Type>Vendor</Type>
     <ContinentId>Outland</ContinentId>
   </Npc>
   <Npc>
@@ -34020,7 +34128,7 @@
     <Position>
       <X>45.0989571</X>
       <Y>2741.53052</Y>
-      <Z>85.17035</Z>
+      <Z>85.17057</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>RidingTrainer</Type>
@@ -34036,6 +34144,18 @@
     </Position>
     <Faction>Horde</Faction>
     <Type>Vendor</Type>
+    <ContinentId>Outland</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>35100</Entry>
+    <Name>Hargen Bronzewing</Name>
+    <Position>
+      <X>-677.5347</X>
+      <Y>2736.305</Y>
+      <Z>93.90856</Z>
+    </Position>
+    <Faction>Alliance</Faction>
+    <Type>RidingTrainer</Type>
     <ContinentId>Outland</ContinentId>
   </Npc>
   <Npc>
@@ -39393,17 +39513,6 @@
     <Entry>45417</Entry>
     <Name>Fiona</Name>
     <Position>
-      <X>3008.54</X>
-      <Y>-3438.77</Y>
-      <Z>149.70845</Z>
-    </Position>
-    <Type>Vendor</Type>
-    <ContinentId>Azeroth</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>45417</Entry>
-    <Name>Fiona</Name>
-    <Position>
       <X>3162.27</X>
       <Y>-4325.08</Y>
       <Z>132.407379</Z>
@@ -39477,18 +39586,6 @@
       <Z>143.914</Z>
     </Position>
     <Type>Repair</Type>
-    <ContinentId>Azeroth</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>45451</Entry>
-    <Name>Argus Highbeacon</Name>
-    <Position>
-      <X>3010.16</X>
-      <Y>-3428.6</Y>
-      <Z>149.70845</Z>
-    </Position>
-    <Faction>Horde</Faction>
-    <Type>Vendor</Type>
     <ContinentId>Azeroth</ContinentId>
   </Npc>
   <Npc>
@@ -40471,7 +40568,7 @@
     <Position>
       <X>3140.48</X>
       <Y>-4363.6</Y>
-      <Z>133.415878</Z>
+      <Z>133.415939</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>Vendor</Type>
@@ -45467,6 +45564,17 @@
     <ContinentId>Pandaria</ContinentId>
   </Npc>
   <Npc>
+    <Entry>59006</Entry>
+    <Name>Tanya Thickfingers</Name>
+    <Position>
+      <X>-661.9785</X>
+      <Y>1407.8125</Y>
+      <Z>135.419189</Z>
+    </Position>
+    <Type>Vendor</Type>
+    <ContinentId>Pandaria</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>59042</Entry>
     <Name>Mothwrangler Min</Name>
     <Position>
@@ -45991,9 +46099,9 @@
     <Entry>61496</Entry>
     <Name>Steelbender Doshu</Name>
     <Position>
-      <X>4344.42871</X>
-      <Y>873.6384</Y>
-      <Z>108.438896</Z>
+      <X>4343.718</X>
+      <Y>874.263</Y>
+      <Z>108.48703</Z>
     </Position>
     <Type>Vendor</Type>
     <ContinentId>Pandaria</ContinentId>
@@ -46731,6 +46839,17 @@
     <Faction>Horde</Faction>
     <Type>Vendor</Type>
     <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>63367</Entry>
+    <Name>Brewmaster Boof</Name>
+    <Position>
+      <X>1166.57983</X>
+      <Y>-118.682289</Y>
+      <Z>475.634979</Z>
+    </Position>
+    <Type>Vendor</Type>
+    <ContinentId>Pandaria</ContinentId>
   </Npc>
   <Npc>
     <Entry>63546</Entry>
@@ -47916,17 +48035,6 @@
       <Y>872.635437</Y>
       <Z>108.312386</Z>
     </Position>
-    <Type>Vendor</Type>
-    <ContinentId>Pandaria</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>64829</Entry>
-    <Name>Steelbender Doshu</Name>
-    <Position>
-      <X>4345.733</X>
-      <Y>872.635437</Y>
-      <Z>108.312386</Z>
-    </Position>
     <Type>Repair</Type>
     <ContinentId>Pandaria</ContinentId>
   </Npc>
@@ -48662,9 +48770,9 @@
     <Entry>67052</Entry>
     <Name>Spademender Yumba</Name>
     <Position>
-      <X>-437.3083</X>
-      <Y>1907.86316</Y>
-      <Z>136.266388</Z>
+      <X>-448.5972</X>
+      <Y>1908.82458</Y>
+      <Z>136.124039</Z>
     </Position>
     <Type>Vendor</Type>
     <ContinentId>Pandaria</ContinentId>
@@ -48684,9 +48792,9 @@
     <Entry>67054</Entry>
     <Name>Mah Blacksoil</Name>
     <Position>
-      <X>-434.824646</X>
-      <Y>1944.32117</Y>
-      <Z>138.7287</Z>
+      <X>-437.625031</X>
+      <Y>1938.738</Y>
+      <Z>138.705048</Z>
     </Position>
     <Type>Vendor</Type>
     <ContinentId>Pandaria</ContinentId>
@@ -50278,7 +50386,7 @@
     <Position>
       <X>6433.384</X>
       <Y>6290.348</Y>
-      <Z>227.8977</Z>
+      <Z>227.897873</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>Repair</Type>
@@ -50298,11 +50406,11 @@
   </Npc>
   <Npc>
     <Entry>74471</Entry>
-    <Name>Dean’na</Name>
+    <Name>Dean'na</Name>
     <Position>
       <X>6475.94434</X>
       <Y>6313.058</Y>
-      <Z>227.863708</Z>
+      <Z>227.864883</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>Repair</Type>
@@ -50682,12 +50790,12 @@
     <Entry>76872</Entry>
     <Name>Supplymaster Eri</Name>
     <Position>
-      <X>5626.828</X>
-      <Y>4629.68066</Y>
-      <Z>139.304214</Z>
+      <X>5620.17969</X>
+      <Y>4506.769</Y>
+      <Z>119.270058</Z>
     </Position>
     <Faction>Horde</Faction>
-    <Type>Vendor</Type>
+    <Type>Repair</Type>
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
@@ -50699,7 +50807,7 @@
       <Z>139.304214</Z>
     </Position>
     <Faction>Horde</Faction>
-    <Type>Repair</Type>
+    <Type>Vendor</Type>
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
@@ -51625,18 +51733,6 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
-    <Entry>79619</Entry>
-    <Name>Rezlak</Name>
-    <Position>
-      <X>5629.44971</X>
-      <Y>4470.87744</Y>
-      <Z>130.208237</Z>
-    </Position>
-    <Faction>Horde</Faction>
-    <Type>Vendor</Type>
-    <ContinentId>Draenor</ContinentId>
-  </Npc>
-  <Npc>
     <Entry>79748</Entry>
     <Name>Percy</Name>
     <Position>
@@ -51659,54 +51755,6 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
-    <Entry>79774</Entry>
-    <Name>Sergeant Grimjaw</Name>
-    <Position>
-      <X>5591.71973</X>
-      <Y>4578.257</Y>
-      <Z>136.4454</Z>
-    </Position>
-    <Faction>Horde</Faction>
-    <Type>Vendor</Type>
-    <ContinentId>Draenor</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>79812</Entry>
-    <Name>Moz’def</Name>
-    <Position>
-      <X>5576.34961</X>
-      <Y>4460.12939</Y>
-      <Z>130.743256</Z>
-    </Position>
-    <Faction>Horde</Faction>
-    <Type>Vendor</Type>
-    <ContinentId>Draenor</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>79812</Entry>
-    <Name>Moz'def</Name>
-    <Position>
-      <X>5652.148</X>
-      <Y>4442.92139</Y>
-      <Z>133.663589</Z>
-    </Position>
-    <Faction>Horde</Faction>
-    <Type>Vendor</Type>
-    <ContinentId>Draenor</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>79815</Entry>
-    <Name>Grun'lek</Name>
-    <Position>
-      <X>5566.17871</X>
-      <Y>4457.09131</Y>
-      <Z>132.726151</Z>
-    </Position>
-    <Faction>Horde</Faction>
-    <Type>Vendor</Type>
-    <ContinentId>Draenor</ContinentId>
-  </Npc>
-  <Npc>
     <Entry>79815</Entry>
     <Name>Grun'lek</Name>
     <Position>
@@ -51716,18 +51764,6 @@
     </Position>
     <Faction>Horde</Faction>
     <Type>Repair</Type>
-    <ContinentId>Draenor</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>79828</Entry>
-    <Name>Murg</Name>
-    <Position>
-      <X>5529.06</X>
-      <Y>4526.6875</Y>
-      <Z>132.564224</Z>
-    </Position>
-    <Faction>Horde</Faction>
-    <Type>Vendor</Type>
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
@@ -51752,18 +51788,6 @@
     </Position>
     <Faction>Horde</Faction>
     <Type>Vendor</Type>
-    <ContinentId>Draenor</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>79857</Entry>
-    <Name>Lumba the Crusher</Name>
-    <Position>
-      <X>5619.901</X>
-      <Y>4507.531</Y>
-      <Z>120.135796</Z>
-    </Position>
-    <Faction>Horde</Faction>
-    <Type>Repair</Type>
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
@@ -51815,18 +51839,6 @@
   </Npc>
   <Npc>
     <Entry>80151</Entry>
-    <Name>Approvisionneuse Rashma</Name>
-    <Position>
-      <X>5562.482</X>
-      <Y>4505.014</Y>
-      <Z>132.679657</Z>
-    </Position>
-    <Faction>Horde</Faction>
-    <Type>Vendor</Type>
-    <ContinentId>Draenor</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>80151</Entry>
     <Name>Provisioner Rashma</Name>
     <Position>
       <X>5563.89844</X>
@@ -51873,17 +51885,6 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
-    <Entry>80285</Entry>
-    <Name>Guh</Name>
-    <Position>
-      <X>5539.757</X>
-      <Y>4485.98438</Y>
-      <Z>133.435364</Z>
-    </Position>
-    <Type>Vendor</Type>
-    <ContinentId>Draenor</ContinentId>
-  </Npc>
-  <Npc>
     <Entry>80521</Entry>
     <Name>Thaelin Sombrenclume</Name>
     <Position>
@@ -51951,18 +51952,6 @@
     </Position>
     <Faction>Alliance</Faction>
     <Type>Repair</Type>
-    <ContinentId>Draenor</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>80772</Entry>
-    <Name>Sawame Vive-Brûlure</Name>
-    <Position>
-      <X>5627.25244</X>
-      <Y>4457.731</Y>
-      <Z>130.196014</Z>
-    </Position>
-    <Faction>Horde</Faction>
-    <Type>Vendor</Type>
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
@@ -53290,17 +53279,6 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
-    <Entry>84967</Entry>
-    <Name>"Appraiser" Sazsel Stickyfingers</Name>
-    <Position>
-      <X>5626.771</X>
-      <Y>4457.8125</Y>
-      <Z>130.194611</Z>
-    </Position>
-    <Type>Vendor</Type>
-    <ContinentId>Draenor</ContinentId>
-  </Npc>
-  <Npc>
     <Entry>85106</Entry>
     <Name>Gem Grinder Orolak</Name>
     <Position>
@@ -54604,18 +54582,6 @@
     <ContinentId>TanaanJungle</ContinentId>
   </Npc>
   <Npc>
-    <Entry>86683</Entry>
-    <Name>Tai'tasi</Name>
-    <Position>
-      <X>5520.418</X>
-      <Y>4525.86328</Y>
-      <Z>132.240814</Z>
-    </Position>
-    <Faction>Horde</Faction>
-    <Type>Vendor</Type>
-    <ContinentId>Draenor</ContinentId>
-  </Npc>
-  <Npc>
     <Entry>86733</Entry>
     <Name>Devin Tyron</Name>
     <Position>
@@ -55468,29 +55434,6 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
-    <Entry>86777</Entry>
-    <Name>Elder Surehide</Name>
-    <Position>
-      <X>5520.418</X>
-      <Y>4525.86328</Y>
-      <Z>132.240311</Z>
-    </Position>
-    <Faction>Horde</Faction>
-    <Type>Vendor</Type>
-    <ContinentId>Draenor</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>86779</Entry>
-    <Name>Krixel Pinchwhistle</Name>
-    <Position>
-      <X>5520.418</X>
-      <Y>4525.86328</Y>
-      <Z>132.240738</Z>
-    </Position>
-    <Type>Vendor</Type>
-    <ContinentId>Draenor</ContinentId>
-  </Npc>
-  <Npc>
     <Entry>86946</Entry>
     <Name>Prêtre de la serre paria</Name>
     <Position>
@@ -55642,18 +55585,6 @@
       <Z>132.579865</Z>
     </Position>
     <Faction>Horde</Faction>
-    <Type>Vendor</Type>
-    <ContinentId>Draenor</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>87015</Entry>
-    <Name>Kil'rip</Name>
-    <Position>
-      <X>5536.45068</X>
-      <Y>4525.44629</Y>
-      <Z>132.579865</Z>
-    </Position>
-    <Faction>Horde</Faction>
     <Type>Repair</Type>
     <ContinentId>Draenor</ContinentId>
   </Npc>
@@ -55757,18 +55688,6 @@
       <Z>83.3528442</Z>
     </Position>
     <Type>Auctioneer</Type>
-    <ContinentId>Draenor</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>87300</Entry>
-    <Name>Vora Gros-Bras</Name>
-    <Position>
-      <X>5529.887</X>
-      <Y>4517.127</Y>
-      <Z>132.487152</Z>
-    </Position>
-    <Faction>Horde</Faction>
-    <Type>Vendor</Type>
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
@@ -55991,17 +55910,6 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
-    <Entry>87868</Entry>
-    <Name>Tickle Bubblefizz</Name>
-    <Position>
-      <X>5544.42627</X>
-      <Y>4487.502</Y>
-      <Z>133.206955</Z>
-    </Position>
-    <Type>Vendor</Type>
-    <ContinentId>Draenor</ContinentId>
-  </Npc>
-  <Npc>
     <Entry>87871</Entry>
     <Name>Birchus</Name>
     <Position>
@@ -56120,9 +56028,9 @@
     <Entry>88228</Entry>
     <Name>Sergeant Grimjaw</Name>
     <Position>
-      <X>5590.561</X>
-      <Y>4579.132</Y>
-      <Z>136.588165</Z>
+      <X>5634.29346</X>
+      <Y>4565.71</Y>
+      <Z>121.261696</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>Vendor</Type>
@@ -56283,17 +56191,6 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
-    <Entry>88599</Entry>
-    <Name>Scroot</Name>
-    <Position>
-      <X>5544.983</X>
-      <Y>4482.71338</Y>
-      <Z>133.342926</Z>
-    </Position>
-    <Type>Vendor</Type>
-    <ContinentId>Draenor</ContinentId>
-  </Npc>
-  <Npc>
     <Entry>88629</Entry>
     <Name>Chef Barbauu'koa</Name>
     <Position>
@@ -56379,17 +56276,6 @@
       <X>1983.18152</X>
       <Y>145.912323</Y>
       <Z>83.07303</Z>
-    </Position>
-    <Type>Vendor</Type>
-    <ContinentId>Draenor</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>88779</Entry>
-    <Name>Benjamin Brode</Name>
-    <Position>
-      <X>5629.545</X>
-      <Y>4527.22266</Y>
-      <Z>119.212524</Z>
     </Position>
     <Type>Vendor</Type>
     <ContinentId>Draenor</ContinentId>
@@ -66823,6 +66709,17 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>233082</Entry>
+    <Name>Mailbox</Name>
+    <Position>
+      <X>5568.979</X>
+      <Y>4508.904</Y>
+      <Z>131.881546</Z>
+    </Position>
+    <Type>Mailbox</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>233442</Entry>
     <Name>Forge</Name>
     <Position>
@@ -67018,6 +66915,17 @@
       <Z>172.78067</Z>
     </Position>
     <Type>Mailbox</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>236217</Entry>
+    <Name>Forge</Name>
+    <Position>
+      <X>7074.888</X>
+      <Y>5188.53857</Y>
+      <Z>85.71875</Z>
+    </Position>
+    <Type>SmeltingForge</Type>
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
@@ -67506,6 +67414,50 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>238683</Entry>
+    <Name>Forge</Name>
+    <Position>
+      <X>5339.028</X>
+      <Y>3767.28833</Y>
+      <Z>119.092041</Z>
+    </Position>
+    <Type>SmeltingForge</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>238685</Entry>
+    <Name>Forge</Name>
+    <Position>
+      <X>5343.79541</X>
+      <Y>3798.04</Y>
+      <Z>119.092041</Z>
+    </Position>
+    <Type>SmeltingForge</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>238686</Entry>
+    <Name>Forge</Name>
+    <Position>
+      <X>5332.65527</X>
+      <Y>3769.82373</Y>
+      <Z>119.092041</Z>
+    </Position>
+    <Type>SmeltingForge</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>238691</Entry>
+    <Name>Forge</Name>
+    <Position>
+      <X>5371.30469</X>
+      <Y>3777.64063</Y>
+      <Z>119.092041</Z>
+    </Position>
+    <Type>SmeltingForge</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>238890</Entry>
     <Name>Forge</Name>
     <Position>
@@ -67578,6 +67530,17 @@
       <X>6610.108</X>
       <Y>4287.81348</Y>
       <Z>88.7965</Z>
+    </Position>
+    <Type>Mailbox</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>239268</Entry>
+    <Name>Mailbox</Name>
+    <Position>
+      <X>6491.529</X>
+      <Y>6286.75439</Y>
+      <Z>227.938919</Z>
     </Position>
     <Type>Mailbox</Type>
     <ContinentId>Draenor</ContinentId>
