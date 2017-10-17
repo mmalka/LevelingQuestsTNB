@@ -1,6 +1,5 @@
 if(!MovementManager.InMovement)
 {
-	
 	questObjective.Position = ObjectManager.Me.Position;
 	//Logging.Write(questObjective.Hotspots[listP.Count-1].DistanceTo(ObjectManager.Me.Position).ToString());
 	if (questObjective.Position.IsValid && questObjective.Hotspots[questObjective.Hotspots.Count-1].DistanceTo(ObjectManager.Me.Position) > 5f)

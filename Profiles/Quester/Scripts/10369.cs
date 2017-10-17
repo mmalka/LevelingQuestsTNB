@@ -10,10 +10,12 @@ if(wowUnit.IsValid)
 	{
 		return false;
 	}
+	
 	MountTask.DismountMount();
+	MovementManager.StopMove();
 	Thread.Sleep(300);
 		
-	while(!wowUnit.IsElite)
+	while(wowUnit.IsElite)
 	{
 	    if (ObjectManager.Me.IsDead)
 		   break;
@@ -23,7 +25,6 @@ if(wowUnit.IsValid)
 		Thread.Sleep(500);
 		Logging.Write("Use Item");
 		ItemsManager.UseItem(ItemsManager.GetItemNameById(questObjective.UseItemId));
-		questObjective.IsObjectiveCompleted = true;
 	}
 	
 	nManager.Wow.Helpers.Quest.GetSetIgnoreFight = false;

@@ -37,23 +37,35 @@ if ((unit.IsValid && (!nManagerSetting.IsBlackListedZone(unit.Position) && !nMan
 	}
 
 	Thread.Sleep(500);
-
-	if (MovementManager.InMovement)
-        return false;
 	
-	if (questObjective.IgnoreNotSelectable)
+	
+	if((node.IsValid && node.GetDistance < questObjective.Range) || (unit.IsValid && unit.GetDistance <= questObjective.Range))
 	{
-	    if ((node.IsValid && node.GetDistance > questObjective.Range) || (unit.IsValid && unit.GetDistance > questObjective.Range))
-	        return false;
+		/* Target Reached */
+		MovementManager.StopMove();
+		if(questObjective.ExtraString != "NoDismount")
+		{
+			MountTask.DismountMount();
+		}	
 	}
 	else
 	{
-        if(baseAddress <= 0)
-	        return false;
-		if (baseAddress > 0 && ((node.IsValid && node.GetDistance > questObjective.Range) || (unit.IsValid && unit.GetDistance > questObjective.Range)))
+		if (MovementManager.InMovement)
 			return false;
+		
+		if (questObjective.IgnoreNotSelectable)
+		{
+			if ((node.IsValid && node.GetDistance > questObjective.Range) || (unit.IsValid && unit.GetDistance > questObjective.Range))
+				return false;
+		}
+		else
+		{
+			if(baseAddress <= 0)
+				return false;
+			if (baseAddress > 0 && ((node.IsValid && node.GetDistance > questObjective.Range) || (unit.IsValid && unit.GetDistance > questObjective.Range)))
+				return false;
+		}
 	}
-  
 	Thread.Sleep(100 + Usefuls.Latency); /* ZZZzzzZZZzz */
 
 	/* Entry reached, dismount */
