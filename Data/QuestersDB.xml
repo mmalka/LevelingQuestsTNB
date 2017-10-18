@@ -58658,6 +58658,28 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>77014</Entry>
+    <Name>Bruto</Name>
+    <Position>
+      <X>5889.09473</X>
+      <Y>2053.07129</Y>
+      <Z>72.36168</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>77014</Entry>
+    <Name>Bruto</Name>
+    <Position>
+      <X>6160.9834</X>
+      <Y>1570.6615</Y>
+      <Z>61.8038635</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>77031</Entry>
     <Name>Ahm</Name>
     <Position>
@@ -60534,6 +60556,28 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>79337</Entry>
+    <Name>Pitfighter Vaandaam</Name>
+    <Position>
+      <X>5886.19775</X>
+      <Y>2056.99146</Y>
+      <Z>71.46103</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>79337</Entry>
+    <Name>Pitfighter Vaandaam</Name>
+    <Position>
+      <X>6155.37256</X>
+      <Y>1570.658</Y>
+      <Z>61.7545662</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>79392</Entry>
     <Name>Magister Serena</Name>
     <Position>
@@ -61704,6 +61748,17 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>80856</Entry>
+    <Name>Rexxar</Name>
+    <Position>
+      <X>6606.086</X>
+      <Y>1301.86975</Y>
+      <Z>64.63416</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>80859</Entry>
     <Name>Rangari Duula</Name>
     <Position>
@@ -62707,6 +62762,17 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>82832</Entry>
+    <Name>Rexxar</Name>
+    <Position>
+      <X>6229.938</X>
+      <Y>1446.04138</Y>
+      <Z>39.9564438</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>82833</Entry>
     <Name>Tattered Journal Page</Name>
     <Position>
@@ -62844,6 +62910,17 @@
       <Z>3.07437015</Z>
     </Position>
     <Faction>Alliance</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>83569</Entry>
+    <Name>Rexxar</Name>
+    <Position>
+      <X>6606.086</X>
+      <Y>1301.87</Y>
+      <Z>64.63422</Z>
+    </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Draenor</ContinentId>
   </Npc>
@@ -63151,6 +63228,28 @@
       <X>6165.29</X>
       <Y>4180.65039</Y>
       <Z>108.095932</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>84743</Entry>
+    <Name>Bony Xuk</Name>
+    <Position>
+      <X>6587.287</X>
+      <Y>1289.111</Y>
+      <Z>64.7086639</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>84748</Entry>
+    <Name>Bony Xuk</Name>
+    <Position>
+      <X>6927.10059</X>
+      <Y>1477.47742</Y>
+      <Z>33.3000259</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Draenor</ContinentId>

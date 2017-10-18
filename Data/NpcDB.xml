@@ -13616,6 +13616,30 @@
     <Entry>6491</Entry>
     <Name>Spirit Healer</Name>
     <Position>
+      <X>6106.98438</X>
+      <Y>1654.78125</Y>
+      <Z>107.193405</Z>
+      <Type>Flying</Type>
+    </Position>
+    <Type>SpiritHealer</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>6491</Entry>
+    <Name>Spirit Healer</Name>
+    <Position>
+      <X>6106.98438</X>
+      <Y>1654.78125</Y>
+      <Z>107.193405</Z>
+      <Type>Flying</Type>
+    </Position>
+    <Type>SpiritGuide</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>6491</Entry>
+    <Name>Spirit Healer</Name>
+    <Position>
       <X>6246.36572</X>
       <Y>5170.85254</Y>
       <Z>-83.2722</Z>
