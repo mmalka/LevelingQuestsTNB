@@ -422,7 +422,7 @@
         <Z>-0.02899144</Z>
       </BPoint>
     </Transport>
-    <Transport Id="183177" Name="Doodad_mushroombase_elevator01" Faction="Neutral" AContinentId="530" BContinentId="530">
+    <Transport Id="183177" Name="Zangarmarsh - Mushroom Elevator - Telredor" Faction="Alliance" AContinentId="530" BContinentId="530">
       <AOutsidePoint>
         <X>280.4388</X>
         <Y>5935.795</Y>
