@@ -7,7 +7,7 @@
       <RaceMask>18875469</RaceMask>
       <Id>9854</Id>
       <QuestLevel>65</QuestLevel>
-      <MinLevel>62</MinLevel>
+      <MinLevel>64</MinLevel>
       <MaxLevel>75</MaxLevel>
       <PickUp>18200</PickUp>
       <TurnIn>18200</TurnIn>
@@ -372,16 +372,6 @@
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
         <QuestObjective>
-          <Objective>TravelTo</Objective>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <Position>
-            <X>-816.6303</X>
-            <Y>6921.794</Y>
-            <Z>34.91501</Z>
-          </Position>
-          <ContinentId>530</ContinentId>
-        </QuestObjective>
-        <QuestObjective>
           <Objective>TurnInQuest</Objective>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>18099</NpcEntry>
@@ -521,24 +511,15 @@
           <CollectItemId>1</CollectItemId>
           <CollectCount>1</CollectCount>
           <Hotspots>
-            <Point>
-              <X>-990.9518</X>
-              <Y>8471.672</Y>
-              <Z>40.24749</Z>
-            </Point>
-            <Point>
-              <X>-873.8028</X>
-              <Y>8371.037</Y>
-              <Z>26.14653</Z>
-            </Point>
-            <Point>
-              <X>-818.4583</X>
-              <Y>8271.797</Y>
-              <Z>32.42641</Z>
+           <Point>
+              <X>-968.507446</X>
+              <Y>8486.137</Y>
+              <Z>45.2020073</Z>
             </Point>
           </Hotspots>
           <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <IgnoreBlackList>true</IgnoreBlackList>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>

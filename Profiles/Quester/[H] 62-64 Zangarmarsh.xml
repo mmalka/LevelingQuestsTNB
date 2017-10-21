@@ -1042,68 +1042,6 @@
       <Objectives>
         <QuestObjective>
           <Objective>KillMob</Objective>
-          <Count>-1</Count>
-          <Entry>
-            <int>20088</int>
-            <int>20089</int>
-          </Entry>
-          <Hotspots>
-            <Point>
-              <X>648.909668</X>
-              <Y>6427.18457</Y>
-              <Z>21.6543217</Z>
-            </Point>
-            <Point>
-              <X>449.7467</X>
-              <Y>6300.36963</Y>
-              <Z>19.37303</Z>
-            </Point>
-          </Hotspots>
-          <ScriptConditionIsComplete>return nManager.Wow.Helpers.Quest.GetLogQuestId().Contains(9731) || nManager.Wow.Helpers.Quest.GetLogQuestIsComplete(9731) || nManager.Wow.Helpers.Quest.IsQuestFlaggedCompletedLUA(9731);</ScriptConditionIsComplete>
-          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>MoveTo</Objective>
-          <Count>1</Count>
-          <ScriptConditionIsComplete>return ((new Point(571.7109f, 6942.156f, 6.912009f)).DistanceTo(ObjectManager.Me.Position) &lt;=10) ||  nManager.Wow.Helpers.Quest.GetLogQuestIsComplete(9731) || nManager.Wow.Helpers.Quest.GetQuestCompleted(9731);</ScriptConditionIsComplete>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <Position>
-            <X>571.7109</X>
-            <Y>6942.156</Y>
-            <Z>6.912009</Z>
-          </Position>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>CSharpScript</Objective>
-          <Count>1</Count>
-          <Hotspots>
-            <Point>
-              <X>561.4414</X>
-              <Y>6942.419</Y>
-              <Z>-9.155874</Z>
-              <Type>Swimming</Type>
-            </Point>
-            <Point>
-              <X>561.4414</X>
-              <Y>6942.419</Y>
-              <Z>15.9917984</Z>
-              <Type>Swimming</Type>
-            </Point>
-            <Point>
-              <X>543.92865</X>
-              <Y>6937.43262</Y>
-              <Z>15.9410372</Z>
-              <Type>Swimming</Type>
-            </Point>
-          </Hotspots>
-          <Script>=ClickToMoveHotSpots.cs</Script>
-          <ScriptConditionIsComplete>return nManager.Wow.Helpers.Quest.GetLogQuestIsComplete(9731) || nManager.Wow.Helpers.Quest.GetQuestCompleted(9731);</ScriptConditionIsComplete>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <Range>0</Range>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>KillMob</Objective>
           <InternalIndex>1</InternalIndex>
           <Entry>
             <int>18283</int>
@@ -2090,41 +2028,6 @@
           <NpcEntry>17841</NpcEntry>
           <QuestName>Balance Must Be Preserved</QuestName>
           <QuestId>9720</QuestId>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>TurnInQuest</Objective>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <NpcEntry>17841</NpcEntry>
-          <QuestName>Drain Schematics</QuestName>
-          <QuestId>9731</QuestId>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>PickUpQuest</Objective>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <NpcEntry>17841</NpcEntry>
-          <QuestName>Warning the Cenarion Circle</QuestName>
-          <QuestId>9724</QuestId>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>TurnInQuest</Objective>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <NpcEntry>16885</NpcEntry>
-          <QuestName>Warning the Cenarion Circle</QuestName>
-          <QuestId>9724</QuestId>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>PickUpQuest</Objective>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <NpcEntry>16885</NpcEntry>
-          <QuestName>Return to the Marsh</QuestName>
-          <QuestId>9732</QuestId>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>TurnInQuest</Objective>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <NpcEntry>17841</NpcEntry>
-          <QuestName>Return to the Marsh</QuestName>
-          <QuestId>9732</QuestId>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>

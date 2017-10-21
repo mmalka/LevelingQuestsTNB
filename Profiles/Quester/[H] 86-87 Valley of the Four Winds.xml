@@ -1896,6 +1896,8 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>CSharpScript</Objective>
+          <InternalIndex>1</InternalIndex>
+          <InternalQuestId>30052</InternalQuestId>
           <Count>100</Count>
           <Entry>
             <int>57306</int>
@@ -1909,6 +1911,7 @@
             </Point>
           </Hotspots>
           <Script>=30052.cs</Script>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <IgnoreFight>true</IgnoreFight>
           <GossipOptionsInteractWith>1</GossipOptionsInteractWith>
           <ExtraInt>210057</ExtraInt>
@@ -2190,6 +2193,11 @@
               <Y>522.3749</Y>
               <Z>155.714783</Z>
             </Point>
+            <Point>
+              <X>-742.7529</X>
+              <Y>552.7989</Y>
+              <Z>135.8845</Z>
+            </Point>
           </Hotspots>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
         </QuestObjective>
@@ -2280,7 +2288,20 @@
       </NeedQuestCompletedId>
       <PickUp>56133</PickUp>
       <TurnIn>56133</TurnIn>
-      <Objectives />
+      <Objectives>
+        <QuestObjective>
+          <Objective>TurnInQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <Position>
+            <X>-195.2292</X>
+            <Y>487.7743</Y>
+            <Z>189.6453</Z>
+          </Position>
+          <NpcEntry>56133</NpcEntry>
+          <QuestName>The Emperor</QuestName>
+          <QuestId>30073</QuestId>
+        </QuestObjective>
+      </Objectives>
     </Quest>
     <Quest>
       <Name>Knocking on the Door</Name>

@@ -7,7 +7,7 @@
       <RaceMask>18875469</RaceMask>
       <Id>9802</Id>
       <QuestLevel>63</QuestLevel>
-      <MinLevel>60</MinLevel>
+      <MinLevel>62</MinLevel>
       <MaxLevel>73</MaxLevel>
       <PickUp>17909</PickUp>
       <TurnIn>17909</TurnIn>
@@ -239,8 +239,8 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>MoveTo</Objective>
-          <InternalQuestId>9716</InternalQuestId>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <Count>1</Count>
+          <ScriptConditionIsComplete>return nManager.Wow.Helpers.Quest.GetLogQuestIsComplete(9716) || nManager.Wow.Helpers.Quest.GetQuestCompleted(9716);</ScriptConditionIsComplete>
           <Position>
             <X>-821.0021</X>
             <Y>5896.704</Y>
@@ -339,6 +339,13 @@
           <NpcEntry>17956</NpcEntry>
           <QuestName>The Umbrafen Tribe</QuestName>
           <QuestId>9747</QuestId>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>PickUpQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <NpcEntry>17956</NpcEntry>
+          <QuestName>A Damp, Dark Place</QuestName>
+          <QuestId>9788</QuestId>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
@@ -686,11 +693,6 @@
           <QuestId>9791</QuestId>
         </QuestObjective>
         <QuestObjective>
-          <Objective>MessageBox</Objective>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <Message>TravelTo Bottom Elevator</Message>
-        </QuestObjective>
-        <QuestObjective>
           <Objective>KillMob</Objective>
           <InternalIndex>1</InternalIndex>
           <InternalQuestId>9791</InternalQuestId>
@@ -847,11 +849,6 @@
           <QuestId>9780</QuestId>
         </QuestObjective>
         <QuestObjective>
-          <Objective>MessageBox</Objective>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <Message>TravelTo En bas</Message>
-        </QuestObjective>
-        <QuestObjective>
           <Objective>KillMob</Objective>
           <InternalIndex>1</InternalIndex>
           <InternalQuestId>9783</InternalQuestId>
@@ -987,11 +984,6 @@
           <NpcEntry>18005</NpcEntry>
           <QuestName>Diaphanous Wings</QuestName>
           <QuestId>9790</QuestId>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>MessageBox</Objective>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <Message>Down elevator</Message>
         </QuestObjective>
         <QuestObjective>
           <Objective>KillMob</Objective>
@@ -1236,18 +1228,18 @@
           <QuestId>9743</QuestId>
         </QuestObjective>
         <QuestObjective>
-          <Objective>PickUpQuest</Objective>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <NpcEntry>17923</NpcEntry>
-          <QuestName>The Sporelings' Plight</QuestName>
-          <QuestId>9739</QuestId>
-        </QuestObjective>
-        <QuestObjective>
           <Objective>TurnInQuest</Objective>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>17923</NpcEntry>
           <QuestName>Natural Enemies</QuestName>
           <QuestId>9743</QuestId>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>PickUpQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <NpcEntry>17923</NpcEntry>
+          <QuestName>The Sporelings' Plight</QuestName>
+          <QuestId>9739</QuestId>
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpObject</Objective>
@@ -1457,31 +1449,56 @@
       <RaceMask>18875469</RaceMask>
       <Id>9919</Id>
       <QuestLevel>64</QuestLevel>
-      <MinLevel>61</MinLevel>
-      <MaxLevel>74</MaxLevel>
-      <NeedQuestCompletedId>
-        <int>9709</int>
-      </NeedQuestCompletedId>
+      <MinLevel>999</MinLevel>
+      <MaxLevel>999</MaxLevel>
       <PickUp>17923</PickUp>
       <TurnIn>17924</TurnIn>
       <Objectives />
     </Quest>
     <Quest>
-      <Name>Glowcap Mushrooms</Name>
+      <Name>Fertile Spores</Name>
       <RaceMask>18875469</RaceMask>
-      <Id>9808</Id>
+      <Id>9806</Id>
       <QuestLevel>64</QuestLevel>
       <MinLevel>61</MinLevel>
       <MaxLevel>74</MaxLevel>
       <NeedQuestCompletedId>
-        <int>9919</int>
+        <int>9709</int>
       </NeedQuestCompletedId>
-      <PickUp>17924</PickUp>
-      <TurnIn>17924</TurnIn>
+      <PickUp>17925</PickUp>
+      <TurnIn>17925</TurnIn>
       <Objectives>
+        <QuestObjective>
+          <Objective>PickUpQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <NpcEntry>17924</NpcEntry>
+          <QuestName>Glowcap Mushrooms</QuestName>
+          <QuestId>9808</QuestId>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>CSharpScript</Objective>
+          <Count>1</Count>
+          <Hotspots>
+            <Point>
+              <X>192.04245</X>
+              <Y>8487.754</Y>
+              <Z>27.011322</Z>
+            </Point>
+            <Point>
+              <X>211.322052</X>
+              <Y>8504.868</Y>
+              <Z>24.2165489</Z>
+            </Point>
+          </Hotspots>
+          <Script>=ClickToMoveHotSpots.cs</Script>
+          <ScriptConditionIsComplete>=9808-Comp.cs</ScriptConditionIsComplete>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <Range>0</Range>
+        </QuestObjective>
         <QuestObjective>
           <Objective>PickUpObject</Objective>
           <InternalIndex>1</InternalIndex>
+          <InternalQuestId>9808</InternalQuestId>
           <Entry>
             <int>182053</int>
           </Entry>
@@ -1489,47 +1506,92 @@
           <CollectCount>10</CollectCount>
           <Hotspots>
             <Point>
-              <X>631.5051</X>
-              <Y>7921.943</Y>
-              <Z>19.7968</Z>
+              <X>27.5495167</X>
+              <Y>8490.319</Y>
+              <Z>19.799427</Z>
             </Point>
             <Point>
-              <X>740.4114</X>
-              <Y>7782.925</Y>
-              <Z>21.98484</Z>
+              <X>262.7774</X>
+              <Y>8532.684</Y>
+              <Z>18.6001511</Z>
             </Point>
             <Point>
-              <X>829.5492</X>
-              <Y>7619.109</Y>
-              <Z>21.89769</Z>
-            </Point>
-            <Point>
-              <X>742.9074</X>
-              <Y>7450.616</Y>
-              <Z>17.69694</Z>
+              <X>-77.31642</X>
+              <Y>8235.096</Y>
+              <Z>23.2644024</Z>
             </Point>
           </Hotspots>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <ForceTravelToQuestZone>true</ForceTravelToQuestZone>
         </QuestObjective>
         <QuestObjective>
-          <Objective>MoveTo</Objective>
-          <Count>1</Count>
+          <Objective>KillMob</Objective>
+          <InternalIndex>1</InternalIndex>
+          <Entry>
+            <int>18134</int>
+            <int>18128</int>
+            <int>18129</int>
+          </Entry>
+          <CollectItemId>1</CollectItemId>
+          <CollectCount>6</CollectCount>
+          <Hotspots>
+            <Point>
+              <X>185.232437</X>
+              <Y>7564.88232</Y>
+              <Z>17.37533</Z>
+            </Point>
+            <Point>
+              <X>49.38238</X>
+              <Y>7479.81934</Y>
+              <Z>24.3867245</Z>
+            </Point>
+            <Point>
+              <X>-22.2738361</X>
+              <Y>7293.00732</Y>
+              <Z>17.6492329</Z>
+            </Point>
+            <Point>
+              <X>10.5084972</X>
+              <Y>7722.06641</Y>
+              <Z>22.6576061</Z>
+            </Point>
+          </Hotspots>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <Position>
-            <X>210.4733</X>
-            <Y>8504.309</Y>
-            <Z>24.23451</Z>
-          </Position>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>TurnInQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <NpcEntry>17924</NpcEntry>
+          <QuestName>Glowcap Mushrooms</QuestName>
+          <QuestId>9808</QuestId>
         </QuestObjective>
         <QuestObjective>
           <Objective>CSharpScript</Objective>
           <Count>1</Count>
-          <Script>=ClickToMove.cs</Script>
+          <Hotspots>
+            <Point>
+              <X>192.04245</X>
+              <Y>8487.754</Y>
+              <Z>27.011322</Z>
+            </Point>
+            <Point>
+              <X>211.322052</X>
+              <Y>8504.868</Y>
+              <Z>24.2165489</Z>
+            </Point>
+          </Hotspots>
+          <Script>=ClickToMoveHotSpots.cs</Script>
+          <ScriptConditionIsComplete>=9808-Comp.cs</ScriptConditionIsComplete>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <Position>
-            <X>193.9848</X>
-            <Y>8488.389</Y>
-            <Z>27.09375</Z>
-          </Position>
+          <Range>0</Range>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>TurnInQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <ForceTravelToQuestZone>true</ForceTravelToQuestZone>
+          <NpcEntry>17925</NpcEntry>
+          <QuestName>Fertile Spores</QuestName>
+          <QuestId>9806</QuestId>
         </QuestObjective>
       </Objectives>
     </Quest>
@@ -1541,7 +1603,7 @@
       <MinLevel>61</MinLevel>
       <MaxLevel>74</MaxLevel>
       <NeedQuestCompletedId>
-        <int>9808</int>
+        <int>9806</int>
       </NeedQuestCompletedId>
       <PickUp>18003</PickUp>
       <TurnIn>18008</TurnIn>
@@ -2011,77 +2073,79 @@
         </QuestObjective>
       </Objectives>
     </Quest>
-    <Quest>
-      <Name>Maktu's Revenge</Name>
-      <RaceMask>18875469</RaceMask>
-      <Id>9905</Id>
-      <QuestLevel>64</QuestLevel>
-      <MinLevel>61</MinLevel>
-      <MaxLevel>74</MaxLevel>
-      <NeedQuestCompletedId>
-        <int>9839</int>
-      </NeedQuestCompletedId>
-      <PickUp>18010</PickUp>
-      <TurnIn>18010</TurnIn>
-      <Objectives>
-        <QuestObjective>
-          <Objective>KillMob</Objective>
-          <InternalIndex>1</InternalIndex>
-          <Count>1</Count>
-          <Entry>
-            <int>18286</int>
-          </Entry>
-          <Hotspots>
-            <Point>
-              <X>538.4481</X>
-              <Y>7355.334</Y>
-              <Z>16.44705</Z>
-            </Point>
-          </Hotspots>
-          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
-        </QuestObjective>
-      </Objectives>
-    </Quest>
-    <Quest>
-      <Name>Idols of the Feralfen</Name>
-      <RaceMask>18875469</RaceMask>
-      <Id>9787</Id>
-      <QuestLevel>62</QuestLevel>
-      <MinLevel>59</MinLevel>
-      <MaxLevel>72</MaxLevel>
-      <NeedQuestCompletedId>
-        <int>9905</int>
-      </NeedQuestCompletedId>
-      <PickUp>18003</PickUp>
-      <TurnIn>18003</TurnIn>
-      <Objectives>
-        <QuestObjective>
-          <Objective>PickUpObject</Objective>
-          <InternalIndex>1</InternalIndex>
-          <Entry>
-            <int>182139</int>
-          </Entry>
-          <CollectItemId>1</CollectItemId>
-          <CollectCount>6</CollectCount>
-          <Hotspots>
-            <Point>
-              <X>-113.1393</X>
-              <Y>6979.752</Y>
-              <Z>17.44308</Z>
-            </Point>
-            <Point>
-              <X>-87.00755</X>
-              <Y>7154.338</Y>
-              <Z>17.53654</Z>
-            </Point>
-            <Point>
-              <X>-146.3926</X>
-              <Y>7283.877</Y>
-              <Z>23.34149</Z>
-            </Point>
-          </Hotspots>
-        </QuestObjective>
-      </Objectives>
-    </Quest>
   </Quests>
+  <Blackspots>
+    <QuesterBlacklistRadius>
+      <Position>
+        <X>249.3785</X>
+        <Y>7770.914</Y>
+        <Z>23.11817</Z>
+      </Position>
+      <Radius>20</Radius>
+    </QuesterBlacklistRadius>
+    <QuesterBlacklistRadius>
+      <Position>
+        <X>361.1484</X>
+        <Y>7852.811</Y>
+        <Z>22.13669</Z>
+      </Position>
+      <Radius>10</Radius>
+    </QuesterBlacklistRadius>
+    <QuesterBlacklistRadius>
+      <Position>
+        <X>288.1977</X>
+        <Y>7969.698</Y>
+        <Z>19.36173</Z>
+      </Position>
+      <Radius>10</Radius>
+    </QuesterBlacklistRadius>
+    <QuesterBlacklistRadius>
+      <Position>
+        <X>189.6486</X>
+        <Y>7772.339</Y>
+        <Z>20.01087</Z>
+      </Position>
+      <Radius>10</Radius>
+    </QuesterBlacklistRadius>
+    <QuesterBlacklistRadius>
+      <Position>
+        <X>189.114</X>
+        <Y>7964.571</Y>
+        <Z>23.79775</Z>
+      </Position>
+      <Radius>20</Radius>
+    </QuesterBlacklistRadius>
+    <QuesterBlacklistRadius>
+      <Position>
+        <X>251.569</X>
+        <Y>7774.708</Y>
+        <Z>17.61337</Z>
+      </Position>
+      <Radius>30</Radius>
+    </QuesterBlacklistRadius>
+    <QuesterBlacklistRadius>
+      <Position>
+        <X>364.5045</X>
+        <Y>7847.5</Y>
+        <Z>21.55566</Z>
+      </Position>
+      <Radius>25</Radius>
+    </QuesterBlacklistRadius>
+    <QuesterBlacklistRadius>
+      <Position>
+        <X>448.4608</X>
+        <Y>7844.083</Y>
+        <Z>21.94768</Z>
+      </Position>
+      <Radius>20</Radius>
+    </QuesterBlacklistRadius>
+    <QuesterBlacklistRadius>
+      <Position>
+        <X>338.799</X>
+        <Y>7860.182</Y>
+        <Z>19.01063</Z>
+      </Position>
+      <Radius>45</Radius>
+    </QuesterBlacklistRadius>
+  </Blackspots>
 </QuesterProfile>

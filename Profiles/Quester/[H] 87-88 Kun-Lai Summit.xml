@@ -31,6 +31,7 @@
         <QuestObjective>
           <Objective>PickUpQuest</Objective>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <ForceTravelToQuestZone>true</ForceTravelToQuestZone>
           <NpcEntry>63484</NpcEntry>
           <QuestName>Robbing Robbers of Robbers</QuestName>
           <QuestId>31286</QuestId>
@@ -126,6 +127,8 @@
         </QuestObjective>
         <QuestObjective>
           <Objective>PickUpNPC</Objective>
+          <InternalIndex>1</InternalIndex>
+          <InternalQuestId>31285</InternalQuestId>
           <Count>1</Count>
           <Entry>
             <int>63517</int>
@@ -137,7 +140,6 @@
               <Z>475.81</Z>
             </Point>
           </Hotspots>
-          <ScriptConditionIsComplete>return ObjectManager.GetNearestWoWUnit(ObjectManager.GetWoWUnitByEntry(63367, false), false,true,false).IsValid|| nManager.Wow.Helpers.Quest.GetLogQuestIsComplete(31285) || nManager.Wow.Helpers.Quest.GetQuestCompleted(31285);</ScriptConditionIsComplete>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <WaitMs>120000</WaitMs>
         </QuestObjective>

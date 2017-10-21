@@ -2681,64 +2681,14 @@
       </Objectives>
     </Quest>
     <Quest>
-      <Name>Shizz Work</Name>
-      <RaceMask>18875469</RaceMask>
-      <Id>10629</Id>
-      <QuestLevel>61</QuestLevel>
-      <MinLevel>58</MinLevel>
-      <MaxLevel>71</MaxLevel>
-      <NeedQuestCompletedId>
-        <int>10238</int>
-      </NeedQuestCompletedId>
-      <PickUp>16915</PickUp>
-      <TurnIn>16915</TurnIn>
-      <Objectives>
-        <QuestObjective>
-          <Objective>UseItem</Objective>
-          <Count>1</Count>
-          <UseItemId>30803</UseItemId>
-          <Position>
-            <X>421.4287</X>
-            <Y>2890.644</Y>
-            <Z>51.93526</Z>
-          </Position>
-          <WaitMs>500</WaitMs>
-          <Range>3</Range>
-        </QuestObjective>
-        <QuestObjective>
-          <Objective>KillMob</Objective>
-          <InternalIndex>1</InternalIndex>
-          <Entry>
-            <int>16863</int>
-            <int>16863</int>
-          </Entry>
-          <CollectItemId>1</CollectItemId>
-          <CollectCount>1</CollectCount>
-          <Hotspots>
-            <Point>
-              <X>431.4493</X>
-              <Y>2921.024</Y>
-              <Z>37.71464</Z>
-            </Point>
-            <Point>
-              <X>343.3083</X>
-              <Y>3068.812</Y>
-              <Z>24.01931</Z>
-            </Point>
-          </Hotspots>
-          <CanPullUnitsAlreadyInFight>true</CanPullUnitsAlreadyInFight>
-        </QuestObjective>
-      </Objectives>
-    </Quest>
-    <Quest>
       <Name>The Cenarion Expedition</Name>
       <RaceMask>18875469</RaceMask>
       <Id>9912</Id>
       <QuestLevel>62</QuestLevel>
       <MinLevel>59</MinLevel>
-      <MaxLevel>72</MaxLevel>
+      <MaxLevel>63</MaxLevel>
       <NeedQuestCompletedId>
-        <int>10629</int>
+        <int>10238</int>
       </NeedQuestCompletedId>
       <PickUp>16885</PickUp>
       <TurnIn>17841</TurnIn>
