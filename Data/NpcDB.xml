@@ -20629,7 +20629,7 @@
     <Position>
       <X>-1480.12219</X>
       <Y>6357.97656</Y>
-      <Z>34.2652855</Z>
+      <Z>34.264843</Z>
     </Position>
     <Type>Vendor</Type>
     <ContinentId>Outland</ContinentId>
@@ -21126,18 +21126,6 @@
       <X>-2023.56055</X>
       <Y>-11877.99</Y>
       <Z>45.3916245</Z>
-    </Position>
-    <Faction>Alliance</Faction>
-    <Type>Vendor</Type>
-    <ContinentId>Outland</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>18822</Entry>
-    <Name>Quartermaster Davian Vaclav</Name>
-    <Position>
-      <X>-1588.00085</X>
-      <Y>8018.99658</Y>
-      <Z>-22.28608</Z>
     </Position>
     <Faction>Alliance</Faction>
     <Type>Vendor</Type>
@@ -22566,6 +22554,7 @@
       <Y>7839.829</Y>
       <Z>22.0846977</Z>
     </Position>
+    <Faction>Horde</Faction>
     <Type>Vendor</Type>
     <ContinentId>Outland</ContinentId>
   </Npc>
@@ -22577,6 +22566,7 @@
       <Y>7839.829</Y>
       <Z>22.0846977</Z>
     </Position>
+    <Faction>Horde</Faction>
     <Type>Repair</Type>
     <ContinentId>Outland</ContinentId>
   </Npc>
@@ -24217,42 +24207,6 @@
       <Y>5469.41357</Y>
       <Z>-12.4275188</Z>
     </Position>
-    <Type>Vendor</Type>
-    <ContinentId>Outland</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>21485</Entry>
-    <Name>Aldraan</Name>
-    <Position>
-      <X>-1521.93445</X>
-      <Y>7927.37158</Y>
-      <Z>-20.3130779</Z>
-    </Position>
-    <Faction>Alliance</Faction>
-    <Type>Vendor</Type>
-    <ContinentId>Outland</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>21485</Entry>
-    <Name>Aldraan</Name>
-    <Position>
-      <X>-1521.93445</X>
-      <Y>7927.37158</Y>
-      <Z>-20.3130779</Z>
-    </Position>
-    <Faction>Alliance</Faction>
-    <Type>Repair</Type>
-    <ContinentId>Outland</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>21487</Entry>
-    <Name>Cendrii</Name>
-    <Position>
-      <X>-1540.32776</X>
-      <Y>7971.94775</Y>
-      <Z>-20.8014526</Z>
-    </Position>
-    <Faction>Alliance</Faction>
     <Type>Vendor</Type>
     <ContinentId>Outland</ContinentId>
   </Npc>
@@ -51779,6 +51733,18 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>79812</Entry>
+    <Name>Moz'def</Name>
+    <Position>
+      <X>5575.464</X>
+      <Y>4460.80664</Y>
+      <Z>130.7429</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>Vendor</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>79815</Entry>
     <Name>Grun'lek</Name>
     <Position>
@@ -53298,6 +53264,17 @@
       <X>5575.35059</X>
       <Y>4387.741</Y>
       <Z>136.450058</Z>
+    </Position>
+    <Type>Vendor</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>84967</Entry>
+    <Name>"Appraiser" Sazsel Stickyfingers</Name>
+    <Position>
+      <X>5626.771</X>
+      <Y>4457.8125</Y>
+      <Z>130.194321</Z>
     </Position>
     <Type>Vendor</Type>
     <ContinentId>Draenor</ContinentId>
@@ -55951,6 +55928,17 @@
       <X>5469.158</X>
       <Y>4583.057</Y>
       <Z>128.585159</Z>
+    </Position>
+    <Type>Vendor</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>87871</Entry>
+    <Name>Birchus</Name>
+    <Position>
+      <X>5535.30273</X>
+      <Y>4547.02051</Y>
+      <Z>132.1856</Z>
     </Position>
     <Type>Vendor</Type>
     <ContinentId>Draenor</ContinentId>
@@ -67152,6 +67140,17 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>237576</Entry>
+    <Name>Forge</Name>
+    <Position>
+      <X>3343.58081</X>
+      <Y>2397.75342</Y>
+      <Z>114.329872</Z>
+    </Position>
+    <Type>SmeltingForge</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>237601</Entry>
     <Name>Forge</Name>
     <Position>
@@ -68264,5 +68263,16 @@
     </Position>
     <Type>Mailbox</Type>
     <ContinentId>Troll Raid</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>267052</Entry>
+    <Name>Forge</Name>
+    <Position>
+      <X>5465.655</X>
+      <Y>4448.0415</Y>
+      <Z>144.7173</Z>
+    </Position>
+    <Type>SmeltingForge</Type>
+    <ContinentId>Draenor</ContinentId>
   </Npc>
 </ArrayOfNpc>

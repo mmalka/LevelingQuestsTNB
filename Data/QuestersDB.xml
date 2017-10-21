@@ -14523,18 +14523,6 @@
     <Position>
       <X>2393.547</X>
       <Y>-2525.32861</Y>
-      <Z>-166.801468</Z>
-    </Position>
-    <Faction>Horde</Faction>
-    <Type>QuestGiver</Type>
-    <ContinentId>Kalimdor</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>11720</Entry>
-    <Name>Loruk Foreststrider</Name>
-    <Position>
-      <X>2393.547</X>
-      <Y>-2525.32861</Y>
       <Z>-417.438171</Z>
     </Position>
     <Faction>Horde</Faction>
@@ -14547,7 +14535,7 @@
     <Position>
       <X>2393.547</X>
       <Y>-2525.32861</Y>
-      <Z>-249.86586</Z>
+      <Z>-166.801468</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
@@ -14560,6 +14548,18 @@
       <X>2393.547</X>
       <Y>-2525.32861</Y>
       <Z>-31.1677113</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>11720</Entry>
+    <Name>Loruk Foreststrider</Name>
+    <Position>
+      <X>2393.547</X>
+      <Y>-2525.32861</Y>
+      <Z>-249.86586</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
@@ -23699,6 +23699,18 @@
     <Position>
       <X>-4243.21338</X>
       <Y>323.120758</Y>
+      <Z>106.571053</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Outland</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>21060</Entry>
+    <Name>Esprit de l'air enragé</Name>
+    <Position>
+      <X>-4243.21338</X>
+      <Y>323.120758</Y>
       <Z>27.8561249</Z>
     </Position>
     <Faction>Horde</Faction>
@@ -23712,18 +23724,6 @@
       <X>-4243.21338</X>
       <Y>323.120758</Y>
       <Z>-123.336624</Z>
-    </Position>
-    <Faction>Horde</Faction>
-    <Type>QuestGiver</Type>
-    <ContinentId>Outland</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>21060</Entry>
-    <Name>Esprit de l'air enragé</Name>
-    <Position>
-      <X>-4243.21338</X>
-      <Y>323.120758</Y>
-      <Z>106.571053</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
@@ -57233,6 +57233,17 @@
     <Position>
       <X>2890.49658</X>
       <Y>627.434</Y>
+      <Z>513.6742</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>72447</Entry>
+    <Name>Chronalis</Name>
+    <Position>
+      <X>2890.49658</X>
+      <Y>627.434</Y>
       <Z>593.3703</Z>
     </Position>
     <Type>QuestGiver</Type>
@@ -57245,17 +57256,6 @@
       <X>2890.49658</X>
       <Y>627.434</Y>
       <Z>706.5976</Z>
-    </Position>
-    <Type>QuestGiver</Type>
-    <ContinentId>Draenor</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>72447</Entry>
-    <Name>Chronalis</Name>
-    <Position>
-      <X>2890.49658</X>
-      <Y>627.434</Y>
-      <Z>513.6742</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Draenor</ContinentId>
@@ -58165,6 +58165,17 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>75311</Entry>
+    <Name>Raksi</Name>
+    <Position>
+      <X>2681.80029</X>
+      <Y>1198.316</Y>
+      <Z>197.437653</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>75344</Entry>
     <Name>Ligra l’Inflexible</Name>
     <Position>
@@ -58188,12 +58199,130 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>75803</Entry>
+    <Name>Vindicator Maraad</Name>
+    <Position>
+      <X>2983.033</X>
+      <Y>2598.98438</Y>
+      <Z>81.42448</Z>
+    </Position>
+    <Faction>Alliance</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>75804</Entry>
+    <Name>Yrel</Name>
+    <Position>
+      <X>2983.15552</X>
+      <Y>2600.63379</Y>
+      <Z>81.42551</Z>
+    </Position>
+    <Faction>Alliance</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>75805</Entry>
+    <Name>Archmage Khadgar</Name>
+    <Position>
+      <X>2981.13452</X>
+      <Y>2602.592</Y>
+      <Z>81.42551</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>75806</Entry>
+    <Name>Durotan</Name>
+    <Position>
+      <X>3993.79785</X>
+      <Y>2165.915</Y>
+      <Z>117.881516</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>75808</Entry>
+    <Name>Draka</Name>
+    <Position>
+      <X>2800.38281</X>
+      <Y>2521.19531</Y>
+      <Z>121.141</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>75808</Entry>
+    <Name>Draka</Name>
+    <Position>
+      <X>2977.17017</X>
+      <Y>2601.91333</Y>
+      <Z>81.42448</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>75808</Entry>
+    <Name>Draka</Name>
+    <Position>
+      <X>3628.37671</X>
+      <Y>2319.95825</Y>
+      <Z>67.18168</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>75808</Entry>
+    <Name>Draka</Name>
+    <Position>
+      <X>3992.29</X>
+      <Y>2135.87842</Y>
+      <Z>117.98539</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>75873</Entry>
+    <Name>Gazlowe</Name>
+    <Position>
+      <X>4015.61719</X>
+      <Y>2133.03833</Y>
+      <Z>115.861816</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>75884</Entry>
     <Name>Rulkan</Name>
     <Position>
       <X>1484.9375</X>
       <Y>-793.5851</Y>
       <Z>38.50587</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>75896</Entry>
+    <Name>Crystal-Shaper Barum</Name>
+    <Position>
+      <X>2889.73438</X>
+      <Y>1476.467</Y>
+      <Z>181.75293</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Draenor</ContinentId>
@@ -58206,6 +58335,66 @@
       <Y>1259.2865</Y>
       <Z>108.71347</Z>
     </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>75924</Entry>
+    <Name>Gazlowe</Name>
+    <Position>
+      <X>3605.52954</X>
+      <Y>2318.64575</Y>
+      <Z>67.6166</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>75941</Entry>
+    <Name>Gazlowe</Name>
+    <Position>
+      <X>2793.06421</X>
+      <Y>2513.27515</Y>
+      <Z>121.140648</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>75958</Entry>
+    <Name>Durotan</Name>
+    <Position>
+      <X>3626.2666</X>
+      <Y>2320.62329</Y>
+      <Z>67.0941238</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>75959</Entry>
+    <Name>Durotan</Name>
+    <Position>
+      <X>2801.506</X>
+      <Y>2518.72388</Y>
+      <Z>121.046944</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>75959</Entry>
+    <Name>Durotan</Name>
+    <Position>
+      <X>2977.001</X>
+      <Y>2599.804</Y>
+      <Z>81.42499</Z>
+    </Position>
+    <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
     <ContinentId>Draenor</ContinentId>
   </Npc>
@@ -61689,6 +61878,18 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>80757</Entry>
+    <Name>Grulkor</Name>
+    <Position>
+      <X>6213.18066</X>
+      <Y>389.192719</Y>
+      <Z>4.07913</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>80758</Entry>
     <Name>Talon Guard Kurekk</Name>
     <Position>
@@ -61779,6 +61980,17 @@
       <Z>-4.199917</Z>
     </Position>
     <Faction>Alliance</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>80965</Entry>
+    <Name>Magister Krelas</Name>
+    <Position>
+      <X>3252.53638</X>
+      <Y>1580.07288</Y>
+      <Z>162.240326</Z>
+    </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Draenor</ContinentId>
   </Npc>
@@ -61958,6 +62170,18 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>81241</Entry>
+    <Name>Grulkor</Name>
+    <Position>
+      <X>6181.81152</X>
+      <Y>249.404572</Y>
+      <Z>0.2961323</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>81292</Entry>
     <Name>Dyuna</Name>
     <Position>
@@ -62083,6 +62307,18 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>81731</Entry>
+    <Name>Rakthoth</Name>
+    <Position>
+      <X>6880.62256</X>
+      <Y>1029.9115</Y>
+      <Z>68.90749</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>81761</Entry>
     <Name>Ashka</Name>
     <Position>
@@ -62134,6 +62370,18 @@
       <X>5570.53369</X>
       <Y>4507.117</Y>
       <Z>131.806442</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>81765</Entry>
+    <Name>Vivianne</Name>
+    <Position>
+      <X>5589.08057</X>
+      <Y>4592.00342</Y>
+      <Z>136.587769</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
@@ -62281,6 +62529,39 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>82105</Entry>
+    <Name>Rexxar</Name>
+    <Position>
+      <X>7092.501</X>
+      <Y>1123.31067</Y>
+      <Z>32.66885</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>82105</Entry>
+    <Name>Rexxar</Name>
+    <Position>
+      <X>7128.42773</X>
+      <Y>1056.68811</Y>
+      <Z>33.4741325</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>82105</Entry>
+    <Name>Rexxar</Name>
+    <Position>
+      <X>7192.759</X>
+      <Y>997.283</Y>
+      <Z>39.91693</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>82123</Entry>
     <Name>Inactive Apexis Destroyer</Name>
     <Position>
@@ -62311,6 +62592,30 @@
       <Y>5238.367</Y>
       <Z>65.45072</Z>
     </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>82222</Entry>
+    <Name>Rakthoth</Name>
+    <Position>
+      <X>6786.69629</X>
+      <Y>904.077</Y>
+      <Z>148.836166</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>82225</Entry>
+    <Name>Rakthoth</Name>
+    <Position>
+      <X>6768.22559</X>
+      <Y>744.2274</Y>
+      <Z>189.431549</Z>
+    </Position>
+    <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
     <ContinentId>Draenor</ContinentId>
   </Npc>
@@ -63071,6 +63376,17 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>84131</Entry>
+    <Name>Rexxar</Name>
+    <Position>
+      <X>6926.442</X>
+      <Y>1473.68921</Y>
+      <Z>33.26451</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>84173</Entry>
     <Name>Commandant Anne Dunworthy</Name>
     <Position>
@@ -63368,6 +63684,18 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>85089</Entry>
+    <Name>Rakthoth</Name>
+    <Position>
+      <X>6972.672</X>
+      <Y>872.684</Y>
+      <Z>93.21781</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>85106</Entry>
     <Name>Gem Grinder Orolak</Name>
     <Position>
@@ -63551,6 +63879,18 @@
       <Z>130.800232</Z>
     </Position>
     <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>85980</Entry>
+    <Name>Spirit of Bony Xuk</Name>
+    <Position>
+      <X>6928.18848</X>
+      <Y>1461.08508</Y>
+      <Z>33.07186</Z>
+      <Type>Flying</Type>
+    </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Draenor</ContinentId>
   </Npc>
@@ -79618,9 +79958,31 @@
     <Entry>225726</Entry>
     <Name>Iron Shredder Decommission Orders</Name>
     <Position>
+      <X>3334.67529</X>
+      <Y>2148.67358</Y>
+      <Z>128.283646</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>225726</Entry>
+    <Name>Iron Shredder Decommission Orders</Name>
+    <Position>
       <X>3773.665</X>
       <Y>2258.144</Y>
       <Z>26.43024</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>225778</Entry>
+    <Name>Barum's Notes</Name>
+    <Position>
+      <X>2729.158</X>
+      <Y>1285.53125</Y>
+      <Z>187.998688</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Draenor</ContinentId>
@@ -79978,12 +80340,45 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>234474</Entry>
+    <Name>Saberon Stash</Name>
+    <Position>
+      <X>6776.21436</X>
+      <Y>892.569458</Y>
+      <Z>151.201</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>234474</Entry>
+    <Name>Saberon Stash</Name>
+    <Position>
+      <X>6863.276</X>
+      <Y>826.5955</Y>
+      <Z>144.8793</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>235129</Entry>
     <Name>Graines enrichies</Name>
     <Position>
       <X>5723.204</X>
       <Y>1020.83862</Y>
       <Z>79.5799561</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>236140</Entry>
+    <Name>Goren Tunnel</Name>
+    <Position>
+      <X>7038.52246</X>
+      <Y>1635.59546</Y>
+      <Z>-36.8757324</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Draenor</ContinentId>
