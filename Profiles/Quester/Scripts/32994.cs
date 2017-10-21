@@ -46,11 +46,6 @@ if (node.IsValid && (!nManagerSetting.IsBlackListedZone(node.Position) && !nMana
 
 	MovementManager.GoToLocationFindTarget(p, 3.75f, false);
 	
-//System.Collections.Generic.List<Point> listP = new System.Collections.Generic.List<Point>();
-//listP = nManager.Wow.Helpers.PathFinder.FindPath(ObjectManager.Me.Position,p);
-
-	//baseAddress = MovementManager.FindTarget(node, questObjective.Range, ignoreBlacklist:questObjective.IgnoreBlackList);
-	
 	Thread.Sleep(500);
 
 	if(p.DistanceTo(ObjectManager.Me.Position) < questObjective.Range)
