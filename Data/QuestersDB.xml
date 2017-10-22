@@ -14511,6 +14511,18 @@
     <Position>
       <X>2393.547</X>
       <Y>-2525.32861</Y>
+      <Z>-166.801468</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>11720</Entry>
+    <Name>Loruk Foreststrider</Name>
+    <Position>
+      <X>2393.547</X>
+      <Y>-2525.32861</Y>
       <Z>-333.8926</Z>
     </Position>
     <Faction>Horde</Faction>
@@ -14535,30 +14547,6 @@
     <Position>
       <X>2393.547</X>
       <Y>-2525.32861</Y>
-      <Z>-166.801468</Z>
-    </Position>
-    <Faction>Horde</Faction>
-    <Type>QuestGiver</Type>
-    <ContinentId>Kalimdor</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>11720</Entry>
-    <Name>Loruk Foreststrider</Name>
-    <Position>
-      <X>2393.547</X>
-      <Y>-2525.32861</Y>
-      <Z>-31.1677113</Z>
-    </Position>
-    <Faction>Horde</Faction>
-    <Type>QuestGiver</Type>
-    <ContinentId>Kalimdor</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>11720</Entry>
-    <Name>Loruk Foreststrider</Name>
-    <Position>
-      <X>2393.547</X>
-      <Y>-2525.32861</Y>
       <Z>-249.86586</Z>
     </Position>
     <Faction>Horde</Faction>
@@ -14572,6 +14560,18 @@
       <X>2393.547</X>
       <Y>-2525.32861</Y>
       <Z>103.496796</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>11720</Entry>
+    <Name>Loruk Foreststrider</Name>
+    <Position>
+      <X>2393.547</X>
+      <Y>-2525.32861</Y>
+      <Z>-31.1677113</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
@@ -23711,7 +23711,7 @@
     <Position>
       <X>-4243.21338</X>
       <Y>323.120758</Y>
-      <Z>27.8561249</Z>
+      <Z>-123.336624</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
@@ -23723,7 +23723,7 @@
     <Position>
       <X>-4243.21338</X>
       <Y>323.120758</Y>
-      <Z>-123.336624</Z>
+      <Z>27.8561249</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
@@ -57233,17 +57233,6 @@
     <Position>
       <X>2890.49658</X>
       <Y>627.434</Y>
-      <Z>513.6742</Z>
-    </Position>
-    <Type>QuestGiver</Type>
-    <ContinentId>Draenor</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>72447</Entry>
-    <Name>Chronalis</Name>
-    <Position>
-      <X>2890.49658</X>
-      <Y>627.434</Y>
       <Z>593.3703</Z>
     </Position>
     <Type>QuestGiver</Type>
@@ -57256,6 +57245,17 @@
       <X>2890.49658</X>
       <Y>627.434</Y>
       <Z>706.5976</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>72447</Entry>
+    <Name>Chronalis</Name>
+    <Position>
+      <X>2890.49658</X>
+      <Y>627.434</Y>
+      <Z>513.6742</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Draenor</ContinentId>
@@ -57977,6 +57977,30 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>75119</Entry>
+    <Name>Exarch Maladaar</Name>
+    <Position>
+      <X>1737.65283</X>
+      <Y>2514.69531</Y>
+      <Z>133.659012</Z>
+    </Position>
+    <Faction>Alliance</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>75121</Entry>
+    <Name>Lady Liadrin</Name>
+    <Position>
+      <X>1739.441</X>
+      <Y>2524.96362</Y>
+      <Z>133.658752</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>75127</Entry>
     <Name>Redresseur de torts Maraad</Name>
     <Position>
@@ -58165,12 +58189,79 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>75246</Entry>
+    <Name>Lady Liadrin</Name>
+    <Position>
+      <X>1545.85413</X>
+      <Y>2195.95483</Y>
+      <Z>139.442108</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>75249</Entry>
+    <Name>Mehlar Dawnblade</Name>
+    <Position>
+      <X>1551.30725</X>
+      <Y>2224.94971</Y>
+      <Z>138.855011</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>75256</Entry>
+    <Name>Soulbinder Nyami</Name>
+    <Position>
+      <X>1549.17017</X>
+      <Y>2200.84717</Y>
+      <Z>139.102356</Z>
+    </Position>
+    <Faction>Alliance</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>75288</Entry>
+    <Name>Shadow-Sage Iskar</Name>
+    <Position>
+      <X>2169.29175</X>
+      <Y>1629.60767</Y>
+      <Z>131.3113</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>75311</Entry>
     <Name>Raksi</Name>
     <Position>
       <X>2681.80029</X>
       <Y>1198.316</Y>
       <Z>197.437653</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>75323</Entry>
+    <Name>Darkscryer Raastok</Name>
+    <Position>
+      <X>2149.842</X>
+      <Y>1629.007</Y>
+      <Z>131.527084</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>75324</Entry>
+    <Name>Kura the Blind</Name>
+    <Position>
+      <X>2172.11816</X>
+      <Y>1613.32983</Y>
+      <Z>132.079987</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Draenor</ContinentId>
@@ -58184,6 +58275,41 @@
       <Z>393.434448</Z>
     </Position>
     <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>75389</Entry>
+    <Name>Lady Liadrin</Name>
+    <Position>
+      <X>1398.68225</X>
+      <Y>3272.034</Y>
+      <Z>133.555832</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>75392</Entry>
+    <Name>Exarch Maladaar</Name>
+    <Position>
+      <X>1403.75525</X>
+      <Y>3274.39844</Y>
+      <Z>133.55835</Z>
+    </Position>
+    <Faction>Alliance</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>75469</Entry>
+    <Name>Raksi</Name>
+    <Position>
+      <X>2927.54077</X>
+      <Y>906.059</Y>
+      <Z>144.322784</Z>
+    </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Draenor</ContinentId>
   </Npc>
@@ -58880,6 +59006,17 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>77082</Entry>
+    <Name>Restalaan</Name>
+    <Position>
+      <X>832.283</X>
+      <Y>3159.5166</Y>
+      <Z>163.852783</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>77184</Entry>
     <Name>Archimage Khadgar</Name>
     <Position>
@@ -59079,6 +59216,18 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>77737</Entry>
+    <Name>Soulbinder Tuulani</Name>
+    <Position>
+      <X>1897.23608</X>
+      <Y>2128.44458</Y>
+      <Z>76.93946</Z>
+    </Position>
+    <Faction>Alliance</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>77777</Entry>
     <Name>Kurt Granchêne</Name>
     <Position>
@@ -59149,6 +59298,17 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>77869</Entry>
+    <Name>Soulbinder Tuulani</Name>
+    <Position>
+      <X>950.5972</X>
+      <Y>2826.84814</Y>
+      <Z>137.033524</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>77998</Entry>
     <Name>Molthron</Name>
     <Position>
@@ -59156,6 +59316,18 @@
       <Y>4843.723</Y>
       <Z>126.2715</Z>
     </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>78028</Entry>
+    <Name>Soulbinder Tuulani</Name>
+    <Position>
+      <X>1545.84033</X>
+      <Y>2201.94971</Y>
+      <Z>139.356567</Z>
+    </Position>
+    <Faction>Alliance</Faction>
     <Type>QuestGiver</Type>
     <ContinentId>Draenor</ContinentId>
   </Npc>
@@ -59168,6 +59340,28 @@
       <Z>139.200821</Z>
     </Position>
     <Faction>Alliance</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>78082</Entry>
+    <Name>Vindicator Kaluud</Name>
+    <Position>
+      <X>958.0851</X>
+      <Y>2828.87231</Y>
+      <Z>137.037354</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>78083</Entry>
+    <Name>Defender Artaal</Name>
+    <Position>
+      <X>949.2708</X>
+      <Y>2821.11279</Y>
+      <Z>137.033646</Z>
+    </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Draenor</ContinentId>
   </Npc>
@@ -59477,6 +59671,30 @@
       <Z>119.214752</Z>
     </Position>
     <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>78519</Entry>
+    <Name>Soulbinder Nyami</Name>
+    <Position>
+      <X>1760.71533</X>
+      <Y>2463.8855</Y>
+      <Z>129.371674</Z>
+    </Position>
+    <Faction>Alliance</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>78520</Entry>
+    <Name>Soulbinder Tuulani</Name>
+    <Position>
+      <X>1749.73438</X>
+      <Y>2546.76733</Y>
+      <Z>133.659363</Z>
+    </Position>
+    <Faction>Alliance</Faction>
     <Type>QuestGiver</Type>
     <ContinentId>Draenor</ContinentId>
   </Npc>
@@ -60162,6 +60380,18 @@
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>TanaanJungleIntro</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>78577</Entry>
+    <Name>Mehlar Dawnblade</Name>
+    <Position>
+      <X>1768.96338</X>
+      <Y>2523.776</Y>
+      <Z>133.65889</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
     <Entry>78659</Entry>
@@ -61718,6 +61948,17 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>80396</Entry>
+    <Name>Magister Krelas</Name>
+    <Position>
+      <X>1714.68408</X>
+      <Y>2121.39941</Y>
+      <Z>139.173691</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>80434</Entry>
     <Name>Gar’rok</Name>
     <Position>
@@ -61750,6 +61991,17 @@
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>TanaanJungleIntro</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>80553</Entry>
+    <Name>Magister Krelas</Name>
+    <Position>
+      <X>3241.24561</X>
+      <Y>1590.10767</Y>
+      <Z>163.306442</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
     <Entry>80593</Entry>
@@ -62407,6 +62659,18 @@
       <Y>1863.55725</Y>
       <Z>44.7822151</Z>
     </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>81789</Entry>
+    <Name>Vindicator Kaluud</Name>
+    <Position>
+      <X>1735.21533</X>
+      <Y>2516.25879</Y>
+      <Z>133.659012</Z>
+    </Position>
+    <Faction>Alliance</Faction>
     <Type>QuestGiver</Type>
     <ContinentId>Draenor</ContinentId>
   </Npc>
@@ -80005,6 +80269,17 @@
       <X>6790.51465</X>
       <Y>5953.80371</Y>
       <Z>260.036469</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>227069</Entry>
+    <Name>Hastily Written Note</Name>
+    <Position>
+      <X>929.088562</X>
+      <Y>2900.52612</Y>
+      <Z>146.229462</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Draenor</ContinentId>
