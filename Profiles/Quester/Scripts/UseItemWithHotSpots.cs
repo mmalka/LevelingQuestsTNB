@@ -135,7 +135,8 @@ try
 		}
 		else if (unit.IsValid)
 		{
-			Interact.InteractWith(unit.GetBaseAddress); //Interact With Unit to Attack it
+			if(questObjective.ExtraString != "NoInteract")
+				Interact.InteractWith(unit.GetBaseAddress); //Interact With Unit to Attack it
 			nManagerSetting.AddBlackList(unit.Guid, 60*1000);
 		}
 
