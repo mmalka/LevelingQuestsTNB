@@ -1313,18 +1313,18 @@
           <QuestId>9800</QuestId>
         </QuestObjective>
         <QuestObjective>
-          <Objective>PickUpQuest</Objective>
-          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
-          <NpcEntry>18073</NpcEntry>
-          <QuestName>Agitated Spirits of Skysong</QuestName>
-          <QuestId>9804</QuestId>
-        </QuestObjective>
-        <QuestObjective>
           <Objective>TurnInQuest</Objective>
           <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
           <NpcEntry>18073</NpcEntry>
           <QuestName>Muck Diving</QuestName>
           <QuestId>9815</QuestId>
+        </QuestObjective>
+        <QuestObjective>
+          <Objective>PickUpQuest</Objective>
+          <IgnoreQuestCompleted>true</IgnoreQuestCompleted>
+          <NpcEntry>18073</NpcEntry>
+          <QuestName>Agitated Spirits of Skysong</QuestName>
+          <QuestId>9804</QuestId>
         </QuestObjective>
         <QuestObjective>
           <Objective>TurnInQuest</Objective>
@@ -2965,7 +2965,7 @@
         <Z>101.3798</Z>
       </Position>
       <Radius>20</Radius>
-	  <ContinentId>Outland</ContinentId>
+      <ContinentId>Outland</ContinentId>
     </QuesterBlacklistRadius>
     <QuesterBlacklistRadius>
       <Position>
@@ -2974,7 +2974,7 @@
         <Z>32.51015</Z>
       </Position>
       <Radius>25</Radius>
-	  <ContinentId>Outland</ContinentId>
+      <ContinentId>Outland</ContinentId>
     </QuesterBlacklistRadius>
     <QuesterBlacklistRadius>
       <Position>
@@ -2983,7 +2983,7 @@
         <Z>65.82183</Z>
       </Position>
       <Radius>15</Radius>
-	  <ContinentId>Outland</ContinentId>
+      <ContinentId>Outland</ContinentId>
     </QuesterBlacklistRadius>
     <QuesterBlacklistRadius>
       <Position>
@@ -2992,7 +2992,7 @@
         <Z>117.7179</Z>
       </Position>
       <Radius>30</Radius>
-	  <ContinentId>Outland</ContinentId>
+      <ContinentId>Outland</ContinentId>
     </QuesterBlacklistRadius>
     <QuesterBlacklistRadius>
       <Position>
@@ -3001,7 +3001,7 @@
         <Z>113.1171</Z>
       </Position>
       <Radius>25</Radius>
-	  <ContinentId>Outland</ContinentId>
+      <ContinentId>Outland</ContinentId>
     </QuesterBlacklistRadius>
   </Blackspots>
 </QuesterProfile>
