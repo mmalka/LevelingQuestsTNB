@@ -7,7 +7,7 @@
       <RaceMask>33555378</RaceMask>
       <Id>10183</Id>
       <QuestLevel>68</QuestLevel>
-      <MinLevel>65</MinLevel>
+      <MinLevel>67</MinLevel>
       <MaxLevel>68</MaxLevel>
       <PickUp>19569</PickUp>
       <TurnIn>19570</TurnIn>
@@ -1665,8 +1665,8 @@
         <Y>3388.125</Y>
         <Z>110.4822</Z>
       </Position>
-      <Radius>15</Radius> 
-	  <ContinentId>Outland</ContinentId>
+      <Radius>15</Radius>
+      <ContinentId>Outland</ContinentId>
     </QuesterBlacklistRadius>
     <QuesterBlacklistRadius>
       <Position>
@@ -1675,7 +1675,7 @@
         <Z>110.9041</Z>
       </Position>
       <Radius>15</Radius>
-	  <ContinentId>Outland</ContinentId>
+      <ContinentId>Outland</ContinentId>
     </QuesterBlacklistRadius>
     <QuesterBlacklistRadius>
       <Position>
@@ -1684,7 +1684,7 @@
         <Z>107.4085</Z>
       </Position>
       <Radius>15</Radius>
-	  <ContinentId>Outland</ContinentId>
+      <ContinentId>Outland</ContinentId>
     </QuesterBlacklistRadius>
     <QuesterBlacklistRadius>
       <Position>
@@ -1693,7 +1693,7 @@
         <Z>105.1276</Z>
       </Position>
       <Radius>15</Radius>
-	  <ContinentId>Outland</ContinentId>	  
+      <ContinentId>Outland</ContinentId>
     </QuesterBlacklistRadius>
     <QuesterBlacklistRadius>
       <Position>
@@ -1702,7 +1702,7 @@
         <Z>113.6209</Z>
       </Position>
       <Radius>15</Radius>
-	  <ContinentId>Outland</ContinentId>
-	  </QuesterBlacklistRadius>
+      <ContinentId>Outland</ContinentId>
+    </QuesterBlacklistRadius>
   </Blackspots>
 </QuesterProfile>
