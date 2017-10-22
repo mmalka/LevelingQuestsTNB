@@ -7,7 +7,7 @@
       <RaceMask>33555378</RaceMask>
       <Id>10928</Id>
       <QuestLevel>65</QuestLevel>
-      <MinLevel>62</MinLevel>
+      <MinLevel>65</MinLevel>
       <MaxLevel>68</MaxLevel>
       <PickUp>22489</PickUp>
       <TurnIn>22489</TurnIn>
@@ -53,7 +53,7 @@
       <RaceMask>33555378</RaceMask>
       <Id>10503</Id>
       <QuestLevel>66</QuestLevel>
-      <MinLevel>63</MinLevel>
+      <MinLevel>65</MinLevel>
       <MaxLevel>68</MaxLevel>
       <NeedQuestCompletedId>
         <int>10928</int>
@@ -405,7 +405,7 @@
       <RaceMask>33555378</RaceMask>
       <Id>10505</Id>
       <QuestLevel>66</QuestLevel>
-      <MinLevel>63</MinLevel>
+      <MinLevel>65</MinLevel>
       <MaxLevel>68</MaxLevel>
       <NeedQuestCompletedId>
         <int>10503</int>
@@ -761,7 +761,7 @@
       <RaceMask>33555378</RaceMask>
       <Id>10718</Id>
       <QuestLevel>67</QuestLevel>
-      <MinLevel>64</MinLevel>
+      <MinLevel>65</MinLevel>
       <MaxLevel>68</MaxLevel>
       <NeedQuestCompletedId>
         <int>10505</int>
@@ -775,7 +775,7 @@
       <RaceMask>33555378</RaceMask>
       <Id>10614</Id>
       <QuestLevel>66</QuestLevel>
-      <MinLevel>63</MinLevel>
+      <MinLevel>65</MinLevel>
       <MaxLevel>68</MaxLevel>
       <NeedQuestCompletedId>
         <int>10718</int>
@@ -789,7 +789,7 @@
       <RaceMask>33555378</RaceMask>
       <Id>10565</Id>
       <QuestLevel>66</QuestLevel>
-      <MinLevel>63</MinLevel>
+      <MinLevel>65</MinLevel>
       <MaxLevel>68</MaxLevel>
       <NeedQuestCompletedId>
         <int>10614</int>
@@ -964,7 +964,7 @@
       <RaceMask>33555378</RaceMask>
       <Id>10846</Id>
       <QuestLevel>67</QuestLevel>
-      <MinLevel>64</MinLevel>
+      <MinLevel>65</MinLevel>
       <MaxLevel>68</MaxLevel>
       <NeedQuestCompletedId>
         <int>10565</int>
@@ -1039,7 +1039,8 @@
           <IgnoreBlackList>true</IgnoreBlackList>
           <UseItemId>30651</UseItemId>
           <WaitMs>500</WaitMs>
-          <Range>20</Range>
+          <Range>21</Range>
+          <ExtraString>NoInteract</ExtraString>
         </QuestObjective>
         <QuestObjective>
           <Objective>KillMob</Objective>
@@ -1092,7 +1093,8 @@
           <IgnoreBlackList>true</IgnoreBlackList>
           <UseItemId>30652</UseItemId>
           <WaitMs>500</WaitMs>
-          <Range>20</Range>
+          <Range>21</Range>
+          <ExtraString>NoInteract</ExtraString>
         </QuestObjective>
         <QuestObjective>
           <Objective>KillMob</Objective>
@@ -1145,7 +1147,8 @@
           <IgnoreBlackList>true</IgnoreBlackList>
           <UseItemId>30653</UseItemId>
           <WaitMs>500</WaitMs>
-          <Range>20</Range>
+          <Range>21</Range>
+          <ExtraString>NoInteract</ExtraString>
         </QuestObjective>
         <QuestObjective>
           <Objective>KillMob</Objective>
@@ -1198,7 +1201,8 @@
           <IgnoreBlackList>true</IgnoreBlackList>
           <UseItemId>30654</UseItemId>
           <WaitMs>500</WaitMs>
-          <Range>20</Range>
+          <Range>21</Range>
+          <ExtraString>NoInteract</ExtraString>
         </QuestObjective>
         <QuestObjective>
           <Objective>KillMob</Objective>
@@ -1486,7 +1490,7 @@
       <RaceMask>33555378</RaceMask>
       <Id>10859</Id>
       <QuestLevel>67</QuestLevel>
-      <MinLevel>64</MinLevel>
+      <MinLevel>65</MinLevel>
       <MaxLevel>68</MaxLevel>
       <NeedQuestCompletedId>
         <int>10845</int>
