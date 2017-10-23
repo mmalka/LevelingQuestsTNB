@@ -7,8 +7,9 @@ int q = QuestID; /* not used but otherwise getting warning QuestID not used */
 uint baseAddress = 0;
 uint baseAddressTotem = 0;
 
-if(nManager.Wow.Helpers.ItemsManager.GetItemCount(31663) >= 0) //Go to town and get another batch of totems if we used all of them
+if(nManager.Wow.Helpers.ItemsManager.GetItemCount(31663) >= 1) //Go to town and get another batch of totems if we used all of them
 { 
+
 	if (unit.IsValid && !nManagerSetting.IsBlackListedZone(unit.Position) && !nManagerSetting.IsBlackListed(unit.Guid))
 	{
 				
@@ -91,21 +92,22 @@ if(nManager.Wow.Helpers.ItemsManager.GetItemCount(31663) >= 0) //Go to town and 
 }
 else
 {
-
 	Npc questGiver = nManager.Wow.Helpers.QuestersDB.GetNpcByEntry(22312);
 	
 	uint baseAddressNpc = 0;
-	baseAddressNpc = MovementManager.FindTarget(ref questGiver, 10f);
-	
+	baseAddressNpc = MovementManager.FindTarget(ref questGiver, 5f);
+
 	if (MovementManager.InMovement)
 		return false;
-	if (baseAddress <= 0)
+	if (baseAddressNpc<= 0)
 		return false;
-	if (baseAddress > 0 && questGiver.Position.DistanceTo(ObjectManager.Me.Position) > 5)
+	
+	if (baseAddressNpc > 0 && questGiver.Position.DistanceTo(ObjectManager.Me.Position) > 5f)
 		return false;
-
+	
 	MovementManager.Face(baseAddressNpc);
 	Interact.InteractWith(baseAddressNpc);
+	Thread.Sleep(500);
 	nManager.Wow.Helpers.Quest.SelectGossipOption(1);
 	Thread.Sleep(500);
 }

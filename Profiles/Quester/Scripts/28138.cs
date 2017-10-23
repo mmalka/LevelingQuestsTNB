@@ -32,6 +32,12 @@ if(unit.IsValid)
 {
 	nManager.Wow.Helpers.Quest.GetSetIgnoreFight = true;
 
+	if(nManager.Wow.Helpers.PathFinder.FindPath(unit.Position).Count <= 0)
+	{
+		nManagerSetting.AddBlackList(unit.Guid, 30*1000);
+		return false;
+	}
+	
 	while(ObjectManager.Me.Position.DistanceTo(unit.Position) >= 5)
 	{
 		if (ObjectManager.Me.IsDeadMe || (ObjectManager.Me.InCombat && !ObjectManager.Me.IsMounted))
