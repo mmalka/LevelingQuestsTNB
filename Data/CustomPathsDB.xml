@@ -4508,9 +4508,9 @@
     </CustomPath>
     <CustomPath Id="57" Name="Tannan Jungle Intro - Temple Right" Faction="Neutral" AContinentId="1265" BContinentId="1265">
       <APoint>
-       <X>4068.09424</X>
-          <Y>-2375.52954</Y>
-          <Z>94.60262</Z>
+        <X>4068.09424</X>
+        <Y>-2375.52954</Y>
+        <Z>94.60262</Z>
       </APoint>
       <BPoint>
         <X>4167.38672</X>
@@ -4565,7 +4565,7 @@
         </Point>
       </Points>
     </CustomPath>
-	    <CustomPath Id="58" Name="Kun-Lai Summit - Go up Path" Faction="Neutral" AContinentId="870" BContinentId="870">
+    <CustomPath Id="58" Name="Kun-Lai Summit - Go up Path" Faction="Neutral" AContinentId="870" BContinentId="870">
       <APoint>
         <X>494.915863</X>
         <Y>-73.42801</Y>
@@ -4849,6 +4849,138 @@
         </Point>
       </Points>
       <AllowFar>true</AllowFar>
+    </CustomPath>
+    <CustomPath Id="59" Name="Talador - Gul'rok Tower" Faction="Neutral" AContinentId="1116" BContinentId="1116">
+      <APoint>
+        <X>1628.777</X>
+        <Y>3788.23584</Y>
+        <Z>208.692841</Z>
+      </APoint>
+      <BPoint>
+        <X>1630.9093</X>
+        <Y>3783.70337</Y>
+        <Z>214.6519</Z>
+      </BPoint>
+      <Points>
+        <Point>
+          <X>1628.777</X>
+          <Y>3788.23584</Y>
+          <Z>208.692841</Z>
+        </Point>
+        <Point>
+          <X>1628.53088</X>
+          <Y>3782.87231</Y>
+          <Z>208.6148</Z>
+        </Point>
+        <Point>
+          <X>1633.181</X>
+          <Y>3780.541</Y>
+          <Z>208.6148</Z>
+        </Point>
+        <Point>
+          <X>1636.09827</X>
+          <Y>3784.44336</Y>
+          <Z>210.854935</Z>
+        </Point>
+        <Point>
+          <X>1637.11853</X>
+          <Y>3788.33252</Y>
+          <Z>214.624634</Z>
+        </Point>
+        <Point>
+          <X>1632.3844</X>
+          <Y>3786.27246</Y>
+          <Z>214.640121</Z>
+        </Point>
+      </Points>
+    </CustomPath>
+    <CustomPath Id="60" Name="Talador - Gul'rok Tower 2" Faction="Neutral" AContinentId="1116" BContinentId="1116">
+      <APoint>
+        <X>1357.61682</X>
+        <Y>3588.75635</Y>
+        <Z>168.856064</Z>
+      </APoint>
+      <BPoint>
+        <X>1359.667</X>
+        <Y>3585.78027</Y>
+        <Z>174.8039</Z>
+      </BPoint>
+      <Points>
+        <Point>
+          <X>1357.61682</X>
+          <Y>3588.75635</Y>
+          <Z>168.856064</Z>
+        </Point>
+        <Point>
+          <X>1354.76624</X>
+          <Y>3584.59229</Y>
+          <Z>168.77829</Z>
+        </Point>
+        <Point>
+          <X>1357.27039</X>
+          <Y>3580.17773</Y>
+          <Z>168.77829</Z>
+        </Point>
+        <Point>
+          <X>1361.60547</X>
+          <Y>3581.10522</Y>
+          <Z>171.168732</Z>
+        </Point>
+        <Point>
+          <X>1364.8833</X>
+          <Y>3583.441</Y>
+          <Z>174.790726</Z>
+        </Point>
+        <Point>
+          <X>1361.76941</X>
+          <Y>3587.37549</Y>
+          <Z>174.8039</Z>
+        </Point>
+      </Points>
+    </CustomPath>
+    <CustomPath Id="61" Name="Talador - Gul'rok Tower 3" Faction="Neutral" AContinentId="1116" BContinentId="1116">
+      <APoint>
+        <X>1257.56018</X>
+        <Y>3706.968</Y>
+        <Z>206.953522</Z>
+      </APoint>
+      <BPoint>
+        <X>1252.20068</X>
+        <Y>3704.59839</Y>
+        <Z>212.899246</Z>
+      </BPoint>
+      <Points>
+        <Point>
+          <X>1257.56018</X>
+          <Y>3706.968</Y>
+          <Z>206.953522</Z>
+        </Point>
+        <Point>
+          <X>1253.02307</X>
+          <Y>3709.55078</Y>
+          <Z>206.875275</Z>
+        </Point>
+        <Point>
+          <X>1249.43945</X>
+          <Y>3705.761</Y>
+          <Z>206.875275</Z>
+        </Point>
+        <Point>
+          <X>1252.00623</X>
+          <Y>3701.80151</Y>
+          <Z>209.415573</Z>
+        </Point>
+        <Point>
+          <X>1255.31262</X>
+          <Y>3699.57275</Y>
+          <Z>212.89006</Z>
+        </Point>
+        <Point>
+          <X>1253.03711</X>
+          <Y>3704.148</Y>
+          <Z>212.9414</Z>
+        </Point>
+      </Points>
     </CustomPath>
   </Items>
 </CustomPaths>

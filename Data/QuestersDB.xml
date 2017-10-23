@@ -23699,18 +23699,6 @@
     <Position>
       <X>-4243.21338</X>
       <Y>323.120758</Y>
-      <Z>106.571053</Z>
-    </Position>
-    <Faction>Horde</Faction>
-    <Type>QuestGiver</Type>
-    <ContinentId>Outland</ContinentId>
-  </Npc>
-  <Npc>
-    <Entry>21060</Entry>
-    <Name>Esprit de l'air enragé</Name>
-    <Position>
-      <X>-4243.21338</X>
-      <Y>323.120758</Y>
       <Z>-123.336624</Z>
     </Position>
     <Faction>Horde</Faction>
@@ -23724,6 +23712,18 @@
       <X>-4243.21338</X>
       <Y>323.120758</Y>
       <Z>27.8561249</Z>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Outland</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>21060</Entry>
+    <Name>Esprit de l'air enragé</Name>
+    <Position>
+      <X>-4243.21338</X>
+      <Y>323.120758</Y>
+      <Z>106.571053</Z>
     </Position>
     <Faction>Horde</Faction>
     <Type>QuestGiver</Type>
@@ -59193,6 +59193,30 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>77582</Entry>
+    <Name>Soulbinder Nyami</Name>
+    <Position>
+      <X>1503.441</X>
+      <Y>3972.17529</Y>
+      <Z>227.295258</Z>
+    </Position>
+    <Faction>Alliance</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>77629</Entry>
+    <Name>Kor'thos Dawnfury</Name>
+    <Position>
+      <X>1489.45667</X>
+      <Y>3806.35254</Y>
+      <Z>177.526535</Z>
+      <Type>Flying</Type>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>77730</Entry>
     <Name>Timothy Leens</Name>
     <Position>
@@ -59483,6 +59507,19 @@
     <ContinentId>Draenor</ContinentId>
   </Npc>
   <Npc>
+    <Entry>78346</Entry>
+    <Name>Kaelynara Sunchaser</Name>
+    <Position>
+      <X>2438.99487</X>
+      <Y>2722.78833</Y>
+      <Z>118.607506</Z>
+      <Type>Flying</Type>
+    </Position>
+    <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
     <Entry>78423</Entry>
     <Name>Archmage Khadgar</Name>
     <Position>
@@ -59671,6 +59708,17 @@
       <Z>119.214752</Z>
     </Position>
     <Faction>Horde</Faction>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>78515</Entry>
+    <Name>Manduil Skycaller</Name>
+    <Position>
+      <X>2421.39233</X>
+      <Y>2753.98438</Y>
+      <Z>115.18779</Z>
+    </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Draenor</ContinentId>
   </Npc>
@@ -80269,6 +80317,17 @@
       <X>6790.51465</X>
       <Y>5953.80371</Y>
       <Z>260.036469</Z>
+    </Position>
+    <Type>QuestGiver</Type>
+    <ContinentId>Draenor</ContinentId>
+  </Npc>
+  <Npc>
+    <Entry>226987</Entry>
+    <Name>Ricky</Name>
+    <Position>
+      <X>1613.85071</X>
+      <Y>3991.37329</Y>
+      <Z>241.536758</Z>
     </Position>
     <Type>QuestGiver</Type>
     <ContinentId>Draenor</ContinentId>
