@@ -9,6 +9,9 @@
       <QuestLevel>71</QuestLevel>
       <MinLevel>68</MinLevel>
       <MaxLevel>81</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>11638</int>
+      </NeedQuestCompletedId>
       <PickUp>24126</PickUp>
       <TurnIn>24126</TurnIn>
       <Objectives>
@@ -3236,7 +3239,7 @@
         <Z>306.5743</Z>
       </Position>
       <Radius>15</Radius>
-	  <ContinentId>Northrend</ContinentId>
+      <ContinentId>Northrend</ContinentId>
     </QuesterBlacklistRadius>
     <QuesterBlacklistRadius>
       <Position>
@@ -3245,7 +3248,7 @@
         <Z>316.175</Z>
       </Position>
       <Radius>15</Radius>
-	  <ContinentId>Northrend</ContinentId>
+      <ContinentId>Northrend</ContinentId>
     </QuesterBlacklistRadius>
     <QuesterBlacklistRadius>
       <Position>
@@ -3253,8 +3256,8 @@
         <Y>-6297.487</Y>
         <Z>6.526761</Z>
       </Position>
-	  <ContinentId>Northrend</ContinentId>
-	  <Radius>10</Radius>
+      <Radius>10</Radius>
+      <ContinentId>Northrend</ContinentId>
     </QuesterBlacklistRadius>
     <QuesterBlacklistRadius>
       <Position>
@@ -3262,8 +3265,8 @@
         <Y>-6286.377</Y>
         <Z>-8.153186</Z>
       </Position>
-	  <Radius>10</Radius>
-	  <ContinentId>Northrend</ContinentId>
+      <Radius>10</Radius>
+      <ContinentId>Northrend</ContinentId>
     </QuesterBlacklistRadius>
   </Blackspots>
 </QuesterProfile>
