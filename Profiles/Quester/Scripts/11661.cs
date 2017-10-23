@@ -1,6 +1,8 @@
 WoWUnit unit = ObjectManager.GetNearestWoWUnit(ObjectManager.GetWoWUnitByEntry(questObjective.Entry, questObjective.IsDead), questObjective.IgnoreNotSelectable, questObjective.IgnoreBlackList,
 	questObjective.AllowPlayerControlled);
 	
+ObjectManager.Me.UnitAura(115191).TryCancel(); //Remove Stealth from rogue
+
 if (unit.IsValid && unit.Position.DistanceTo(questObjective.Position) <=8)
 {
 	MovementManager.Face(unit);
