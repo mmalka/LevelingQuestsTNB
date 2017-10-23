@@ -27,6 +27,12 @@ if(unit.IsValid)
 {
 	nManager.Wow.Helpers.Quest.GetSetIgnoreFight = true;
 
+	if(nManager.Wow.Helpers.PathFinder.FindPath(unit.Position).Count <= 0)
+	{
+		nManagerSetting.AddBlackList(unit.Guid, 30*1000);
+		return false;
+	}
+		
 	while(ObjectManager.Me.Position.DistanceTo(unit.Position) >= 5)
 	{
 		if (ObjectManager.Me.IsDeadMe || (ObjectManager.Me.InCombat && !ObjectManager.Me.IsMounted))
@@ -52,9 +58,11 @@ if(unit.IsValid)
 		}
 		Thread.Sleep(50);
 	}
+	ObjectManager.Me.StopCast();
 	Lua.LuaDoString("ClearTarget()");
 	ObjectManager.Me.Target = unit.Guid;
 	Fight.StopFight();
+	ObjectManager.Me.StopCast();
 	ItemsManager.UseItem(ItemsManager.GetItemNameById(questObjective.UseItemId));
 	Thread.Sleep(500);
 	ItemsManager.UseItem(ItemsManager.GetItemNameById(questObjective.UseItemId));
