@@ -1736,6 +1736,20 @@
         </QuestObjective>
       </Objectives>
     </Quest>
+    <Quest>
+      <Name>Into the Woods</Name>
+      <RaceMask>18875469</RaceMask>
+      <Id>27683</Id>
+      <QuestLevel>40</QuestLevel>
+      <MinLevel>39</MinLevel>
+      <MaxLevel>49</MaxLevel>
+      <NeedQuestCompletedId>
+        <int>27206</int>
+      </NeedQuestCompletedId>
+      <PickUp>10840</PickUp>
+      <TurnIn>45417</TurnIn>
+      <Objectives />
+    </Quest>
   </Quests>
   <Blackspots>
     <QuesterBlacklistRadius>
